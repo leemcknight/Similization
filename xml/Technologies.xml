@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<technologies>
+	<technology id="6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475" name="Bronze Working" researchUnits="3" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="BC10F248-56BA-4bd6-9323-C328C05AEBBE" name="Alphabet" researchUnits="5" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="95DFA108-0341-413b-8B7A-7DAC5EABDD7D" name="Masonry" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="80B75C2A-24F0-4d23-A552-187964F5968A" name="Ceremonial Burial" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="BBC7176E-B378-4350-91B4-3ADAE06C672F" name="Writing" researchUnits="8" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BC10F248-56BA-4bd6-9323-C328C05AEBBE</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="7FAD6010-3DFD-46a2-89B8-6D34D21481FA" name="Literature" researchUnits="10" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="9B3BE3B5-DF05-40d9-B5D7-36A446BD8935" name="Mysticism" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">80B75C2A-24F0-4d23-A552-187964F5968A</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="4495B4CC-D041-4af4-9EB1-9447179E71DE" name="Pottery" researchUnits="2" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="576C57BE-DEB7-462a-9CBD-8C45083C6D67" name="Code Of Laws" researchUnits="10" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="6250F383-7F37-4a4c-8243-2BB1119D1B26" name="Philosophy" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="58B77690-6EE4-4da2-9830-9AE4656E8865" name="The Republic" researchUnits="28" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">6250F383-7F37-4a4c-8243-2BB1119D1B26</prerequisite>
+			<prerequisite type="technology">576C57BE-DEB7-462a-9CBD-8C45083C6D67</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="E6024E8A-335B-4017-B4BD-757A6377381F" name="Iron Working" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="15F5A7FE-19B0-41ce-9FC1-3CA339CA322C" name="Mathematics" researchUnits="8" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+			<prerequisite type="technology">BC10F248-56BA-4bd6-9323-C328C05AEBBE</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647" name="Construction" researchUnits="20" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+			<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="11B927D7-1078-49d1-BE82-FB9C27137823" name="Currency" researchUnits="16" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="E4C82D00-20B6-4578-9818-A48107DCF348" name="The Wheel" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="3BB08397-9A10-4dab-9199-5E041BD9E79E" name="Warrior Code" researchUnits="3" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+	<technology id="69DF8013-EB13-42a3-88C1-762B5E3C8B21" name="Horseback Riding" researchUnits="5" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+			<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="2654BD34-971A-491b-9028-E341E3D244CC" name="Polytheism" researchUnits="12" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">9B3BE3B5-DF05-40d9-B5D7-36A446BD8935</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="F4397005-85F5-4c1b-8C76-EC133D4980DF" name="Monarchy" researchUnits="24" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+			<prerequisite type="technology">2654BD34-971A-491b-9028-E341E3D244CC</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="D6E54F4B-4540-4df5-BBB4-B57EB3E4BB91" name="Map Making" researchUnits="12" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+			<prerequisite type="technology">4495B4CC-D041-4af4-9EB1-9447179E71DE</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="64BA7111-3670-4d62-B557-F29721352CCB" name="Feudalism" researchUnits="28" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+	<technology id="F5A96649-9403-4745-99D4-40FFE83C2983" name="Monotheism" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+	<technology id="BB242AD6-40CB-4a2b-9EAE-ADF665FF45BB" name="Chivalry" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+			<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="6441C113-49AC-484e-8C99-FB26241BF997" name="Theology" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="DD7ED4A4-FEEB-4189-B872-EABC2F941D6B" name="Engineering" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+	<technology id="1C081D13-B448-4b49-A164-B7B11565E64E" name="Invention" researchUnits="42" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+			<prerequisite type="technology">DD7ED4A4-FEEB-4189-B872-EABC2F941D6B</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="B51BE6D6-A7F6-4c68-8537-F558294499F2" name="Gunpowder" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">1C081D13-B448-4b49-A164-B7B11565E64E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="7F96654C-FBA4-4815-9833-7C741BDE9B60" name="Education" researchUnits="42" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">6441C113-49AC-484e-8C99-FB26241BF997</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="C30CCE97-1318-4c78-AEDA-95EC2ADECA78" name="Astronomy" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="BA723F02-BB80-4d5e-B925-44746D081F32" name="Music Theory" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="E32C7768-AF8C-449e-AF02-1DC47FEDE1D1" name="Printing Press" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">6441C113-49AC-484e-8C99-FB26241BF997</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="88245318-F97C-415b-AAD9-ECC612B88666" name="Democracy" researchUnits="60" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">E32C7768-AF8C-449e-AF02-1DC47FEDE1D1</prerequisite>
+			<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="9A9A3E40-150D-45e2-8D32-524781E52FB4" name="Free Artistry" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">88245318-F97C-415b-AAD9-ECC612B88666</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="25A72010-119D-42fa-A76F-5C3D5A90C705" name="Banking" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="DC44FB58-5DC1-4a67-9709-3028B5048EFA" name="Economics" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="5359CC6E-E642-4c21-ADD5-9639A8910CB7" name="Chemistry" researchUnits="56" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="EDEA623A-08B1-452c-B5AC-AD086880E52F" name="Navigation" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">C30CCE97-1318-4c78-AEDA-95EC2ADECA78</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="ECE84A41-F4DC-48c2-A06F-A51C9B492BC3" name="Physics" researchUnits="60" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">C30CCE97-1318-4c78-AEDA-95EC2ADECA78</prerequisite>
+			<prerequisite type="technology">5359CC6E-E642-4c21-ADD5-9639A8910CB7</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="B617F85A-9247-47d4-AE2C-7DCC58913BDC" name="Theory of Gravity" researchUnits="64" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">ECE84A41-F4DC-48c2-A06F-A51C9B492BC3</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="781A34F8-CA31-4c31-AB3F-7FBE58E74767" name="Metallurgy" researchUnits="56" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">5359CC6E-E642-4c21-ADD5-9639A8910CB7</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="D5F2EDC6-BCB8-432a-B8FE-464EFA214978" name="Magnetism" researchUnits="64" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">ECE84A41-F4DC-48c2-A06F-A51C9B492BC3</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="7EC1FF77-8355-4612-B573-D575C9E70CD9" name="Military Tradition" researchUnits="68" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="581B7F26-5C01-460d-84D6-24ADFBFAC1E8" name="Nationalism" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false"></technology>
+	<technology id="85459F63-6436-438f-B258-DCC45A3FC358" name="Medicine" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true"></technology>
+	<technology id="BF34DA4D-0AE1-426e-B016-8882C11074EC" name="Sanitation" researchUnits="90" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">85459F63-6436-438f-B258-DCC45A3FC358</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="607287C6-C1D8-47df-9628-4DDB70123C9E" name="Steam Power" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true"></technology>
+	<technology id="1614FC2D-B85C-4856-8B9D-965D1140DE84" name="Electricity" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="BD34E336-4AE0-4431-ACEB-D0FE2BFEFD33" name="Scientific Method" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">85459F63-6436-438f-B258-DCC45A3FC358</prerequisite>
+			<prerequisite type="technology">1614FC2D-B85C-4856-8B9D-965D1140DE84</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="7361E337-875E-4047-B406-641DEBCC05F0" name="Replaceable Parts" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">1614FC2D-B85C-4856-8B9D-965D1140DE84</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="ECAFA641-A047-4336-97B7-0D6E73B8CB7E" name="Industrialization" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="0A93431A-88A1-4cdb-B2EC-ED7AF1F8394D" name="Atomic Theory" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BD34E336-4AE0-4431-ACEB-D0FE2BFEFD33</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="69207720-F940-41fb-9E33-029BB94E9ECA" name="Electronics" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">0A93431A-88A1-4cdb-B2EC-ED7AF1F8394D</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="423D4C77-9B6C-44e4-B0B2-71C53859A600" name="The Corporation" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="5CC37A22-CAB9-433e-923A-49E80252EAB6" name="Refining" researchUnits="160" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">423D4C77-9B6C-44e4-B0B2-71C53859A600</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="B045C0F1-1D5F-4c72-B76C-1F509A16A36E" name="Steel" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">423D4C77-9B6C-44e4-B0B2-71C53859A600</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="702D8B1E-B7A1-4c9a-B561-4BCB302A308A" name="Combustion" researchUnits="160" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">5CC37A22-CAB9-433e-923A-49E80252EAB6</prerequisite>
+			<prerequisite type="technology">B045C0F1-1D5F-4c72-B76C-1F509A16A36E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E" name="Flight" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">702D8B1E-B7A1-4c9a-B561-4BCB302A308A</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="15EB94E3-05E7-4a64-8922-CA44A449CFF5" name="Mass Production" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">702D8B1E-B7A1-4c9a-B561-4BCB302A308A</prerequisite>
+			<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="02DAD5B2-96C1-4f49-9605-29E40D07941A" name="Radio" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="4A2BF65E-1AE3-4d84-A359-A8F5744FDC42" name="Motorized Transportation" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">15EB94E3-05E7-4a64-8922-CA44A449CFF5</prerequisite>
+			<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="C936614F-D8AD-41d0-84B2-56FC47B008BF" name="Advanced Flight" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E</prerequisite>
+			<prerequisite type="technology">02DAD5B2-96C1-4f49-9605-29E40D07941A</prerequisite>
+			<prerequisite type="technology">4A2BF65E-1AE3-4d84-A359-A8F5744FDC42</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="E052283D-2727-4b59-90D3-304B1D05E63E" name="Espionage" researchUnits="90" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+			<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="7292D8D5-EEEA-458d-A2A7-83FB8C3A962D" name="Communism" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="EEA268F8-9A2B-4536-8E3F-CC16B29BFDFE" name="Amphibious War" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+		<prerequisites>
+			<prerequisite type="technology">15EB94E3-05E7-4a64-8922-CA44A449CFF5</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="239EE256-4C70-421b-96E6-3B94FFAA10D7" name="Computers" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+	<technology id="806F9EB6-0D41-454f-A006-556CABD17431" name="Ecology" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+	<technology id="48D46C94-C356-4ec2-BB7F-965FC5D1B14F" name="Recycling" researchUnits="240" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="E8BA8E03-94B1-4efa-8F2F-1E976862DD92" name="Rocketry" researchUnits="240" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+	<technology id="0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4" name="Space Flight" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="A2CB9A20-12A0-41a5-B43D-115D10138BEE" name="Synthetic Fibers" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">48D46C94-C356-4ec2-BB7F-965FC5D1B14F</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="BF97716E-E9F7-4891-9D5B-47F7B4558494" name="Fission" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+	<technology id="049E2AAA-AA31-4402-A770-7EAA32EFEB0F" name="Superconductor" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+			<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="442D405D-4656-4916-B1A1-5EB5CD7CCD19" name="Satellites" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="C43CDD34-DC0E-4fcf-9239-AD85AA3135EC" name="Nuclear Power" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="EB1DE9BA-6868-468e-A7B8-F62C287BE10F" name="The Laser" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">C43CDD34-DC0E-4fcf-9239-AD85AA3135EC</prerequisite>
+			<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="4955E931-95F5-4eec-9FA9-2F6F1F72E094" name="Miniaturization" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="949649D0-A85B-4da4-9EF4-2BD6B9355BDA" name="Genetics" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2" name="Robotics" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+			<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="A6737B11-8B5A-40fe-B145-6E77190D7642" name="Stealth" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="D5E4A3B6-EFEF-4d60-9879-138C8395F52A" name="Smart Weapons" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+			<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+		</prerequisites>
+	</technology>
+	<technology id="FA9CDA03-F031-437c-82D4-58FA5BC8B313" name="Integrated Defense" researchUnits="360" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+		<prerequisites>
+			<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+			<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+			<prerequisite type="technology">D5E4A3B6-EFEF-4d60-9879-138C8395F52A</prerequisite>
+		</prerequisites>
+	</technology>
+</technologies>

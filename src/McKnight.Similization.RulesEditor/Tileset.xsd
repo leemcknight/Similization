@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="tileset" targetNamespace="http://tempuri.org/XMLFile1.xsd" xmlns:codegen="urn:schemas-microsoft-com:xml-msprop" xmlns:mstns="http://tempuri.org/XMLFile1.xsd" xmlns="http://tempuri.org/XMLFile1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="UnitTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="UnitTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" msdata:AutoIncrementStep="1" />
+				<xs:element name="UnitName" type="xs:string" nillable="true" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_unit" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:UnitTileID" />
+		</xs:key>
+	</xs:element>
+	<xs:element name="ResourceTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ResourceTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" msdata:AutoIncrementStep="1" />
+				<xs:element name="ResourceName" type="xs:string" nillable="true" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_resource" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:ResourceTileID" />
+		</xs:key>
+	</xs:element>
+	<xs:element name="TerrainTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TerrainTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" msdata:AutoIncrementStep="1" />
+				<xs:element name="TerrainName" type="xs:string" nillable="true" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_terrain" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:TerrainTileID" />
+		</xs:key>
+	</xs:element>
+	<xs:element name="MetaData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TilesetName" type="xs:string" nillable="true" />
+				<xs:element name="TileWidth" type="xs:int" nillable="true" />
+				<xs:element name="TileHeight" type="xs:int" nillable="true" />
+				<xs:element name="TilesetDescription" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="VillageTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VillageTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" msdata:AutoIncrementStep="1" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+				<xs:element name="ImageName" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_village" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:VillageTileID" />
+		</xs:key>
+	</xs:element>
+	<xs:element name="CellImprovementTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CellImprovementTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="0" msdata:AutoIncrementStep="1" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+				<xs:element name="ImageName" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_irrigation" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:CellImprovementTileID" />
+		</xs:key>
+	</xs:element>
+	<xs:element name="CityTile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CityTileID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msdata:AutoIncrementStep="1" />
+				<xs:element name="CityTileName" type="xs:string" nillable="true" />
+				<xs:element name="TilePath" type="xs:string" nillable="true" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="pk_CityTile" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:CityTileID" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

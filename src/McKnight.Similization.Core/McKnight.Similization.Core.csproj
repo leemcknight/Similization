@@ -1,0 +1,105 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EE311DB-5026-45F3-970B-E66382FC65AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>McKnight.Similization.Core</RootNamespace>
+    <AssemblyName>McKnight.Similization.Core</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>McKnight.Similization.Core.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Age.cs" />
+    <Compile Include="Attitude.cs" />
+    <Compile Include="BuildableItem.cs" />
+    <Compile Include="CityBase.cs" />
+    <Compile Include="CitySizeClass.cs" />
+    <Compile Include="CityStatus.cs" />
+    <Compile Include="Civilization.cs" />
+    <Compile Include="Climate.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CountryBase.cs" />
+    <Compile Include="Difficulty.cs" />
+    <Compile Include="Government.cs" />
+    <Compile Include="GridCellBase.cs" />
+    <Compile Include="IJourneyCalculator.cs" />
+    <Compile Include="Improvement.cs" />
+    <Compile Include="ITradable.cs" />
+    <Compile Include="Journey.cs" />
+    <Compile Include="McKnight.Similization.Core.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>McKnight.Similization.Core.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NamedObject.cs" />
+    <Compile Include="NamedObjectCollection.cs" />
+    <Compile Include="Era.cs" />
+    <Compile Include="GlobalCulture.cs" />
+    <Compile Include="Landmass.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="Ruleset.cs" />
+    <Compile Include="Technology.cs" />
+    <Compile Include="Temperature.cs" />
+    <Compile Include="Terrain.cs" />
+    <Compile Include="UnitBase.cs" />
+    <Compile Include="UnitRank.cs" />
+    <Compile Include="UnitType.cs" />
+    <Compile Include="WaterCoverage.cs" />
+    <Compile Include="Wonder.cs" />
+    <Compile Include="WorkerEfficiency.cs" />
+    <Compile Include="WorldSize.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="McKnight.Similization.Core.snk" />
+    <None Include="Ruleset.xsc">
+      <DependentUpon>Ruleset.xsd</DependentUpon>
+    </None>
+    <None Include="Ruleset.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Ruleset.xss">
+      <DependentUpon>Ruleset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="McKnight.Similization.Core.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>McKnight.Similization.Core.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

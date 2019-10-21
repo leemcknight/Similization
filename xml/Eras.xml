@@ -1,0 +1,32 @@
+<eras>
+	<era id="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" name="Ancient Times" nextEra="3F1EEE09-7842-489e-B089-53067C1B23DC" firstEra="true">
+		<researchers>
+			<researcher>Mystics</researcher>
+			<researcher>Sages</researcher>
+			<researcher>Prophets</researcher>
+		</researchers>
+	</era>
+	<era id="3F1EEE09-7842-489e-B089-53067C1B23DC" name="Middle Ages" nextEra="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" firstEra="false">
+		<researchers>
+			<researcher>Wise-Men</researcher>
+			<researcher>Sooth Sayers</researcher>
+			<researcher>Alchemists</researcher>
+		</researchers>
+	</era>
+	<era id="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" name="Industrial Ages" nextEra="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" firstEra="false">
+		<researchers>
+			<researcher>Scientists</researcher>
+			<researcher>Scholars</researcher>
+			<researcher>Inventors</researcher>
+		</researchers>
+	</era>
+	<era id="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" name="Modern Times" nextEra="" firstEra="false">
+		<researchers>
+			<researcher>Engineers</researcher>
+			<researcher>Committees</researcher>
+			<researcher>Think-Tanks</researcher>
+			<researcher>Researchers</researcher>
+			<researcher>Contractors</researcher>
+		</researchers>
+	</era>
+</eras>

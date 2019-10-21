@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Age3Billion" xml:space="preserve">
+    <value>3 Billion</value>
+  </data>
+  <data name="Age4Billion" xml:space="preserve">
+    <value>4 Billion</value>
+  </data>
+  <data name="Age5Billion" xml:space="preserve">
+    <value>5 Billion</value>
+  </data>
+  <data name="AgeLabel" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="BarbarianLabel" xml:space="preserve">
+    <value>Barbarians:</value>
+  </data>
+  <data name="BarbarianRaging" xml:space="preserve">
+    <value>Raging</value>
+  </data>
+  <data name="BarbarianRandom" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="BarbarianRestless" xml:space="preserve">
+    <value>Restless</value>
+  </data>
+  <data name="BarbarianRoaming" xml:space="preserve">
+    <value>Roaming</value>
+  </data>
+  <data name="BarbarianSedentary" xml:space="preserve">
+    <value>Sedentary</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CivilizationLabel" xml:space="preserve">
+    <value>Civilization:</value>
+  </data>
+  <data name="ClimateArid" xml:space="preserve">
+    <value>Arid</value>
+  </data>
+  <data name="ClimateLabel" xml:space="preserve">
+    <value>Climate:</value>
+  </data>
+  <data name="ClimateNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ClimateWet" xml:space="preserve">
+    <value>Wet</value>
+  </data>
+  <data name="DifficultyChieftain" xml:space="preserve">
+    <value>Chieftain</value>
+  </data>
+  <data name="DifficultyDeity" xml:space="preserve">
+    <value>Deity</value>
+  </data>
+  <data name="DifficultyEmperor" xml:space="preserve">
+    <value>Emperor</value>
+  </data>
+  <data name="DifficultyKing" xml:space="preserve">
+    <value>King</value>
+  </data>
+  <data name="DifficultyLabel" xml:space="preserve">
+    <value>Difficulty:</value>
+  </data>
+  <data name="DifficultyPrince" xml:space="preserve">
+    <value>Prince</value>
+  </data>
+  <data name="DifficultyWarlord" xml:space="preserve">
+    <value>Warlord</value>
+  </data>
+  <data name="GameTitle" xml:space="preserve">
+    <value>Similization.NET</value>
+  </data>
+  <data name="LandMassArchipelago" xml:space="preserve">
+    <value>Archipelago</value>
+  </data>
+  <data name="LandMassContinents" xml:space="preserve">
+    <value>Continents</value>
+  </data>
+  <data name="LandMassLabel" xml:space="preserve">
+    <value>Land Mass:</value>
+  </data>
+  <data name="LandMassPangaea" xml:space="preserve">
+    <value>Pangaea</value>
+  </data>
+  <data name="LeaderNameLabel" xml:space="preserve">
+    <value>Leader Name:</value>
+  </data>
+  <data name="LoadGameLabel" xml:space="preserve">
+    <value>Select a game to load:</value>
+  </data>
+  <data name="LoadGameTitle" xml:space="preserve">
+    <value>Load a Saved Game</value>
+  </data>
+  <data name="MainMenuExitGame" xml:space="preserve">
+    <value>Exit Game</value>
+  </data>
+  <data name="MainMenuLoadGame" xml:space="preserve">
+    <value>Load Game</value>
+  </data>
+  <data name="MainMenuNewGame" xml:space="preserve">
+    <value>New Game</value>
+  </data>
+  <data name="MainMenuOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MainMenuQuickStart" xml:space="preserve">
+    <value>Quick Start</value>
+  </data>
+  <data name="MainMenuTutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="MenuItemHelp" xml:space="preserve">
+    <value>Help...</value>
+  </data>
+  <data name="MenuItemQuickSave" xml:space="preserve">
+    <value>Quick Save</value>
+  </data>
+  <data name="MenuItemQuitToDesktop" xml:space="preserve">
+    <value>Quit To Desktop</value>
+  </data>
+  <data name="MenuItemSaveGame" xml:space="preserve">
+    <value>Save Game...</value>
+  </data>
+  <data name="NoModeAvailable" xml:space="preserve">
+    <value>Similization cannot find a graphics mode suitable for running the program.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpponentsLabel" xml:space="preserve">
+    <value>Opponents</value>
+  </data>
+  <data name="OptionsTitle" xml:space="preserve">
+    <value>Similization Options</value>
+  </data>
+  <data name="PlayerSetupTitle" xml:space="preserve">
+    <value>Player Setup</value>
+  </data>
+  <data name="RuleCivilizationAbilities" xml:space="preserve">
+    <value>Allow Civilization Abilities</value>
+  </data>
+  <data name="RuleCulturalVictory" xml:space="preserve">
+    <value>Allow Cultural Victory</value>
+  </data>
+  <data name="RuleDiplomaticVictory" xml:space="preserve">
+    <value>Allow Diplomatic Victory</value>
+  </data>
+  <data name="RuleDominationVictory" xml:space="preserve">
+    <value>Allow Domination Victory</value>
+  </data>
+  <data name="RuleMilitaryVictory" xml:space="preserve">
+    <value>Allow Military Victory</value>
+  </data>
+  <data name="RulesetLabel" xml:space="preserve">
+    <value>Ruleset:</value>
+  </data>
+  <data name="RulesLabel" xml:space="preserve">
+    <value>Rules</value>
+  </data>
+  <data name="RuleSpaceVictory" xml:space="preserve">
+    <value>Allow Space Victory</value>
+  </data>
+  <data name="RuleStandard" xml:space="preserve">
+    <value>Standard Rules</value>
+  </data>
+  <data name="StartButtonText" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="TemperatureCool" xml:space="preserve">
+    <value>Cool</value>
+  </data>
+  <data name="TemperatureLabel" xml:space="preserve">
+    <value>Temperature:</value>
+  </data>
+  <data name="TemperatureTemperate" xml:space="preserve">
+    <value>Temperate</value>
+  </data>
+  <data name="TemperatureWarm" xml:space="preserve">
+    <value>Warm</value>
+  </data>
+  <data name="TilesetLabel" xml:space="preserve">
+    <value>Tileset:</value>
+  </data>
+  <data name="WaterCoverageEightyPercent" xml:space="preserve">
+    <value>Eighty Percent</value>
+  </data>
+  <data name="WaterCoverageLabel" xml:space="preserve">
+    <value>Water Coverage:</value>
+  </data>
+  <data name="WaterCoverageSeventyPercent" xml:space="preserve">
+    <value>Seventy Percent</value>
+  </data>
+  <data name="WaterCoverageSixtyPercent" xml:space="preserve">
+    <value>Sixty Percent</value>
+  </data>
+  <data name="WorldSetupTitle" xml:space="preserve">
+    <value>Choose Your World</value>
+  </data>
+  <data name="WorldSizeHuge" xml:space="preserve">
+    <value>Huge</value>
+  </data>
+  <data name="WorldSizeLabel" xml:space="preserve">
+    <value>World Size:</value>
+  </data>
+  <data name="WorldSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="WorldSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="WorldSizeStandard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="WorldSizeTiny" xml:space="preserve">
+    <value>Tiny</value>
+  </data>
+</root>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblName.Text">
+    <value xml:space="preserve">Technology Name:</value>
+  </data>
+  <data name="lblName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name">
+    <value xml:space="preserve">lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 8</value>
+  </data>
+  <data name="txtName.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name">
+    <value xml:space="preserve">txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lstRequirements.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lstRequirements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 160</value>
+  </data>
+  <data name="lstRequirements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 128</value>
+  </data>
+  <data name="lstRequirements.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lstRequirements.Name">
+    <value xml:space="preserve">lstRequirements</value>
+  </data>
+  <data name="&gt;&gt;lstRequirements.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstRequirements.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;lstRequirements.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <data name="lblRequirements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 144</value>
+  </data>
+  <data name="lblRequirements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="lblRequirements.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblRequirements.Text">
+    <value xml:space="preserve">Requirements:</value>
+  </data>
+  <data name="&gt;&gt;lblRequirements.Name">
+    <value xml:space="preserve">lblRequirements</value>
+  </data>
+  <data name="&gt;&gt;lblRequirements.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRequirements.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;lblRequirements.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="lblResearchUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 35</value>
+  </data>
+  <data name="lblResearchUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="lblResearchUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblResearchUnits.Text">
+    <value xml:space="preserve">Research Units:</value>
+  </data>
+  <data name="lblResearchUnits.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblResearchUnits.Name">
+    <value xml:space="preserve">lblResearchUnits</value>
+  </data>
+  <data name="&gt;&gt;lblResearchUnits.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchUnits.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;lblResearchUnits.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="txtResearchUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="txtResearchUnits.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtResearchUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="txtResearchUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtResearchUnits.Name">
+    <value xml:space="preserve">txtResearchUnits</value>
+  </data>
+  <data name="&gt;&gt;txtResearchUnits.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtResearchUnits.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;txtResearchUnits.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkNextEra.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="chkNextEra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 87</value>
+  </data>
+  <data name="chkNextEra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="chkNextEra.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkNextEra.Text">
+    <value xml:space="preserve">Required for next era</value>
+  </data>
+  <data name="&gt;&gt;chkNextEra.Name">
+    <value xml:space="preserve">chkNextEra</value>
+  </data>
+  <data name="&gt;&gt;chkNextEra.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNextEra.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;chkNextEra.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="lblEra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 61</value>
+  </data>
+  <data name="lblEra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="lblEra.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblEra.Text">
+    <value xml:space="preserve">Era:</value>
+  </data>
+  <data name="lblEra.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblEra.Name">
+    <value xml:space="preserve">lblEra</value>
+  </data>
+  <data name="&gt;&gt;lblEra.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEra.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;lblEra.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="cboEra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 60</value>
+  </data>
+  <data name="cboEra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="cboEra.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboEra.Name">
+    <value xml:space="preserve">cboEra</value>
+  </data>
+  <data name="&gt;&gt;cboEra.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboEra.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;cboEra.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="hdrName.Text">
+    <value xml:space="preserve">Name</value>
+  </data>
+  <data name="hdrName.Width" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="hdrResearch.Text">
+    <value xml:space="preserve">Research Units</value>
+  </data>
+  <data name="hdrResearch.Width" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="hdrEra.Text">
+    <value xml:space="preserve">Era</value>
+  </data>
+  <data name="hdrEra.Width" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="lvwTechnology.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lvwTechnology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lvwTechnology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 216</value>
+  </data>
+  <data name="lvwTechnology.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvwTechnology.Name">
+    <value xml:space="preserve">lvwTechnology</value>
+  </data>
+  <data name="&gt;&gt;lvwTechnology.Type">
+    <value xml:space="preserve">System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvwTechnology.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lvwTechnology.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 216</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 3</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name">
+    <value xml:space="preserve">splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type">
+    <value xml:space="preserve">System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="chkEspionage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkEspionage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 117</value>
+  </data>
+  <data name="chkEspionage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="chkEspionage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkEspionage.Text">
+    <value xml:space="preserve">Required For Espionage</value>
+  </data>
+  <data name="&gt;&gt;chkEspionage.Name">
+    <value xml:space="preserve">chkEspionage</value>
+  </data>
+  <data name="&gt;&gt;chkEspionage.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEspionage.Parent">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;chkEspionage.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 219</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 501</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name">
+    <value xml:space="preserve">panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 720</value>
+  </data>
+  <data name="&gt;&gt;hdrName.Name">
+    <value xml:space="preserve">hdrName</value>
+  </data>
+  <data name="&gt;&gt;hdrName.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrResearch.Name">
+    <value xml:space="preserve">hdrResearch</value>
+  </data>
+  <data name="&gt;&gt;hdrResearch.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrEra.Name">
+    <value xml:space="preserve">hdrEra</value>
+  </data>
+  <data name="&gt;&gt;hdrEra.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">TechnologyControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">McKnight.SimilizationRulesEditor.EditorUserControl, SimilizationRulesEditor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

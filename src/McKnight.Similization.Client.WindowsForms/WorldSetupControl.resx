@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboWater.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboWater.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboWater.Items">
+    <value xml:space="preserve">Sixty Percent</value>
+  </data>
+  <data name="cboWater.Items1">
+    <value xml:space="preserve">Seventy Percent</value>
+  </data>
+  <data name="cboWater.Items2">
+    <value xml:space="preserve">Eighty Percent</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboWater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 168</value>
+  </data>
+  <data name="cboWater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboWater.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;cboWater.Name">
+    <value xml:space="preserve">cboWater</value>
+  </data>
+  <data name="&gt;&gt;cboWater.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboWater.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboWater.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblWater.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWater.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 168</value>
+  </data>
+  <data name="lblWater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblWater.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblWater.Text">
+    <value xml:space="preserve">Water Coverage:</value>
+  </data>
+  <data name="lblWater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblWater.Name">
+    <value xml:space="preserve">lblWater</value>
+  </data>
+  <data name="&gt;&gt;lblWater.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWater.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblWater.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="cboClimate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboClimate.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboClimate.Items">
+    <value xml:space="preserve">Arid</value>
+  </data>
+  <data name="cboClimate.Items1">
+    <value xml:space="preserve">Normal</value>
+  </data>
+  <data name="cboClimate.Items2">
+    <value xml:space="preserve">Wet</value>
+  </data>
+  <data name="cboClimate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 40</value>
+  </data>
+  <data name="cboClimate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboClimate.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;cboClimate.Name">
+    <value xml:space="preserve">cboClimate</value>
+  </data>
+  <data name="&gt;&gt;cboClimate.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboClimate.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboClimate.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblClimate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClimate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblClimate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 40</value>
+  </data>
+  <data name="lblClimate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblClimate.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblClimate.Text">
+    <value xml:space="preserve">Climate:</value>
+  </data>
+  <data name="lblClimate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblClimate.Name">
+    <value xml:space="preserve">lblClimate</value>
+  </data>
+  <data name="&gt;&gt;lblClimate.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClimate.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblClimate.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="lblBarbarians.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBarbarians.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBarbarians.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 104</value>
+  </data>
+  <data name="lblBarbarians.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblBarbarians.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblBarbarians.Text">
+    <value xml:space="preserve">Barbarian Activity:</value>
+  </data>
+  <data name="lblBarbarians.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblBarbarians.Name">
+    <value xml:space="preserve">lblBarbarians</value>
+  </data>
+  <data name="&gt;&gt;lblBarbarians.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBarbarians.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblBarbarians.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="cboAge.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboAge.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboAge.Items">
+    <value xml:space="preserve">3 Billion</value>
+  </data>
+  <data name="cboAge.Items1">
+    <value xml:space="preserve">4 Billion</value>
+  </data>
+  <data name="cboAge.Items2">
+    <value xml:space="preserve">5 Billion</value>
+  </data>
+  <data name="cboAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 72</value>
+  </data>
+  <data name="cboAge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboAge.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cboAge.Name">
+    <value xml:space="preserve">cboAge</value>
+  </data>
+  <data name="&gt;&gt;cboAge.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboAge.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboAge.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="lblAge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblAge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 72</value>
+  </data>
+  <data name="lblAge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblAge.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblAge.Text">
+    <value xml:space="preserve">Age:</value>
+  </data>
+  <data name="lblAge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblAge.Name">
+    <value xml:space="preserve">lblAge</value>
+  </data>
+  <data name="&gt;&gt;lblAge.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAge.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblAge.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="cboBarbarians.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboBarbarians.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboBarbarians.Items">
+    <value xml:space="preserve">Sedentary</value>
+  </data>
+  <data name="cboBarbarians.Items1">
+    <value xml:space="preserve">Roaming</value>
+  </data>
+  <data name="cboBarbarians.Items2">
+    <value xml:space="preserve">Restless</value>
+  </data>
+  <data name="cboBarbarians.Items3">
+    <value xml:space="preserve">Raging</value>
+  </data>
+  <data name="cboBarbarians.Items4">
+    <value xml:space="preserve">Random</value>
+  </data>
+  <data name="cboBarbarians.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 104</value>
+  </data>
+  <data name="cboBarbarians.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboBarbarians.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;cboBarbarians.Name">
+    <value xml:space="preserve">cboBarbarians</value>
+  </data>
+  <data name="&gt;&gt;cboBarbarians.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboBarbarians.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboBarbarians.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <data name="cboTemperature.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboTemperature.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboTemperature.Items">
+    <value xml:space="preserve">Warm</value>
+  </data>
+  <data name="cboTemperature.Items1">
+    <value xml:space="preserve">Temperate</value>
+  </data>
+  <data name="cboTemperature.Items2">
+    <value xml:space="preserve">Cool</value>
+  </data>
+  <data name="cboTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 136</value>
+  </data>
+  <data name="cboTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;cboTemperature.Name">
+    <value xml:space="preserve">cboTemperature</value>
+  </data>
+  <data name="&gt;&gt;cboTemperature.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboTemperature.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboTemperature.ZOrder">
+    <value xml:space="preserve">10</value>
+  </data>
+  <data name="lblTemperature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 136</value>
+  </data>
+  <data name="lblTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblTemperature.Text">
+    <value xml:space="preserve">Temperature:</value>
+  </data>
+  <data name="lblTemperature.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Name">
+    <value xml:space="preserve">lblTemperature</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.ZOrder">
+    <value xml:space="preserve">11</value>
+  </data>
+  <data name="cboWorldSize.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboWorldSize.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboWorldSize.Items">
+    <value xml:space="preserve">Tiny</value>
+  </data>
+  <data name="cboWorldSize.Items1">
+    <value xml:space="preserve">Small</value>
+  </data>
+  <data name="cboWorldSize.Items2">
+    <value xml:space="preserve">Standard</value>
+  </data>
+  <data name="cboWorldSize.Items3">
+    <value xml:space="preserve">Large</value>
+  </data>
+  <data name="cboWorldSize.Items4">
+    <value xml:space="preserve">Huge</value>
+  </data>
+  <data name="cboWorldSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 8</value>
+  </data>
+  <data name="cboWorldSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboWorldSize.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboWorldSize.Name">
+    <value xml:space="preserve">cboWorldSize</value>
+  </data>
+  <data name="&gt;&gt;cboWorldSize.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboWorldSize.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboWorldSize.ZOrder">
+    <value xml:space="preserve">12</value>
+  </data>
+  <data name="lblWorldSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorldSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorldSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 8</value>
+  </data>
+  <data name="lblWorldSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="lblWorldSize.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblWorldSize.Text">
+    <value xml:space="preserve">World Size:</value>
+  </data>
+  <data name="lblWorldSize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblWorldSize.Name">
+    <value xml:space="preserve">lblWorldSize</value>
+  </data>
+  <data name="&gt;&gt;lblWorldSize.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorldSize.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblWorldSize.ZOrder">
+    <value xml:space="preserve">13</value>
+  </data>
+  <data name="lblLandMass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLandMass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLandMass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 200</value>
+  </data>
+  <data name="lblLandMass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="lblLandMass.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblLandMass.Text">
+    <value xml:space="preserve">Land Mass:</value>
+  </data>
+  <data name="lblLandMass.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLandMass.Name">
+    <value xml:space="preserve">lblLandMass</value>
+  </data>
+  <data name="&gt;&gt;lblLandMass.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLandMass.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblLandMass.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="cboLandMass.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cboLandMass.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboLandMass.Items">
+    <value xml:space="preserve">Pangaea</value>
+  </data>
+  <data name="cboLandMass.Items1">
+    <value xml:space="preserve">Continents</value>
+  </data>
+  <data name="cboLandMass.Items2">
+    <value xml:space="preserve">Archipelago</value>
+  </data>
+  <data name="cboLandMass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 200</value>
+  </data>
+  <data name="cboLandMass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="cboLandMass.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;cboLandMass.Name">
+    <value xml:space="preserve">cboLandMass</value>
+  </data>
+  <data name="&gt;&gt;cboLandMass.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboLandMass.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;cboLandMass.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 240</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">WorldSetupControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

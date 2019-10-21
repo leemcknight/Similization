@@ -1,0 +1,166 @@
+﻿<resources>
+	<resource id="82E74386-CC77-497e-94FE-B1796703FE1E" name="Cattle" food="2" shields="1" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="24345662-57D7-4f0f-8BA8-DA3E09B8BC80">
+		<terrain_types>
+			<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="0852688C-58B8-475e-AE09-7D972540ADE7" name="Fish" food="2" shields="0" commerce="1" type="bonus" railroadPrerequisite="false" imageGuid="3B2DB3E4-B48D-4de1-93DE-BDBE8ACF904D">
+		<terrain_types>
+			<terrain_type name="Coast">FEFB82B2-17EA-4bb0-96F1-BFD989C84187</terrain_type>
+			<terrain_type name="Sea">CEA830AD-7466-43c6-B3D6-4BBC413F337E</terrain_type>
+			<terrain_type name="Ocean">509D1DCA-3EDF-4ae3-9410-AE134AA120BD</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="D8DD1DF0-19D1-420a-9F63-A9696ACF5F82" name="Game" food="1" shields="0" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="14C13CF6-716D-4971-AE16-BF2FB5C27347">
+		<terrain_types>
+			<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="A7124499-4744-4e61-9373-B6E06360A379" name="Gold" food="0" shields="0" commerce="4" type="bonus" railroadPrerequisite="false" imageGuid="B1A2E509-4E55-4ce7-B7E9-B93A36B93481">
+		<terrain_types>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="86B990CF-0CEC-4537-AA59-FD45DD3CDE4B" name="Whales" food="1" shields="1" commerce="2" type="bonus" railroadPrerequisite="false" imageGuid="0C07BECE-7A34-488b-B10B-88E308FD48E9">
+		<terrain_types>
+			<terrain_type name="Sea">CEA830AD-7466-43c6-B3D6-4BBC413F337E</terrain_type>
+			<terrain_type name="Ocean">509D1DCA-3EDF-4ae3-9410-AE134AA120BD</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="9DB35A67-6C4C-4347-959B-3CA2BD4B8B13" name="Wheat" food="2" shields="0" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="9B9B87DE-95D4-4254-BAAE-047ED9D4DD04">
+		<terrain_types>
+			<terrain_type name="Flood Plains">1C79F7DC-8014-4844-9231-3E1C92BF5A5E</terrain_type>
+			<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="20EB47B6-4B13-4a9d-91E0-595DD22F10E0" name="Dyes" food="0" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="23DA754B-3B4F-4350-9274-FBAAD1709251">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="00DF96C4-11A2-4deb-8CE7-BF8D830E9F49" name="Furs" food="0" shields="1" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="3E00B2F8-5105-4bf4-BD99-6E458529363E">
+		<terrain_types>
+			<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="B0292CA2-E361-48e9-A200-2325FC3BF99A" name="Gems" food="0" shields="0" commerce="4" type="luxury" railroadPrerequisite="false" imageGuid="652C4DAF-AFC0-4dff-B473-3E67CDE637B9">
+		<terrain_types>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="431ACD6F-7A94-42b2-BB29-DA33EB052412" name="Incense" food="0" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="3076A8CB-0CEE-4b53-9FEA-4C2336F37C5E">
+		<terrain_types>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="CFED2832-90FC-4c6c-A240-1CED0131B509" name="Ivory" food="0" shields="0" commerce="2" type="luxury" railroadPrerequisite="false" imageGuid="015740CE-683F-461f-B8FC-558F8F6431BB">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="7181690B-2DAC-417f-9FFD-DB33EA48C051" name="Silks" food="0" shields="0" commerce="3" type="luxury" railroadPrerequisite="false" imageGuid="DC6459A8-7BEB-4c58-9D43-BC3AEEAB6863">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="F7EDCF7F-ECF7-44d1-BB70-6C9337552D1F" name="Spices" food="0" shields="0" commerce="2" type="luxury" railroadPrerequisite="false" imageGuid="8EE94FE7-6770-43c7-808F-724F4B4893B6">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="59616BA1-EF5B-4d5c-96B1-34ED76AEA661" name="Wines" food="1" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="825CB8CF-7C38-4629-9B27-918C99C82E81">
+		<terrain_types>
+			<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+		</terrain_types>
+	</resource>
+	<resource id="F2B2DF56-10D0-460f-A0B6-80DC756578A5" name="Aluminum" food="0" shields="2" commerce="0" type="strategic" railroadPrerequisite="false" imageGuid="245A6649-99E5-404d-AA98-8F0FD5C37B97" required_tech="Rocketry">
+		<terrain_types>
+			<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="5CD80ED0-5915-485c-BD9B-9AF62DE53A92" name="Coal" food="0" shields="2" commerce="1" type="strategic" railroadPrerequisite="true" imageGuid="CFC4293B-12D7-4e8c-AF2D-56927D2BED8B" required_tech="Steam Power">
+		<terrain_types>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="4B8F3DC8-3A35-4d5e-8660-CF7837328EC7" name="Horses" food="0" shields="0" commerce="1" type="strategic" railroadPrerequisite="false" imageGuid="5FA901A5-B482-4acd-B7C7-7EFFF085BE44" required_tech="The Wheel">
+		<terrain_types>
+			<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="4F8F14DB-BF78-40be-81D2-08C61BE0DD7F" name="Iron" food="0" shields="1" commerce="0" type="strategic" railroadPrerequisite="true" imageGuid="EE286721-C184-474f-80EC-200AE3480456" required_tech="Iron Working">
+		<terrain_types>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="BA2F45E9-2F2A-4b43-864C-5A64C15CA925" name="Oil" food="0" shields="1" commerce="2" type="strategic" railroadPrerequisite="false" imageGuid="B526F3FE-FD56-4b4c-B107-14CB1661B346" required_tech="Refining">
+		<terrain_types>
+			<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+			<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">5CC37A22-CAB9-433e-923A-49E80252EAB6</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="BA30EA64-C812-495f-9268-2FC9B50D4B65" name="Rubber" food="0" shields="0" commerce="2" type="strategic" railroadPrerequisite="false" imageGuid="51C953F5-5C1F-400e-91F7-9F368677BB02" required_tech="Replaceable Parts">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="43549393-E897-49d3-B8F5-B451EBB4D3CE" name="Saltpeter" food="0" shields="0" commerce="1" type="strategic" railroadPrerequisite="false" imageGuid="67DEA745-579C-43c5-B161-094595FB758F" required_tech="Gunpowder">
+		<terrain_types>
+			<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+			<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+		</prerequisites>
+	</resource>
+	<resource id="F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1" name="Uranium" food="0" shields="2" commerce="3" type="strategic" railroadPrerequisite="false" imageGuid="D836C3EF-47EE-4241-B70F-6053B2E6479B" required_tech="Fission">
+		<terrain_types>
+			<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+		</terrain_types>
+		<prerequisites>
+			<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+		</prerequisites>
+	</resource>
+</resources>

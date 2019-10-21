@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="firstContact1">
+		<value>I, $AI0, Ruler of $CIVNAME1, wonder of the world, greet you.</value>
+	</data>
+	<data name="firstContact2">
+		<value>Greetings. I, $AI0, greet you.</value>
+	</data>
+	<data name="firstContact3">
+		<value>I am $AI0, of the wise and benevolent $CIVADJ3.</value>
+	</data>
+	<data name="firstContact4">
+		<value>$CIVNAME1 the great and its superior people greet you. I, $AI0, desire peace with all my neighbors - even your puny culture.</value>
+	</data>
+	<data name="firstContact5">
+		<value>Greetings! I am $AI0 and I speak for the clever $CIVADJ2 folk.</value>
+	</data>
+	<data name="firstContact6">
+		<value>Greetings! I am $AI0 of the $CIVADJ3.</value>
+	</data>
+	<data name="firstContact7">
+		<value>$AI0 of the glorious $CIVADJ2 civilization greets you. He is vaguely aware of your struggling people and will grant them peace</value>
+	</data>
+	<data name="firstContact8">
+		<value>I'm $AI0 of the $CIVADJ3.</value>
+	</data>
+	<data name="firstContact9">
+		<value>$AI0 greets you magnificent one. The $CIVADJ2 people love peace, but are skilled in the arts of war.</value>
+	</data>
+	<data name="firstContact10">
+		<value>I, $AI0, of $CIVNAME1 seek friendship.</value>
+	</data>
+	<data name="firstContact11">
+		<value>I am $AI0, and I greet you. We seek peace with all peoples, but brotherhood with few.</value>
+	</data>
+	<data name="firstContact12">
+		<value>Behold! I am $AI0 of the $CIVADJ3, mortals tremble before me.</value>
+	</data>
+	<data name="firstContact13">
+		<value>$AI0 of the $CIVADJ3 has noticed your cute civilization.</value>
+	</data>
+	<data name="firstContact14">
+		<value>$AI0, of the Great $CIVADJ3, will refrain from scouring the world of your filth.</value>
+	</data>
+	<data name="firstContact15">
+		<value>I am Great $AI0. The $CIVADJ2 people are honorable. Deal with us fairly and we shall have peace.</value>
+	</data>
+	<data name="firstContact16">
+		<value>I am $AI0, of the $CIVADJ3.</value>
+	</data>
+	<data name="proposalResponse1">
+		<value>Let us hear your idea...</value>
+	</data>
+	<data name="proposalResponse2">
+		<value>What do you suggest?</value>
+	</data>
+	<data name="proposalResponse3">
+		<value>I'm listening...</value>
+	</data>
+	<data name="proposalResponse4">
+		<value>Go ahead: I'm listening.</value>
+	</data>
+	<data name="proposalResponse5">
+		<value>What do you have in mind, great $PLAYER0?</value>
+	</data>
+	<data name="proposalResponse6">
+		<value>We're always looking for a fair exchange, $PLAYER0. Go ahead.</value>
+	</data>
+	<data name="proposalResponse7">
+		<value>What do you suggest, generous $PLAYER0?</value>
+	</data>
+	<data name="proposalResponse8">
+		<value>Go ahead: shoot.</value>
+	</data>
+	<data name="proposalResponse9">
+		<value>Let's hear what you're offering.</value>
+	</data>
+	<data name="proposalResponse10">
+		<value>$CIVNAME1's generosity is famous the world over. Let me hear the offer.</value>
+	</data>
+	<data name="proposalResponse11">
+		<value>What would the generous $CIVADJ2 people suggest?</value>
+	</data>
+	<data name="proposalResponse12">
+		<value>I'm quite eager to come to an agreement with you. What is your offer?</value>
+	</data>
+	<data name="proposalResponse13">
+		<value>What do you have to offer?</value>
+	</data>
+	<data name="proposalResponse14">
+		<value>Let us hear your offer.</value>
+	</data>
+	<data name="proposalResponse15">
+		<value>Well, what would you suggest?</value>
+	</data>
+	<data name="proposalResponse16">
+		<value>I'm listening...</value>
+	</data>
+	<data name="proposalResponse17">
+		<value>Go ahead: state your offer. And hurry up - I can't spend all day at this!</value>
+	</data>
+	<data name="proposalResponse18">
+		<value>Well, let's hear your brilliant idea.</value>
+	</data>
+	<data name="proposalResponse19">
+		<value>Well, go ahead and put something on the table.</value>
+	</data>
+	<data name="proposalResponse20">
+		<value>Well, state $CIVNAME1's offer - and be quick about it.</value>
+	</data>
+	<data name="proposalResponse21">
+		<value>So, what is this great deal you are offering me?</value>
+	</data>
+	<data name="proposalResponse22">
+		<value>All right, I listen. But mind that you don't try any of your swinging $CIVADJ2 merchants' tricks on me...</value>
+	</data>
+	<data name="proposalResponse23">
+		<value>Hmmm. The $CIVADJ2 merchants are known the world over as crafty bargainers, but I'll listen to your offer.</value>
+	</data>
+	<data name="whatever1">
+		<value>Is there anything more?</value>
+	</data>
+	<data name="whatever2">
+		<value>You were saying?</value>
+	</data>
+	<data name="whatever3">
+		<value>Take your time...</value>
+	</data>
+	<data name="whatever4">
+		<value>I beg your pardon?</value>
+	</data>
+	<data name="whatever5">
+		<value>What?</value>
+	</data>
+	<data name="whatever6">
+		<value>I don't understand.</value>
+	</data>
+	<data name="whatever7">
+		<value>Please continue.</value>
+	</data>
+	<data name="whatever8">
+		<value>Do you want to discuss anything else?</value>
+	</data>
+	<data name="whatever9">
+		<value>Go on...</value>
+	</data>
+	<data name="whatever10">
+		<value>Please go on.</value>
+	</data>
+	<data name="whatever11">
+		<value>Go ahead.</value>
+	</data>
+	<data name="whatever12">
+		<value>Is that all?</value>
+	</data>
+	<data name="whatever13">
+		<value>Sorry?</value>
+	</data>
+	<data name="whatever14">
+		<value>Moving right along...</value>
+	</data>
+	<data name="whatever15">
+		<value>I haven't got all day, you know.</value>
+	</data>
+	<data name="whatever16">
+		<value>I'm a busy ruler. Please get on with it.</value>
+	</data>
+	<data name="whatever17">
+		<value>I haven't got all day...</value>
+	</data>
+	<data name="whatever18">
+		<value>Umm, right...</value>
+	</data>
+	<data name="whatever19">
+		<value>Huh?</value>
+	</data>
+	<data name="whatever20">
+		<value>Yeah, sure, whatever...</value>
+	</data>
+	<data name="whatever21">
+		<value>Change your mind?</value>
+	</data>
+	<data name="whatever22">
+		<value>Pardon me?</value>
+	</data>
+	<data name="whatever23">
+		<value>Could you please hurry this up?</value>
+	</data>
+	<data name="whatever24">
+		<value>Something on your mind?</value>
+	</data>
+	<data name="whatever25">
+		<value>What are you talking about?</value>
+	</data>
+	<data name="whatever26">
+		<value>What was that all about?</value>
+	</data>
+	<data name="whatever27">
+		<value>Get on with it, please.</value>
+	</data>
+	<data name="whatever28">
+		<value>Are you deliberately testing my patience?</value>
+	</data>
+	<data name="whatever29">
+		<value>Please don't waste my time.</value>
+	</data>
+	<data name="whatever30">
+		<value>Quit stalling!</value>
+	</data>
+	<data name="whatever31">
+		<value>Stop that!</value>
+	</data>
+	<data name="whatever32">
+		<value>What are you doing?</value>
+	</data>
+	<data name="whatever33">
+		<value>Could you hurry this up?</value>
+	</data>
+	<data name="whatever34">
+		<value>Why are you wasting my time like this?</value>
+	</data>
+	<data name="whatever35">
+		<value>I grow tired of your games.</value>
+	</data>
+	<data name="whatever36">
+		<value>Don't waffle on the issue.</value>
+	</data>
+	<data name="whatever37">
+		<value>What are you trying to tell me?</value>
+	</data>
+	<data name="whatever38">
+		<value>Don't toy with me.</value>
+	</data>
+	<data name="whatever39">
+		<value>I don't have time for this.</value>
+	</data>
+	<data name="whatever40">
+		<value>Three words: increase your medication...</value>
+	</data>
+	<data name="whatever41">
+		<value>Stop fooling around.</value>
+	</data>
+	<data name="whatever42">
+		<value>Hurry up, will you?</value>
+	</data>
+	<data name="peaceGreeting1">
+		<value>Ah, $PLAYER0. Your friends the $CIVADJ5 people greet you! We are always happy to trade with you.</value>
+	</data>
+	<data name="peaceGreeting2">
+		<value>Mighty $CIVNAME4 salutes you! Will you deal with us and strengthen our friendship?</value>
+	</data>
+	<data name="peaceGreeting3">
+		<value>We greet you, friend, but have little time! What do you want?</value>
+	</data>
+	<data name="peaceGreeting4">
+		<value>The $CIVADJ5 people greet you. Shall we trade together? Both of our countries will benefit...</value>
+	</data>
+	<data name="peaceGreeting5">
+		<value>Ancient $CIVNAME4 greets $CIVNAME1! Would you care to trade with us?</value>
+	</data>
+	<data name="peaceGreeting6">
+		<value>$AI3 greets you, friend $PLAYER0! What can I do for you?</value>
+	</data>
+	<data name="peaceGreeting7">
+		<value>The Mighty $CIVADJ5 people greet you! What do you want from us?</value>
+	</data>
+	<data name="peaceGreeting8">
+		<value>$CIVNAME4 greets the $CIVADJ2 people. Will you strengthen your nation by trading with us?</value>
+	</data>
+	<data name="peaceGreeting9">
+		<value>Ah, $PLAYER0. What can $CIVNAME4 do for you?</value>
+	</data>
+	<data name="peaceGreeting10">
+		<value>We acknowledge our friend, $PLAYER0. Do you wish to trade with wealthy $CIVNAME4?</value>
+	</data>
+	<data name="peaceGreeting11">
+		<value>Greetings, $PLAYER0, Ruler of barbarian $CIVNAME1. What is it that you desire of $CIVNAME4?</value>
+	</data>
+	<data name="peaceGreeting12">
+		<value>The people of $CIVNAME4 greet you! Why have you come here?</value>
+	</data>
+	<data name="peaceGreeting13">
+		<value>$AI3 salutes you. Do you wish to trade with the industrious $CIVADJ5 people?</value>
+	</data>
+	<data name="peaceGreeting14">
+		<value>Industrious and Rich $CIVNAME4 greets the $CIVADJ2 people. Let us strengthen your backward civilization by making a trade.</value>
+	</data>
+	<data name="peaceGreeting15">
+		<value>Greetings, $PLAYER0. I'm rather busy now ensuring the world dominance of $CIVNAME4; please make your visit brief.</value>
+	</data>
+	<data name="peaceGreeting16">
+		<value>Mother $CIVNAME4 welcomes you, $PLAYER0. Are you here only to admire my great beauty, or is there some other purpose to your visit?</value>
+	</data>
+	<data name="peaceGreeting17">
+		<value>$AI3 of $CIVNAME4 greets you! Will you trade with us and make both of our countries wealthy and strong?</value>
+	</data>
+	<data name="peaceGreeting18">
+		<value>The sturdy people of $CIVNAME4 welcome you! To what do we owe the honor of your visit?</value>
+	</data>
+	<data name="peaceGreeting19">
+		<value>$PLAYER0, trade is the life-blood of the world.  Does your backward civilization wish to trade with mighty $CIVNAME4?</value>
+	</data>
+	<data name="peaceGreeting20">
+		<value>$CIVNAME4 greets you! Will you trade with us and strengthen our friendship?</value>
+	</data>
+	<data name="peaceGreeting21">
+		<value>$AI3 greets the wise and generous $PLAYER0. Let us speak of many things.</value>
+	</data>
+	<data name="peaceGreeting22">
+		<value>The business of $CIVNAME4 is business, $PLAYER0. Let's do business together and make everybody rich.</value>
+	</data>
+	<data name="peaceGreeting23">
+		<value>$CIVNAME4 greets the mighty $CIVADJ2 people. What can we do for you?</value>
+	</data>
+	<data name="peaceGreeting24">
+		<value>The $CIVADJ5 people welcome you, $PLAYER0. Sit down and set a while. How are things going in $CIVNAME1?</value>
+	</data>
+	<data name="peaceGreeting25">
+		<value>$CIVNAME4 welcomes you! What can our poor and humble civilization do for mighty $CIVNAME1?</value>
+	</data>
+	<data name="peaceGreeting26">
+		<value>Unworthy $CIVNAME4 greets you, $PLAYER0. Why are you here?</value>
+	</data>
+	<data name="peaceGreeting27">
+		<value>The people of $CIVNAME4 greet you! Shall we trade together and bring joy and happiness to our people?</value>
+	</data>
+	<data name="peaceGreeting28">
+		<value>The Glorious $CIVADJ5 people salute you, $PLAYER0! Why do you grace us with your presence?</value>
+	</data>
+	<data name="peaceGreeting29">
+		<value>Holy $CIVNAME4 welcomes you! Shall we trade together?</value>
+	</data>
+	<data name="peaceGreeting30">
+		<value>The people of Mighty $CIVNAME4 greet you! Would you like to make a deal?</value>
+	</data>
+	<data name="peaceGreeting31">
+		<value>The $CIVADJ5 people greet you, $PLAYER0! Shall we trade together in peace and friendship?</value>
+	</data>
+	<data name="peaceGreeting32">
+		<value>$CIVNAME4 greets you! Will you deal with us and strengthen our friendship?</value>
+	</data>
+	<data name="peaceGreeting33">
+		<value>The peaceful people of $CIVNAME4 welcome you, $PLAYER0. Would you like a nice vegetarian curry?</value>
+	</data>
+	<data name="peaceGreeting34">
+		<value>Great $CIVNAME4, envy of the world, welcomes $PLAYER0, Ruler of the barbarian people of $CIVNAME1.</value>
+	</data>
+	<data name="peaceGreeting35">
+		<value>Welcome, $PLAYER0. What can Mighty $CIVNAME4 do for your backward civilization?</value>
+	</data>
+	<data name="peaceGreeting36">
+		<value>$CIVNAME4 greets you! Shall we trade together so that both of our civilizations flourish and thrive?</value>
+	</data>
+	<data name="peaceGreeting37">
+		<value>The $CIVADJ6 salute you! Shall we trade together, or would you prefer to go to war and do battle until one of us is wiped off the face of the planet?</value>
+	</data>
+	<data name="peaceGreeting38">
+		<value>The Warlike $CIVADJ6 greet you! Why are you here?</value>
+	</data>
+	<data name="peaceGreeting39">
+		<value>The God-King $AI3 welcomes you! Would you trade with us?</value>
+	</data>
+	<data name="peaceGreeting40">
+		<value>Ah, $PLAYER0. Why do you visit $AI3, Ruler of the Mighty $CIVADJ5 people?</value>
+	</data>
+	<data name="peaceGreeting41">
+		<value>Trade with us, $PLAYER0, so that we can grow rich and powerful!</value>
+	</data>
+	<data name="peaceGreeting42">
+		<value>The $CIVADJ5 warrior people welcome the Ruler of mighty $CIVNAME1.</value>
+	</data>
+	<data name="peaceGreeting43">
+		<value>The peaceful $CIVADJ5 people greet you! Let us trade together.</value>
+	</data>
+	<data name="peaceGreeting44">
+		<value>Welcome, $PLAYER0. Let us smoke the pipe of peace and friendship and discuss trading opportunities between our people.</value>
+	</data>
+	<data name="peaceGreeting45">
+		<value>$AI3, of the Mighty $CIVADJ6, greets you. Why are you here?</value>
+	</data>
+	<data name="peaceGreeting46">
+		<value>Hail, $PLAYER0; $CIVNAME4 greets you! Let us do business together.</value>
+	</data>
+	<data name="peaceGreeting47">
+		<value>$CIVNAME4 welcomes you! Trade will strengthen both of our people; will you deal with us?</value>
+	</data>
+	<data name="peaceGreeting48">
+		<value>$PLAYER0: I am late for my milk bath, so kindly be brief. Why are you here?</value>
+	</data>
+	<data name="allianceGreeting1">
+		<value>The $CIVADJ9 greet you, and acknowledge your friendship and support during our war with $CIVNAME3. What do you want?</value>
+	</data>
+	<data name="allianceGreeting2">
+		<value>The $CIVADJ8 people greet you! With your help we will crush our mutual foe, $CIVNAME3, destroy their cities and sow their fields with salt! What can we do for you?</value>
+	</data>
+	<data name="allianceGreeting3">
+		<value>Be quick: our war against $CIVNAME3 continues and we have much to do. What do you want?</value>
+	</data>
+	<data name="allianceGreeting4">
+		<value>Wise and beautiful $AI6 greets you! Our war with $CIVNAME3 continues.</value>
+	</data>
+	<data name="allianceGreeting5">
+		<value>Ancient and powerful $CIVNAME7 welcomes you, $PLAYER0! We appreciate your help in our war against $CIVNAME3. How can I help you?</value>
+	</data>
+	<data name="allianceGreeting6">
+		<value>Ah, $PLAYER0, wise and just Ruler of $CIVNAME1! I trust the war against our enemy, $CIVNAME3, goes well?</value>
+	</data>
+	<data name="allianceGreeting7">
+		<value>The $CIVADJ8 people greet you, $PLAYER0! We appreciate what small help your tiny civilization can give in our war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting8">
+		<value>Mighty $AI6, all-powerful Ruler of $CIVNAME7, salutes you and acknowledges your assistance in the war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting9">
+		<value>$CIVNAME7 welcomes you, $PLAYER0! We appreciate your help in the war against our common enemy, $CIVNAME3. What do you want?</value>
+	</data>
+	<data name="allianceGreeting10">
+		<value>$CIVNAME7 welcomes you, $PLAYER0, brave leader of the $CIVADJ2 people! We gratefully acknowledge your help in our war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting11">
+		<value>On behalf of mighty $CIVNAME7, I, $AI6, thank you for your alliance in the war against $CIVNAME3. How can I assist you?</value>
+	</data>
+	<data name="allianceGreeting12">
+		<value>$AI6 salutes you, $PLAYER0! How can $CIVNAME7 assist you in prosecuting the war against our common foe, $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting13">
+		<value>The Mighty $CIVADJ8 people greet you! While we certainly could win the war on our own, we appreciate your help in the war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting14">
+		<value>The Fierce and Valorous $CIVADJ8 people extend their hand to our ally, $CIVNAME1! How can we help you in the war to destroy our mutual foe, $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting15">
+		<value>Ah, $PLAYER0! Together we will crush the $CIVADJ4 swine! How can $CIVNAME7 assist you?</value>
+	</data>
+	<data name="allianceGreeting16">
+		<value>Mother $CIVNAME7 greets Brave and Valorous $PLAYER0, Ruler of the $CIVNOUN5! We appreciate your help in our war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting17">
+		<value>$AI6 affectionately greets you, $PLAYER0! How can we assist you in the ongoing war against $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting18">
+		<value>Welcome, Mighty $PLAYER0! There is still much to be done if we are to win our war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting19">
+		<value>Ancient $CIVNAME7 greets you. Like wheat from a sickle, the $CIVADJ4 people will fall before our blades!</value>
+	</data>
+	<data name="allianceGreeting20">
+		<value>I, $AI6, respectfully greet our brave ally, $PLAYER0, and hope your nation prospers in the war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting21">
+		<value>The $CIVADJ8 people greet you! Like a mighty storm we will rain destruction on our foe, $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting22">
+		<value>Greetings from $CIVNAME7, $PLAYER0! I surely hate war, but sometimes it is necessary. How goes the fight against our common foe, $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting23">
+		<value>How do, $PLAYER0? Could you make it quick? I'm kind of busy running the war against our enemy, $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting24">
+		<value>Welcome, $PLAYER0! We thank you for your help in our fight with $CIVNAME3. Now what can I do for you?</value>
+	</data>
+	<data name="allianceGreeting25">
+		<value>$CIVNAME7 humbly greets you, and thanks you for your help in our struggle against the hated enemy, $CIVNAME3. How can our worthless civilization be of assistance to Mighty $CIVNAME1?</value>
+	</data>
+	<data name="allianceGreeting26">
+		<value>I welcome you, $PLAYER0. We most humbly appreciate your help in the battle against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting27">
+		<value>The $CIVADJ8 people greet you! We appreciate your help in our war against $CIVNAME3. Together we will conquer our foes and gather much treasure!</value>
+	</data>
+	<data name="allianceGreeting28">
+		<value>$CIVNAME7 salutes you! How can we be of assistance to $CIVNAME1 in our holy war against $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting29">
+		<value>Ah, $CIVNAME7's Noble ally! I am on my way to the front lines, to personally prosecute the war against $CIVNAME3. With the help of the Almighty, we surely cannot fail!</value>
+	</data>
+	<data name="allianceGreeting30">
+		<value>$CIVNAME7 welcomes our Valiant ally, $PLAYER0! The war against $CIVNAME3 continues unabated. How can $CIVNAME7 be of assistance to Mighty $CIVNAME1?</value>
+	</data>
+	<data name="allianceGreeting31">
+		<value>Greetings from the $CIVADJ8 people. We appreciate your aid in the war against $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting32">
+		<value>$CIVNAME7 salutes our ally, $PLAYER0! I humbly thank you for your help in the battle against $CIVNAME3. How can we help you?</value>
+	</data>
+	<data name="allianceGreeting33">
+		<value>Ah, $PLAYER0. It is good to see you. The war against our common foe, $CIVNAME3, goes well, I trust? What can I do for you?</value>
+	</data>
+	<data name="allianceGreeting34">
+		<value>Mighty $CIVNAME7 acknowledges your assistance in the struggle against $CIVNAME3, oh puissant $PLAYER0! What do you want?</value>
+	</data>
+	<data name="allianceGreeting35">
+		<value>I, Godlike $AI6, note your arrival, oh $PLAYER0! Tell me, my ally: how goes the war against hated $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting36">
+		<value>$AI6 greets you, $PLAYER0, and thanks you for your aid in the war against the minions of $CIVNAME3. But why are you here? Should you not be on the field of battle?</value>
+	</data>
+	<data name="allianceGreeting37">
+		<value>The $CIVADJ8 people greet you! Together we will capture many $CIVADJ4 warriors and sacrifice them to our gods! Won't that be fun?</value>
+	</data>
+	<data name="allianceGreeting38">
+		<value>$AI6 embraces our friend and ally, $PLAYER0! Together we will make the fields run red with the blood of $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting39">
+		<value>I, $AI6, Ruler of the $CIVADJ9, welcome my ally, $PLAYER0, Ruler of the inferior but still quite doughty $CIVADJ2 warriors. Let us destroy $CIVNAME3 without delay!</value>
+	</data>
+	<data name="allianceGreeting40">
+		<value>$AI6 of the $CIVADJ9 welcomes you. Let us take to the field together and crush our common foe, $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting41">
+		<value>Ah, $PLAYER0! $CIVNAME3 still pollutes the world with its foul existence. We must destroy them, and soon!</value>
+	</data>
+	<data name="allianceGreeting42">
+		<value>The $CIVADJ8 people welcome their friend and ally, $CIVNAME1. How can we help you in the war against our common enemy, $CIVNAME3?</value>
+	</data>
+	<data name="allianceGreeting43">
+		<value>The $CIVADJ8 people greet you, brave $PLAYER0! We thank you for your help in the war against $CIVNAME3. How can we help you?</value>
+	</data>
+	<data name="allianceGreeting44">
+		<value>The heavens smile upon our war against fearsome $CIVNAME3, oh mighty $PLAYER0! Let us smoke the pipe of peace and discuss our future battles.</value>
+	</data>
+	<data name="allianceGreeting45">
+		<value>$CIVNAME3 grows more insolent each day, mighty ally $PLAYER0! But together we shall teach them proper humility and respect for true warriors!</value>
+	</data>
+	<data name="allianceGreeting46">
+		<value>Greetings, $PLAYER0. I hope you prosper in the war against that tiresome villain, $CIVNAME3? How can $CIVNAME7 be of service?</value>
+	</data>
+	<data name="allianceGreeting47">
+		<value>Hail, $PLAYER0! We welcome your continuing assistance in the war with $CIVNAME3.</value>
+	</data>
+	<data name="allianceGreeting48">
+		<value>The $CIVADJ8 people greet you and acknowledge your help in the war against $CIVNAME3. Can we be of any help?</value>
+	</data>
+	<data name="warGreeting1">
+		<value>Greetings, $PLAYER0. $CIVNAME5 is mighty, but she prefers peace to war. Let us end this bloody struggle.</value>
+	</data>
+	<data name="warGreeting2">
+		<value>Welcome, $PLAYER0. Come, let us end this pointless conflict.</value>
+	</data>
+	<data name="warGreeting3">
+		<value>$PLAYER0, what do you want to discuss with me?</value>
+	</data>
+	<data name="warGreeting4">
+		<value>$CIVNAME1's doom is assured, $PLAYER0, but it amuses me to listen to your pleas for mercy. You may begin.</value>
+	</data>
+	<data name="warGreeting5">
+		<value>Why are you here, $PLAYER0? Our people are at war.</value>
+	</data>
+	<data name="warGreeting6">
+		<value>The $CIVADJ2 people are the sworn enemies of $CIVNAME5. Why do you seek audience with me?</value>
+	</data>
+	<data name="warGreeting7">
+		<value>$CIVNAME5 greets you, our sworn enemy!</value>
+	</data>
+	<data name="warGreeting8">
+		<value>$CIVNAME1's doom is assured, $PLAYER0, but it amuses me to listen to your pleas for mercy. You may begin.</value>
+	</data>
+	<data name="warGreeting9">
+		<value>We acknowledge your request to meet. Now be quick, we have $CIVNOUN3 to kill!</value>
+	</data>
+	<data name="warGreeting10">
+		<value>Ancient and wise $CIVNAME5 grants you an audience, $PLAYER0. Do you seek peace, or do you wish this foolish war to continue?</value>
+	</data>
+	<data name="warGreeting11">
+		<value>You are ruthless and bloody, $PLAYER0. What do you want with me?</value>
+	</data>
+	<data name="warGreeting12">
+		<value>Welcome, $PLAYER0. Come, let us sit together and end this bloody war.</value>
+	</data>
+	<data name="warGreeting13">
+		<value>$CIVNAME5 does not usually converse with enemies. Be quick!</value>
+	</data>
+	<data name="warGreeting14">
+		<value>Welcome, $PLAYER0. Come, let us sit together and end this bloody war.</value>
+	</data>
+	<data name="warGreeting15">
+		<value>$CIVNAME5 does not fear war, $PLAYER0, but we prefer peace. Make a reasonable proposal and we can end this conflict now.</value>
+	</data>
+	<data name="warGreeting16">
+		<value>Are you here to surrender? If not, I do not see what we have to speak about.</value>
+	</data>
+	<data name="warGreeting17">
+		<value>$CIVNAME5 does not usually converse with enemies. Be quick!</value>
+	</data>
+	<data name="warGreeting18">
+		<value>$CIVNAME5 is mighty, $PLAYER0. Have you finally recognized the futility of resistance?</value>
+	</data>
+	<data name="warGreeting19">
+		<value>Mighty $AI4, greatest warrior of the age, grants you an audience, $PLAYER0. What do you want to discuss?</value>
+	</data>
+	<data name="warGreeting20">
+		<value>Welcome, $PLAYER0. The longer this war continues, the more $CIVADJ2 citizens will die. Make me a reasonable offer and let us end this now.</value>
+	</data>
+	<data name="warGreeting21">
+		<value>Why are you here, my foe?</value>
+	</data>
+	<data name="warGreeting22">
+		<value>You are beaten, $PLAYER0, admit it. Give us what we want and end the destruction of your people.</value>
+	</data>
+	<data name="warGreeting23">
+		<value>Mighty $AI4, Ruler of the warlike $CIVADJ6 people, greets his enemy, $PLAYER0.</value>
+	</data>
+	<data name="warGreeting24">
+		<value>Why are you here, my foe?</value>
+	</data>
+	<data name="warGreeting25">
+		<value>Greetings, my enemy $PLAYER0! Why are you here? Too cowardly to meet me on the field of battle?</value>
+	</data>
+	<data name="warGreeting26">
+		<value>You are beaten, $PLAYER0, admit it. Give us what we want and save your people from annihilation.</value>
+	</data>
+	<data name="warGreeting27">
+		<value>The war goes badly for you, $PLAYER0. Admit defeat and give us what we want.</value>
+	</data>
+	<data name="warGreeting28">
+		<value>$AI4 agrees to give audience to his foe, $PLAYER0. What do you want?</value>
+	</data>
+	<data name="warGreeting29">
+		<value>Welcome, $PLAYER0. Let us discuss an honorable end to this bloody conflict.</value>
+	</data>
+	<data name="warGreeting30">
+		<value>$CIVNAME5 remains a dangerous enemy, $PLAYER0. You would be wise not to underestimate us. Why are you here?</value>
+	</data>
+	<data name="warGreeting31">
+		<value>$CIVNAME5 is a dangerous enemy, $PLAYER0. You would be wise not to underestimate us. Why are you here?</value>
+	</data>
+	<data name="warGreeting32">
+		<value>Greetings. This war is liable to bankrupt both of our nations. Let us craft a sensible peace treaty and end the fighting.</value>
+	</data>
+	<data name="warGreeting33">
+		<value>Greetings, $PLAYER0. Know that mighty $CIVNAME5 will continue this struggle until we emerge victorious!</value>
+	</data>
+	<data name="warGreeting34">
+		<value>Mighty $CIVNAME5 greets its foe, foolish $PLAYER0!</value>
+	</data>
+	<data name="warGreeting35">
+		<value>What do you want, $PLAYER0? It is unseemly for sworn enemies to meet like this.</value>
+	</data>
+	<data name="warGreeting36">
+		<value>Mere words are unlikely to avert your doom, $PLAYER0!</value>
+	</data>
+	<data name="warGreeting37">
+		<value>I do not wish to speak with you, $PLAYER0. Say what you have to say and then be gone!</value>
+	</data>
+	<data name="warGreeting38">
+		<value>Well? $CIVNAME5 may be down, but she will return, and stronger than ever! Say what you have to say and be gone.</value>
+	</data>
+	<data name="warGreeting39">
+		<value>Peace with honor. That's all that $CIVNAME5 is looking for. Will you make an offer?</value>
+	</data>
+	<data name="warGreeting40">
+		<value>Mighty $CIVNAME5 greets the Ruler of its worthy foe, $CIVNAME1.</value>
+	</data>
+	<data name="warGreeting41">
+		<value>Well? Must I remind you that we are at war? Do not waste my time unless you have something important to say.</value>
+	</data>
+	<data name="warGreeting42">
+		<value>Yes? I want to hear nothing from you except your abject surrender.</value>
+	</data>
+	<data name="warGreeting43">
+		<value>Yes? I want to hear nothing from you except your abject surrender.</value>
+	</data>
+	<data name="warGreeting44">
+		<value>You wish to speak with me, $CIVADJ2 swine! Pah! Be quick!</value>
+	</data>
+	<data name="warGreeting45">
+		<value>Has $CIVNAME1 come here to beg for mercy?</value>
+	</data>
+	<data name="warGreeting46">
+		<value>Welcome, $PLAYER0. Why have you come? Do you wish to find a way to end this war?</value>
+	</data>
+	<data name="warGreeting47">
+		<value>Beautiful $AI4 of $CIVNAME5 greets you, valiant and merciful $PLAYER0. Can we together find a way out of this bloody conflict?</value>
+	</data>
+	<data name="warGreeting48">
+		<value>$CIVNAME5 greets you, Ruler of bloodthirsty $CIVNAME1.</value>
+	</data>
+	<data name="warGreeting49">
+		<value>Why do you wish to speak with me, $PLAYER0? Our people are at war. And you are losing, I'm told.</value>
+	</data>
+	<data name="warGreeting50">
+		<value>Ah, $PLAYER0 - we are at war, aren't we? Shouldn't you be off somewhere doing something military?</value>
+	</data>
+	<data name="warGreeting51">
+		<value>$CIVNAME5 greets you, Ruler of foolish $CIVNAME1.</value>
+	</data>
+	<data name="warGreeting52">
+		<value>Why do you wish to speak with me, $PLAYER0? Our people are at war. And you are losing, I'm told.</value>
+	</data>
+	<data name="warGreeting53">
+		<value>$CIVNAME5 greets you, Ruler of doomed $CIVNAME1.</value>
+	</data>
+	<data name="warGreeting54">
+		<value>What do you want? Make your plea for mercy and then go away.</value>
+	</data>
+	<data name="warGreeting55">
+		<value>Greetings, wise $PLAYER0! War destroys; it does not create. Let us settle this unfortunate conflict now.</value>
+	</data>
+	<data name="warGreeting56">
+		<value>Greetings. While you may have us at a temporary disadvantage, we are far from defeated. Let us reason together.</value>
+	</data>
+	<data name="warGreeting57">
+		<value>$CIVNAME5 greets you. Are you here to talk terms of peace?</value>
+	</data>
+	<data name="warGreeting58">
+		<value>$CIVNAME5 greets you. Are you here to talk terms of peace?</value>
+	</data>
+	<data name="warGreeting59">
+		<value>Greetings, $PLAYER0. Our mighty armies drive your pathetic forces before them, like old women sweeping bugs from the kitchen. Why are you here?</value>
+	</data>
+	<data name="warGreeting60">
+		<value>Despair, foolish $PLAYER0! $CIVNAME5's warriors will crush you!</value>
+	</data>
+	<data name="warGreeting61">
+		<value>Be quick, $PLAYER0. I am off to lead my numberless armies against your doomed civilization.</value>
+	</data>
+	<data name="warGreeting62">
+		<value>$CIVNAME5 greets you, evil $PLAYER0. Soon my armies will fall upon your helpless cities, like a ton of bricks descending upon a surprised duck.</value>
+	</data>
+	<data name="warGreeting63">
+		<value>$CIVNAME5 greets you. Are you here to talk terms of peace?</value>
+	</data>
+	<data name="warGreeting64">
+		<value>Good day, $PLAYER0. Do you wish to talk peace terms? I would be happy to find an honorable way to end this bloody struggle.</value>
+	</data>
+	<data name="warGreeting65">
+		<value>War is hell, $PLAYER0. Come on: let's talk our way into heaven!</value>
+	</data>
+	<data name="warGreeting66">
+		<value>Greetings, $PLAYER0. Let's stop pounding each other like two bulls in a water closet.</value>
+	</data>
+	<data name="warGreeting67">
+		<value>Good day, $PLAYER0. Do you wish to talk peace terms? I would be happy to find an honorable way to end this bloody struggle.</value>
+	</data>
+	<data name="warGreeting68">
+		<value>Hello, $PLAYER0. Like my old daddy used to say, 'Fighting never made anybody rich except the morticians.' Let's sit down and thrash this thing out.</value>
+	</data>
+	<data name="warGreeting69">
+		<value>You're tangling with the wrong people, $PLAYER0, and you're going to regret it.</value>
+	</data>
+	<data name="warGreeting70">
+		<value>Good day, $PLAYER0. Do you wish to talk peace terms? I would be happy to find an honorable way to end this bloody struggle.</value>
+	</data>
+	<data name="warGreeting71">
+		<value>$CIVNAME5 greets you. The only peace terms we will accept are unconditional surrender.</value>
+	</data>
+	<data name="warGreeting72">
+		<value>You look like you were in a hatchet fight, and everybody had a hatchet except you.</value>
+	</data>
+	<data name="warGreeting73">
+		<value>It's a beautiful day, $PLAYER0, far too beautiful to ruin with death and destruction. Can't we end this ugly war?</value>
+	</data>
+	<data name="warGreeting74">
+		<value>The struggle continues, with no end in sight. Come: make an honorable offer, and let us have peace.</value>
+	</data>
+	<data name="warGreeting75">
+		<value>$CIVNAME5 greets you, leader of our enemy, $CIVNAME1. Why do you seek audience with me?</value>
+	</data>
+	<data name="warGreeting76">
+		<value>Ah, $PLAYER0. I was expecting you. Shall we discuss the terms of your surrender?</value>
+	</data>
+	<data name="warGreeting77">
+		<value>Welcome, $PLAYER0. My valiant warriors triumph over your puny forces in every battle. Do you seek peace with Mighty $CIVNAME5?</value>
+	</data>
+	<data name="warGreeting78">
+		<value>$CIVNAME5 greets you, leader of hated $CIVNAME1. Why do you seek audience with me?</value>
+	</data>
+	<data name="warGreeting79">
+		<value>Yes? Be quick - I'm quite busy wiping your pathetic civilization off the face of the planet.</value>
+	</data>
+	<data name="warGreeting80">
+		<value>Ah, $PLAYER0. I was expecting you. Shall we discuss the terms of your surrender?</value>
+	</data>
+	<data name="warGreeting81">
+		<value>All your base are belong to us!</value>
+	</data>
+	<data name="warGreeting82">
+		<value>I am glad that you have come, $PLAYER0. Come, let us work together to end this bloody conflict!</value>
+	</data>
+	<data name="warGreeting83">
+		<value>$PLAYER0, welcome. Do you desire to end the war with $CIVNAME5?</value>
+	</data>
+	<data name="warGreeting84">
+		<value>Greetings. We are at war: what do you have to say to me?</value>
+	</data>
+	<data name="warGreeting85">
+		<value>I do not wish to speak with you, $PLAYER0. Say what you have to say and then be gone!</value>
+	</data>
+	<data name="warGreeting86">
+		<value>$PLAYER0, have you yet learned the futility of your unjust war against $CIVNAME5?</value>
+	</data>
+	<data name="warGreeting87">
+		<value>We are at war, $PLAYER0. What do you want?</value>
+	</data>
+	<data name="warGreeting88">
+		<value>$CIVNAME5 greets you! You are beaten, but we can be merciful. Please state your terms for surrender.</value>
+	</data>
+	<data name="warGreeting89">
+		<value>I, $AI4, leader of $CIVNAME5, welcome my enemy, $PLAYER0. Do you wish to discuss terms of peace?</value>
+	</data>
+	<data name="warGreeting90">
+		<value>Our troops triumph on the field of battle, $PLAYER0. Will you surrender before you are stricken from the earth?</value>
+	</data>
+	<data name="warGreeting91">
+		<value>$CIVNAME5 greets you. We are both reasonable people: can we not together come up with a way to end this bloody conflict?</value>
+	</data>
+	<data name="warGreeting92">
+		<value>Greetings. Why do you seek an audience with me?</value>
+	</data>
+	<data name="warGreeting93">
+		<value>Welcome, $PLAYER0. I grieve at the death and suffering of both our peoples. Do you offer reasonable terms upon which to end this war?</value>
+	</data>
+	<data name="warGreeting94">
+		<value>$CIVNAME5 greets you. We are both reasonable people: can we not together come up with a way to end this bloody conflict?</value>
+	</data>
+	<data name="warGreeting95">
+		<value>Welcome, $PLAYER0. I grieve at the death and suffering of both our peoples. Will you offer reasonable terms upon which to end this war?</value>
+	</data>
+	<data name="warGreeting96">
+		<value>You are an untrustworthy leader, $PLAYER0, and you have caused $CIVNAME5 much grief. Why do you come before me?</value>
+	</data>
+	<data name="warGreeting97">
+		<value>Peaceful $CIVNAME5 greets our foe, $PLAYER0, Ruler of $CIVNAME1. Do you wish to discuss the terms of your surrender?</value>
+	</data>
+	<data name="warGreeting98">
+		<value>$CIVNAME5 greets you. We are both reasonable people: can we not together come up with a way to end this bloody conflict?</value>
+	</data>
+	<data name="warGreeting99">
+		<value>Welcome, my enemy. What do you want of Victorious $CIVNAME5?</value>
+	</data>
+	<data name="warGreeting100">
+		<value>Do not underestimate the power of $CIVNAME5, warlike $PLAYER0. We will continue to battle until we achieve a reasonable peace.</value>
+	</data>
+	<data name="warGreeting101">
+		<value>Greetings, $PLAYER0. Do you come to discuss terms for a peace treaty?</value>
+	</data>
+	<data name="warGreeting102">
+		<value>Welcome, $PLAYER0. Will you discuss terms for ending this conflict?</value>
+	</data>
+	<data name="warGreeting103">
+		<value>You have great courage coming before me like this, $PLAYER0, while our people are at war. What do you want to discuss?</value>
+	</data>
+	<data name="warGreeting104">
+		<value>I have little time for foolish chatter. May I remind you that we are at war?</value>
+	</data>
+	<data name="warGreeting105">
+		<value>Welcome, $PLAYER0. Will you discuss terms for ending this conflict?</value>
+	</data>
+	<data name="warGreeting106">
+		<value>You have great courage coming before me like this, $PLAYER0, while our people are at war. What do you want to discuss?</value>
+	</data>
+	<data name="warGreeting107">
+		<value>So, have you come crawling to $CIVNAME5 to beg for mercy?</value>
+	</data>
+	<data name="warGreeting108">
+		<value>You dare to come before me, $AI4? Speak quickly and well, for I have little patience with your honeyed words.</value>
+	</data>
+	<data name="warGreeting109">
+		<value>Greetings, $PLAYER0. The gods tell me that this is a propitious time to make peace. Will you make us an offer?</value>
+	</data>
+	<data name="warGreeting110">
+		<value>$PLAYER0, why do you seek an audience with the $CIVADJ7?</value>
+	</data>
+	<data name="warGreeting111">
+		<value>Our gods demand an end to this foolish conflict, $PLAYER0. Let us work together.</value>
+	</data>
+	<data name="warGreeting112">
+		<value>Greetings, $PLAYER0. The gods are well-satisfied with the number of your warriors I sacrifice on their altars! I trust that your gods are equally pleased with your sacrifice of my warriors?</value>
+	</data>
+	<data name="warGreeting113">
+		<value>Ah, $PLAYER0, welcome! Our war hangs in the balance. Why do you come before me?</value>
+	</data>
+	<data name="warGreeting114">
+		<value>I, godlike $AI4, greet my hated foe, $PLAYER0. Why are you here?</value>
+	</data>
+	<data name="warGreeting115">
+		<value>The ever-victorious $CIVADJ7 greet you. Are you here to surrender?</value>
+	</data>
+	<data name="warGreeting116">
+		<value>Welcome, $PLAYER0! We have sacrificed many of your warriors on our altars. Want to come watch?</value>
+	</data>
+	<data name="warGreeting117">
+		<value>I, godlike $AI4, greet my hated foe, $PLAYER0. Why are you here?</value>
+	</data>
+	<data name="warGreeting118">
+		<value>Mighty $AI4 of the warlike $CIVADJ7 greets you. Why are you here?</value>
+	</data>
+	<data name="warGreeting119">
+		<value>Why have you come before me, $PLAYER0? Do you seek an end to this pointless war?</value>
+	</data>
+	<data name="warGreeting120">
+		<value>Welcome, mighty $PLAYER0. Come, let us reason together and find an end to this sorrowful war.</value>
+	</data>
+	<data name="warGreeting121">
+		<value>Mighty $AI4 of the warlike $CIVADJ7 greets you. Why are you here?</value>
+	</data>
+	<data name="warGreeting122">
+		<value>Welcome, evil $PLAYER0! Know you that the mighty $CIVADJ7 will defend their people and their honor to the end!</value>
+	</data>
+	<data name="warGreeting123">
+		<value>Greetings, $PLAYER0. Do you offer an honorable end to this bloody struggle?</value>
+	</data>
+	<data name="warGreeting124">
+		<value>Mighty $AI4 of the warlike $CIVADJ7 greets you. Why are you here?</value>
+	</data>
+	<data name="warGreeting125">
+		<value>The $CIVADJ7 are at war with your pathetic civilization. What could we possibly have to speak about?</value>
+	</data>
+	<data name="warGreeting126">
+		<value>We will crush your evil, smelly civilization! But I am willing to entertain your pathetic pleas for mercy. Speak on.</value>
+	</data>
+	<data name="warGreeting127">
+		<value>Greetings, $PLAYER0, leader of the warlike $CIVNAME1 people. Shall we reason together and bring to an end this bloody war?</value>
+	</data>
+	<data name="warGreeting128">
+		<value>Welcome, $PLAYER0. This war stains the land with horror. Can we not end it with honor?</value>
+	</data>
+	<data name="warGreeting129">
+		<value>You are an honorable foe, $PLAYER0. Do you wish to discuss terms of peace?</value>
+	</data>
+	<data name="warGreeting130">
+		<value>You are an honorable foe, $PLAYER0. Do you wish to discuss terms of peace?</value>
+	</data>
+	<data name="warGreeting131">
+		<value>The $CIVADJ6 people welcome their sworn enemy $PLAYER0, Ruler of the treacherous $CIVADJ2 people. Why do you come before us?</value>
+	</data>
+	<data name="warGreeting132">
+		<value>I do not wish to speak with you, $PLAYER0. Say what you have to say and then be gone!</value>
+	</data>
+	<data name="warGreeting133">
+		<value>You are an honorable foe, $PLAYER0. Do you wish to discuss terms of peace?</value>
+	</data>
+	<data name="warGreeting134">
+		<value>The $CIVADJ7 greet you. Do you wish to surrender now?</value>
+	</data>
+	<data name="warGreeting135">
+		<value>Surrender now, $PLAYER0, before we wipe your miserable people from the face of the planet!</value>
+	</data>
+	<data name="warGreeting136">
+		<value>Welcome, $PLAYER0. Do you wish to discuss terms of peace?</value>
+	</data>
+	<data name="warGreeting137">
+		<value>We are honored that you have chosen to grace us with your presence, $PLAYER0. Shall we discuss how to bring an end to this tiresome war?</value>
+	</data>
+	<data name="warGreeting138">
+		<value>May I remind you that we are at war, $PLAYER0? Why have you come before us?</value>
+	</data>
+	<data name="warGreeting139">
+		<value>Greetings, $PLAYER0. Shall we discuss the terms of your surrender?</value>
+	</data>
+	<data name="warGreeting140">
+		<value>I, $AI4, Most Beloved Ruler of the etcetera, etcetera, grant your tiresome request for an audience. Well?</value>
+	</data>
+	<data name="warGreeting141">
+		<value>You wish to speak to me? Well, go ahead.</value>
+	</data>
+	<data name="warGreeting142">
+		<value>I, $AI4, Most Beloved Ruler of the etcetera, etcetera, grant your tiresome request for an audience. Well?</value>
+	</data>
+	<data name="warGreeting143">
+		<value>You are a horrible person, $PLAYER0, and we are at war. Why have you come here?</value>
+	</data>
+	<data name="warGreeting144">
+		<value>$CIVNAME5 will crush you, you know. Don't you think you should surrender before your people lose everything?</value>
+	</data>
+</root>

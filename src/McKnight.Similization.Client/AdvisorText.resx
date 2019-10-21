@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="diplomacyAdviceMilitaryNeedMoreForces">
+		<value>The $CIVADJ0 military forces outnumber us! That's not good...</value>
+	</data>
+	<data name="diplomacyAdviceMilitaryEqualForces">
+		<value>The $CIVADJ0 military force is about the same size as ours.</value>
+	</data>
+	<data name="diplomacyAdviceMilitarySuperiorForces">
+		<value>Our forces outnumber the $CIVNOUN0. That's good...</value>
+	</data>
+	<data name="diplomacyAdviceScienceNeedMoreTech1">
+		<value>The $CIVADJ0 people are technologically advanced!</value>
+	</data>
+	<data name="diplomacyAdviceScienceEqualTech1">
+		<value>The $CIVADJ0 scientific achievements match our own.</value>
+	</data>
+	<data name="diplomacyAdviceScienceSuperiorTech1">
+		<value>The $CIVADJ0 scientists are not very advanced.</value>
+	</data>
+	<data name="diplomacyAdviceScienceSuperiorTech2">
+		<value>The $CIVADJ0 people say we are technologically advanced!</value>
+	</data>
+	<data name="diplomacyAdviceScienceEqualTech2">
+		<value>The $CIVADJ0 people feel they are our scientific equals.</value>
+	</data>
+	<data name="diplomacyAdviceScienceNeedMoreTech2">
+		<value>The $CIVADJ0 people say we are technologically backwards.</value>
+	</data>
+	<data name="diplomacyAdviceTheyFearUnit">
+		<value>The $CIVADJ0 army fears our $UNIT1.</value>
+	</data>
+	<data name="diplomacyAdviceTheirCulturalPerception">
+		<value>The $CIVADJ1 people are $CULTURAL_OPINION0 our culture.</value>
+	</data>
+	<data name="diplomacyAdviceOurCulturalPerception">
+		<value>Our people are $CULTURAL_OPINION0 the $CIVADJ1 cultural achievements.</value>
+	</data>
+	<data name="diplomacyAdviceTheirBestUnit">
+		<value>The $CIVADJ0 military has the $UNIT1.</value>
+	</data>
+	<data name="diplomacyAdviceTheyAttacked">
+		<value>Don't forget, the $CIVADJ0 armies have attacked us before. I don't know that we should trust them.</value>
+	</data>
+	<data name="diplomacyAdviceNeverMet">
+		<value>We have not met this one before. Be careful...</value>
+	</data>
+	<data name="diplomacyAdviceTheyLie">
+		<value>$LEADER0 is a known liar and cheat. Deal with $HIM_OR_HER1 carefully.</value>
+	</data>
+	<data name="diplomacyAdviceTheyBetrayedOurFriends">
+		<value>We know that $LEADER0 has betrayed our friends the $CIVNOUN1.</value>
+	</data>
+	<data name="diplomacyAdviceNoLandRoute">
+		<value>We cannot trade luxuries or resources without a trade route. A road connecting our capitals would do it.</value>
+	</data>
+	<data name="diplomacyAdviceNoSeaRoute">
+		<value>We cannot trade trade luxuries or resources with the $CIVNOUN0 without a trade route. Building a harbor would do it.</value>
+	</data>
+	<data name="diplomacyAdviceWeHaveEmbargo">
+		<value>We have agreed not to trade with the $CIVNOUN0 -- we have a trade embargo against them.</value>
+	</data>
+	<data name="diplomacyAdviceTheyHaveEmbargo">
+		<value>We cannot trade resources or luxuries with the $CIVNOUN0 -- they have a trade embargo against us.</value>
+	</data>
+	<data name="diplomacyAdviceOfferResource1">
+		<value>We have a trade route with the $CIVNoun0... maybe we should offer them some of our excess $RESOURCE_OR_LUXURY1.</value>
+	</data>
+	<data name="diplomacyAdviceGetResource">
+		<value>The $CIVNoun0 have $RESOURCE_OR_LUXURY1 which they may be willing to trade to us.</value>
+	</data>
+	<data name="diplomacyAdviceOfferResource2">
+		<value>We have $NUM0 excess $RESOURCE1, and the $CIVNoun0 would love to have it. Why don't we see what they'll offer...</value>
+	</data>
+</root>

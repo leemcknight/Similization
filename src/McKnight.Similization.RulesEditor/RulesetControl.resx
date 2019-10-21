@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 18</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 121</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescription.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblOwner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="lblOwner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="lblOwner.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblOwner.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="lblOwner.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Name" xml:space="preserve">
+    <value>lblOwner</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 20</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 124</value>
+  </data>
+  <data name="txtDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 49</value>
+  </data>
+  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtOwner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 44</value>
+  </data>
+  <data name="txtOwner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 20</value>
+  </data>
+  <data name="txtOwner.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Name" xml:space="preserve">
+    <value>txtOwner</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 71</value>
+  </data>
+  <data name="lblClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblClient.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblClient.Text" xml:space="preserve">
+    <value>Client:</value>
+  </data>
+  <data name="lblClient.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblClient.Name" xml:space="preserve">
+    <value>lblClient</value>
+  </data>
+  <data name="&gt;&gt;lblClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClient.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;lblClient.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboClient.Items" xml:space="preserve">
+    <value>Windows Forms</value>
+  </data>
+  <data name="cboClient.Items1" xml:space="preserve">
+    <value>DirectX</value>
+  </data>
+  <data name="cboClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 70</value>
+  </data>
+  <data name="cboClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="cboClient.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboClient.Name" xml:space="preserve">
+    <value>cboClient</value>
+  </data>
+  <data name="&gt;&gt;cboClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboClient.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;cboClient.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblMapType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="lblMapType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblMapType.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblMapType.Text" xml:space="preserve">
+    <value>Map Type:</value>
+  </data>
+  <data name="lblMapType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMapType.Name" xml:space="preserve">
+    <value>lblMapType</value>
+  </data>
+  <data name="&gt;&gt;lblMapType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMapType.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;lblMapType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboMapType.Items" xml:space="preserve">
+    <value>Isometric</value>
+  </data>
+  <data name="cboMapType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 97</value>
+  </data>
+  <data name="cboMapType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="cboMapType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboMapType.Name" xml:space="preserve">
+    <value>cboMapType</value>
+  </data>
+  <data name="&gt;&gt;cboMapType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboMapType.Parent" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;cboMapType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpMetaData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="grpMetaData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 183</value>
+  </data>
+  <data name="grpMetaData.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="grpMetaData.Text" xml:space="preserve">
+    <value>Ruleset Properties</value>
+  </data>
+  <data name="&gt;&gt;grpMetaData.Name" xml:space="preserve">
+    <value>grpMetaData</value>
+  </data>
+  <data name="&gt;&gt;grpMetaData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMetaData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpMetaData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtRoadMovementBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 126</value>
+  </data>
+  <data name="txtRoadMovementBonus.Mask" xml:space="preserve">
+    <value>00000</value>
+  </data>
+  <data name="txtRoadMovementBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="txtRoadMovementBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtRoadMovementBonus.Name" xml:space="preserve">
+    <value>txtRoadMovementBonus</value>
+  </data>
+  <data name="&gt;&gt;txtRoadMovementBonus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRoadMovementBonus.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;txtRoadMovementBonus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRoadMovementBonus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRoadMovementBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 129</value>
+  </data>
+  <data name="lblRoadMovementBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="lblRoadMovementBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblRoadMovementBonus.Text" xml:space="preserve">
+    <value>Road Movement Bonus:</value>
+  </data>
+  <data name="&gt;&gt;lblRoadMovementBonus.Name" xml:space="preserve">
+    <value>lblRoadMovementBonus</value>
+  </data>
+  <data name="&gt;&gt;lblRoadMovementBonus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRoadMovementBonus.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;lblRoadMovementBonus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtFoodPerCitizen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 96</value>
+  </data>
+  <data name="txtFoodPerCitizen.Mask" xml:space="preserve">
+    <value>00000</value>
+  </data>
+  <data name="txtFoodPerCitizen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="txtFoodPerCitizen.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtFoodPerCitizen.Name" xml:space="preserve">
+    <value>txtFoodPerCitizen</value>
+  </data>
+  <data name="&gt;&gt;txtFoodPerCitizen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFoodPerCitizen.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;txtFoodPerCitizen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFoodPerCitizen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFoodPerCitizen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 99</value>
+  </data>
+  <data name="lblFoodPerCitizen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblFoodPerCitizen.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblFoodPerCitizen.Text" xml:space="preserve">
+    <value>Food Per Citizen:</value>
+  </data>
+  <data name="&gt;&gt;lblFoodPerCitizen.Name" xml:space="preserve">
+    <value>lblFoodPerCitizen</value>
+  </data>
+  <data name="&gt;&gt;lblFoodPerCitizen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFoodPerCitizen.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;lblFoodPerCitizen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTownBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 12</value>
+  </data>
+  <data name="txtTownBinSize.Mask" xml:space="preserve">
+    <value>00000</value>
+  </data>
+  <data name="txtTownBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="txtTownBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTownBinSize.Name" xml:space="preserve">
+    <value>txtTownBinSize</value>
+  </data>
+  <data name="&gt;&gt;txtTownBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTownBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;txtTownBinSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTownBinSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTownBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 19</value>
+  </data>
+  <data name="lblTownBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblTownBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblTownBinSize.Text" xml:space="preserve">
+    <value>Town Bin Size:</value>
+  </data>
+  <data name="&gt;&gt;lblTownBinSize.Name" xml:space="preserve">
+    <value>lblTownBinSize</value>
+  </data>
+  <data name="&gt;&gt;lblTownBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTownBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;lblTownBinSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMetropolisBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 66</value>
+  </data>
+  <data name="txtMetropolisBinSize.Mask" xml:space="preserve">
+    <value>00000</value>
+  </data>
+  <data name="txtMetropolisBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="txtMetropolisBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtMetropolisBinSize.Name" xml:space="preserve">
+    <value>txtMetropolisBinSize</value>
+  </data>
+  <data name="&gt;&gt;txtMetropolisBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMetropolisBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;txtMetropolisBinSize.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblMetropolisBinSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMetropolisBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 69</value>
+  </data>
+  <data name="lblMetropolisBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblMetropolisBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblMetropolisBinSize.Text" xml:space="preserve">
+    <value>Metropolis Bin Size:</value>
+  </data>
+  <data name="&gt;&gt;lblMetropolisBinSize.Name" xml:space="preserve">
+    <value>lblMetropolisBinSize</value>
+  </data>
+  <data name="&gt;&gt;lblMetropolisBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMetropolisBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;lblMetropolisBinSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCityBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 40</value>
+  </data>
+  <data name="txtCityBinSize.Mask" xml:space="preserve">
+    <value>00000</value>
+  </data>
+  <data name="txtCityBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="txtCityBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCityBinSize.Name" xml:space="preserve">
+    <value>txtCityBinSize</value>
+  </data>
+  <data name="&gt;&gt;txtCityBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCityBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;txtCityBinSize.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCityBinSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCityBinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 43</value>
+  </data>
+  <data name="lblCityBinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblCityBinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCityBinSize.Text" xml:space="preserve">
+    <value>City Bin Size:</value>
+  </data>
+  <data name="&gt;&gt;lblCityBinSize.Name" xml:space="preserve">
+    <value>lblCityBinSize</value>
+  </data>
+  <data name="&gt;&gt;lblCityBinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCityBinSize.Parent" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;lblCityBinSize.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="grpDefaultRules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 192</value>
+  </data>
+  <data name="grpDefaultRules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 165</value>
+  </data>
+  <data name="grpDefaultRules.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="grpDefaultRules.Text" xml:space="preserve">
+    <value>Basic Rules</value>
+  </data>
+  <data name="&gt;&gt;grpDefaultRules.Name" xml:space="preserve">
+    <value>grpDefaultRules</value>
+  </data>
+  <data name="&gt;&gt;grpDefaultRules.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDefaultRules.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpDefaultRules.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 448</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RulesetControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>McKnight.SimilizationRulesEditor.EditorUserControl, SimilizationRulesEditor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

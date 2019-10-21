@@ -1,0 +1,280 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2ECEFCF-5B3C-4F84-9631-198D11FFF17B}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SimilizationRulesEditor</AssemblyName>
+    <AssemblyOriginatorKeyFile>McKnight.Similization.RulesEditor.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LJM.SimilizationRulesEditor</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewItemCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddRulesetCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddTilesetCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CivilizationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EraControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GovernmentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImprovmentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResourceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RulesetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditorResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditorResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TechnologyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TerrainControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditorApp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EditorUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewMapDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RuleSetConnectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenRulesetCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaveRulesetCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TilesetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Content Include="Tileset.xsd" />
+    <Content Include="TileTypes.xml" />
+    <Content Include="TileTypes.xsd" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CivilizationControl.resx">
+      <DependentUpon>CivilizationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EraControl.resx">
+      <DependentUpon>EraControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GovernmentControl.resx">
+      <DependentUpon>GovernmentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImprovmentControl.resx">
+      <DependentUpon>ImprovmentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceControl.resx">
+      <DependentUpon>ResourceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RulesetControl.resx">
+      <DependentUpon>RulesetControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnologyControl.resx">
+      <DependentUpon>TechnologyControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerrainControl.resx">
+      <DependentUpon>TerrainControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitControl.resx">
+      <DependentUpon>UnitControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorApp.resx">
+      <DependentUpon>EditorApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorUserControl.resx">
+      <DependentUpon>EditorUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewMapDialog.resx">
+      <DependentUpon>NewMapDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuleSetConnectDialog.resx">
+      <DependentUpon>RuleSetConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewItemDialog.resx">
+      <DependentUpon>NewItemDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EditorResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TileControl.resx">
+      <DependentUpon>TileControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TilesetControl.resx">
+      <DependentUpon>TilesetControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="McKnight.Similization.RulesEditor.snk" />
+    <None Include="Tileset.xsx">
+      <DependentUpon>Tileset.xsd</DependentUpon>
+    </None>
+    <None Include="TileTypes.xsx">
+      <DependentUpon>TileTypes.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\McKnight.Similization.Core\McKnight.Similization.Core.csproj">
+      <Project>{5ee311db-5026-45f3-970b-e66382fc65aa}</Project>
+      <Name>McKnight.Similization.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

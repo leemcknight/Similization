@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 48</value>
+  </data>
+  <data name="_mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 472</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Name">
+    <value xml:space="preserve">_mainPanel</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;_mainPanel.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="_advisorsHeaderLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="_advisorsHeaderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="_advisorsHeaderLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_advisorsHeaderLabel.Text">
+    <value xml:space="preserve">OTHER ADVISORS</value>
+  </data>
+  <data name="&gt;&gt;_advisorsHeaderLabel.Name">
+    <value xml:space="preserve">_advisorsHeaderLabel</value>
+  </data>
+  <data name="&gt;&gt;_advisorsHeaderLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_advisorsHeaderLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;_advisorsHeaderLabel.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="_tradeAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_tradeAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="_imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="_imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADI
+        EgAAAk1TRnQBSQFMAgEBBQEAAQkBAAEEAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8AIwABugGEAV0B/wG8AWwBLgH/AcABZAEbAf8BwAFhARIB/wG4AVsBEgH/
+        AbMBXQEcAf8BqwFoAT4B/+AAAdUBcwEfAf8B6wGLATYC/wGmAUcC/wGgATwC/wGbAS8B/wHlAYQBHQH/
+        Ad0BgQEOAf8BzQF0AQIB/wGzAVUBBAH/Aa8BZwE2Af/YAAHdAYABKwL/AbIBZAH/Af0BrQFfAv8BqAFT
+        Av8BnwE/Af8B7AGGASQB/wHtAZABHAH/Ad8BiQEKAf8BzgF5AQEB/wG+AV4BFQH/2AAB2wGBATYC/wHB
+        AYEC/wG7AXsC/wGyAWYB/wH9AaABRQH/AegBogFpAf8B8QGQARwB/wHjAYoBDwH/AdUBgQEBAf8BuwFu
+        ATgB/9gAAckBowGBAf8B7QGdAVgC/wHJAZEC/wG2AW0B/wHzAakBagH/AfgB9AH+Af8B7QGHARoB/wHl
+        AYwBDwH/AckBbgEKAf8BuAGRAXYB/9wAAdUBoAFtAf8B9AGSAT0C/wGnAVUB/wGcAaUBvwH/AZkBuwHw
+        Af8B3QGOAT0B/wHeAXMBCQH/AckBjwFlAf/kAAKhAaUB/wEiAYkB9AH/AUIBqAL/AUIBpgL/ARsBkQL/
+        AYcBlwGvAf/oAAE2AZkB7AH/AYEByQL/AYcBywL/AX8BxgL/AXIBvgL/ASwBkgH3Af/oAAErAZkB8QH/
+        ATYBqAHYAf8BHgGfAdAB/wEZAaEBzwH/ARQBoAHPAf8BDgGVAcwB/wFJAZgBugH/4AABbQGmAb0B/wEe
+        AbEB2AH/AVEB5AH6Af8BSQHpAv8BQAHlAv8BPwHkAv8BNwHkAv8BEwHDAe8B/wFRAZ8BvAH/3AABYQGl
+        Ab8B/wFIAdsB9QH/AUYB4QH+Af8BGQHMAfYB/wENAcYB9AH/AQEBvAHvAf8BAQG2AegB/wEIAaIB0QH/
+        AXIBpgG6Af/cAAF6AagBuQH/ATgBzQHpAf8BXQHkAfkB/wEwAdsC/wEzAdcB+gH/AQEByAH8Af8BHwHI
+        AfEB/wEjAZ8ByQH/5AABKQGrAckB/wFcAeQB+QH/AUAB4QL/ATIB3QL/ARUB1QL/AQoBqAHYAf/sAAE7
+        AaQBxQH/ARoBqQHUAf8BDwGoAdcB/wEdAaABygH/AXMBqQG7Af//AP8A5gABVgFdAa0B/wEnATQBqQH/
+        ARIBIwGrAf8BCQEYAagB/wEKARUBpAH/ARYBHAGgAf8CMwGeAf8CaAGlAf8gAAGxAYIBXwH/AbMBaQEv
+        Af8BtAFbARMB/wG0AVQBCQH/AbABUgELAf8BqgFVARsB/wGlAWABOAH/AagBfwFoAf8gAAFRAZwBXwH/
+        AS8BmQE+Af8BJgGhATUB/wEpAaEBNAH/ASQBnAEuAf8BHQGQASUB/wEqAYgBMgH/AVYBjQFaAf8gAAHA
+        AZIBYwH/AcwBgwEyAf8B1QF8ARYB/wHaAXYBCgH/AdgBdQEMAf8BzwF4ARkB/wHCAX0BNgH/AboBjwFn
+        Af8cAAENATIBvQH/AR0BWgHUAf8BHAFTAc8B/wEfAV4B1gH/AR0BUQHRAf8BFQFGAcMB/wETATMBvAH/
+        AQ8BLwG4Af8BBgERAaMB/wI1AacB/xgAAcoBaAEQAf8B3QFqAQEB/wHaAWwBAQH/AdsBdQEBAf8B2QFy
+        AQEB/wHUAWsBAQH/Ac0BZgEBAf8BxwFeAQEB/wGsAUwBBQH/AbYBSAEUAf8YAAEnAaYBPAH/AVMB0AFT
+        Af8BVwHSAVUB/wFpAeIBYAH/AWIB3QFcAf8BWQHXAVMB/wFNAc8BSQH/AT8BxwE5Af8BHgGgASAB/wEl
+        AYYBKgH/GAAB5QGIARsB/wH4AZYBDgH/Af0BmwERAf8B+wGnAS0B/wHnAccBmAH/AeMB1QHEAf8B5wGf
+        ATMB/wHyAZEBAQH/Ad4BfgEBAf8B0wF9ASQB/xgAARMBRwHXAf8BKAF0AeUB/wElAWwB4QH/ASQBZAHc
+        Af8BFQF2AdgB/wEBAcIB6wH/AQIBcgHHAf8BEgErAbgB/wENASYBsgH/AR8BIQGnAf8YAAGZAXsBSQH/
+        ARYBqwHcAf8BaQGBAWIB/wHsAX4BAQH/Ad8BewEBAf8B1AG/AacB/wHRAWcBAQH/AdUBXgEBAf8BBwG8
+        AfAB/wEyAaYBwQH/GAABPAG8AU8B/wFvAecBYAH/ATMBngGBAf8BIgGMAYkB/wFTAcEBkgH/AVABrwG4
+        Af8BSAHBAVMB/wEUAYEBgAH/ATUBvwEzAf8BLAGNAS4B/xgAAeIBjAEpAv8BqwEwAv8BqgEzAf8B7AHF
+        AZIB/wGoAcsB5QH/AX8BtwHoAf8ByAHcAfIB/wHlAZcBJAH/AfEBkQEBAf8B1wF+ARwB/xgAAS8BWwHT
+        Af8BLQGEAe8B/wErAXwB7AH/AR0BgAHkAf8BAQHKAfcB/wEBAcMB9QH/AQEByAH1Af8BBwFMAbsB/wEQ
+        ASsBtgH/AjMBpgH/GAABkQGPAXoB/wEqAagB9AH/AXIBggFqAf8B+gGFAQEB/wHhAbYBgAH/AZoB3QL/
+        AdoBgQEfAf8BzwFkAQEB/wElAaQB4wH/AUkBpQHOAf8YAAEyAYoBlgH/ASYBjAGEAf8BAQF0AbEB/wEG
+        AXQBgAH/AWsBvgHyAf8BcAG8Av8BPwGmAYYB/wEBAWYBqQH/ARYBhAFkAf8BRAGJAW8B/xgAAc0BlwFZ
+        Af8B+wGoAT8C/wG1AVUB/wHyAfEB8gH/AWIBrgHpAf8BTAGwAv8BnQHDAegB/wHpAb0BgAH/AfIBjgEB
+        Af8ByQGIAUcB/xgAAW4BhgHEAf8BIQF1Ae4B/wErAY4B8wH/AQEBzgH2Af8BAQHYAv8BAQGHAboB/wEB
+        AckB+wH/AQEBqgHgAf8BCgETAagB/wJoAakB/xwAAT0BwwHjAf8BIAGRAa4C/wGPAQEB/wGsAdUB+gH/
+        AWgBwQL/AesBnAFQAf8BVgF/AWwB/wE3AcUB6QH/AW8BqgG/Af8YAAE6AYEBpwH/AQEBkgHJAf8BAQGO
+        AcYB/wEMAXQBawH/AVoBsgL/AWEBtAL/ATEBlQGRAf8BAQF5Aa8B/wEBAXwBtQH/AS0BdgGjAf8cAAHn
+        AY4BIQH/Af0BwwGBAf8B8gHvAe4B/wFYAZ8B8gH/AVYBpgL/AZoBvgHqAf8B7gG4AWkB/wHiAXwBAwH/
+        IAABLAFpAdMB/wEGAdQC/wEBAfUC/wEBAZYByQH/AQEBeQGrAf8BAQHCAfMB/wEBAc4B/AH/ASEBQAGv
+        Af8gAAEkAaQBzQH/ASIBsgHdAf8CrwGNAf8BTgGqAv8BPAGkAv8B1wGsAXoB/wETAZ8BygH/ARsBngHH
+        Af8cAAFyAZYBqQH/AQEBfgGxAf8BAQGDAbkB/wETAXwBdAH/ATwBnwL/AUIBoQL/ASIBiAGPAf8BAQF4
+        AasB/wEBAXMBpAH/IAABywGgAXAB/wHtAaUBTwH/AfUB8gHqAf8BTAGPAv8BUAGUAv8BpAHBAe4B/wHn
+        AZwBPwH/Ac4BlAFZAf8gAAFcAVsBVQH/ARwBegGTAf8BAQGXAcMB/wEBAVwBkQH/AQEBXQGSAf8BAQGY
+        Ac0B/wEJAYwBsQH/AXUBfAGBAf8gAAEyAZ0BxAH/ATcBwAHgAf8BBQGEAfcB/wE5AZ4C/wE6AaAC/wEN
+        AYYB9QH/ARsBqgHUAf8BRgGYAbgB/yAAAQYBbQGcAf8BAQF+Aa8B/wEUAXkB0AH/ATEBlAL/ATABkgL/
+        AQ8BdQHOAf8BAQF8AawB/wEoAW4BmAH/JAABxgGkAXwB/wF7AZ0B9gH/ATIBcQL/ATQBbgL/AW8BigHi
+        Af8BzgGaAWQB/yQAAVQBUQFPAf8BGQFBAVwB/wEBAXMBpwH/AQEBgAGxAf8BAQGAAbEB/wEBAWoBngH/
+        ARYBIgErAf8BcwFyAXEB/yAAAToBnQHAAf8BFwGSAfgB/wFrAbkC/wF2AcEC/wFxAb4C/wFZAbAC/wEK
+        AYwB6wH/AVABlgGyAf8gAAEiAXYBngH/AQ4BgwHkAf8BYAGzAv8BdgHCAv8BcAG/Av8BTQGmAv8BCAF9
+        AdMB/wFKAXcBlQH/JAABQwFlAaYB/wFKAZUC/wFbAaQC/wFZAZ4C/wFAAYEB/QH/ARwBJwFFAf8kAAFG
+        AUcBRgH/AQEBaQGgAf8BAQGIAbwB/wEBAYYBuQH/AQEBhQG4Af8BAQGCAbcB/wEIAUkBcAH/AWoBaAFn
+        Af8gAAEkAZgB0QH/AUEBogL/AYQBygL/AYMBywL/AXwBxgL/AXMBvwL/ASgBlQL/ATUBhwGuAf8gAAEf
+        AXkBqAH/AT8BnQL/AYUBzAL/AYQBywL/AXsBxgL/AXIBwAL/ASABhQH5Af8BUwF4AZIB/yAAAVMBUgFP
+        Af8BMgFYAYwB/wFiAbkC/wFdAa4C/wFZAaYC/wFcAaUC/wEXASoBWQH/ATEBMAEtAf8gAAErATABNAH/
+        AQEBeAGuAf8BAQGSAcYB/wEBAZEBxAH/AQEBjAG/Af8BAQGIAb0B/wEDAVkBiAH/AVIBUAFPAf8gAAEX
+        AZcB0AH/AWUBtgL/AZQB1AL/AZcB1wL/AYUBzAL/AXkBwwL/ATsBoAL/ASIBfQGqAf8gAAEOAWYBoQH/
+        AWABtQL/AY8B0wL/AZcB1wL/AYcBzQL/AXcBxAL/AS0BhgHdAf8BWgF8AZUB/yAAASsBKgEoAf8BMQFN
+        AWMB/wFoAcwC/wFgAbkC/wFdAa4C/wFeAawC/wEiATYBWQH/AQQBAgEBAf8gAAExAS4BLQH/ARkBLgE2
+        Af8BBQFxAZsB/wEBAZoB0QH/AQEBlwHNAf8BAQGDAboB/wEJASMBMAH/AUsBSgFJAf8gAAEgAasB1gH/
+        ARwBmwHQAf8BWQGyAekB/wGJAcwB+wH/AY4BzwL/AXQBwAH+Af8BJAGNAc0B/wEpAYEBqwH/IAABFQFl
+        AZMB/wFAAYsBxAH/AZMB1wL/AZIB0gL/AX0BwgH2Af8BegHHAv8BEAFWAYwB/wFvAYoBngH/IAACNgE1
+        Af8BKAEiAR8B/wE+AXIBjwH/AWUBxwL/AWIBvgL/AU4BjgHbAf8BDQELAQoB/wEKAgkB/wN1Af8cAANJ
+        Af8BOwE4ATcB/wEjARoBFwH/ARcBIwEqAf8BDwE/AVEB/wEPAQkBBwH/AQkBBgEEAf8DagH/IAABNgGs
+        AdEB/wGGAfQB+AH/AT4BwQHdAf8BEQGbAccB/wEOAY0BwgH/AQwBlAG+Af8BFwGgAcgB/wFIAZEBsQH/
+        IAABOgF8AaAB/wEBAXEBowH/AQEBWgGOAf8BAQFXAYkB/wEBAVcBiQH/AQEBUwGEAf8BBAFTAYMB/yQA
+        AzcB/wNAAf8BJwEiAR8B/wEhASYBLAH/ATEBUAFsAf8BEwEOAQcB/wITARIB/wMUAf8gAAOBAf8DNgH/
+        AzEB/wIhASAB/wEZARcBFgH/ARICEQH/Ax8B/ygAAToBwgHiAf8BfwHuAfUB/wFiAdsB7AH/AUMBxQHh
+        Af8BRQHJAeUB/wEVAZgBxAH/KAABAwF1AaUB/wEBAZYByQH/AQEBjgHBAf8BAQGHAboB/wEBAXQBpwH/
+        AVABfgGdAf8kAANzAf8DPAH/Az4B/wEwAi8B/wElASMBIQH/AyUB/wMgAf8DUgH/JAADdwH/AzcB/wMv
+        Af8DIwH/AzAB/ywAAXYBqwG9Af8BKwGnAc0B/wEnAaYBzQH/AR4BoAHIAf8BHwGaAcMB/wFyAaMBtgH/
+        KAABeQGXAagB/wEZAW8BmgH/AQEBbgGfAf8BBwFpAZkB/wFSAYABmgH/LAADgQH/A0gB/wM8Af8DMQH/
+        AzoB/wNxAf//ABUAAUIBTQE+BwABPgMAASgDAAFAAwABIAMAAQEBAAEBBgABARYAA/8BAAL/BgAB8AEf
+        BgAB4AEHBgAB4AEHBgAB4AEHBgAB4AEHBgAB8AEPBgAB+AEfBgAB+AEfBgAB+AEPBgAB8AEHBgAB8AEH
+        BgAB8AEPBgAB+AEfBgAB/AEfBgAC/wYACP8B8AEPAfABDwHwAQ8B8AEPAeABBwHgAQcB4AEHAeABBwHg
+        AQcB4AEHAeABBwHgAQcB4AEHAeABBwHgAQcB4AEHAeABBwHwAQcB4AEHAfABDwHwAQ8B8AEPAeABDwHw
+        AQ8B8AEPAfABDwHwAQ8B+AEfAfABDwHwAQ8B8AEPAfgBHwHwAQ8B8AEPAfABDwHwAQ8B8AEPAfABDwHw
+        AQ8B8AEPAfABDwHwAQ8B8AEPAfABBwHwAQ8B8AEPAfABHwHwAQ8B8AEfAfgBHwH4AR8B8AEPAfgBPwH4
+        AR8B+AE/AfgBHwj/Cw==
+</value>
+  </data>
+  <data name="_tradeAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 136</value>
+  </data>
+  <data name="_tradeAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="_tradeAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_tradeAdvisorLink.Text">
+    <value xml:space="preserve">Trade Advisor</value>
+  </data>
+  <data name="_tradeAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_tradeAdvisorLink.Name">
+    <value xml:space="preserve">_tradeAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_tradeAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_tradeAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_tradeAdvisorLink.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="_culturalAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_culturalAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_culturalAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 112</value>
+  </data>
+  <data name="_culturalAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="_culturalAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_culturalAdvisorLink.Text">
+    <value xml:space="preserve">Cultural Advisor</value>
+  </data>
+  <data name="_culturalAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_culturalAdvisorLink.Name">
+    <value xml:space="preserve">_culturalAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_culturalAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_culturalAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_culturalAdvisorLink.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="_militaryAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_militaryAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_militaryAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="_militaryAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="_militaryAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_militaryAdvisorLink.Text">
+    <value xml:space="preserve">Military Advisor</value>
+  </data>
+  <data name="_militaryAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_militaryAdvisorLink.Name">
+    <value xml:space="preserve">_militaryAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_militaryAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_militaryAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_militaryAdvisorLink.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="_scienceAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_scienceAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_scienceAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
+  </data>
+  <data name="_scienceAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="_scienceAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_scienceAdvisorLink.Text">
+    <value xml:space="preserve">Science Advisor</value>
+  </data>
+  <data name="_scienceAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_scienceAdvisorLink.Name">
+    <value xml:space="preserve">_scienceAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_scienceAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_scienceAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_scienceAdvisorLink.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="_foreignAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_foreignAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_foreignAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="_foreignAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="_foreignAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_foreignAdvisorLink.Text">
+    <value xml:space="preserve">Foreign Advisor</value>
+  </data>
+  <data name="_foreignAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_foreignAdvisorLink.Name">
+    <value xml:space="preserve">_foreignAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_foreignAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_foreignAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_foreignAdvisorLink.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="_domesticAdvisorLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="_domesticAdvisorLink.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_domesticAdvisorLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="_domesticAdvisorLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="_domesticAdvisorLink.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_domesticAdvisorLink.Text">
+    <value xml:space="preserve">Domestic Advisor</value>
+  </data>
+  <data name="_domesticAdvisorLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_domesticAdvisorLink.Name">
+    <value xml:space="preserve">_domesticAdvisorLink</value>
+  </data>
+  <data name="&gt;&gt;_domesticAdvisorLink.Type">
+    <value xml:space="preserve">System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_domesticAdvisorLink.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;_domesticAdvisorLink.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 456</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="_advisorNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 14.25pt, style=Bold</value>
+  </data>
+  <data name="_advisorNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 8</value>
+  </data>
+  <data name="_advisorNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 40</value>
+  </data>
+  <data name="_advisorNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_advisorNameLabel.Text">
+    <value xml:space="preserve">Domestic Advisor</value>
+  </data>
+  <data name="_advisorNameLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_advisorNameLabel.Name">
+    <value xml:space="preserve">_advisorNameLabel</value>
+  </data>
+  <data name="&gt;&gt;_advisorNameLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_advisorNameLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;_advisorNameLabel.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="_doneButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 536</value>
+  </data>
+  <data name="_doneButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_doneButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_doneButton.Text">
+    <value xml:space="preserve">&amp;Done</value>
+  </data>
+  <data name="&gt;&gt;_doneButton.Name">
+    <value xml:space="preserve">_doneButton</value>
+  </data>
+  <data name="&gt;&gt;_doneButton.Type">
+    <value xml:space="preserve">System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_doneButton.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;_doneButton.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>792, 566</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text">
+    <value xml:space="preserve">Similization Advisors</value>
+  </data>
+  <data name="&gt;&gt;_imageList.Name">
+    <value xml:space="preserve">_imageList</value>
+  </data>
+  <data name="&gt;&gt;_imageList.Type">
+    <value xml:space="preserve">System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">AdvisorDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ruleset" targetNamespace="http://tempuri.org/XMLFile1.xsd" xmlns:mstns="http://tempuri.org/XMLFile1.xsd" xmlns="http://tempuri.org/XMLFile1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:simpleType name="ResourceType">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:simpleType name="GlobalCulture">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:element name="Ruleset" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="Ruleset" msprop:Generator_DataSetName="Ruleset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Unit" msprop:Generator_UserTableName="Unit" msprop:Generator_RowDeletedName="UnitDeleted" msprop:typedName="Unit" msprop:Generator_RowChangedName="UnitChanged" msprop:Generator_RowClassName="Unit" msprop:Generator_RowChangingName="UnitChanging" msprop:typedPlural="Units" msprop:Generator_RowEvArgName="UnitChangeEvent" msprop:Generator_RowEvHandlerName="UnitChangeEventHandler" msprop:Generator_TableClassName="UnitsDataTable" msprop:Generator_TableVarName="tableUnits" msprop:Generator_RowDeletingName="UnitDeleting" msprop:Generator_TablePropName="Units">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UnitID" msprop:Generator_ColumnPropNameInRow="UnitID" msprop:Generator_ColumnVarNameInTable="columnUnitID" msprop:Generator_ColumnPropNameInTable="UnitIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Cost" msprop:Generator_UserColumnName="Cost" msprop:Generator_ColumnPropNameInRow="Cost" msprop:Generator_ColumnVarNameInTable="columnCost" msprop:Generator_ColumnPropNameInTable="CostColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Attack" msprop:Generator_UserColumnName="Attack" msprop:Generator_ColumnPropNameInRow="Attack" msprop:Generator_ColumnVarNameInTable="columnAttack" msprop:Generator_ColumnPropNameInTable="AttackColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Defense" msprop:Generator_UserColumnName="Defense" msprop:Generator_ColumnPropNameInRow="Defense" msprop:Generator_ColumnVarNameInTable="columnDefense" msprop:Generator_ColumnPropNameInTable="DefenseColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Movement" msprop:Generator_UserColumnName="Movement" msprop:Generator_ColumnPropNameInRow="Movement" msprop:Generator_ColumnVarNameInTable="columnMovement" msprop:Generator_ColumnPropNameInTable="MovementColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Bombardment" msprop:Generator_UserColumnName="Bombardment" msprop:Generator_ColumnPropNameInRow="Bombardment" msprop:Generator_ColumnVarNameInTable="columnBombardment" msprop:Generator_ColumnPropNameInTable="BombardmentColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="BombardmentRange" msprop:Generator_UserColumnName="BombardmentRange" msprop:Generator_ColumnPropNameInRow="BombardmentRange" msprop:Generator_ColumnVarNameInTable="columnBombardmentRange" msprop:Generator_ColumnPropNameInTable="BombardmentRangeColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="RateOfFire" msprop:Generator_UserColumnName="RateOfFire" msprop:Generator_ColumnPropNameInRow="RateOfFire" msprop:Generator_ColumnVarNameInTable="columnRateOfFire" msprop:Generator_ColumnPropNameInTable="RateOfFireColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CanSettle" msprop:Generator_UserColumnName="CanSettle" msprop:Generator_ColumnPropNameInRow="CanSettle" msprop:Generator_ColumnVarNameInTable="columnCanSettle" msprop:Generator_ColumnPropNameInTable="CanSettleColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="CanWork" msprop:Generator_UserColumnName="CanWork" msprop:Generator_ColumnPropNameInRow="CanWork" msprop:Generator_ColumnVarNameInTable="columnCanWork" msprop:Generator_ColumnPropNameInTable="CanWorkColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="PopulationPoints" msprop:Generator_UserColumnName="PopulationPoints" msprop:Generator_ColumnPropNameInRow="PopulationPoints" msprop:Generator_ColumnVarNameInTable="columnPopulationPoints" msprop:Generator_ColumnPropNameInTable="PopulationPointsColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CanMergeWithCity" msprop:Generator_UserColumnName="CanMergeWithCity" msprop:Generator_ColumnPropNameInRow="CanMergeWithCity" msprop:Generator_ColumnVarNameInTable="columnCanMergeWithCity" msprop:Generator_ColumnPropNameInTable="CanMergeWithCityColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Upgrade" msprop:Generator_UserColumnName="Upgrade" msprop:Generator_ColumnPropNameInRow="Upgrade" msprop:Generator_ColumnVarNameInTable="columnUpgrade" msprop:Generator_ColumnPropNameInTable="UpgradeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrecisionBombardment" msprop:Generator_UserColumnName="PrecisionBombardment" msprop:Generator_ColumnPropNameInRow="PrecisionBombardment" msprop:Generator_ColumnVarNameInTable="columnPrecisionBombardment" msprop:Generator_ColumnPropNameInTable="PrecisionBombardmentColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="TechnologyID" msprop:Generator_UserColumnName="TechnologyID" msprop:Generator_ColumnPropNameInRow="TechnologyID" msprop:Generator_ColumnVarNameInTable="columnTechnologyID" msprop:Generator_ColumnPropNameInTable="TechnologyIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Government" msprop:Generator_UserTableName="Government" msprop:Generator_RowDeletedName="GovernmentDeleted" msprop:typedName="Government" msprop:Generator_RowChangedName="GovernmentChanged" msprop:Generator_RowClassName="Government" msprop:Generator_RowChangingName="GovernmentChanging" msprop:typedPlural="Governments" msprop:Generator_RowEvArgName="GovernmentChangeEvent" msprop:Generator_RowEvHandlerName="GovernmentChangeEventHandler" msprop:Generator_TableClassName="GovernmentsDataTable" msprop:Generator_TableVarName="tableGovernments" msprop:Generator_RowDeletingName="GovernmentDeleting" msprop:Generator_TablePropName="Governments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GovernmentID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="GovernmentID" msprop:Generator_ColumnPropNameInRow="GovernmentID" msprop:Generator_ColumnVarNameInTable="columnGovernmentID" msprop:Generator_ColumnPropNameInTable="GovernmentIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsFallback" msprop:Generator_UserColumnName="IsFallback" msprop:Generator_ColumnPropNameInRow="IsFallback" msprop:Generator_ColumnVarNameInTable="columnIsFallback" msprop:Generator_ColumnPropNameInTable="IsFallbackColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="LeaderTitle" msprop:Generator_UserColumnName="LeaderTitle" msprop:Generator_ColumnPropNameInRow="LeaderTitle" msprop:Generator_ColumnVarNameInTable="columnLeaderTitle" msprop:Generator_ColumnPropNameInTable="LeaderTitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkerEfficiencyFactor" msprop:Generator_UserColumnName="WorkerEfficiencyFactor" msprop:Generator_ColumnPropNameInRow="WorkerEfficiencyFactor" msprop:Generator_ColumnVarNameInTable="columnWorkerEfficiencyFactor" msprop:Generator_ColumnPropNameInTable="WorkerEfficiencyFactorColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="CorruptionFactor" msprop:Generator_UserColumnName="CorruptionFactor" msprop:Generator_ColumnPropNameInRow="CorruptionFactor" msprop:Generator_ColumnVarNameInTable="columnCorruptionFactor" msprop:Generator_ColumnPropNameInTable="CorruptionFactorColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="IsPrimary" msprop:Generator_UserColumnName="IsPrimary" msprop:Generator_ColumnPropNameInRow="IsPrimary" msprop:Generator_ColumnVarNameInTable="columnIsPrimary" msprop:Generator_ColumnPropNameInTable="IsPrimaryColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="FreeTownUnits" msprop:Generator_UserColumnName="FreeTownUnits" msprop:Generator_ColumnPropNameInRow="FreeTownUnits" msprop:Generator_ColumnVarNameInTable="columnFreeTownUnits" msprop:Generator_ColumnPropNameInTable="FreeTownUnitsColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="FreeCityUnits" msprop:Generator_UserColumnName="FreeCityUnits" msprop:Generator_ColumnPropNameInRow="FreeCityUnits" msprop:Generator_ColumnVarNameInTable="columnFreeCityUnits" msprop:Generator_ColumnPropNameInTable="FreeCityUnitsColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="FreeMetropolisUnits" msprop:Generator_UserColumnName="FreeMetropolisUnits" msprop:Generator_ColumnPropNameInRow="FreeMetropolisUnits" msprop:Generator_ColumnVarNameInTable="columnFreeMetropolisUnits" msprop:Generator_ColumnPropNameInTable="FreeMetropolisUnitsColumn" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Resource" msprop:Generator_UserTableName="Resource" msprop:Generator_RowDeletedName="ResourceDeleted" msprop:typedName="Resource" msprop:Generator_RowChangedName="ResourceChanged" msprop:Generator_RowClassName="Resource" msprop:Generator_RowChangingName="ResourceChanging" msprop:typedPlural="Resources" msprop:Generator_RowEvArgName="ResourceChangeEvent" msprop:Generator_RowEvHandlerName="ResourceChangeEventHandler" msprop:Generator_TableClassName="ResourcesDataTable" msprop:Generator_TableVarName="tableResources" msprop:Generator_RowDeletingName="ResourceDeleting" msprop:Generator_TablePropName="Resources">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ResourceID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ResourceID" msprop:Generator_ColumnPropNameInRow="ResourceID" msprop:Generator_ColumnVarNameInTable="columnResourceID" msprop:Generator_ColumnPropNameInTable="ResourceIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Food" msprop:Generator_UserColumnName="Food" msprop:Generator_ColumnPropNameInRow="Food" msprop:Generator_ColumnVarNameInTable="columnFood" msprop:Generator_ColumnPropNameInTable="FoodColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Shields" msprop:Generator_UserColumnName="Shields" msprop:Generator_ColumnPropNameInRow="Shields" msprop:Generator_ColumnVarNameInTable="columnShields" msprop:Generator_ColumnPropNameInTable="ShieldsColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Commerce" msprop:Generator_UserColumnName="Commerce" msprop:Generator_ColumnPropNameInRow="Commerce" msprop:Generator_ColumnVarNameInTable="columnCommerce" msprop:Generator_ColumnPropNameInTable="CommerceColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ResourceType" msprop:Generator_UserColumnName="ResourceType" msprop:Generator_ColumnPropNameInRow="ResourceType" msprop:Generator_ColumnVarNameInTable="columnResourceType" msprop:Generator_ColumnPropNameInTable="ResourceTypeColumn" type="mstns:ResourceType" minOccurs="0" />
+              <xs:element name="IsRailroadPrerequisite" msprop:Generator_UserColumnName="IsRailroadPrerequisite" msprop:Generator_ColumnPropNameInRow="IsRailroadPrerequisite" msprop:Generator_ColumnVarNameInTable="columnIsRailroadPrerequisite" msprop:Generator_ColumnPropNameInTable="IsRailroadPrerequisiteColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Terrain" msprop:Generator_UserTableName="Terrain" msprop:Generator_RowDeletedName="TerrainDeleted" msprop:typedName="Terrain" msprop:Generator_RowChangedName="TerrainChanged" msprop:Generator_RowClassName="Terrain" msprop:Generator_RowChangingName="TerrainChanging" msprop:typedPlural="Terrains" msprop:Generator_RowEvArgName="TerrainChangeEvent" msprop:Generator_RowEvHandlerName="TerrainChangeEventHandler" msprop:Generator_TableClassName="TerrainsDataTable" msprop:Generator_TableVarName="tableTerrains" msprop:Generator_RowDeletingName="TerrainDeleting" msprop:Generator_TablePropName="Terrains">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TerrainID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="TerrainID" msprop:Generator_ColumnPropNameInRow="TerrainID" msprop:Generator_ColumnVarNameInTable="columnTerrainID" msprop:Generator_ColumnPropNameInTable="TerrainIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Food" msprop:Generator_UserColumnName="Food" msprop:Generator_ColumnPropNameInRow="Food" msprop:Generator_ColumnVarNameInTable="columnFood" msprop:Generator_ColumnPropNameInTable="FoodColumn" type="xs:int" default="0" />
+              <xs:element name="Shields" msprop:Generator_UserColumnName="Shields" msprop:Generator_ColumnPropNameInRow="Shields" msprop:Generator_ColumnVarNameInTable="columnShields" msprop:Generator_ColumnPropNameInTable="ShieldsColumn" type="xs:int" default="0" />
+              <xs:element name="Commerce" msprop:Generator_UserColumnName="Commerce" msprop:Generator_ColumnPropNameInRow="Commerce" msprop:Generator_ColumnVarNameInTable="columnCommerce" msprop:Generator_ColumnPropNameInTable="CommerceColumn" type="xs:int" default="0" />
+              <xs:element name="MoveCost" msprop:Generator_UserColumnName="MoveCost" msprop:Generator_ColumnPropNameInRow="MoveCost" msprop:Generator_ColumnVarNameInTable="columnMoveCost" msprop:Generator_ColumnPropNameInTable="MoveCostColumn" type="xs:int" default="0" />
+              <xs:element name="Defense" msprop:Generator_UserColumnName="Defense" msprop:Generator_ColumnPropNameInRow="Defense" msprop:Generator_ColumnVarNameInTable="columnDefense" msprop:Generator_ColumnPropNameInTable="DefenseColumn" type="xs:int" default="0" />
+              <xs:element name="IrrigationBonus" msprop:Generator_UserColumnName="IrrigationBonus" msprop:Generator_ColumnPropNameInRow="IrrigationBonus" msprop:Generator_ColumnVarNameInTable="columnIrrigationBonus" msprop:Generator_ColumnPropNameInTable="IrrigationBonusColumn" type="xs:int" default="0" />
+              <xs:element name="MiningBonus" msprop:Generator_UserColumnName="MiningBonus" msprop:Generator_ColumnPropNameInRow="MiningBonus" msprop:Generator_ColumnVarNameInTable="columnMiningBonus" msprop:Generator_ColumnPropNameInTable="MiningBonusColumn" type="xs:int" default="0" />
+              <xs:element name="RoadBonus" msprop:Generator_UserColumnName="RoadBonus" msprop:Generator_ColumnPropNameInRow="RoadBonus" msprop:Generator_ColumnVarNameInTable="columnRoadBonus" msprop:Generator_ColumnPropNameInTable="RoadBonusColumn" type="xs:int" default="0" />
+              <xs:element name="IsDry" msprop:Generator_UserColumnName="IsDry" msprop:Generator_ColumnPropNameInRow="IsDry" msprop:Generator_ColumnVarNameInTable="columnIsDry" msprop:Generator_ColumnPropNameInTable="IsDryColumn" type="xs:boolean" default="false" />
+              <xs:element name="Visibility" msprop:Generator_UserColumnName="Visibility" msprop:Generator_ColumnPropNameInRow="Visibility" msprop:Generator_ColumnVarNameInTable="columnVisibility" msprop:Generator_ColumnPropNameInTable="VisibilityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MinimumElevation" msprop:Generator_UserColumnName="MinimumElevation" msprop:Generator_ColumnPropNameInRow="MinimumElevation" msprop:Generator_ColumnVarNameInTable="columnMinimumElevation" msprop:Generator_ColumnPropNameInTable="MinimumElevationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MaximumElevation" msprop:Generator_UserColumnName="MaximumElevation" msprop:Generator_ColumnPropNameInRow="MaximumElevation" msprop:Generator_ColumnVarNameInTable="columnMaximumElevation" msprop:Generator_ColumnPropNameInTable="MaximumElevationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MinimumTemperature" msprop:Generator_UserColumnName="MinimumTemperature" msprop:Generator_ColumnPropNameInRow="MinimumTemperature" msprop:Generator_ColumnVarNameInTable="columnMinimumTemperature" msprop:Generator_ColumnPropNameInTable="MinimumTemperatureColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MaximumTemperature" msprop:Generator_UserColumnName="MaximumTemperature" msprop:Generator_ColumnPropNameInRow="MaximumTemperature" msprop:Generator_ColumnVarNameInTable="columnMaximumTemperature" msprop:Generator_ColumnPropNameInTable="MaximumTemperatureColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MinimumRainfall" msprop:Generator_UserColumnName="MinimumRainfall" msprop:Generator_ColumnPropNameInRow="MinimumRainfall" msprop:Generator_ColumnVarNameInTable="columnMinimumRainfall" msprop:Generator_ColumnPropNameInTable="MinimumRainfallColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MaximumRainfall" msprop:Generator_UserColumnName="MaximumRainfall" msprop:Generator_ColumnPropNameInRow="MaximumRainfall" msprop:Generator_ColumnVarNameInTable="columnMaximumRainfall" msprop:Generator_ColumnPropNameInTable="MaximumRainfallColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MustBorderRiver" msprop:Generator_UserColumnName="MustBorderRiver" msprop:Generator_ColumnPropNameInRow="MustBorderRiver" msprop:Generator_ColumnVarNameInTable="columnMustBorderRiver" msprop:Generator_ColumnPropNameInTable="MustBorderRiverColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Improvement" msprop:Generator_UserTableName="Improvement" msprop:Generator_RowDeletedName="ImprovementDeleted" msprop:typedName="Improvement" msprop:Generator_RowChangedName="ImprovementChanged" msprop:Generator_RowClassName="Improvement" msprop:Generator_RowChangingName="ImprovementChanging" msprop:typedPlural="Improvements" msprop:Generator_RowEvArgName="ImprovementChangeEvent" msprop:Generator_RowEvHandlerName="ImprovementChangeEventHandler" msprop:Generator_TableClassName="ImprovementsDataTable" msprop:Generator_TableVarName="tableImprovements" msprop:Generator_RowDeletingName="ImprovementDeleting" msprop:Generator_TablePropName="Improvements">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImprovementID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ImprovementID" msprop:Generator_ColumnPropNameInRow="ImprovementID" msprop:Generator_ColumnVarNameInTable="columnImprovementID" msprop:Generator_ColumnPropNameInTable="ImprovementIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BuildCost" msprop:Generator_UserColumnName="BuildCost" msprop:Generator_ColumnPropNameInRow="BuildCost" msprop:Generator_ColumnVarNameInTable="columnBuildCost" msprop:Generator_ColumnPropNameInTable="BuildCostColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MaintenanceCost" msprop:Generator_UserColumnName="MaintenanceCost" msprop:Generator_ColumnPropNameInRow="MaintenanceCost" msprop:Generator_ColumnVarNameInTable="columnMaintenanceCost" msprop:Generator_ColumnPropNameInTable="MaintenanceCostColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Culture" msprop:Generator_UserColumnName="Culture" msprop:Generator_ColumnPropNameInRow="Culture" msprop:Generator_ColumnVarNameInTable="columnCulture" msprop:Generator_ColumnPropNameInTable="CultureColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Pollution" msprop:Generator_UserColumnName="Pollution" msprop:Generator_ColumnPropNameInRow="Pollution" msprop:Generator_ColumnVarNameInTable="columnPollution" msprop:Generator_ColumnPropNameInTable="PollutionColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Civilization" msprop:Generator_UserTableName="Civilization" msprop:Generator_RowDeletedName="CivilizationDeleted" msprop:typedName="Civilization" msprop:Generator_RowChangedName="CivilizationChanged" msprop:Generator_RowClassName="Civilization" msprop:Generator_RowChangingName="CivilizationChanging" msprop:typedPlural="Civilizations" msprop:Generator_RowEvArgName="CivilizationChangeEvent" msprop:Generator_RowEvHandlerName="CivilizationChangeEventHandler" msprop:Generator_TableClassName="CivilizationsDataTable" msprop:Generator_TableVarName="tableCivilizations" msprop:Generator_RowDeletingName="CivilizationDeleting" msprop:Generator_TablePropName="Civilizations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CivilizationID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="CivilizationID" msprop:Generator_ColumnPropNameInRow="CivilizationID" msprop:Generator_ColumnVarNameInTable="columnCivilizationID" msprop:Generator_ColumnPropNameInTable="CivilizationIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Noun" msprop:Generator_UserColumnName="Noun" msprop:Generator_ColumnPropNameInRow="Noun" msprop:Generator_ColumnVarNameInTable="columnNoun" msprop:Generator_ColumnPropNameInTable="NounColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Adjective" msprop:Generator_UserColumnName="Adjective" msprop:Generator_ColumnPropNameInRow="Adjective" msprop:Generator_ColumnVarNameInTable="columnAdjective" msprop:Generator_ColumnPropNameInTable="AdjectiveColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LeaderName" msprop:Generator_UserColumnName="LeaderName" msprop:Generator_ColumnPropNameInRow="LeaderName" msprop:Generator_ColumnVarNameInTable="columnLeaderName" msprop:Generator_ColumnPropNameInTable="LeaderNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Commercial" msprop:Generator_UserColumnName="Commercial" msprop:Generator_ColumnPropNameInRow="Commercial" msprop:Generator_ColumnVarNameInTable="columnCommercial" msprop:Generator_ColumnPropNameInTable="CommercialColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Expansionist" msprop:Generator_UserColumnName="Expansionist" msprop:Generator_ColumnPropNameInRow="Expansionist" msprop:Generator_ColumnVarNameInTable="columnExpansionist" msprop:Generator_ColumnPropNameInTable="ExpansionistColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Industrious" msprop:Generator_UserColumnName="Industrious" msprop:Generator_ColumnPropNameInRow="Industrious" msprop:Generator_ColumnVarNameInTable="columnIndustrious" msprop:Generator_ColumnPropNameInTable="IndustriousColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Militaristic" msprop:Generator_UserColumnName="Militaristic" msprop:Generator_ColumnPropNameInRow="Militaristic" msprop:Generator_ColumnVarNameInTable="columnMilitaristic" msprop:Generator_ColumnPropNameInTable="MilitaristicColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Religious" msprop:Generator_UserColumnName="Religious" msprop:Generator_ColumnPropNameInRow="Religious" msprop:Generator_ColumnVarNameInTable="columnReligious" msprop:Generator_ColumnPropNameInTable="ReligiousColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="Scientific" msprop:Generator_UserColumnName="Scientific" msprop:Generator_ColumnPropNameInRow="Scientific" msprop:Generator_ColumnVarNameInTable="columnScientific" msprop:Generator_ColumnPropNameInTable="ScientificColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="GlobalCulture" msprop:Generator_UserColumnName="GlobalCulture" msprop:Generator_ColumnPropNameInRow="GlobalCulture" msprop:Generator_ColumnVarNameInTable="columnGlobalCulture" msprop:Generator_ColumnPropNameInTable="GlobalCultureColumn" type="mstns:GlobalCulture" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Era" msprop:Generator_UserTableName="Era" msprop:Generator_RowDeletedName="EraDeleted" msprop:typedName="Era" msprop:Generator_RowChangedName="EraChanged" msprop:Generator_RowClassName="Era" msprop:Generator_RowChangingName="EraChanging" msprop:typedPlural="Eras" msprop:Generator_RowEvArgName="EraChangeEvent" msprop:Generator_RowEvHandlerName="EraChangeEventHandler" msprop:Generator_TableClassName="ErasDataTable" msprop:Generator_TableVarName="tableEras" msprop:Generator_RowDeletingName="EraDeleting" msprop:Generator_TablePropName="Eras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EraID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="EraID" msprop:Generator_ColumnPropNameInRow="EraID" msprop:Generator_ColumnVarNameInTable="columnEraID" msprop:Generator_ColumnPropNameInTable="EraIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NextEraID" msprop:Generator_UserColumnName="NextEraID" msprop:Generator_ColumnPropNameInRow="NextEraID" msprop:Generator_ColumnVarNameInTable="columnNextEraID" msprop:Generator_ColumnPropNameInTable="NextEraIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="IsFirstEra" msprop:Generator_UserColumnName="IsFirstEra" msprop:Generator_ColumnPropNameInRow="IsFirstEra" msprop:Generator_ColumnVarNameInTable="columnIsFirstEra" msprop:Generator_ColumnPropNameInTable="IsFirstEraColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Technology" msprop:Generator_UserTableName="Technology" msprop:Generator_RowDeletedName="TechnologyDeleted" msprop:typedName="Technology" msprop:Generator_RowChangedName="TechnologyChanged" msprop:Generator_RowClassName="Technology" msprop:Generator_RowChangingName="TechnologyChanging" msprop:typedPlural="Technologies" msprop:Generator_RowEvArgName="TechnologyChangeEvent" msprop:Generator_RowEvHandlerName="TechnologyChangeEventHandler" msprop:Generator_TableClassName="TechnologiesDataTable" msprop:Generator_TableVarName="tableTechnologies" msprop:Generator_RowDeletingName="TechnologyDeleting" msprop:Generator_TablePropName="Technologies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TechnologyID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="TechnologyID" msprop:Generator_ColumnPropNameInRow="TechnologyID" msprop:Generator_ColumnVarNameInTable="columnTechnologyID" msprop:Generator_ColumnPropNameInTable="TechnologyIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ResearchUnits" msprop:Generator_UserColumnName="ResearchUnits" msprop:Generator_ColumnPropNameInRow="ResearchUnits" msprop:Generator_ColumnVarNameInTable="columnResearchUnits" msprop:Generator_ColumnPropNameInTable="ResearchUnitsColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="EraID" msprop:Generator_UserColumnName="EraID" msprop:Generator_ColumnPropNameInRow="EraID" msprop:Generator_ColumnVarNameInTable="columnEraID" msprop:Generator_ColumnPropNameInTable="EraIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RequiredForNextEra" msprop:Generator_UserColumnName="RequiredForNextEra" msprop:Generator_ColumnPropNameInRow="RequiredForNextEra" msprop:Generator_ColumnVarNameInTable="columnRequiredForNextEra" msprop:Generator_ColumnPropNameInTable="RequiredForNextEraColumn" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="RequiredForEspionage" msprop:Generator_UserColumnName="RequiredForEspionage" msprop:Generator_ColumnVarNameInTable="columnRequiredForEspionage" msprop:Generator_ColumnPropNameInRow="RequiredForEspionage" msprop:Generator_ColumnPropNameInTable="RequiredForEspionageColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MetaData" msprop:Generator_UserTableName="MetaData" msprop:Generator_RowDeletedName="MetaDataRowDeleted" msprop:Generator_RowChangedName="MetaDataRowChanged" msprop:Generator_RowClassName="MetaDataRow" msprop:Generator_RowChangingName="MetaDataRowChanging" msprop:Generator_RowEvArgName="MetaDataRowChangeEvent" msprop:Generator_RowEvHandlerName="MetaDataRowChangeEventHandler" msprop:Generator_TableClassName="MetaDataDataTable" msprop:Generator_TableVarName="tableMetaData" msprop:Generator_RowDeletingName="MetaDataRowDeleting" msprop:Generator_TablePropName="MetaData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MetaDataId" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="MetaDataId" msprop:Generator_ColumnPropNameInRow="MetaDataId" msprop:Generator_ColumnVarNameInTable="columnMetaDataId" msprop:Generator_ColumnPropNameInTable="MetaDataIdColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" default="New Ruleset" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner" msprop:Generator_UserColumnName="Owner" msprop:Generator_ColumnPropNameInRow="Owner" msprop:Generator_ColumnVarNameInTable="columnOwner" msprop:Generator_ColumnPropNameInTable="OwnerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Client" msprop:Generator_UserColumnName="Client" msprop:Generator_ColumnPropNameInRow="Client" msprop:Generator_ColumnVarNameInTable="columnClient" msprop:Generator_ColumnPropNameInTable="ClientColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Path" msprop:Generator_UserColumnName="Path" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnVarNameInTable="columnPath" msprop:Generator_ColumnPropNameInTable="PathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="File" msprop:Generator_UserColumnName="File" msprop:Generator_ColumnPropNameInRow="File" msprop:Generator_ColumnVarNameInTable="columnFile" msprop:Generator_ColumnPropNameInTable="FileColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MapType" msprop:Generator_UserColumnName="MapType" msprop:Generator_ColumnPropNameInRow="MapType" msprop:Generator_ColumnVarNameInTable="columnMapType" msprop:Generator_ColumnPropNameInTable="MapTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UnitResources" msprop:Generator_UserTableName="UnitResources" msprop:Generator_RowDeletedName="UnitResourcesRowDeleted" msprop:Generator_RowChangedName="UnitResourcesRowChanged" msprop:Generator_RowClassName="UnitResourcesRow" msprop:Generator_RowChangingName="UnitResourcesRowChanging" msprop:Generator_RowEvArgName="UnitResourcesRowChangeEvent" msprop:Generator_RowEvHandlerName="UnitResourcesRowChangeEventHandler" msprop:Generator_TableClassName="UnitResourcesDataTable" msprop:Generator_TableVarName="tableUnitResources" msprop:Generator_RowDeletingName="UnitResourcesRowDeleting" msprop:Generator_TablePropName="UnitResources">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitID" msprop:Generator_UserColumnName="UnitID" msprop:Generator_ColumnPropNameInRow="UnitID" msprop:Generator_ColumnVarNameInTable="columnUnitID" msprop:Generator_ColumnPropNameInTable="UnitIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ResourceID" msprop:Generator_UserColumnName="ResourceID" msprop:Generator_ColumnPropNameInRow="ResourceID" msprop:Generator_ColumnVarNameInTable="columnResourceID" msprop:Generator_ColumnPropNameInTable="ResourceIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ResourceTerrains" msprop:Generator_UserTableName="ResourceTerrains" msprop:Generator_RowDeletedName="ResourceTerrainsRowDeleted" msprop:Generator_RowChangedName="ResourceTerrainsRowChanged" msprop:Generator_RowClassName="ResourceTerrainsRow" msprop:Generator_RowChangingName="ResourceTerrainsRowChanging" msprop:Generator_RowEvArgName="ResourceTerrainsRowChangeEvent" msprop:Generator_RowEvHandlerName="ResourceTerrainsRowChangeEventHandler" msprop:Generator_TableClassName="ResourceTerrainsDataTable" msprop:Generator_TableVarName="tableResourceTerrains" msprop:Generator_RowDeletingName="ResourceTerrainsRowDeleting" msprop:Generator_TablePropName="ResourceTerrains">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ResourceID" msprop:Generator_UserColumnName="ResourceID" msprop:Generator_ColumnPropNameInRow="ResourceID" msprop:Generator_ColumnVarNameInTable="columnResourceID" msprop:Generator_ColumnPropNameInTable="ResourceIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TerrainID" msprop:Generator_UserColumnName="TerrainID" msprop:Generator_ColumnPropNameInRow="TerrainID" msprop:Generator_ColumnVarNameInTable="columnTerrainID" msprop:Generator_ColumnPropNameInTable="TerrainIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ImprovementRequiredTechnology" msprop:Generator_UserTableName="ImprovementRequiredTechnology" msprop:Generator_RowDeletedName="ImprovementRequiredTechnologyRowDeleted" msprop:Generator_RowChangedName="ImprovementRequiredTechnologyRowChanged" msprop:Generator_RowClassName="ImprovementRequiredTechnologyRow" msprop:Generator_RowChangingName="ImprovementRequiredTechnologyRowChanging" msprop:Generator_RowEvArgName="ImprovementRequiredTechnologyRowChangeEvent" msprop:Generator_RowEvHandlerName="ImprovementRequiredTechnologyRowChangeEventHandler" msprop:Generator_TableClassName="ImprovementRequiredTechnologyDataTable" msprop:Generator_TableVarName="tableImprovementRequiredTechnology" msprop:Generator_RowDeletingName="ImprovementRequiredTechnologyRowDeleting" msprop:Generator_TablePropName="ImprovementRequiredTechnology">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImprovementID" msprop:Generator_UserColumnName="ImprovementID" msprop:Generator_ColumnPropNameInRow="ImprovementID" msprop:Generator_ColumnVarNameInTable="columnImprovementID" msprop:Generator_ColumnPropNameInTable="ImprovementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TechnologyID" msprop:Generator_UserColumnName="TechnologyID" msprop:Generator_ColumnPropNameInRow="TechnologyID" msprop:Generator_ColumnVarNameInTable="columnTechnologyID" msprop:Generator_ColumnPropNameInTable="TechnologyIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ImprovementRequiredResource" msprop:Generator_UserTableName="ImprovementRequiredResource" msprop:Generator_RowDeletedName="ImprovementRequiredResourceRowDeleted" msprop:Generator_RowChangedName="ImprovementRequiredResourceRowChanged" msprop:Generator_RowClassName="ImprovementRequiredResourceRow" msprop:Generator_RowChangingName="ImprovementRequiredResourceRowChanging" msprop:Generator_RowEvArgName="ImprovementRequiredResourceRowChangeEvent" msprop:Generator_RowEvHandlerName="ImprovementRequiredResourceRowChangeEventHandler" msprop:Generator_TableClassName="ImprovementRequiredResourceDataTable" msprop:Generator_TableVarName="tableImprovementRequiredResource" msprop:Generator_RowDeletingName="ImprovementRequiredResourceRowDeleting" msprop:Generator_TablePropName="ImprovementRequiredResource">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImprovementID" msprop:Generator_UserColumnName="ImprovementID" msprop:Generator_ColumnPropNameInRow="ImprovementID" msprop:Generator_ColumnVarNameInTable="columnImprovementID" msprop:Generator_ColumnPropNameInTable="ImprovementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TechnologyID" msprop:Generator_UserColumnName="TechnologyID" msprop:Generator_ColumnPropNameInRow="TechnologyID" msprop:Generator_ColumnVarNameInTable="columnTechnologyID" msprop:Generator_ColumnPropNameInTable="TechnologyIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ImprovementRequiredImprovement" msprop:Generator_UserTableName="ImprovementRequiredImprovement" msprop:Generator_RowDeletedName="ImprovementRequiredImprovementRowDeleted" msprop:Generator_RowChangedName="ImprovementRequiredImprovementRowChanged" msprop:Generator_RowClassName="ImprovementRequiredImprovementRow" msprop:Generator_RowChangingName="ImprovementRequiredImprovementRowChanging" msprop:Generator_RowEvArgName="ImprovementRequiredImprovementRowChangeEvent" msprop:Generator_RowEvHandlerName="ImprovementRequiredImprovementRowChangeEventHandler" msprop:Generator_TableClassName="ImprovementRequiredImprovementDataTable" msprop:Generator_TableVarName="tableImprovementRequiredImprovement" msprop:Generator_RowDeletingName="ImprovementRequiredImprovementRowDeleting" msprop:Generator_TablePropName="ImprovementRequiredImprovement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImprovementID" msprop:Generator_UserColumnName="ImprovementID" msprop:Generator_ColumnPropNameInRow="ImprovementID" msprop:Generator_ColumnVarNameInTable="columnImprovementID" msprop:Generator_ColumnPropNameInTable="ImprovementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RequiredImprovementID" msprop:Generator_UserColumnName="RequiredImprovementID" msprop:Generator_ColumnPropNameInRow="RequiredImprovementID" msprop:Generator_ColumnVarNameInTable="columnRequiredImprovementID" msprop:Generator_ColumnPropNameInTable="RequiredImprovementIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CityName" msprop:Generator_UserTableName="CityName" msprop:Generator_RowDeletedName="CityNameRowDeleted" msprop:Generator_RowChangedName="CityNameRowChanged" msprop:Generator_RowClassName="CityNameRow" msprop:Generator_RowChangingName="CityNameRowChanging" msprop:Generator_RowEvArgName="CityNameRowChangeEvent" msprop:Generator_RowEvHandlerName="CityNameRowChangeEventHandler" msprop:Generator_TableClassName="CityNameDataTable" msprop:Generator_TableVarName="tableCityName" msprop:Generator_RowDeletingName="CityNameRowDeleting" msprop:Generator_TablePropName="CityName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CityNameID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="CityNameID" msprop:Generator_ColumnPropNameInRow="CityNameID" msprop:Generator_ColumnVarNameInTable="columnCityNameID" msprop:Generator_ColumnPropNameInTable="CityNameIDColumn" type="xs:int" />
+              <xs:element name="CivilizationID" msprop:Generator_UserColumnName="CivilizationID" msprop:Generator_ColumnPropNameInRow="CivilizationID" msprop:Generator_ColumnVarNameInTable="columnCivilizationID" msprop:Generator_ColumnPropNameInTable="CivilizationIDColumn" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Researcher" msprop:Generator_UserTableName="Researcher" msprop:Generator_RowDeletedName="ResearcherRowDeleted" msprop:Generator_RowChangedName="ResearcherRowChanged" msprop:Generator_RowClassName="ResearcherRow" msprop:Generator_RowChangingName="ResearcherRowChanging" msprop:Generator_RowEvArgName="ResearcherRowChangeEvent" msprop:Generator_RowEvHandlerName="ResearcherRowChangeEventHandler" msprop:Generator_TableClassName="ResearcherDataTable" msprop:Generator_TableVarName="tableResearcher" msprop:Generator_RowDeletingName="ResearcherRowDeleting" msprop:Generator_TablePropName="Researcher">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ResearcherID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="ResearcherID" msprop:Generator_ColumnPropNameInRow="ResearcherID" msprop:Generator_ColumnVarNameInTable="columnResearcherID" msprop:Generator_ColumnPropNameInTable="ResearcherIDColumn" type="xs:int" />
+              <xs:element name="EraID" msprop:Generator_UserColumnName="EraID" msprop:Generator_ColumnPropNameInRow="EraID" msprop:Generator_ColumnVarNameInTable="columnEraID" msprop:Generator_ColumnPropNameInTable="EraIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ResearcherName" msprop:Generator_UserColumnName="ResearcherName" msprop:Generator_ColumnPropNameInRow="ResearcherName" msprop:Generator_ColumnVarNameInTable="columnResearcherName" msprop:Generator_ColumnPropNameInTable="ResearcherNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CivilizationStartingTechnology" msprop:Generator_UserTableName="CivilizationStartingTechnology" msprop:Generator_RowDeletedName="CivilizationStartingTechnologyRowDeleted" msprop:Generator_RowChangedName="CivilizationStartingTechnologyRowChanged" msprop:Generator_RowClassName="CivilizationStartingTechnologyRow" msprop:Generator_RowChangingName="CivilizationStartingTechnologyRowChanging" msprop:Generator_RowEvArgName="CivilizationStartingTechnologyRowChangeEvent" msprop:Generator_RowEvHandlerName="CivilizationStartingTechnologyRowChangeEventHandler" msprop:Generator_TableClassName="CivilizationStartingTechnologyDataTable" msprop:Generator_TableVarName="tableCivilizationStartingTechnology" msprop:Generator_RowDeletingName="CivilizationStartingTechnologyRowDeleting" msprop:Generator_TablePropName="CivilizationStartingTechnology">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CivilizationID" msprop:Generator_UserColumnName="CivilizationID" msprop:Generator_ColumnPropNameInRow="CivilizationID" msprop:Generator_ColumnVarNameInTable="columnCivilizationID" msprop:Generator_ColumnPropNameInTable="CivilizationIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TechnologyID" msprop:Generator_UserColumnName="TechnologyID" msprop:Generator_ColumnPropNameInRow="TechnologyID" msprop:Generator_ColumnVarNameInTable="columnTechnologyID" msprop:Generator_ColumnPropNameInTable="TechnologyIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DefaultRules" msprop:Generator_UserTableName="DefaultRules" msprop:Generator_RowDeletedName="DefaultRulesRowDeleted" msprop:Generator_RowChangedName="DefaultRulesRowChanged" msprop:Generator_RowClassName="DefaultRulesRow" msprop:Generator_RowChangingName="DefaultRulesRowChanging" msprop:Generator_RowEvArgName="DefaultRulesRowChangeEvent" msprop:Generator_RowEvHandlerName="DefaultRulesRowChangeEventHandler" msprop:Generator_TableClassName="DefaultRulesDataTable" msprop:Generator_TableVarName="tableDefaultRules" msprop:Generator_RowDeletingName="DefaultRulesRowDeleting" msprop:Generator_TablePropName="DefaultRules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RuleID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="RuleID" msprop:Generator_ColumnPropNameInRow="RuleID" msprop:Generator_ColumnVarNameInTable="columnRuleID" msprop:Generator_ColumnPropNameInTable="RuleIDColumn" type="xs:int" />
+              <xs:element name="FoodPerCitizen" msprop:Generator_UserColumnName="FoodPerCitizen" msprop:Generator_ColumnPropNameInRow="FoodPerCitizen" msprop:Generator_ColumnVarNameInTable="columnFoodPerCitizen" msprop:Generator_ColumnPropNameInTable="FoodPerCitizenColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TownBinSize" msprop:Generator_UserColumnName="TownBinSize" msprop:Generator_ColumnPropNameInRow="TownBinSize" msprop:Generator_ColumnVarNameInTable="columnTownBinSize" msprop:Generator_ColumnPropNameInTable="TownBinSizeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CityBinSize" msprop:Generator_UserColumnName="CityBinSize" msprop:Generator_ColumnVarNameInTable="columnCityBinSize" msprop:Generator_ColumnPropNameInRow="CityBinSize" msprop:Generator_ColumnPropNameInTable="CityBinSizeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MetropolisBinSize" msprop:Generator_UserColumnName="MetropolisBinSize" msprop:Generator_ColumnVarNameInTable="columnMetropolisBinSize" msprop:Generator_ColumnPropNameInRow="MetropolisBinSize" msprop:Generator_ColumnPropNameInTable="MetropolisBinSizeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RoadMovementBonus" msprop:Generator_UserColumnName="RoadMovementBonus" msprop:Generator_ColumnVarNameInTable="columnRoadMovementBonus" msprop:Generator_ColumnPropNameInRow="RoadMovementBonus" msprop:Generator_ColumnPropNameInTable="RoadMovementBonusColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="pk_unit">
+      <xs:selector xpath=".//mstns:Unit" />
+      <xs:field xpath="mstns:UnitID" />
+    </xs:unique>
+    <xs:unique name="pk_government" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Government" />
+      <xs:field xpath="mstns:GovernmentID" />
+    </xs:unique>
+    <xs:unique name="pk_resource" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Resource" />
+      <xs:field xpath="mstns:ResourceID" />
+    </xs:unique>
+    <xs:unique name="pk_Terrain" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Terrain" />
+      <xs:field xpath="mstns:TerrainID" />
+    </xs:unique>
+    <xs:unique name="pk_improvement" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Improvement" />
+      <xs:field xpath="mstns:ImprovementID" />
+    </xs:unique>
+    <xs:unique name="pk_civilization" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Civilization" />
+      <xs:field xpath="mstns:CivilizationID" />
+    </xs:unique>
+    <xs:unique name="pk_era" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Era" />
+      <xs:field xpath="mstns:EraID" />
+    </xs:unique>
+    <xs:unique name="pk_technology" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Technology" />
+      <xs:field xpath="mstns:TechnologyID" />
+    </xs:unique>
+    <xs:unique name="pk_metadata" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MetaData" />
+      <xs:field xpath="mstns:MetaDataId" />
+    </xs:unique>
+    <xs:unique name="fk_improvment_required_improvement">
+      <xs:selector xpath=".//mstns:ImprovementRequiredImprovement" />
+      <xs:field xpath="mstns:RequiredImprovementID" />
+    </xs:unique>
+    <xs:unique name="pk_cityname" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CityName" />
+      <xs:field xpath="mstns:CityNameID" />
+    </xs:unique>
+    <xs:unique name="pk_researcher" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Researcher" />
+      <xs:field xpath="mstns:ResearcherID" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:DefaultRules" />
+      <xs:field xpath="mstns:RuleID" />
+    </xs:unique>
+    <xs:keyref name="CivilizationCivilizationStartingTechnology" refer="pk_civilization" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:CivilizationStartingTechnology" />
+      <xs:field xpath="mstns:CivilizationID" />
+    </xs:keyref>
+    <xs:keyref name="EraResearcher" refer="pk_era" msprop:rel_Generator_UserRelationName="EraResearcher" msprop:rel_Generator_RelationVarName="relationEraResearcher" msprop:rel_Generator_UserChildTable="Researcher" msprop:rel_Generator_UserParentTable="Era" msprop:rel_Generator_ParentPropName="Era" msprop:rel_Generator_ChildPropName="GetResearcherRows">
+      <xs:selector xpath=".//mstns:Researcher" />
+      <xs:field xpath="mstns:EraID" />
+    </xs:keyref>
+    <xs:keyref name="CivilizationCityName" refer="pk_civilization" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:CityName" />
+      <xs:field xpath="mstns:CivilizationID" />
+    </xs:keyref>
+    <xs:keyref name="ImprovementImprovementRequiredImprovement" refer="pk_improvement" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:ImprovementRequiredImprovement" />
+      <xs:field xpath="mstns:ImprovementID" />
+    </xs:keyref>
+    <xs:keyref name="ImprovementImprovementRequiredResource" refer="pk_improvement" msprop:rel_Generator_UserRelationName="ImprovementImprovementRequiredResource" msprop:rel_Generator_RelationVarName="relationImprovementImprovementRequiredResource" msprop:rel_Generator_UserChildTable="ImprovementRequiredResource" msprop:rel_Generator_UserParentTable="Improvement" msprop:rel_Generator_ParentPropName="Improvement" msprop:rel_Generator_ChildPropName="GetImprovementRequiredResourceRows">
+      <xs:selector xpath=".//mstns:ImprovementRequiredResource" />
+      <xs:field xpath="mstns:ImprovementID" />
+    </xs:keyref>
+    <xs:keyref name="ImprovementImprovementRequiredTechnology" refer="pk_improvement" msprop:rel_Generator_UserRelationName="ImprovementImprovementRequiredTechnology" msprop:rel_Generator_RelationVarName="relationImprovementImprovementRequiredTechnology" msprop:rel_Generator_UserChildTable="ImprovementRequiredTechnology" msprop:rel_Generator_UserParentTable="Improvement" msprop:rel_Generator_ParentPropName="Improvement" msprop:rel_Generator_ChildPropName="GetImprovementRequiredTechnologyRows">
+      <xs:selector xpath=".//mstns:ImprovementRequiredTechnology" />
+      <xs:field xpath="mstns:ImprovementID" />
+    </xs:keyref>
+    <xs:keyref name="ResourceResourceTerrains" refer="pk_resource" msprop:rel_Generator_UserRelationName="ResourceResourceTerrains" msprop:rel_Generator_RelationVarName="relationResourceResourceTerrains" msprop:rel_Generator_UserChildTable="ResourceTerrains" msprop:rel_Generator_UserParentTable="Resource" msprop:rel_Generator_ParentPropName="Resource" msprop:rel_Generator_ChildPropName="GetResourceTerrainsRows">
+      <xs:selector xpath=".//mstns:ResourceTerrains" />
+      <xs:field xpath="mstns:ResourceID" />
+    </xs:keyref>
+    <xs:keyref name="UnitUnitResources" refer="pk_unit" msprop:rel_Generator_UserRelationName="UnitUnitResources" msprop:rel_Generator_RelationVarName="relationUnitUnitResources" msprop:rel_Generator_UserChildTable="UnitResources" msprop:rel_Generator_UserParentTable="Unit" msprop:rel_Generator_ParentPropName="Unit" msprop:rel_Generator_ChildPropName="GetUnitResourcesRows">
+      <xs:selector xpath=".//mstns:UnitResources" />
+      <xs:field xpath="mstns:UnitID" />
+    </xs:keyref>
+    <xs:keyref name="ResourceUnitResources" refer="pk_resource" msprop:rel_Generator_UserRelationName="ResourceUnitResources" msprop:rel_Generator_RelationVarName="relationResourceUnitResources" msprop:rel_Generator_UserChildTable="UnitResources" msprop:rel_Generator_UserParentTable="Resource" msprop:rel_Generator_ParentPropName="Resource" msprop:rel_Generator_ChildPropName="GetUnitResourcesRows">
+      <xs:selector xpath=".//mstns:UnitResources" />
+      <xs:field xpath="mstns:ResourceID" />
+    </xs:keyref>
+    <xs:keyref name="EraTechnology" refer="pk_era" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:Technology" />
+      <xs:field xpath="mstns:EraID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

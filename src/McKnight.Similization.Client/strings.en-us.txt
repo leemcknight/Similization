@@ -1,0 +1,116 @@
+;
+;	strings.en-us.txt
+;
+;	This file contains all of the string resources for the SimilizationClient.dll
+;	for the en-US culture.  This file should be used to create .resources files
+;	and satellite assemblies.
+;
+;
+
+;Game Title
+gameTitle=Similization
+
+;Game Start Server message
+gameStart=It is the year 4000 BC. Your ancestors were nomads. But over the generations your people have learned the secrets of farming, road-building, and irrigation, and they are ready to settle down.\n\n{0}, your people are {1} and {2} and have recently mastered {3}.\nThe people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!
+
+;Server start up
+serverStartup=Starting the server...
+
+;Server start up complete
+ServerStartupComplete=Sucessfully started the server.
+
+;Player registered with the server
+playerRegistered={0} has joined the game, representing the civilization of the {1}.
+
+;Expansionist attribute
+expansionistAttribute=expansionist
+
+;Militaristic attribute
+militaristicAttribute=militaristic
+
+;Religious attribute
+religiousAttribute=religious
+
+;Industrious attribute
+industriousAttribute=industrious
+
+;Scientific attribute
+scientificAttribute=scientific
+
+;commercial attribute
+commercialAttribute=commercial
+
+;Unit captured
+unitCaptured=Our {0} was captured!
+
+;Unit destroyed
+unitDestroyed=Our {0} has been destroyed!
+
+;Message shown when a city is invaded.
+cityInvaded=Sir, Forces have captured the city of {0}.  {1} gold has been plundered.
+
+;Message when the player loses a city to a foreign country
+cityLostToInvasion=Terrible news, {0}!\n^{1} was captured by the evil {2}!\nThey have stolen {3} gold from its vaults.\n
+
+;Message when the player destorys another civilization
+playerDestroysFoe=We have destroyed the {0} {1}, {2}.
+
+;Message when another civilization gets destroyed
+foreignCivDestroyed={0}, the {1} {2} were destroyed by {3} forces.
+
+;Message shown when the player gets defeated.
+playerDefeated=Our civilization has been destroyed by the {1} forces!
+
+;Message shown then borders expand due to culture increase.
+culturalInflueceExpanded=Our cultural influence is expanding!
+
+;City Disorder
+cityDisorder=Civlil Disorder in {0}.
+
+;Order Restored
+orderRestored=Order restored in {0}.
+
+;City cannot grow unit a certain improvement is built
+cannotGrow=Sir, {0} cannot grow beyond its' current size of {1} without first building a {2}.
+
+;Improvement built
+improvementBuilt=Sir, the city of {0} has produced a {1}.
+
+;Need Technology Direction
+techResearchNeeded={0}, our {1} need guidance. What shall we research?
+
+;New Technology Acquired
+technologyAcquired={0}, our {1} have mastered the secret of {2}.
+
+;City Starvation
+starved=Starvation in {0}!
+
+;unit from a village hut
+villageUnit=This friendly {0} village gave us a skilled {1}.
+
+;Attacked from a village hut
+villageBarbarian=We have disturbed an angry {0} {1}.
+
+;Map from village hut
+villageMap=The friendly {0} tribe gave us maps of their region.
+
+;Gold from village hut
+villageGold=We got {0} gold from the {1} tribe's village.
+
+;city from village hut
+villageCity=An advanced {0} village has joined us!
+
+;Deserted village
+villageDeserted=This {0} village is deserted.
+
+;New settler from village hut
+villageSettler=A friendly {0} {1} wants to join our {2}.
+
+;New technology from village hut
+villageTechnology=The {0} tribe has taught us {1}.
+
+;Military Victory
+militaryVictory={0}, {1} has destoryed all other civilizations.  You have won a military victory!
+
+;Foreign Leader Requests audience
+audienceRequest=The {0} have requested an audience. Will you see them?

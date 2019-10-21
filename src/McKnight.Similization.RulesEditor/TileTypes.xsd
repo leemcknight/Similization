@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TileTypes" targetNamespace="http://tempuri.org/TileTypes.xsd" xmlns:codegen="urn:schemas-microsoft-com:xml-msprop" xmlns:mstns="http://tempuri.org/TileTypes.xsd" xmlns="http://tempuri.org/TileTypes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="TileType">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="TileTypeID" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" nillable="false" />
+				<xs:element name="TileTypeName" type="xs:string" />
+				<xs:element name="DataTablePath" type="xs:string" />
+				<xs:element name="DisplayFieldName" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="TileTypeKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath="." />
+			<xs:field xpath="mstns:TileTypeID" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

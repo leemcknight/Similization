@@ -1,0 +1,220 @@
+﻿<Improvements>
+	<Improvement id="7BEFAD57-B9F6-483a-B2F6-DF2CDC12A180" name="Airport" cost="160" maint="2" culture="0" pollutionPoints="1">
+		<prerequisites>
+			<prerequisite type="technology">D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="815F742F-211C-4622-AD93-0FACF6C62EB1" name="Aqueduct" cost="100" maint="1" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="29FB17AE-FA51-4d95-AD9F-AA0874F2EAD4" name="Bank" cost="120" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+			<prerequisite type="improvement">91A33A3F-57F8-4008-87D3-1B7BF37923E0</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="0354D32E-FDCD-4608-88D9-B1003513EF42" name="Barracks" cost="40" maint="1" culture="0" pollutionPoints="0"></Improvement>
+	<Improvement id="ED059B7A-CC1B-4b71-B666-5DBA86351A85" name="Cathedral" cost="140" maint="2" culture="2" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="BCA2EE9D-2DDA-4d42-A3B8-CB2784783E05" name="Coal Plant" cost="160" maint="3" culture="0" pollutionPoints="2">
+		<prerequisites>
+			<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+			<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+			<prerequisite type="resource">5CD80ED0-5915-485c-BD9B-9AF62DE53A92</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="DAA541F2-3F7D-409a-A7DB-B97B80C91DAB" name="Coastal Fortress" cost="60" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+			<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="A28B964C-77AD-4789-8825-0769AA11E0DC" name="Colosseum" cost="120" maint="2" culture="2" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="794E1039-7258-4f8f-8765-7A850F8CC0BF" name="Courthouse" cost="80" maint="1" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">576C57BE-DEB7-462a-9CBD-8C45083C6D67</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="9AA9F00C-5E72-4b46-B7A1-0EE554669625" name="Factory" cost="200" maint="3" culture="0" pollutionPoints="2">
+		<prerequisites>
+			<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="837FFED0-CAA8-4b00-A41D-D0D95235D9D8" name="Granary" cost="60" maint="1" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">4495B4CC-D041-4af4-9EB1-9447179E71DE</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="6DD43E9C-722C-45f1-9134-59943227142F" name="Harbor" cost="80" maint="1" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">D6E54F4B-4540-4df5-BBB4-B57EB3E4BB91</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="7F9E2F94-18D4-4355-881B-26787CA5AADD" name="Hospital" cost="120" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">BF34DA4D-0AE1-426e-B016-8882C11074EC</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="3065669F-5389-4bf4-A871-5AAA2479C47D" name="Hydro Plant" cost="240" maint="3" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+			<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="77CCE872-A01B-4f54-B7FC-DA70521B926F" name="Library" cost="80" maint="1" culture="3" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">7FAD6010-3DFD-46a2-89B8-6D34D21481FA</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="84A6EF0D-EE62-469f-950E-2E157387FDBC" name="Manufacturing Plant" cost="320" maint="3" culture="0" pollutionPoints="2">
+		<prerequisites>
+			<prerequisite type="technology">F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2</prerequisite>
+			<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="91A33A3F-57F8-4008-87D3-1B7BF37923E0" name="Marketplace" cost="80" maint="1" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">11B927D7-1078-49d1-BE82-FB9C27137823</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="D46256BB-F5BC-4ff6-A431-34703097E0FC" name="Mass Transit System" cost="160" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="4119EA64-A505-47f0-9DDA-DC69955D867D" name="Nuclear Plant" cost="160" maint="3" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">C43CDD34-DC0E-4fcf-9239-AD85AA3135EC</prerequisite>
+			<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+			<prerequisite type="resource">F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="EED7BD35-F5AB-4bc3-B506-8289E4D63A3D" name="Offshore Platform" cost="160" maint="3" culture="0" pollutionPoints="2">
+		<prerequisites>
+			<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="AD6A3291-E87A-4b39-982A-1C78C857A160" name="Palace" cost="100" maint="0" culture="1" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="637A4B89-DF3C-4bb9-A88A-5638402A780C" name="Police Station" cost="80" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">7292D8D5-EEEA-458d-A2A7-83FB8C3A962D</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="C6170991-829A-4797-B2A7-EE2C3F691666" name="Recycling Center" cost="200" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">48D46C94-C356-4ec2-BB7F-965FC5D1B14F</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="D8C7B048-B7A4-4b35-83E8-E305F4D3DBBE" name="Research Lab" cost="160" maint="2" culture="2" pollutionPoints="1">
+		<prerequisites>
+			<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+			<prerequisite type="improvement">6FB83902-15DE-4ab0-A7B3-D8D5D39AE017</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="CAAC85DC-6680-4127-ACAD-5944BFAA154C" name="Sam Missile Battery" cost="80" maint="2" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="D3ECA545-3288-4e91-AD01-ACD5A5FDBBCD" name="Solar Plant" cost="320" maint="3" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+			<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="CE37B347-340A-452a-9D61-8DE6C52B10E4" name="SS Cockpit" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="85EAB943-280D-4079-B21B-0E4FDE92F3E2" name="SS Docking Bay" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="411236D8-B659-4f78-B5F9-4CE45E4E1320" name="SS Engine" cost="320" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="4947F637-559D-4642-8E76-93F2B0B3D3F7" name="SS Exterior Casing" cost="320" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="8111769B-792B-4524-BA1B-15D52A9A1287" name="SS Fuel Cells" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+			<prerequisite type="resource">F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="7E79093C-9047-4df5-A9FD-E4FFCEFF040F" name="SS Life Support System" cost="320" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="EDD0D9E8-5002-409e-8C4B-FE0CB6979D43" name="SS Planetary Party Lounge" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="6A5619FF-E853-4d24-B7A5-A5C97335EB3B" name="SS Stasis Chamber" cost="320" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="EE6C7936-08C9-4917-ABE6-E6B55E5F3482" name="SS Storage/Supply" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="441ABD9D-E2C7-4406-BDE3-215AAC7C2CC1" name="SS Thrusters" cost="160" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="78FACB87-E3AF-4e2d-AF94-1299F6195131" name="Temple" cost="40" maint="1" culture="2" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">80B75C2A-24F0-4d23-A552-187964F5968A</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="6FB83902-15DE-4ab0-A7B3-D8D5D39AE017" name="University" cost="160" maint="2" culture="4" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+			<prerequisite type="improvement">77CCE872-A01B-4f54-B7FC-DA70521B926F</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="C6657A66-F35F-44cb-9B18-17612E565776" name="Walls" cost="20" maint="0" culture="0" pollutionPoints="0">
+		<prerequisites>
+			<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+		</prerequisites>
+	</Improvement>
+	<Improvement id="99ACC168-493E-4ccb-8D58-40B8786511E4" name="Wealth" cost="0" maint="0" culture="0" pollutionPoints="0"></Improvement>
+</Improvements>

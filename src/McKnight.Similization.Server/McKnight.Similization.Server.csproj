@@ -1,0 +1,315 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D650183F-E672-4195-8CDD-AC7582ED3221}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>McKnight.Similization.Server</AssemblyName>
+    <AssemblyOriginatorKeyFile>SimilizationServer.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>McKnight.Similization.Server</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>SimilizationServer.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AICity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AICountry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AISettler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AIStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AIUnit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AIUnitMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AIWorker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Barbarian.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BarbarianGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BombardmentResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BuildStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CellImprovementDestroyedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CitizensKilledEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="City.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CityGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClientSaveGameInfo.cs" />
+    <Compile Include="Country.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CountryFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DiplomaticTie.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DiplomaticAgreements.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Direction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EmptyGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EspionageAction.cs" />
+    <Compile Include="EventData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExpansionStrategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameRoot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gold.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoldGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoodyFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Grid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridCell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridCellItemDirection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridOrientation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridResourceBuilder.cs" />
+    <Compile Include="History.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistoryItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImprovementBuiltEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImprovementEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridBuilder.cs" />
+    <Compile Include="JourneyCalculator.cs" />
+    <Compile Include="MapGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MilitaryAlliance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MutualProtectionPact.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MutualProtectionPactEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NamespaceDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PeaceTreaty.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RandomNumber.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RightOfPassage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RiverBuilder.cs" />
+    <Compile Include="Rules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServerInterfaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SettlerGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SpyCapturedEventArgs.cs" />
+    <Compile Include="StrategyFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TechnologyGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerrainBuilder.cs" />
+    <Compile Include="TradeableMaps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TradeAgreement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TradeEmbargo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TradeResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitCapturedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Village.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VillageGoody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WarDeclaredEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Worker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkerActionInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ServerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServerResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimilizationServer.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\McKnight.Similization.Core\McKnight.Similization.Core.csproj">
+      <Project>{5EE311DB-5026-45F3-970B-E66382FC65AA}</Project>
+      <Name>McKnight.Similization.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

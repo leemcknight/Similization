@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gameTitle">
+    <value xml:space="preserve">Similization</value>
+  </data>
+  <data name="gameStart">
+    <value xml:space="preserve">It is the year 4000 BC. Your ancestors were nomads. But over the generations your people have learned the secrets of farming, road-building, and irrigation, and they are ready to settle down.
+
+{0}, your people are {1} and {2} and have recently mastered {3}.
+The people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!</value>
+  </data>
+  <data name="serverStartup">
+    <value xml:space="preserve">Starting the server...</value>
+  </data>
+  <data name="ServerStartupComplete">
+    <value xml:space="preserve">Sucessfully started the server.</value>
+  </data>
+  <data name="playerRegistered">
+    <value xml:space="preserve">{0} has joined the game, representing the civilization of the {1}.</value>
+  </data>
+  <data name="expansionistAttribute">
+    <value xml:space="preserve">expansionist</value>
+  </data>
+  <data name="militaristicAttribute">
+    <value xml:space="preserve">militaristic</value>
+  </data>
+  <data name="religiousAttribute">
+    <value xml:space="preserve">religious</value>
+  </data>
+  <data name="industriousAttribute">
+    <value xml:space="preserve">industrious</value>
+  </data>
+  <data name="scientificAttribute">
+    <value xml:space="preserve">scientific</value>
+  </data>
+  <data name="commercialAttribute">
+    <value xml:space="preserve">commercial</value>
+  </data>
+  <data name="unitCaptured">
+    <value xml:space="preserve">Our {0} was captured!</value>
+  </data>
+  <data name="unitDestroyed">
+    <value xml:space="preserve">Our {0} has been destroyed!</value>
+  </data>
+  <data name="cityInvaded">
+    <value xml:space="preserve">Sir, Forces have captured the city of {0}.  {1} gold has been plundered.</value>
+  </data>
+  <data name="cityLostToInvasion">
+    <value xml:space="preserve">Terrible news, {0}!
+^{1} was captured by the evil {2}!
+They have stolen {3} gold from its vaults.
+</value>
+  </data>
+  <data name="playerDestroysFoe">
+    <value xml:space="preserve">We have destroyed the {0} {1}, {2}.</value>
+  </data>
+  <data name="foreignCivDestroyed">
+    <value xml:space="preserve">{0}, the {1} {2} were destroyed by {3} forces.</value>
+  </data>
+  <data name="playerDefeated">
+    <value xml:space="preserve">Our civilization has been destroyed by the {1} forces!</value>
+  </data>
+  <data name="culturalInflueceExpanded">
+    <value xml:space="preserve">Our cultural influence is expanding!</value>
+  </data>
+  <data name="cityDisorder">
+    <value xml:space="preserve">Civil Disorder in {0}.</value>
+  </data>
+  <data name="orderRestored">
+    <value xml:space="preserve">Order restored in {0}.</value>
+  </data>
+  <data name="cannotGrow">
+    <value xml:space="preserve">Sir, {0} cannot grow beyond its' current size of {1} without first building a {2}.</value>
+  </data>
+  <data name="improvementBuilt">
+    <value xml:space="preserve">Sir, the city of {0} has produced a {1}.</value>
+  </data>
+  <data name="techResearchNeeded">
+    <value xml:space="preserve">{0}, our {1} need guidance. What shall we research?</value>
+  </data>
+  <data name="technologyAcquired">
+    <value xml:space="preserve">{0}, our {1} have mastered the secret of {2}.</value>
+  </data>
+  <data name="starved">
+    <value xml:space="preserve">Starvation in {0}!</value>
+  </data>
+  <data name="villageUnit">
+    <value xml:space="preserve">This friendly {0} village gave us a skilled {1}.</value>
+  </data>
+  <data name="villageBarbarian">
+    <value xml:space="preserve">We have disturbed an angry {0} {1}.</value>
+  </data>
+  <data name="villageMap">
+    <value xml:space="preserve">The friendly {0} tribe gave us maps of their region.</value>
+  </data>
+  <data name="villageGold">
+    <value xml:space="preserve">We got {0} gold from the {1} tribe's village.</value>
+  </data>
+  <data name="villageCity">
+    <value xml:space="preserve">An advanced {0} village has joined us!</value>
+  </data>
+  <data name="villageDeserted">
+    <value xml:space="preserve">This {0} village is deserted.</value>
+  </data>
+  <data name="villageSettler">
+    <value xml:space="preserve">A friendly {0} {1} wants to join our {2}.</value>
+  </data>
+  <data name="villageTechnology">
+    <value xml:space="preserve">The {0} tribe has taught us {1}.</value>
+  </data>
+  <data name="militaryVictory">
+    <value xml:space="preserve">{0}, {1} has destroyed all other civilizations.  You have won a military victory!</value>
+  </data>
+  <data name="weLoveTheKing">
+    <value xml:space="preserve">We love the king day celebrated in {0}</value>
+  </data>
+  <data name="weLoveTheKingEnd">
+    <value xml:space="preserve">We love the king day has ended in {0}</value>
+  </data>
+  <data name="turnFinished">
+    <value xml:space="preserve">Turn Finished.  Press Spacebar to continue.</value>
+  </data>
+  <data name="statusView_MovesLeft">
+    <value xml:space="preserve">{0}.{1}.{2}/{3}</value>
+  </data>
+  <data name="ready">
+    <value xml:space="preserve">Ready...</value>
+  </data>
+  <data name="researching">
+    <value xml:space="preserve">Researching {0}</value>
+  </data>
+  <data name="noResearch">
+    <value xml:space="preserve">No Current Research.</value>
+  </data>
+  <data name="goldAmount">
+    <value xml:space="preserve">{0} Gold</value>
+  </data>
+  <data name="noActiveUnit">
+    <value xml:space="preserve">No Active Unit.</value>
+  </data>
+  <data name="negativeYear">
+    <value xml:space="preserve">{0} B.C.</value>
+  </data>
+  <data name="positiveYear">
+    <value xml:space="preserve">{0} A.D.</value>
+  </data>
+  <data name="nextEra">
+    <value xml:space="preserve">{0}, our historians agree, we have entered a distinctly new age in our development!</value>
+  </data>
+  <data name="newGovernmentAvailable">
+    <value xml:space="preserve">{0}, our people yearn for a change in government to {1}.
+
+Shall we encourage a revolution?</value>
+  </data>
+  <data name="revolution">
+    <value xml:space="preserve">Our people are overthrowing our {0}. Our Civilization is descending into Anarchy!</value>
+  </data>
+  <data name="governmentSelection">
+    <value xml:space="preserve">Select a new government type.</value>
+  </data>
+  <data name="populationGrowthNeeded">
+    <value xml:space="preserve">{0} is not growing, yet it cannot complete the {1} until its population is higher.
+What shall we do?</value>
+  </data>
+  <data name="disbandConfirmation">
+    <value xml:space="preserve">Pardon me but these are OUR people. Do you really want to disband them?</value>
+  </data>
+  <data name="audienceRequest">
+    <value xml:space="preserve">The {0} have requested an audience. Will you see them?</value>
+  </data>
+  <data name="diplomacyCountryHeader">
+    <value xml:space="preserve">{0} ({1})</value>
+  </data>
+  <data name="cautiousAttitude">
+    <value xml:space="preserve">Cautious</value>
+  </data>
+  <data name="furiousAttitude">
+    <value xml:space="preserve">Furious</value>
+  </data>
+  <data name="annoyedAttitude">
+    <value xml:space="preserve">Annoyed</value>
+  </data>
+  <data name="graciousAttitude">
+    <value xml:space="preserve">Gracious</value>
+  </data>
+  <data name="politeAttitude">
+    <value xml:space="preserve">Polite</value>
+  </data>
+  <data name="adviseDealAcceptable">
+    <value xml:space="preserve">This deal will probably be acceptable.</value>
+  </data>
+  <data name="adviseDealRejectWeak">
+    <value xml:space="preserve">We're getting close to a deal here.</value>
+  </data>
+  <data name="adviseDealRejectNeutral">
+    <value xml:space="preserve">I doubt they will accept this proposal.</value>
+  </data>
+  <data name="adviseDealRejectStrong">
+    <value xml:space="preserve">They will probably be insulted by this deal.</value>
+  </data>
+  <data name="adviseDealRejectTotal">
+    <value xml:space="preserve">They would never accept such a deal.</value>
+  </data>
+  <data name="rankConscript">
+    <value xml:space="preserve">Conscript</value>
+  </data>
+  <data name="rankVeteran">
+    <value xml:space="preserve">Veteran</value>
+  </data>
+  <data name="rankElite">
+    <value xml:space="preserve">Elite</value>
+  </data>
+  <data name="rankRegular">
+    <value xml:space="preserve">Regular</value>
+  </data>
+  <data name="militaryAdvisorCountryHeader">
+    <value xml:space="preserve">The Army of the {0} {1}</value>
+  </data>
+  <data name="year_AD">
+    <value xml:space="preserve">{0} A.D.</value>
+  </data>
+  <data name="year_BC">
+    <value xml:space="preserve">{0} B.C.</value>
+  </data>
+  <data name="turnsUntilComplete">
+    <value xml:space="preserve">Complete in {0} turns. ({1}/{2}), {3} Shields Per Turn)</value>
+  </data>
+  <data name="server_Starting">
+    <value xml:space="preserve">Starting Server...</value>
+  </data>
+  <data name="server_Started">
+    <value xml:space="preserve">Server Started.</value>
+  </data>
+  <data name="unit_Captured">
+    <value xml:space="preserve">Our {0} was captured!</value>
+  </data>
+  <data name="units_Captured">
+    <value xml:space="preserve">Our units were captured!</value>
+  </data>
+  <data name="player_CapturesUnit">
+    <value xml:space="preserve">We captured an enemy {0}!</value>
+  </data>
+  <data name="player_CapturesUnits">
+    <value xml:space="preserve">We captured enemy units!</value>
+  </data>
+  <data name="bombardment_failed">
+    <value xml:space="preserve">Artillery bombardment failed.</value>
+  </data>
+  <data name="bombardment_success_improvement">
+    <value xml:space="preserve">Artillery bombardment successful! Improvements destroyed.</value>
+  </data>
+  <data name="bombardment_success_unit">
+    <value xml:space="preserve">Artillery bombardment successful! Enemy units injured.</value>
+  </data>
+  <data name="bombingrun_success_unit">
+    <value xml:space="preserve">Bombing run successful! Enemy units injured.</value>
+  </data>
+  <data name="bombingrun_failed">
+    <value xml:space="preserve">Our bombing run failed.</value>
+  </data>
+  <data name="bombingrun_success_improvement">
+    <value xml:space="preserve">Bombing run successful--improvements destroyed.</value>
+  </data>
+  <data name="bombingrun_failed_lostunit">
+    <value xml:space="preserve">We were shot down by an enemy interceptor!</value>
+  </data>
+  <data name="city_improvementdestroyed">
+    <value xml:space="preserve">The {0} of {1} has been destroyed!</value>
+  </data>
+  <data name="city_citizenskilled">
+    <value xml:space="preserve">Some of {0}'s citizens have been killed!</value>
+  </data>
+  <data name="cell_enemydestroysimprovements">
+    <value xml:space="preserve">The {0} have destroyed improvements near {1}!</value>
+  </data>
+  <data name="statusView_NoResearch">
+    <value xml:space="preserve">No Current Research</value>
+  </data>
+  <data name="item_loading">
+    <value xml:space="preserve">Loading {0}...</value>
+  </data>
+  <data name="game_loaded">
+    <value xml:space="preserve">Game Loaded Successfully.</value>
+  </data>
+  <data name="mutualProtectionInvoked">
+    <value xml:space="preserve">{0} has attacked our "brothers" in {1}. Our mutual protection pact requires us to declare war against {1}.</value>
+  </data>
+  <data name="warDeclared_mutualProtection">
+    <value xml:space="preserve">Our righteous crusade against the sniveling {0}, has caused the morons in {1} to declare war on us! They had a mutual protection pact!</value>
+  </data>
+  <data name="warDeclared_militaryAlliance">
+    <value xml:space="preserve">Treacherous {0} and evil {1} have declared war on us! They have a military alliance to destroy us!</value>
+  </data>
+  <data name="peaceDeclared">
+    <value xml:space="preserve">{0} and {1} have signed a peace treaty.</value>
+  </data>
+  <data name="mutualProtectionPactSigned">
+    <value xml:space="preserve">{0} and {1} have signed a mutual protection pact.</value>
+  </data>
+  <data name="militaryAlliance_foreign">
+    <value xml:space="preserve">{0} and {1} have signed a military alliance against {2}.</value>
+  </data>
+  <data name="warDeclaredOnUs">
+    <value xml:space="preserve">The {0} declared war on us!</value>
+  </data>
+  <data name="warDeclared_foreign">
+    <value xml:space="preserve">{0} declared war on the {1}.</value>
+  </data>
+  <data name="tradableItem_diplomaticAgreement">
+    <value xml:space="preserve">Diplomatic Agreements</value>
+  </data>
+  <data name="tradableItem_militaryAlliance">
+    <value xml:space="preserve">Military Alliances</value>
+  </data>
+  <data name="tradableItem_tradeEmbargo">
+    <value xml:space="preserve">Trade Embargos</value>
+  </data>
+  <data name="tradableItem_map">
+    <value xml:space="preserve">Maps</value>
+  </data>
+  <data name="tradableItem_communication">
+    <value xml:space="preserve">Communications</value>
+  </data>
+  <data name="tradableItem_resource">
+    <value xml:space="preserve">Resources</value>
+  </data>
+  <data name="tradableItem_luxury">
+    <value xml:space="preserve">Luxuries</value>
+  </data>
+  <data name="tradableItem_gold">
+    <value xml:space="preserve">Gold ({0} in treasury)</value>
+  </data>
+  <data name="tradableItem_technology">
+    <value xml:space="preserve">Technology</value>
+  </data>
+  <data name="tradableItem_city">
+    <value xml:space="preserve">Cities</value>
+  </data>
+  <data name="tradableItem_worker">
+    <value xml:space="preserve">Workers</value>
+  </data>
+  <data name="agreement_peaceTreaty">
+    <value xml:space="preserve">Peace Treaty</value>
+  </data>
+  <data name="agreement_mutualProtectionPact">
+    <value xml:space="preserve">Mutual Protection Pact</value>
+  </data>
+  <data name="agreement_rightOfPassage">
+    <value xml:space="preserve">Right Of Passage</value>
+  </data>
+  <data name="alliance">
+    <value xml:space="preserve">vs. the {0}</value>
+  </data>
+  <data name="embargo">
+    <value xml:space="preserve">vs. the {0}</value>
+  </data>
+  <data name="map_world">
+    <value xml:space="preserve">World Map</value>
+  </data>
+  <data name="map_territory">
+    <value xml:space="preserve">Territory Map</value>
+  </data>
+  <data name="communication">
+    <value xml:space="preserve">with the {0}</value>
+  </data>
+  <data name="gold_perTurn">
+    <value xml:space="preserve">Per Turn</value>
+  </data>
+  <data name="gold_lumpSum">
+    <value xml:space="preserve">Lump Sum</value>
+  </data>
+  <data name="city_founded">
+    <value xml:space="preserve">{0} founded in {1}.</value>
+  </data>
+  <data name="militaryAdvisor_weakMilitary">
+    <value xml:space="preserve">Compared to these guys, our military is weak!</value>
+  </data>
+  <data name="militaryAdvisor_averageMilitary">
+    <value xml:space="preserve">Compared to them, we have an average military.</value>
+  </data>
+  <data name="militaryAdvisor_strongMilitary">
+    <value xml:space="preserve">Compared to these guys, we have a strong military!</value>
+  </data>
+  <data name="militaryAdvisor_needGold">
+    <value xml:space="preserve">Unless we get more gold, we cannot support more of our glorious armies.</value>
+  </data>
+  <data name="militaryAdvisor_needUnits">
+    <value xml:space="preserve">We could support a larger military.</value>
+  </data>
+  <data name="militaryAdvisor_needSpecificUnit">
+    <value xml:space="preserve">We can support a larger military. Let's build {0}.</value>
+  </data>
+  <data name="militaryAdvisor_barbariansNearCity">
+    <value xml:space="preserve">There are {0} tribes near {1}!</value>
+  </data>
+  <data name="militaryAdvisor_needSpy">
+    <value xml:space="preserve">Let's plant spies to learn more about our enemies (and our allies)!</value>
+  </data>
+  <data name="foreignAdvisor_moreFriends">
+    <value xml:space="preserve">Make more friends!</value>
+  </data>
+  <data name="domesticAdvisor_needCities">
+    <value xml:space="preserve">Build more cities!</value>
+  </data>
+  <data name="domesticAdvisor_anarchy">
+    <value xml:space="preserve">We are in a state of anarchy. It's touch and go... We should have the government back under control in about {0} turns.</value>
+  </data>
+  <data name="domesticAdvisor_cityHappiness">
+    <value xml:space="preserve">{0}, our citizens in {1} are {2}.</value>
+  </data>
+  <data name="militaryAdvisor_unitPlusRank">
+    <value xml:space="preserve">{0} ({1})</value>
+  </data>
+  <data name="militaryAdvisor_viewByCity">
+    <value xml:space="preserve">View By City</value>
+  </data>
+  <data name="militaryAdvisor_viewByUnit">
+    <value xml:space="preserve">View By Unit</value>
+  </data>
+  <data name="cities">
+    <value xml:space="preserve">Cities</value>
+  </data>
+  <data name="units">
+    <value xml:space="preserve">Units</value>
+  </data>
+  <data name="militaryAdvisor_unitsInField">
+    <value xml:space="preserve">In the field</value>
+  </data>
+  <data name="atPeace">
+    <value xml:space="preserve">AtPeace</value>
+  </data>
+  <data name="atWar">
+    <value xml:space="preserve">At War</value>
+  </data>
+  <data name="propaganda_failure">
+    <value xml:space="preserve">The citizens of {0} are not sufficiently sympathetic to our cause. The propaganda campaign was unsuccessful.</value>
+  </data>
+  <data name="propaganda_success">
+    <value xml:space="preserve">The citizens of {0} have overthrown their government and joined our cause!</value>
+  </data>
+  <data name="sabotage_success">
+    <value xml:space="preserve">Our spy in {0} has sabotaged production. The city must restart its production of {1}.</value>
+  </data>
+  <data name="propaganda_immune">
+    <value xml:space="preserve">The {0} people are immune to propaganda.</value>
+  </data>
+  <data name="sabotage_immune">
+    <value xml:space="preserve">The {0} people are immune to sabotage.</value>
+  </data>
+  <data name="sabotage_spycaught">
+    <value xml:space="preserve">Our sabotage attempt against {0} failed, and our agent was caught. {1} {2} is steaming...</value>
+  </data>
+  <data name="sabotage_success_spycaught">
+    <value xml:space="preserve">We have successfully sabotaged {0}'s production of {1}.  Unfortunately, our agent (known only as 'Gweeto') was caught in the act and removed.  {2} {3} is not pleased.</value>
+  </data>
+  <data name="stealplans_immune">
+    <value xml:space="preserve">The {0} people are immune to plan stealing.</value>
+  </data>
+  <data name="stealplans_spycaught">
+    <value xml:space="preserve">Our agent in {0} was caught attempting to steal vital plans. The agent has been executed. {1} {2} is not pleased.</value>
+  </data>
+  <data name="stealplans_success">
+    <value xml:space="preserve">Our agent in {0} was able to steal vital plans regarding the movements of {1} {2}'s troops. We are now able to pinpont the locations of all of their troops. </value>
+  </data>
+  <data name="stealplans_success_spycaught">
+    <value xml:space="preserve">Our agent in {0} was able to steal vital plans regarding the movements of {1} {2}'s troops. We are now able to determine where all of their troops are located. However, our agent was caught and executed. {3} {4} is not pleased.</value>
+  </data>
+  <data name="stealtechnology_failure">
+    <value xml:space="preserve">Our agent in {0} failed to steal a technology. The agent, however, managed to escape without getting caught or attracting undue attention.</value>
+  </data>
+  <data name="stealtechnology_immune">
+    <value xml:space="preserve">The {0} people are immune to tech stealing.</value>
+  </data>
+  <data name="stealtechnology_spycaught">
+    <value xml:space="preserve">Our agent in {0} was caught attempting to steal technology. {1} {2} is not pleased.</value>
+  </data>
+  <data name="stealtechnology_success">
+    <value xml:space="preserve">We have managed to steal a technology from the {0}.</value>
+  </data>
+  <data name="stealworldmap_failure">
+    <value xml:space="preserve">Our spy in {0} failed to steal the world map. She, however, managed to escape without getting caught or attracting undue attention.</value>
+  </data>
+  <data name="stealworldmap_immune">
+    <value xml:space="preserve">The {0} people are immune to world map stealing.</value>
+  </data>
+  <data name="stealworldmap_spycaught">
+    <value xml:space="preserve">We've lost our agent in {0}. She was caught attempting to steal their world map. {1} {2} is not pleased.</value>
+  </data>
+  <data name="stealworldmap_success">
+    <value xml:space="preserve">We have managed to steal the world map from the {0}.</value>
+  </data>
+  <data name="plantSpy_spysExists">
+    <value xml:space="preserve">We have spies in every civilization we know.</value>
+  </data>
+  <data name="plantspy_failure">
+    <value xml:space="preserve">Our agent in {0} was caught and killed. {1} {2} is not pleased.</value>
+  </data>
+  <data name="plantspy_success">
+    <value xml:space="preserve">We now have an agent in {0}.</value>
+  </data>
+  <data name="stealtechnology_noneavailable">
+    <value xml:space="preserve">{0}, we have learned that the {1} have made no technological advancements over us.  We were, therefore, unable to steal a technology from them.</value>
+  </data>
+  <data name="exposespy_immune">
+    <value xml:space="preserve">The {0} people are immune to exposing spies.</value>
+  </data>
+  <data name="exposespy_spycaught">
+    <value xml:space="preserve">Our sting operation against {0} {1}'s agent in {2} failed, blowing our spy's cover.  {3} {4} is threatening retaliation.</value>
+  </data>
+  <data name="exposespy_success">
+    <value xml:space="preserve">Once again our investment in espionage has paid off.  We have exposed and neutralized {0} {1}'s spy in {2}.</value>
+  </data>
+  <data name="exposespy_success_spycaught">
+    <value xml:space="preserve">Our agent in {0} (known only as Guido) managed to expose {1} {2}'s spy.  The threat has been neutralized but our agent's affiliation was compromised. </value>
+  </data>
+  <data name="citySize_city">
+    <value xml:space="preserve">city</value>
+  </data>
+  <data name="citySize_metropolis">
+    <value xml:space="preserve">metropolis</value>
+  </data>
+  <data name="citySize_town">
+    <value xml:space="preserve">town</value>
+  </data>
+  <data name="establishEmbassy_noTies">
+    <value xml:space="preserve">We cannot establish any new embassies at this time.</value>
+  </data>
+  <data name="establishEmbassy_success">
+    <value xml:space="preserve">{0}, we have successfully established an embassy in the {1} {2} of {3}.</value>
+  </data>
+  <data name="establishEmbassy_tiePickerTitle">
+    <value xml:space="preserve">Establish an embassy with whom?</value>
+  </data>
+  <data name="espionageTiePickerTitle">
+    <value xml:space="preserve">Who do you want to perform this espionage against?</value>
+  </data>
+  <data name="exposespy_tiePickerTitle">
+    <value xml:space="preserve">Choose a civilization from which to expose a spy.</value>
+  </data>
+  <data name="investigateCity_cityPickerTitle">
+    <value xml:space="preserve">Choose a city to investigate.</value>
+  </data>
+  <data name="investigateCity_immune">
+    <value xml:space="preserve">The {0} people are immune to city investigations.</value>
+  </data>
+  <data name="investigateCity_success">
+    <value xml:space="preserve">We have conducted an investigation of the city of {0}.</value>
+  </data>
+  <data name="plantSpy_tiePickerTitle">
+    <value xml:space="preserve">Where do you want the spy?</value>
+  </data>
+  <data name="propaganda_cityPickerTitle">
+    <value xml:space="preserve">Choose a city to bribe.</value>
+  </data>
+  <data name="sabotage_cityPickerTitle">
+    <value xml:space="preserve">Where shall we attempt the sabotage mission?</value>
+  </data>
+  <data name="spyCaught_exposeSpyFailure">
+    <value xml:space="preserve">An Agent of {0} {1} of the {2} was caught attempting to expose our agent.</value>
+  </data>
+  <data name="spyCaught_plantingSpyFailure">
+    <value xml:space="preserve">We have caught {0} {1} of the {2} attempting to plant a spy in our capital.</value>
+  </data>
+  <data name="spyCaught_sabotageProductionFailure">
+    <value xml:space="preserve">An agent of {0} {1} of the {2} was caught sabotaging production in the city of {3}.</value>
+  </data>
+  <data name="spyCaught_sabotageProductionSuccess">
+    <value xml:space="preserve">Production in {0} has been sabotaged! A spy of {1} {2} of the {3} was caught.</value>
+  </data>
+  <data name="spyCaught_exposeSpySuccess">
+    <value xml:space="preserve">Our spy in {0} has been captured! We've also caught an agent of {1} {2} of the {3}.</value>
+  </data>
+  <data name="spyCaught_stealPlansFailure">
+    <value xml:space="preserve">An agent of {0} {1} of the {2} was caught attempting to steal plans regarding our troop movements.</value>
+  </data>
+  <data name="spyCaught_stealPlansSuccess">
+    <value xml:space="preserve">Our military plans have been stolen! An agent of {0} {1} of the {2} was caught.</value>
+  </data>
+  <data name="spyCaught_stealTechnologyFailure">
+    <value xml:space="preserve">An agent of {0} {1} of the {2} was caught attempting to steal a technology.</value>
+  </data>
+  <data name="spyCaught_stealWorldMapFailure">
+    <value xml:space="preserve">An agent of {0} {1} of the {2} was caught attempting to steal our world map.</value>
+  </data>
+  <data name="aboutWindow_about">
+    <value xml:space="preserve">About {0}</value>
+  </data>
+  <data name="aboutWindow_version">
+    <value xml:space="preserve">Version {0}</value>
+  </data>
+  <data name="advisor_cultural">
+    <value xml:space="preserve">Cultural Advisor</value>
+  </data>
+  <data name="advisor_domestic">
+    <value xml:space="preserve">Domestic Advisor</value>
+  </data>
+  <data name="advisor_foreign">
+    <value xml:space="preserve">Foreign Advisor</value>
+  </data>
+  <data name="advisor_military">
+    <value xml:space="preserve">Military Advisor</value>
+  </data>
+  <data name="advisor_scientific">
+    <value xml:space="preserve">Science Advisor</value>
+  </data>
+  <data name="advisor_trade">
+    <value xml:space="preserve">Trade Advisor</value>
+  </data>
+  <data name="culturePerTurn">
+    <value xml:space="preserve">{0} per turn</value>
+  </data>
+  <data name="cityLine">
+    <value xml:space="preserve">{0}:{1}</value>
+  </data>
+  <data name="terrainInfo">
+    <value xml:space="preserve">Terrain Info</value>
+  </data>
+  <data name="turnsUntilCompleteMinimal">
+    <value xml:space="preserve">Complete in {0} turns.</value>
+  </data>
+  <data name="civilizationDetail">
+    <value xml:space="preserve">{0} {1} of {2}</value>
+  </data>
+  <data name="rejectGovernmentChange">
+    <value xml:space="preserve">No, we are happy with {0}.</value>
+  </data>
+  <data name="unknownOpponent">
+    <value xml:space="preserve">Unknown Opponent</value>
+  </data>
+  <data name="diplomaticTiePicker_noTieChosen">
+    <value xml:space="preserve">Please select a diplomatic tie from the list.</value>
+  </data>
+  <data name="upgrade">
+    <value xml:space="preserve">Upgrade</value>
+  </data>
+  <data name="upgradeTo">
+    <value xml:space="preserve">Upgrade to {0}</value>
+  </data>
+</root>

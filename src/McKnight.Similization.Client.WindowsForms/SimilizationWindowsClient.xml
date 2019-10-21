@@ -1,0 +1,1945 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Similization Windows Forms Client</name>
+    </assembly>
+    <members>
+        <member name="F:McKnight.Similization.Client.WindowsForms.AboutBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.AboutBox.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.AboutBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.AdvisorDialog">
+            <summary>
+            The Similization Advisor Dialog.  This dialog hosts the different controls 
+            containing the advisors in the game, such as the domestic advisor and 
+            military advisor.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.AdvisorDialog.#ctor(McKnight.Similization.Client.Advisor)">
+            <summary>
+            Initializes a new instance of the <c>AdvisorDialog</c> class.
+            </summary>
+            <param name="advisor"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.AdvisorDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.AdvisorDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.AdvisorDialog.ActiveAdvisorControl">
+            <summary>
+            Gets the active advisor control on the form.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.CityPainter">
+            <summary>
+            Class responsible for painting <see cref="T:McKnight.Similization.Server.City"/> objects onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.CityPainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPainter.Paint">
+            <summary>
+            Paints the city onto the screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.CityPicker">
+            <summary>
+            Windows Forms implementation of the <see cref="T:McKnight.Similization.Client.ICityPicker"/> 
+            interface.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.CityPicker"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPicker.InitializePicker(McKnight.Similization.Server.Country)">
+            <summary>
+            Initializes the city list with the cities of the specified <see cref="T:McKnight.Similization.Server.Country"/>.
+            </summary>
+            <param name="country"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.CityPicker.City">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.City"/> that the user has selected.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPicker.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.CityPicker.PickerTitle">
+            <summary>
+            The instructions telling the user to select a <see cref="T:McKnight.Similization.Server.City"/> from the list.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.CityPicker.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPicker.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityPicker.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.CityViewControl">
+            <summary>
+            This is the control used in the city detail screen to show the city 
+            and surrounding cells.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityViewControl.#ctor">
+            <summary>
+            Initializes a new instance of the <c>CityViewControl</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.CityViewControl.City">
+            <summary>
+            Gets or sets the city drawn on the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityViewControl.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Draws the contents of the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityViewControl.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handles the clicking of the mouse on the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.WindowsClientApplication">
+            <summary>
+            The main Windows Client class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.Main">
+            <summary>
+            Entry point of the application.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.#ctor">
+            <summary>
+            Initializes a new instance of the <c>ClientApplication</c> class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.HostForm">
+            <summary>
+            The Main Form
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.Start">
+            <summary>
+            Starts the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.LoadTileSetImageData">
+            <summary>
+            Loads the Windows Client Image information into the <see cref="T:McKnight.Similization.Client.Tileset"/>.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientApplication.GetControl(System.Type)">
+            <summary>
+            Gets an <c>ISimilizationControl</c> that is of the specified type.
+            </summary>
+            <param name="controlType">A <c>System.Type</c> that refers to the 
+            type of interface that the control should implement.</param>
+            <returns>A reference to an Windows Forms control that implements the 
+            specified interface</returns>
+            <remarks>This method controls the mapping between the generic form 
+            and dialog interfaces declared in the Similization Client and the 
+            concrete windows forms classes that implement those interfaces.  This 
+            method is an override of the same function in the more generic Similization 
+            Client, so this method is mostly called from code in the SimilizationClient.dll 
+            assembly.</remarks>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.SaveGameWindow">
+            <summary>
+            Implementation of the <i>ISaveGameWindow</i> interface for the Similization
+            Windows Client.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SaveGameWindow.ShowSimilizationControl">
+            <summary>
+            Shows the Save Game Window.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.SaveGameWindow.SavedGameFile">
+            <summary>
+            Gets the full path to the save game file.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.LoadGameWindow">
+            <summary>
+            Implementation of the <i>ILoadGameWindow</i> interface for the
+            Similization Windows Client.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.LoadGameWindow.ShowSimilizationControl">
+            <summary>
+            Shows the Load Game Window.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.LoadGameWindow.LoadedGameFile">
+            <summary>
+            Gets the full path to the file to save the game to.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog">
+            <summary>
+            This is the Domestic Advisor Dialog for the Windows Client version of
+            Similization.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.ShowSimilizationControl">
+            <summary>
+            Shows the Similization Control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.AdvisorText">
+            <summary>
+            The text that the domestic advisor is telling the player.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DomesticAdvisorDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog">
+            <summary>
+            Summary description for ForeignAdvisorDialog.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <c>ForeignAdvisorDialog</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog.AdvisorText">
+            <summary>
+            The text that the Foreign Advisor is telling the player.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ForeignAdvisorDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.CityDialog">
+            <summary>
+            This is the form that shows city details.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.CityDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityDialog.#ctor(McKnight.Similization.Server.City)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.CityDialog"/> class.
+            </summary>
+            <param name="city"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.CityDialog.Editable">
+            <summary>
+            Implementation of the <i>ICityControl.Editable</i> property.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.CityDialog.City">
+            <summary>
+            Implementation of the <i>ICityControl.City</i> property.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.CityDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GridCellBorderPainter">
+            <summary>
+            Class responsible for painting borders onto a <see cref="T:McKnight.Similization.Server.GridCell"/>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridCellBorderPainter.Grid">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.WindowsForms.GridCellBorderPainter.Grid"/> to paint the border onto.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridCellBorderPainter.Paint">
+            <summary>
+            Paints the borders on the <see cref="T:McKnight.Similization.Server.GridCell"/> specified in the <i>GridCell</i> property.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridCellLayerPainter.GridCell">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.WindowsForms.GridCellLayerPainter.GridCell"/> to paint the layer onto.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GridCellPainter">
+            <summary>
+            Class responsible for painting an individual <see cref="T:McKnight.Similization.Server.GridCell"/> 
+            onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridCellPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.GridCellPainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridCellPainter.PaintOption">
+            <summary>
+            The options for the <see cref="P:McKnight.Similization.Client.WindowsForms.GridCellPainter.GridCell"/> when painting it.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridCellPainter.GridCell">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.GridCell"/> to paint.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridCellPainter.Paint">
+            <summary>
+            Paints the GridCell onto the screen.
+            </summary>        
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GridCellPaintOption">
+            <summary>
+            Determines how visible a <see cref="T:McKnight.Similization.Server.GridCell"/> is.  This will affect 
+            how it is drawn on the screen.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.GridCellPaintOption.UnexploredCell">
+            <summary>
+            The cell has not been explored at all.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.GridCellPaintOption.ExploredUninhabited">
+            <summary>
+            The cell has been expolored, but there is no unit currently 
+            within viewing distance of it.  
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.GridCellPaintOption.ExploredInhabited">
+            <summary>
+            The cell is visible by a least 1 unit on the screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GridPainter">
+            <summary>
+            Class responsible for painting a <see cref="T:McKnight.Similization.Server.Grid"/> onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridPainter.#ctor(System.Windows.Forms.Control,McKnight.Similization.Server.Grid,McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.GridPainter"/> class.
+            </summary>
+            <param name="control"></param>
+            <param name="grid"></param>
+            <param name="tileset"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridPainter.CenterGridCoordinate">
+            <summary>
+            The coordinates of the <see cref="T:McKnight.Similization.Server.GridCell"/> that will be in the exact 
+            middle of the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridPainter.Paint">
+            <summary>
+            Paints the grid.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridPainter.TranslateGridCoordinatesToScreenCoordinates(System.Drawing.Point)">
+            <summary>
+            Translates the given grid coordinates into pixel coordinates on the screen.
+            </summary>
+            <param name="gridCoordinates"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridPainter.TranslateScreenCoordinatesToGridCoordinates(System.Drawing.Point)">
+            <summary>
+            Translates the screen coordinates to the coordinates of the <see cref="T:McKnight.Similization.Server.GridCell"/> 
+            at those screen coordinates.
+            </summary>
+            <param name="screenCoordinates"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.IPainter">
+            <summary>
+            Interface to a class that is responsible for painting a layer of the Grid.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.IPainter.Paint">
+            <summary>
+            Paints the layer.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.IPainter.Graphics">
+            <summary>
+            The <i>Graphics</i> object to paint onto.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.IrrigationPainter">
+            <summary>
+            Class responsible for painting irrigation onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.IrrigationPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.IrrigationPainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.IrrigationPainter.Paint">
+            <summary>
+            Paints the irrigation onto the screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.MainForm">
+            <summary>
+            The main game windows form.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MainForm.#ctor">
+            <summary>
+            Initializes a new instance of the <seealso cref="T:McKnight.Similization.Client.WindowsForms.MainForm"/> windows form.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MainForm.Console">
+            <summary>
+            Gets the console.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MainForm.StatusView">
+            <summary>
+            Gets the Status View.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.HistographDialog">
+            <summary>
+            Windows Forms implementation of the <see cref="T:McKnight.Similization.Client.IHistograph"/> 
+            interface.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.HistographDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.HistographDialog.#ctor(McKnight.Similization.Server.History)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.HistographDialog"/> class.
+            </summary>
+            <param name="history"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.HistographDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.HistographDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.HistographDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog">
+            <summary>
+            This is the form that is shown to the user whenever a new improvement is built
+            by a city.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <c>frmImprovement</c> class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.City">
+            <summary>
+            Gets or sets the city that built the improvement.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.ShowSimilizationControl">
+            <summary>
+            Shows the Similization Control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.Message">
+            <summary>
+            Gets or sets the message to display to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ImprovementBuiltDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker">
+            <summary>
+            Windows Forms implementation of the <see cref="T:McKnight.Similization.Client.IDiplomaticTiePicker"/> interface.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.#ctor">
+            <summary>
+            Initializes a new instance of the <c>NegotiationPicker</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.DiplomaticTie">
+            <summary>
+            The diplomatic tie that was chosen to negotiate with.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.InitializePicker(System.Collections.ObjectModel.Collection{McKnight.Similization.Server.DiplomaticTie})">
+            <summary>
+            Windows Forms implementation of the <i>InitializePicker</i> method.
+            </summary>
+            <param name="ties"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.PickerTitle">
+            <summary>
+            Windows Forms Client Implementation of the <i>PickerTitle</i> property.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomaticTiePicker.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.MinePainter">
+            <summary>
+            Class responsible for painting Mines onto the grid.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MinePainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.MinePainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MinePainter.Paint">
+            <summary>
+            Paints a Mine if there is one on the grid cell.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.NewCityDialog">
+            <summary>
+            The is the form the user is prompted with anytime they attempt to settle a 
+            new city.  This simple for asks the user for the name of the new city.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.NewCityDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewCityDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.NewCityDialog"/> windows form.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewCityDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewCityDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewCityDialog.CityName">
+            <summary>
+            Gets the name of the new city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewCityDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.NewGameWizard">
+            <summary>
+            Wizard responsible for walking the user through setting up a new game.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.NewGameWizard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGameWizard.#ctor">
+            <summary>
+            Initializes a new instance of the <c>NewGameWizard</c> windows form.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGameWizard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGameWizard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.ChosenCivilization">
+            <summary>
+            Gets the civilization the the player chose to play as.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.ChosenOpponents">
+            <summary>
+            Gets a list of computer opponents to play against.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.PlayerColor">
+            <summary>
+            Gets the color the player chose for their country.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.LeaderName">
+            <summary>
+            Gets the name of the human player.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.WorldSize">
+            <summary>
+            Gets the size of the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.Age">
+            <summary>
+            Gets the Age of the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.Climate">
+            <summary>
+            Gets the Climate for the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.Landmass">
+            <summary>
+            Gets the size of the land masses on the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.Temperature">
+            <summary>
+            Gets the average temperature of the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.WaterCoverage">
+            <summary>
+            Gets the amount of water on the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGameWizard.Rules">
+            <summary>
+            Gets the rules the player wants to use on the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGameWizard.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.NewGameWizard.ResultChosen">
+            <summary>
+            Occurs when the player has chosen all of the game parameters.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGameWizard.OnResultChosen">
+            <summary>
+            Fires the <c>ResultChosen</c> event.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GameWindow">
+            <summary>
+            This is the control used to render the game onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.GameWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Override of the base class paint handler.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.ShowMessageBox(System.String,System.String)">
+            <summary>
+            Shows a message box with the desired information.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.ShowMessageBox(System.String,System.String,System.Drawing.Point)">
+            <summary>
+            Shows a message box with the desired information.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="newCenter"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnClick(System.EventArgs)">
+            <summary>
+            Handles the clicking on the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Handles the typing in the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnDoubleClick(System.EventArgs)">
+            <summary>
+            Handles the double clicking on the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handles the mouse movement.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.OnCenterCellChanged">
+            <summary>
+            Fires the <i>CenterCellChanged</i> event.
+            </summary>
+            <remarks>This method is overriden to ensure that the <c>MiniMap</c> is 
+            redrawn with new and accurate graphics reflecting the visible area of the map.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.ShowSimilizationControl">
+            <summary>
+            Shows the Game Window.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GameWindow.GoToCursor">
+            <summary>
+            Gets or sets a value indicating if the game control is in "go to"
+            mode.  When in this mode, the active unit will go to the grid cell
+            selected on the map.  When moving the cursor around the screen, 
+            the map will show the path the unit will take and the number of 
+            turns it will take to reach the destination.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GameWindow.HotCoordinates">
+            <summary>
+            Gets the grid coordinates that is currently under the mouse cursor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GameWindow.ActiveUnit">
+            <summary>
+            Gets or sets the unit to focus on when drawing the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.GetUserConfirmation(System.String,System.String)">
+            <summary>
+            Gets the user's confirmation.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GameWindow.BeginBombardProcess">
+            <summary>
+            Switches the <see cref="T:McKnight.Similization.Client.WindowsForms.GameWindow"/> to a mode where the use must select 
+            a <see cref="T:McKnight.Similization.Server.GridCell"/> to bombard.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GoldAmountDialog">
+            <summary>
+            Dialog used to ask the user for an amount of gold.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.GoldAmountDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GoldAmountDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.GoldAmountDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GoldAmountDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GoldAmountDialog.GoldAmount">
+            <summary>
+            Gets the amount of gold the player has chosen to give.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GoldAmountDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog">
+            <summary>
+            Dialog asking the user to select a new Government.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <c>GovernmentSelectionDialog</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.Message">
+            <summary>
+            Gets or sets the message to show to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.NextGovernment">
+            <summary>
+            Gets or sets the default Government in the dropdown.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GovernmentSelectionDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.GridViewBase">
+            <summary>
+            Base class for all map viewing controls in the Windows Client.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridViewBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.GridViewBase"/> class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.Grid">
+            <summary>
+            Gives an easy reference to the <see cref="T:McKnight.Similization.Server.Grid"/> object 
+            currently loaded.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.GridPainter">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.WindowsForms.GridViewBase.GridPainter"/> responsible for painting the <see cref="P:McKnight.Similization.Client.WindowsForms.GridViewBase.Grid"/> onto 
+            the screen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.Tileset">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.WindowsForms.GridViewBase.Tileset"/> used in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.CityNameFont">
+            <summary>
+            The <c>System.Drawing.Font</c> to use when displaying City information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.CityNameFontColor">
+            <summary>
+            The <c>System.Drawing.Color</c> to use for the <c>CityNameFont</c> when 
+            displaying the City information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.CenterCoordinates">
+            <summary>
+            Gets or sets the coordinates to draw in the center of the view.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.GridViewBase.CenterCellChanged">
+            <summary>
+            Occurs when the <c>CenterCell</c> property changes.
+            </summary>
+            <remarks>The <c>CenterCell</c> property can change for many different reasons, including:
+            <list type="">
+            <item>The user scrolls the map</item>
+            <item>The user clicks a cell in the map</item>
+            <item>The user selectes a different area in the <c>MiniMap</c></item>
+            <item>The game changes the focused cell (i.e. to bring attention to something in the game).</item>
+            </list></remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridViewBase.OnCenterCellChanged">
+            <summary>
+            Fires the <i>CenterCellChanged</i> event.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.GridViewBase.CenterPoint">
+            <summary>
+            Gets a <c>Point</c> structure representing the center of the GameWindow.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.GridViewBase.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints the Grid.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.HelpControl">
+            <summary>
+            Windows Forms implementation of the <c>IHelpControl</c> interface.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.HelpControl.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.HelpControl.Parent">
+            <summary>
+            The parent form of the help form.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.Histograph">
+            <summary>
+            Control for displaying Similization Historgraph information.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.Histograph.LoadHistory(McKnight.Similization.Server.History)">
+            <summary>
+            Loads the history into the Histograph control.
+            </summary>
+            <param name="history"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.Histograph.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Override of the <i>Paint</i> event handler.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Histograph.View">
+            <summary>
+            Gets or sets the view of the Histograph.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.ImprovementPicker">
+            <summary>
+            Dialog asking the user to select an improvement.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ImprovementPicker.#ctor(McKnight.Similization.Server.City)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.ImprovementPicker"/> class.
+            </summary>
+            <param name="city"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ImprovementPicker.Improvement">
+            <summary>
+            Gets the <see cref="T:McKnight.Similization.Core.Improvement"/> that the user selected.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl">
+            <summary>
+            Windows Forms Client implementation of the <see cref="T:McKnight.Similization.Client.IMilitaryAdvisorControl"/> interface.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl"/> class.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.ForeignCountryChanged">
+            <summary>
+            Occurs when the value of the <i>ForeignCountry</i> property changes.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.ForeignCountry">
+            <summary>
+            Windows Forms Client Implementation of the <see cref="P:McKnight.Similization.Client.IMilitaryAdvisorControl.ForeignCountry"/> property.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.AdvisorText">
+            <summary>
+            Gets or sets the text of the military advisor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.CountryHeaderText">
+            <summary>
+            The text that will be displayed as the header above 
+            the list of units in the local military.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.ForeignCountryHeaderText">
+            <summary>
+            The text that will be displayed as the header above
+            the list of units in the selected foreign military.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl.ShowSimilizationControl">
+            <summary>
+            Shows the <see cref="T:McKnight.Similization.Client.WindowsForms.MilitaryAdvisorControl"/>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.MiniMap">
+            <summary>
+            Mini Map implementation for the Similization Windows Client.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MiniMap.#ctor">
+            <summary>
+            Initializes a new instance of the <c>MiniMap</c> control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MiniMap.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Draws the mini-map.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MiniMap.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Internal Handler for the <c>MouseUp</c> event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.MiniMap.MiniMapClicked">
+            <summary>
+            Event that fires whenever the mini-map is clicked.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MiniMap.InitializeMap(McKnight.Similization.Server.Grid)">
+            <summary>
+            Initializes the MiniMap with the grid.
+            </summary>
+            <param name="grid"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MiniMap.CenterCell">
+            <summary>
+            Gets or sets the center cell.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.MiniMap.VisibleBounds">
+            <summary>
+            The <c>System.Drawing.Rectangle</c> structure describing the area of the map that the user is currently viewing.
+            </summary>
+            <remarks>The <c>IMiniMap</c> interface uses this to determine where to center and 
+            how to draw the rectangle showing the user the are of the map they are viewing.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.MiniMap.OnMiniMapClicked(McKnight.Similization.Client.MiniMapClickedEventArgs)">
+            <summary>
+            Fires the <i>MiniMapClicked</i> event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.NegotiationDialog">
+            <summary>
+            This is the Windows Forms implementation of the Similization Diplomacy Control.  
+            This is the control used to conduct all negotations, including those for trade, 
+            peace treaties, and all other types of diplomacy.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.NegotiationDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.DiplomaticTie">
+            <summary>
+            The <c>DiplomaticTie</c> representing the tie between the two governments 
+            doing the negotiating.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.TaskLinks">
+            <summary>
+            A collection of <c>IDiplomacyTaskLink</c> objects to display on the screen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.ForeignLeaderHeaderText">
+            <summary>
+            The text describing the foreign country and/or leader.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.ForeignLeaderPhrase">
+            <summary>
+            The phrase that the foreign leader is speaking.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.AdvisorPhrase">
+            <summary>
+            The phrase that the advisor is currently telling the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.EndDiplomacy">
+            <summary>
+            Ends the current diplomacy meeting and closes the diplomacy dialog.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.StartNegotiations">
+            <summary>
+            Begins the trading process with the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.EndNegotiations">
+            <summary>
+            Ends the trading process without coming to an agreement.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.NegotiationDialog.AdvisorHelpRequested">
+            <summary>
+            Occurs when the user asks for more help from the domestic advisor.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.GetTaskLinkFactory">
+            <summary>
+            Gets a WindowsForms implementation of the <c>IDiplomacyTaskLinkFactory</c> interface.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.GivenItems">
+            <summary>
+            A Collection of items that the human player is offering in trade.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NegotiationDialog.TakenItems">
+            <summary>
+            A Collection of items that the human player will be receiving in trade.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NegotiationDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.DiplomacyTaskLink">
+            <summary>
+            Windows client implementation of the <c>IDiplomacyTaskLink</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.DiplomacyTaskLink.LinkText">
+            <summary>
+            Gets or sets the text of the link.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.DiplomacyTaskLink.DiplomacyCommand">
+            <summary>
+            The command associated with the task link.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.DiplomacyTaskLinkFactory">
+            <summary>
+            Windows client implementation of the <c>IDiplomacyTaskLinkFactory</c> interface.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.DiplomacyTaskLinkFactory.CreateTaskLink(System.String,McKnight.Similization.Core.Command)">
+            <summary>
+            Creates and returns a Windows Client implementation of a <c>IDiplomacyTaskLink</c>.
+            </summary>
+            <param name="text">The text that the user will see in the link.</param>
+            <param name="taskCommand">The command to invoke when the link is clicked by the user.</param>
+            <returns>A valid reference to an <c>IDiplomacyTaskLink</c> interface.</returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.NewGovernmentControl">
+            <summary>
+            Dialog asking the user if they wish to revolt and form a newly discovered government.
+            </summary>
+            <remarks>This class is the Windows Forms Client implementation of the <see cref="T:McKnight.Similization.Client.INewGovernmentControl"/> 
+            interface.</remarks>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.NewGovernmentControl"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.Message">
+            <summary>
+            Gets or sets the message to show to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.Government">
+            <summary>
+            Gets or sets the new government that is available.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewGovernmentControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog">
+            <summary>
+            This is the dialog window that the player is presented with whenever a new 
+            technology is discovered.  The purpose of this dialog is to inform the player
+            of the advance, and find out what technology to research next.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.#ctor">
+            <summary>
+            Intitializes a new instance of the <c>NewTechnologyDialog</c>
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.ChosenTechnology">
+            <summary>
+            Gets the Technology that the player chose to research next.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.Message">
+            <summary>
+            Gets or sets the message to show to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.ShowSimilizationControl">
+            <summary>
+            Shows the Similization Control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.NewTechnologyDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.OptionsDialog">
+            <summary>
+            This is the options dialog for the Similization windows client.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.OptionsDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.OptionsDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.OptionsDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.OptionsDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.OptionsDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.ShowKilledMessage">
+            <summary>
+            Gets a value indicating whether or not to show a message 
+            to the user when one of their units is destroyed.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.WaitAfterTurn">
+            <summary>
+            Gets a value indicating whether or not to force the user
+            to wait after their turn.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.CityNameFont">
+            <summary>
+            Gets the <c>System.Drawing.Font</c> to use when display city information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.CityNameFontColor">
+            <summary>
+            Gets the <c>Color</c> to use on the <c>CityNameFont</c> Font.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.StartingRulesetPath">
+            <summary>
+            Gets the path of the ruleset to start the game with by default.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.OptionsDialog.TilesetPath">
+            <summary>
+            The path to the tileset used in the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.OptionsDialog.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.WindowsForms.OptionsDialog.Closed">
+            <summary>
+            Occurs when the <see cref="T:McKnight.Similization.Client.WindowsForms.OptionsDialog"/> is closed.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.Painter">
+            <summary>
+            Abstract implementation of the <see cref="T:McKnight.Similization.Client.WindowsForms.IPainter"/> interface.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.Painter.Paint">
+            <summary>
+            Performs the paint operation.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Painter.Bounds">
+            <summary>
+            The <i>Rectangle</i> to paint within.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Painter.Graphics">
+            <summary>
+            The <i>Graphics</i> object to paint onto.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.PlayerSetupControl">
+            <summary>
+            User Control responsible for gathering player setup information.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.#ctor">
+            <summary>
+            Initializes a new instance of the <c>PlayerSetupControl</c>
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.ChosenCivilization">
+            <summary>
+            Gets the civilization the player chose for their country.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.PlayerColor">
+            <summary>
+            Gets the color the player chose for their country.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.ChosenOpponents">
+            <summary>
+            Gets the list of opponents the player chose.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.Rules">
+            <summary>
+            The rules of the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.LeaderName">
+            <summary>
+            Gets the name of the leader the player chose.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.PlayerSetupControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.bullet_square_blue">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.del">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.search">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.wmploc_dll_14">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.woman1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.woman2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.woman3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.woman4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.Properties.Resources.worker">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog">
+            <summary>
+            This is the dialog that is shown to the user when they go for 
+            a couple of turns without a technology being researched.  This
+            dialog alerts them that they are not currently researching anyting
+            and prompts them to select a technology to research.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.ChosenTechnology">
+            <summary>
+            Gets the technology that the player has chosen to research next.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.Message">
+            <summary>
+            Gets or sets the message to display to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.ShowSimilizationControl">
+            <summary>
+            Shows the Similization control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResearchNeededDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.ResourcePainter">
+            <summary>
+            Class responsible for painting <see cref="T:McKnight.Similization.Core.Resource"/> objects onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResourcePainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.ResourcePainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.ResourcePainter.Paint">
+            <summary>
+            Paints any resources on the cell.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.RoadPainter">
+            <summary>
+            Class responsible for painting a road onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.RoadPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.RoadPainter"/> class.
+            </summary>
+            <param name="tileset">The <see cref="T:McKnight.Similization.Client.Tileset"/> containing the images 
+            used to show the roads.</param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.RoadPainter.Paint">
+            <summary>
+            Paints the roads onto the cell.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.SplashScreen">
+            <summary>
+            Splash Screen for the Similization Windows Client.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.SplashScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SplashScreen.#ctor">
+            <summary>
+            Initializes a new instance of the <c>SplashScreen</c> windows form.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SplashScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SplashScreen.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SplashScreen.CloseSplashScreen">
+            <summary>
+            Closes the control.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.SplashScreen.VersionNumber">
+            <summary>
+            The Version Number of the Application.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.SplashScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.TerrainDialog">
+            <summary>
+            Summary description for TerrainDialog.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.TerrainDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.TerrainDialog.#ctor(McKnight.Similization.Server.GridCell)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.TerrainDialog"/> class.
+            </summary>
+            <param name="cell"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.TerrainDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.TerrainDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.TerrainPainter">
+            <summary>
+            Class responsible for painting a <see cref="T:McKnight.Similization.Core.Terrain"/> onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.TerrainPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.TerrainPainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.TerrainPainter.Paint">
+            <summary>
+            Paints the <see cref="T:McKnight.Similization.Core.Terrain"/>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.UnitPainter">
+            <summary>
+            Class responsible for drawing <see cref="T:McKnight.Similization.Server.Unit"/> objects onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.UnitPainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.UnitPainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.UnitPainter.Paint">
+            <summary>
+            Paints any units that are on the current cell.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.VillagePainter">
+            <summary>
+            Class responsible for painting <see cref="T:McKnight.Similization.Server.Village"/> objects onto the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.VillagePainter.#ctor(McKnight.Similization.Client.Tileset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.VillagePainter"/> class.
+            </summary>
+            <param name="tileset"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.VillagePainter.Paint">
+            <summary>
+            Paints any villages on the cell.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.WelcomeControl">
+            <summary>
+            The Welcome Screen for the Windows Client version of Similization.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WelcomeControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.WelcomeControl"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WelcomeControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WelcomeControl.ShowSimilizationControl">
+            <summary>
+            Shows the Similization control
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WelcomeControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.WinClientStatusView">
+            <summary>
+            Windows client implementation of the Similization Status View.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WinClientStatusView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.WinClientStatusView"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WinClientStatusView.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints the control.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Status">
+            <summary>
+            Gets or sets the value to show as the status in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Year">
+            <summary>
+            Gets or sets the value to show in the <i>Year</i> field of the <see cref="T:McKnight.Similization.Client.WindowsForms.WinClientStatusView"/>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Terrain">
+            <summary>
+            Gets or sets the name of the terrain the active unit is on.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Technology">
+            <summary>
+            Gets or sets the value to show in the <i>Technolgy</i> field of the <c>WinClientStatusView</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.MovesLeft">
+            <summary>
+            Gets or sets the value to show in the <i>MovesLeft</i> field of the <c>WinClientStatusView</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Gold">
+            <summary>
+            Gets or sets the value 
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.Government">
+            <summary>
+            Gets or sets the value to show in the <i>Government</i> field of the <c>WinClientStatusView</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.ActiveUnit">
+            <summary>
+            Gets or sets a string representation of the active unit in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WinClientStatusView.UnitImage">
+            <summary>
+            Gets or sets the <see cref="T:System.Drawing.Image"/> to display for the active unit.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.WindowsClientConsole">
+            <summary>
+            Summary description for WindowsClientConsole.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.#ctor">
+            <summary>
+            Initializes a new instance of the <c>WindowsClientConsole</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.WriteLine(System.String)">
+            <summary>
+            Writes a line to the console.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.ShowConsole">
+            <summary>
+            Shows the console.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.HideConsole">
+            <summary>
+            Hides the console.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.MiniMap">
+            <summary>
+            The Miniature map displaying the entire grid.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.StatusView">
+            <summary>
+            Windows client implementation of the <c>ISimilizationStatusView</c> control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WindowsClientConsole.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WindowsForms.WorldSetupControl">
+            <summary>
+            Class responsible for getting parameters about the world to play on.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.WindowsForms.WorldSetupControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WorldSetupControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.WindowsForms.WorldSetupControl"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WorldSetupControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.WorldSize">
+            <summary>
+            The Size of the map the player chose.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.Age">
+            <summary>
+            The age of the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.Climate">
+            <summary>
+            The Climate of the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.Landmass">
+            <summary>
+            The Size of the continents on the world.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.Temperature">
+            <summary>
+            The temperature of the world.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.WindowsForms.WorldSetupControl.WaterCoverage">
+            <summary>
+            The amount of water on the world.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WindowsForms.WorldSetupControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

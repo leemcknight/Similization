@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hdrCityName.Text">
+    <value xml:space="preserve">City</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hdrCityName.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="hdrPopulation.Text">
+    <value xml:space="preserve">Population</value>
+  </data>
+  <data name="hdrPopulation.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="hdrProducing.Text">
+    <value xml:space="preserve">Producing</value>
+  </data>
+  <data name="hdrProducing.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lvwCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 352</value>
+  </data>
+  <data name="lvwCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 112</value>
+  </data>
+  <data name="lvwCity.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lvwCity.Name">
+    <value xml:space="preserve">lvwCity</value>
+  </data>
+  <data name="&gt;&gt;lvwCity.Type">
+    <value xml:space="preserve">System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvwCity.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lvwCity.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblInterestIncome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInterestIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 58</value>
+  </data>
+  <data name="lblInterestIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="lblInterestIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblInterestIncome.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblInterestIncome.Name">
+    <value xml:space="preserve">lblInterestIncome</value>
+  </data>
+  <data name="&gt;&gt;lblInterestIncome.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInterestIncome.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblInterestIncome.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblInterestHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInterestHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 56</value>
+  </data>
+  <data name="lblInterestHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblInterestHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblInterestHeader.Text">
+    <value xml:space="preserve">Interest Income:</value>
+  </data>
+  <data name="lblInterestHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblInterestHeader.Name">
+    <value xml:space="preserve">lblInterestHeader</value>
+  </data>
+  <data name="&gt;&gt;lblInterestHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInterestHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblInterestHeader.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="lblNetGain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNetGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 258</value>
+  </data>
+  <data name="lblNetGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="lblNetGain.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblNetGain.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblNetGain.Name">
+    <value xml:space="preserve">lblNetGain</value>
+  </data>
+  <data name="&gt;&gt;lblNetGain.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNetGain.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblNetGain.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 226</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblTotalExpensePerTurn.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblTotalExpensePerTurn.Name">
+    <value xml:space="preserve">lblTotalExpensePerTurn</value>
+  </data>
+  <data name="&gt;&gt;lblTotalExpensePerTurn.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalExpensePerTurn.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTotalExpensePerTurn.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="lblCivExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCivExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 202</value>
+  </data>
+  <data name="lblCivExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblCivExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblCivExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblCivExpense.Name">
+    <value xml:space="preserve">lblCivExpense</value>
+  </data>
+  <data name="&gt;&gt;lblCivExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCivExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblCivExpense.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 200</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.Text">
+    <value xml:space="preserve">Money To Other Countries:</value>
+  </data>
+  <data name="lblOtherCivExpenseHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivExpenseHeader.Name">
+    <value xml:space="preserve">lblOtherCivExpenseHeader</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivExpenseHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivExpenseHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivExpenseHeader.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="lblUnitExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnitExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 186</value>
+  </data>
+  <data name="lblUnitExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblUnitExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lblUnitExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblUnitExpense.Name">
+    <value xml:space="preserve">lblUnitExpense</value>
+  </data>
+  <data name="&gt;&gt;lblUnitExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnitExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblUnitExpense.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="lblUnitCostHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnitCostHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 184</value>
+  </data>
+  <data name="lblUnitCostHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblUnitCostHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="lblUnitCostHeader.Text">
+    <value xml:space="preserve">Expense from Units:</value>
+  </data>
+  <data name="lblUnitCostHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCostHeader.Name">
+    <value xml:space="preserve">lblUnitCostHeader</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCostHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCostHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCostHeader.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="lblMaintenanceExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMaintenanceExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 170</value>
+  </data>
+  <data name="lblMaintenanceExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblMaintenanceExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="lblMaintenanceExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceExpense.Name">
+    <value xml:space="preserve">lblMaintenanceExpense</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceExpense.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="lblCorruptionExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCorruptionExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 154</value>
+  </data>
+  <data name="lblCorruptionExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblCorruptionExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="lblCorruptionExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionExpense.Name">
+    <value xml:space="preserve">lblCorruptionExpense</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionExpense.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <data name="lblEntertainmentExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEntertainmentExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 138</value>
+  </data>
+  <data name="lblEntertainmentExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblEntertainmentExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblEntertainmentExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentExpense.Name">
+    <value xml:space="preserve">lblEntertainmentExpense</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentExpense.ZOrder">
+    <value xml:space="preserve">10</value>
+  </data>
+  <data name="lblScienceExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScienceExpense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 122</value>
+  </data>
+  <data name="lblScienceExpense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblScienceExpense.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblScienceExpense.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblScienceExpense.Name">
+    <value xml:space="preserve">lblScienceExpense</value>
+  </data>
+  <data name="&gt;&gt;lblScienceExpense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScienceExpense.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblScienceExpense.ZOrder">
+    <value xml:space="preserve">17</value>
+  </data>
+  <data name="lblMaintenanceHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMaintenanceHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 168</value>
+  </data>
+  <data name="lblMaintenanceHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblMaintenanceHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblMaintenanceHeader.Text">
+    <value xml:space="preserve">Expense from Maintenance:</value>
+  </data>
+  <data name="lblMaintenanceHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceHeader.Name">
+    <value xml:space="preserve">lblMaintenanceHeader</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblMaintenanceHeader.ZOrder">
+    <value xml:space="preserve">18</value>
+  </data>
+  <data name="lblCorruptionHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCorruptionHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 152</value>
+  </data>
+  <data name="lblCorruptionHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblCorruptionHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblCorruptionHeader.Text">
+    <value xml:space="preserve">Expense from Corruption:</value>
+  </data>
+  <data name="lblCorruptionHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionHeader.Name">
+    <value xml:space="preserve">lblCorruptionHeader</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblCorruptionHeader.ZOrder">
+    <value xml:space="preserve">19</value>
+  </data>
+  <data name="lblEntertainmentHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEntertainmentHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 136</value>
+  </data>
+  <data name="lblEntertainmentHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblEntertainmentHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblEntertainmentHeader.Text">
+    <value xml:space="preserve">Expense from Entertainment:</value>
+  </data>
+  <data name="lblEntertainmentHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentHeader.Name">
+    <value xml:space="preserve">lblEntertainmentHeader</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainmentHeader.ZOrder">
+    <value xml:space="preserve">11</value>
+  </data>
+  <data name="lblScienceHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScienceHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 120</value>
+  </data>
+  <data name="lblScienceHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblScienceHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblScienceHeader.Text">
+    <value xml:space="preserve">Expense from Science:</value>
+  </data>
+  <data name="lblScienceHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblScienceHeader.Name">
+    <value xml:space="preserve">lblScienceHeader</value>
+  </data>
+  <data name="&gt;&gt;lblScienceHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScienceHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblScienceHeader.ZOrder">
+    <value xml:space="preserve">12</value>
+  </data>
+  <data name="lblTotalIncome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblTotalIncome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotalIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 80</value>
+  </data>
+  <data name="lblTotalIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblTotalIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblTotalIncome.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblTotalIncome.Name">
+    <value xml:space="preserve">lblTotalIncome</value>
+  </data>
+  <data name="&gt;&gt;lblTotalIncome.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalIncome.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTotalIncome.ZOrder">
+    <value xml:space="preserve">13</value>
+  </data>
+  <data name="lblOtherCivs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOtherCivs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 42</value>
+  </data>
+  <data name="lblOtherCivs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblOtherCivs.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblOtherCivs.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivs.Name">
+    <value xml:space="preserve">lblOtherCivs</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivs.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivs.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivs.ZOrder">
+    <value xml:space="preserve">14</value>
+  </data>
+  <data name="lblOtherCivsHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOtherCivsHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="lblOtherCivsHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblOtherCivsHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lblOtherCivsHeader.Text">
+    <value xml:space="preserve">Income From Other Civs:</value>
+  </data>
+  <data name="lblOtherCivsHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivsHeader.Name">
+    <value xml:space="preserve">lblOtherCivsHeader</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivsHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivsHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblOtherCivsHeader.ZOrder">
+    <value xml:space="preserve">15</value>
+  </data>
+  <data name="lblTaxIncome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTaxIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 26</value>
+  </data>
+  <data name="lblTaxIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblTaxIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblTaxIncome.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblTaxIncome.Name">
+    <value xml:space="preserve">lblTaxIncome</value>
+  </data>
+  <data name="&gt;&gt;lblTaxIncome.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTaxIncome.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTaxIncome.ZOrder">
+    <value xml:space="preserve">16</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.Text">
+    <value xml:space="preserve">Income from taxmen:</value>
+  </data>
+  <data name="lblTaxmenIncomeHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTaxmenIncomeHeader.Name">
+    <value xml:space="preserve">lblTaxmenIncomeHeader</value>
+  </data>
+  <data name="&gt;&gt;lblTaxmenIncomeHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTaxmenIncomeHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTaxmenIncomeHeader.ZOrder">
+    <value xml:space="preserve">22</value>
+  </data>
+  <data name="lblTreasury.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTreasury.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 288</value>
+  </data>
+  <data name="lblTreasury.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblTreasury.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblTreasury.Text">
+    <value xml:space="preserve">Treasury:</value>
+  </data>
+  <data name="lblTreasury.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTreasury.Name">
+    <value xml:space="preserve">lblTreasury</value>
+  </data>
+  <data name="&gt;&gt;lblTreasury.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTreasury.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTreasury.ZOrder">
+    <value xml:space="preserve">21</value>
+  </data>
+  <data name="lblNetGainHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNetGainHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 256</value>
+  </data>
+  <data name="lblNetGainHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblNetGainHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblNetGainHeader.Text">
+    <value xml:space="preserve">Net Gain:</value>
+  </data>
+  <data name="lblNetGainHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblNetGainHeader.Name">
+    <value xml:space="preserve">lblNetGainHeader</value>
+  </data>
+  <data name="&gt;&gt;lblNetGainHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNetGainHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblNetGainHeader.ZOrder">
+    <value xml:space="preserve">20</value>
+  </data>
+  <data name="lblCityIncomeHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCityIncomeHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblCityIncomeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 14</value>
+  </data>
+  <data name="lblCityIncomeHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblCityIncomeHeader.Text">
+    <value xml:space="preserve">Income from cities:</value>
+  </data>
+  <data name="lblCityIncomeHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncomeHeader.Name">
+    <value xml:space="preserve">lblCityIncomeHeader</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncomeHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncomeHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncomeHeader.ZOrder">
+    <value xml:space="preserve">23</value>
+  </data>
+  <data name="lblIncomeTotalHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIncomeTotalHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="lblIncomeTotalHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblIncomeTotalHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblIncomeTotalHeader.Text">
+    <value xml:space="preserve">Total Income:</value>
+  </data>
+  <data name="lblIncomeTotalHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeTotalHeader.Name">
+    <value xml:space="preserve">lblIncomeTotalHeader</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeTotalHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeTotalHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeTotalHeader.ZOrder">
+    <value xml:space="preserve">24</value>
+  </data>
+  <data name="lblExpenseHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblExpenseHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 224</value>
+  </data>
+  <data name="lblExpenseHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="lblExpenseHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblExpenseHeader.Text">
+    <value xml:space="preserve">Total Expense:</value>
+  </data>
+  <data name="lblExpenseHeader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblExpenseHeader.Name">
+    <value xml:space="preserve">lblExpenseHeader</value>
+  </data>
+  <data name="&gt;&gt;lblExpenseHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExpenseHeader.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblExpenseHeader.ZOrder">
+    <value xml:space="preserve">25</value>
+  </data>
+  <data name="lblTreasuryAmount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTreasuryAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 290</value>
+  </data>
+  <data name="lblTreasuryAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblTreasuryAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblTreasuryAmount.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblTreasuryAmount.Name">
+    <value xml:space="preserve">lblTreasuryAmount</value>
+  </data>
+  <data name="&gt;&gt;lblTreasuryAmount.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTreasuryAmount.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblTreasuryAmount.ZOrder">
+    <value xml:space="preserve">26</value>
+  </data>
+  <data name="lblCityIncome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCityIncome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 9</value>
+  </data>
+  <data name="lblCityIncome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblCityIncome.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblCityIncome.Text">
+    <value xml:space="preserve">0 Gold</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncome.Name">
+    <value xml:space="preserve">lblCityIncome</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncome.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncome.Parent">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;lblCityIncome.ZOrder">
+    <value xml:space="preserve">27</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 23</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lblIncomeExpensesHeader.Text">
+    <value xml:space="preserve">INCOME AND EXPENSES</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeExpensesHeader.Name">
+    <value xml:space="preserve">lblIncomeExpensesHeader</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeExpensesHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeExpensesHeader.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblIncomeExpensesHeader.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="cboMobilization.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboMobilization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 40</value>
+  </data>
+  <data name="cboMobilization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 21</value>
+  </data>
+  <data name="cboMobilization.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;cboMobilization.Name">
+    <value xml:space="preserve">cboMobilization</value>
+  </data>
+  <data name="&gt;&gt;cboMobilization.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboMobilization.Parent">
+    <value xml:space="preserve">pnlOtherInformation</value>
+  </data>
+  <data name="&gt;&gt;cboMobilization.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="cboGovernment.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cboGovernment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 8</value>
+  </data>
+  <data name="cboGovernment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 21</value>
+  </data>
+  <data name="cboGovernment.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;cboGovernment.Name">
+    <value xml:space="preserve">cboGovernment</value>
+  </data>
+  <data name="&gt;&gt;cboGovernment.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboGovernment.Parent">
+    <value xml:space="preserve">pnlOtherInformation</value>
+  </data>
+  <data name="&gt;&gt;cboGovernment.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="lblMobilization.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMobilization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="lblMobilization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="lblMobilization.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lblMobilization.Text">
+    <value xml:space="preserve">Mobilization:</value>
+  </data>
+  <data name="lblMobilization.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblMobilization.Name">
+    <value xml:space="preserve">lblMobilization</value>
+  </data>
+  <data name="&gt;&gt;lblMobilization.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMobilization.Parent">
+    <value xml:space="preserve">pnlOtherInformation</value>
+  </data>
+  <data name="&gt;&gt;lblMobilization.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblGovernment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGovernment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="lblGovernment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="lblGovernment.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="lblGovernment.Text">
+    <value xml:space="preserve">Government:</value>
+  </data>
+  <data name="lblGovernment.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblGovernment.Name">
+    <value xml:space="preserve">lblGovernment</value>
+  </data>
+  <data name="&gt;&gt;lblGovernment.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGovernment.Parent">
+    <value xml:space="preserve">pnlOtherInformation</value>
+  </data>
+  <data name="&gt;&gt;lblGovernment.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="pnlOtherInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 272</value>
+  </data>
+  <data name="pnlOtherInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 72</value>
+  </data>
+  <data name="pnlOtherInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;pnlOtherInformation.Name">
+    <value xml:space="preserve">pnlOtherInformation</value>
+  </data>
+  <data name="&gt;&gt;pnlOtherInformation.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOtherInformation.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;pnlOtherInformation.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="btnMore.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnMore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 48</value>
+  </data>
+  <data name="btnMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="btnMore.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="btnMore.Text">
+    <value xml:space="preserve">&amp;More</value>
+  </data>
+  <data name="&gt;&gt;btnMore.Name">
+    <value xml:space="preserve">btnMore</value>
+  </data>
+  <data name="&gt;&gt;btnMore.Type">
+    <value xml:space="preserve">System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMore.Parent">
+    <value xml:space="preserve">pnlAdviceComments</value>
+  </data>
+  <data name="&gt;&gt;btnMore.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblAdvice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAdvice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblAdvice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 40</value>
+  </data>
+  <data name="lblAdvice.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lblAdvice.Text">
+    <value xml:space="preserve">Chicago is growing slowly, sir.</value>
+  </data>
+  <data name="&gt;&gt;lblAdvice.Name">
+    <value xml:space="preserve">lblAdvice</value>
+  </data>
+  <data name="&gt;&gt;lblAdvice.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdvice.Parent">
+    <value xml:space="preserve">pnlAdviceComments</value>
+  </data>
+  <data name="&gt;&gt;lblAdvice.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="lblLuxuryRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLuxuryRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
+  </data>
+  <data name="lblLuxuryRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="lblLuxuryRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="lblLuxuryRatio.Text">
+    <value xml:space="preserve">Luxury Ratio</value>
+  </data>
+  <data name="&gt;&gt;lblLuxuryRatio.Name">
+    <value xml:space="preserve">lblLuxuryRatio</value>
+  </data>
+  <data name="&gt;&gt;lblLuxuryRatio.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLuxuryRatio.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblLuxuryRatio.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblSciencePercentage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSciencePercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 16</value>
+  </data>
+  <data name="lblSciencePercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="lblSciencePercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lblSciencePercentage.Text">
+    <value xml:space="preserve">50%</value>
+  </data>
+  <data name="&gt;&gt;lblSciencePercentage.Name">
+    <value xml:space="preserve">lblSciencePercentage</value>
+  </data>
+  <data name="&gt;&gt;lblSciencePercentage.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSciencePercentage.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblSciencePercentage.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="trkBarScience.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trkBarScience.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 8</value>
+  </data>
+  <data name="trkBarScience.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 45</value>
+  </data>
+  <data name="trkBarScience.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;trkBarScience.Name">
+    <value xml:space="preserve">trkBarScience</value>
+  </data>
+  <data name="&gt;&gt;trkBarScience.Type">
+    <value xml:space="preserve">System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trkBarScience.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;trkBarScience.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblEntertainment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEntertainment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 64</value>
+  </data>
+  <data name="lblEntertainment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblEntertainment.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="lblEntertainment.Text">
+    <value xml:space="preserve">0%</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainment.Name">
+    <value xml:space="preserve">lblEntertainment</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainment.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainment.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblEntertainment.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="lblTechAdvanceCompletion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTechAdvanceCompletion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 120</value>
+  </data>
+  <data name="lblTechAdvanceCompletion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 16</value>
+  </data>
+  <data name="lblTechAdvanceCompletion.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lblTechAdvanceCompletion.Text">
+    <value xml:space="preserve">Complete in </value>
+  </data>
+  <data name="&gt;&gt;lblTechAdvanceCompletion.Name">
+    <value xml:space="preserve">lblTechAdvanceCompletion</value>
+  </data>
+  <data name="&gt;&gt;lblTechAdvanceCompletion.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTechAdvanceCompletion.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblTechAdvanceCompletion.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="trkBarEntertainment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trkBarEntertainment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 56</value>
+  </data>
+  <data name="trkBarEntertainment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 45</value>
+  </data>
+  <data name="trkBarEntertainment.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;trkBarEntertainment.Name">
+    <value xml:space="preserve">trkBarEntertainment</value>
+  </data>
+  <data name="&gt;&gt;trkBarEntertainment.Type">
+    <value xml:space="preserve">System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trkBarEntertainment.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;trkBarEntertainment.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="lblResearchingHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblResearchingHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 104</value>
+  </data>
+  <data name="lblResearchingHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="lblResearchingHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lblResearchingHeader.Text">
+    <value xml:space="preserve">Researching:</value>
+  </data>
+  <data name="&gt;&gt;lblResearchingHeader.Name">
+    <value xml:space="preserve">lblResearchingHeader</value>
+  </data>
+  <data name="&gt;&gt;lblResearchingHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchingHeader.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchingHeader.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="lblScienceRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScienceRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblScienceRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="lblScienceRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lblScienceRatio.Text">
+    <value xml:space="preserve">Science Ratio</value>
+  </data>
+  <data name="&gt;&gt;lblScienceRatio.Name">
+    <value xml:space="preserve">lblScienceRatio</value>
+  </data>
+  <data name="&gt;&gt;lblScienceRatio.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScienceRatio.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblScienceRatio.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="lblTechnology.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTechnology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 104</value>
+  </data>
+  <data name="lblTechnology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 16</value>
+  </data>
+  <data name="lblTechnology.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;lblTechnology.Name">
+    <value xml:space="preserve">lblTechnology</value>
+  </data>
+  <data name="&gt;&gt;lblTechnology.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTechnology.Parent">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;lblTechnology.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="lblScientificResearchHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScientificResearchHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 96</value>
+  </data>
+  <data name="lblScientificResearchHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 16</value>
+  </data>
+  <data name="lblScientificResearchHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="lblScientificResearchHeader.Text">
+    <value xml:space="preserve">SCIENTIFIC RESEARCH</value>
+  </data>
+  <data name="&gt;&gt;lblScientificResearchHeader.Name">
+    <value xml:space="preserve">lblScientificResearchHeader</value>
+  </data>
+  <data name="&gt;&gt;lblScientificResearchHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScientificResearchHeader.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblScientificResearchHeader.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="lblAdviceCommentsHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAdviceCommentsHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 8</value>
+  </data>
+  <data name="lblAdviceCommentsHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 16</value>
+  </data>
+  <data name="lblAdviceCommentsHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="lblAdviceCommentsHeader.Text">
+    <value xml:space="preserve">ADVICE AND COMMENTS</value>
+  </data>
+  <data name="&gt;&gt;lblAdviceCommentsHeader.Name">
+    <value xml:space="preserve">lblAdviceCommentsHeader</value>
+  </data>
+  <data name="&gt;&gt;lblAdviceCommentsHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdviceCommentsHeader.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblAdviceCommentsHeader.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblOtherInfoHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOtherInfoHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 256</value>
+  </data>
+  <data name="lblOtherInfoHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="lblOtherInfoHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="lblOtherInfoHeader.Text">
+    <value xml:space="preserve">OTHER INFORMATION</value>
+  </data>
+  <data name="&gt;&gt;lblOtherInfoHeader.Name">
+    <value xml:space="preserve">lblOtherInfoHeader</value>
+  </data>
+  <data name="&gt;&gt;lblOtherInfoHeader.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOtherInfoHeader.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lblOtherInfoHeader.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 112</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 136</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name">
+    <value xml:space="preserve">panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="pnlIncomeExpenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="pnlIncomeExpenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 320</value>
+  </data>
+  <data name="pnlIncomeExpenses.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;pnlIncomeExpenses.Name">
+    <value xml:space="preserve">pnlIncomeExpenses</value>
+  </data>
+  <data name="&gt;&gt;pnlIncomeExpenses.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlIncomeExpenses.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;pnlIncomeExpenses.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="pbAdvice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbAdvice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 8</value>
+  </data>
+  <data name="pbAdvice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 56</value>
+  </data>
+  <data name="pbAdvice.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pbAdvice.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;pbAdvice.Name">
+    <value xml:space="preserve">pbAdvice</value>
+  </data>
+  <data name="&gt;&gt;pbAdvice.Type">
+    <value xml:space="preserve">System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbAdvice.Parent">
+    <value xml:space="preserve">pnlAdviceComments</value>
+  </data>
+  <data name="&gt;&gt;pbAdvice.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="pnlAdviceComments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 24</value>
+  </data>
+  <data name="pnlAdviceComments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 72</value>
+  </data>
+  <data name="pnlAdviceComments.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;pnlAdviceComments.Name">
+    <value xml:space="preserve">pnlAdviceComments</value>
+  </data>
+  <data name="&gt;&gt;pnlAdviceComments.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAdviceComments.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;pnlAdviceComments.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 472</value>
+  </data>
+  <data name="&gt;&gt;hdrCityName.Name">
+    <value xml:space="preserve">hdrCityName</value>
+  </data>
+  <data name="&gt;&gt;hdrCityName.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrPopulation.Name">
+    <value xml:space="preserve">hdrPopulation</value>
+  </data>
+  <data name="&gt;&gt;hdrPopulation.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrProducing.Name">
+    <value xml:space="preserve">hdrProducing</value>
+  </data>
+  <data name="&gt;&gt;hdrProducing.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">DomesticAdvisorDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

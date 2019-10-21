@@ -1,0 +1,102 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Similization Windows Client", "..\Similization Windows Client\Similization Windows Client.csproj", "{65F29D94-9128-4FF8-A4EB-AADF5D884B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJM.Similization.Client", "..\SimilizationClient\LJM.Similization.Client.csproj", "{7CD9B451-E767-49A4-B506-3CCDFDE470A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJM.Similization.Server", "..\Civ\Civ\LJM.Similization.Server.csproj", "{D650183F-E672-4195-8CDD-AC7582ED3221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJM.Similization.Core", "LJM.Similization.Core\LJM.Similization.Core.csproj", "{5EE311DB-5026-45F3-970B-E66382FC65AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F29D94-9128-4FF8-A4EB-AADF5D884B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F29D94-9128-4FF8-A4EB-AADF5D884B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F29D94-9128-4FF8-A4EB-AADF5D884B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F29D94-9128-4FF8-A4EB-AADF5D884B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD9B451-E767-49A4-B506-3CCDFDE470A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD9B451-E767-49A4-B506-3CCDFDE470A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD9B451-E767-49A4-B506-3CCDFDE470A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD9B451-E767-49A4-B506-3CCDFDE470A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D650183F-E672-4195-8CDD-AC7582ED3221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D650183F-E672-4195-8CDD-AC7582ED3221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D650183F-E672-4195-8CDD-AC7582ED3221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D650183F-E672-4195-8CDD-AC7582ED3221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE311DB-5026-45F3-970B-E66382FC65AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE311DB-5026-45F3-970B-E66382FC65AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE311DB-5026-45F3-970B-E66382FC65AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE311DB-5026-45F3-970B-E66382FC65AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 15
+		SccProjectName0 = \u0022$/Similization\u0022,\u0020BAAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = Similization\\
+		SolutionUniqueID = {2A8D9020-4B41-42E2-9D8C-BD9A581C2D21}
+		SccProjectUniqueName1 = ..\\Civ\\Civ\\Civ.csproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Civ\\Civ\\
+		SccProjectUniqueName2 = ..\\Direct3dUtilities\\DirectUtilities.csproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Direct3dUtilities\\
+		SccProjectUniqueName3 = ..\\DXFormBase\\DXFormBase.csproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = DXFormBase\\
+		SccProjectUniqueName4 = ..\\LJMengine\\LJMengine.csproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = LJMengine\\
+		SccProjectUniqueName5 = ..\\LJMsound\\LJMsound.csproj
+		SccLocalPath5 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = LJMsound\\
+		SccProjectUniqueName6 = ..\\RelationalDataObjects\\RelationalDataObjects.csproj
+		SccLocalPath6 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = RelationalDataObjects\\
+		SccProjectUniqueName7 = ..\\Similization\u0020Install\\Similization\u0020Install.vdproj
+		SccLocalPath7 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = Similization\u0020Install\\
+		SccProjectUniqueName8 = Similization.csproj
+		SccLocalPath8 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = Similization\\
+		SccProjectUniqueName9 = ..\\SimilizationBusinessObjects\\SimilizationBusinessObjects.csproj
+		SccLocalPath9 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = SimilizationBusinessObjects\\
+		SccProjectUniqueName10 = ..\\SimilizationDataAccessClasses\\SimilizationDataAccessClasses.csproj
+		SccLocalPath10 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection10 = SimilizationDataAccessClasses\\
+		SccProjectUniqueName11 = ..\\SimilizationDataObjects\\SimilizationDataObjects.csproj
+		SccLocalPath11 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection11 = SimilizationDataObjects\\
+		SccProjectUniqueName12 = ..\\SimilizationRulesEditor\\SimilizationRulesEditor.csproj
+		SccLocalPath12 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection12 = SimilizationRulesEditor\\
+		SccProjectUniqueName13 = ..\\Similization\u0020Windows\u0020Client\\Similization\u0020Windows\u0020Client.csproj
+		SccLocalPath13 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection13 = Similization\u0020Windows\u0020Client\\
+		SccProjectUniqueName14 = ..\\SimilizationClient\\SimilizationClient.csproj
+		SccLocalPath14 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection14 = SimilizationClient\\
+	EndGlobalSection
+EndGlobal

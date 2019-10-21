@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<governments>
+	<government id="8604E8CF-3B30-453e-A1D3-D2D4DCEEB86F" name="Anarchy" fallback="true" leaderTitle="Leader" workerEfficiencyFactor="0" corruptionFactor="6" primary="false">
+		<freeUnits>
+			<town>-1</town>
+			<city>-1</city>
+			<metropolis>-1</metropolis>
+		</freeUnits>
+	</government>
+	<government id="4BF86F2E-CEB8-4c7f-A19B-8B4496A6C711" name="Despotism" fallback="false" leaderTitle="Great One" workerEfficiencyFactor="0" corruptionFactor="5" primary="true">
+		<freeUnits>
+			<town>4</town>
+			<city>4</city>
+			<metropolis>4</metropolis>
+		</freeUnits>
+	</government>
+	<government id="2972B2C1-DD07-4a6f-94EF-02D0BB430E87" name="Monarchy" fallback="false" leaderTitle="Sire" workerEfficiencyFactor="0" corruptionFactor="4" primary="false">
+		<prerequisites>
+			<prerequisite type="technology">F4397005-85F5-4c1b-8C76-EC133D4980DF</prerequisite>
+		</prerequisites>
+		<freeUnits>
+			<town>2</town>
+			<city>4</city>
+			<metropolis>8</metropolis>
+		</freeUnits>
+	</government>
+	<government id="3EE82CC9-97F9-44e4-BFF2-DE4D6075EAB0" name="Republic" fallback="false" leaderTitle="Sir" workerEfficiencyFactor="0" corruptionFactor="3" primary="false">
+		<prerequisites>
+			<prerequisite type="technology">58B77690-6EE4-4da2-9830-9AE4656E8865</prerequisite>
+		</prerequisites>
+		<freeUnits>
+			<town>0</town>
+			<city>0</city>
+			<metropolis>0</metropolis>
+		</freeUnits>
+	</government>
+	<government id="AD547A47-3ED5-4e6c-9FBA-FD9649FD1145" name="Communism" fallback="false" leaderTitle="Comrade" workerEfficiencyFactor="0" corruptionFactor="2" primary="false">
+		<prerequisites>
+			<prerequisite type="technology">7292D8D5-EEEA-458d-A2A7-83FB8C3A962D</prerequisite>
+		</prerequisites>
+		<freeUnits>
+			<town>2</town>
+			<city>4</city>
+			<metropolis>8</metropolis>
+		</freeUnits>
+	</government>
+	<government id="377B2776-6074-48f9-A4BA-3B613B0055F2" name="Democracy" fallback="false" leaderTitle="President" workerEfficiencyFactor="0" corruptionFactor="1" primary="false">
+		<prerequisites>
+			<prerequisite type="technology">88245318-F97C-415b-AAD9-ECC612B88666</prerequisite>
+		</prerequisites>
+		<freeUnits>
+			<town>0</town>
+			<city>0</city>
+			<metropolis>0</metropolis>
+		</freeUnits>
+	</government>
+</governments>

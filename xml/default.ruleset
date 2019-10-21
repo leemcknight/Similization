@@ -1,0 +1,1619 @@
+<ruleset>
+	<metadata>
+		<id>C255CA05-1759-402e-ABB1-92B0FB48F421</id>
+		<name>default</name>
+		<description>This is the default ruleset.  This ruleset cannot be changed.</description>
+		<owner>Lee McKnight</owner>
+		<client>winforms</client>
+		<path></path>
+		<file></file>
+		<mapType>isometric</mapType>
+	</metadata>
+	<locked>true</locked>
+	<civilizations>
+		<civilization id="00996BEA-9270-4f6c-A646-D166847AAF87" name="America" noun="Americans" adjective="American" leaderName="Lincoln" commerical="false" expansionist="true" industrious="true" militaristic="false" religious="false" scientific="false" globalculture="American">
+			<cityNames>
+				<cityName>Chicago</cityName>
+				<cityName>Boston</cityName>
+				<cityName>New York</cityName>
+				<cityName>Peoria</cityName>
+				<cityName>San Francisco</cityName>
+				<cityName>Houston</cityName>
+				<cityName>Charlotte</cityName>
+				<cityName>St. Louis</cityName>
+				<cityName>Milwaukee</cityName>
+				<cityName>Minneapolis</cityName>
+				<cityName>Indianapolis</cityName>
+				<cityName>Columbus</cityName>
+				<cityName>Terre Haute</cityName>
+				<cityName>Farmington</cityName>
+				<cityName>Bloomington</cityName>
+				<cityName>Schaumburg</cityName>
+				<cityName>Effingham</cityName>
+				<cityName>Joplin</cityName>
+				<cityName>Le Roy</cityName>
+				<cityName>Normal</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>4495B4CC-D041-4af4-9EB1-9447179E71DE</startingTechnology>
+				<startingTechnology>95DFA108-0341-413b-8B7A-7DAC5EABDD7D</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="18C430C0-3770-4779-B53C-533A06A11DE4" name="Aztecs" noun="Aztecs" adjective="Aztec" leaderName="Montezuma" commerical="false" expansionist="false" industrious="false" militaristic="true" religious="true" scientific="false" globalculture="American">
+			<cityNames>
+				<cityName>Tenochtitlan</cityName>
+				<cityName>Teotihuacan</cityName>
+				<cityName>Tlatelolco</cityName>
+				<cityName>Texcoco</cityName>
+				<cityName>Tlaxcala</cityName>
+				<cityName>Calixtlahuaca</cityName>
+				<cityName>Xochicalco</cityName>
+				<cityName>Tlacopan</cityName>
+				<cityName>Atzcapotzalco</cityName>
+				<cityName>Tzintzuntzen</cityName>
+				<cityName>Malinalco</cityName>
+				<cityName>Tula</cityName>
+				<cityName>Tamuin</cityName>
+				<cityName>Teayo</cityName>
+				<cityName>Cempoala</cityName>
+				<cityName>Chalco</cityName>
+				<cityName>Tlalmanalco</cityName>
+				<cityName>Ixtapaluca</cityName>
+				<cityName>Huexotla</cityName>
+				<cityName>Tepexpan</cityName>
+				<cityName>Tepetlaoxtoc</cityName>
+				<cityName>Chiconautla</cityName>
+				<cityName>Zitlaltepec</cityName>
+				<cityName>Coyotepec</cityName>
+				<cityName>Tequixquiac</cityName>
+				<cityName>Jilotzingo</cityName>
+				<cityName>Tlapanaloya</cityName>
+				<cityName>Tultitlan</cityName>
+				<cityName>Ecatepec</cityName>
+				<cityName>Coatepec</cityName>
+				<cityName>Chalchihuites</cityName>
+				<cityName>Chiauhtia</cityName>
+				<cityName>Chapultepec</cityName>
+				<cityName>Itzapalapa</cityName>
+				<cityName>Ayotzinco</cityName>
+				<cityName>Iztapam</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>E4C82D00-20B6-4578-9818-A48107DCF348</startingTechnology>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="E7866F39-14A8-4781-8A91-EED68453D3BE" name="Babylon" noun="Babylonians" adjective="Babylonian" leaderName="Hammurabi" commerical="false" expansionist="false" industrious="false" militaristic="false" religious="true" scientific="true" globalculture="MidEast">
+			<cityNames>
+				<cityName>Babylon</cityName>
+				<cityName>Ur</cityName>
+				<cityName>Nineveh</cityName>
+				<cityName>Ashur</cityName>
+				<cityName>Ellipi</cityName>
+				<cityName>Akkad</cityName>
+				<cityName>Uruk</cityName>
+				<cityName>Eridu</cityName>
+				<cityName>Samarra</cityName>
+				<cityName>Lagash</cityName>
+				<cityName>Kish</cityName>
+				<cityName>Nippur</cityName>
+				<cityName>Shuruppak</cityName>
+				<cityName>Zariqum</cityName>
+				<cityName>Sippar</cityName>
+				<cityName>Izibia</cityName>
+				<cityName>Larsa</cityName>
+				<cityName>Nimrud</cityName>
+				<cityName>Zamua</cityName>
+				<cityName>Khorsabad</cityName>
+				<cityName>Hindana</cityName>
+				<cityName>Tell Wilaya</cityName>
+				<cityName>Umma</cityName>
+				<cityName>Adab</cityName>
+				<cityName>Telloh</cityName>
+				<cityName>Nina</cityName>
+				<cityName>Ebla</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+				<startingTechnology>6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="60CA5CF7-9AB9-4795-ADAF-1B7A7F876D16" name="China" noun="Chinese" adjective="Chinese" leaderName="Mao" commerical="false" expansionist="false" industrious="true" militaristic="true" religious="false" scientific="false" globalculture="Asian">
+			<cityNames>
+				<cityName>Beijing</cityName>
+				<cityName>Shanghai</cityName>
+				<cityName>Canton</cityName>
+				<cityName>Nanking</cityName>
+				<cityName>Tsingtao</cityName>
+				<cityName>Xinjian</cityName>
+				<cityName>Chengdu</cityName>
+				<cityName>Hangchow</cityName>
+				<cityName>Tientsin</cityName>
+				<cityName>Tatung</cityName>
+				<cityName>Macao</cityName>
+				<cityName>Anyang</cityName>
+				<cityName>Shantung</cityName>
+				<cityName>Chinan</cityName>
+				<cityName>Kaifeng</cityName>
+				<cityName>Ningpo</cityName>
+				<cityName>Paoting</cityName>
+				<cityName>Yangchow</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>95DFA108-0341-413b-8B7A-7DAC5EABDD7D</startingTechnology>
+				<startingTechnology>E4C82D00-20B6-4578-9818-A48107DCF348</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="BFFA8903-AB16-426b-900F-012FBD4B738A" name="Egypt" noun="Egyptians" adjective="Egyptian" leaderName="Cleopatra" commerical="false" expansionist="false" industrious="true" militaristic="false" religious="true" scientific="false" globalculture="Mediterranean">
+			<cityNames>
+				<cityName>Thebes</cityName>
+				<cityName>Memphis</cityName>
+				<cityName>Heliopolis</cityName>
+				<cityName>Elephantine</cityName>
+				<cityName>Alexandria</cityName>
+				<cityName>Pi-Ramesses</cityName>
+				<cityName>Giza</cityName>
+				<cityName>Byblos</cityName>
+				<cityName>El-Amarna</cityName>
+				<cityName>Hieraconpolis</cityName>
+				<cityName>Abydos</cityName>
+				<cityName>Asyut</cityName>
+				<cityName>Avaris</cityName>
+				<cityName>Lisht</cityName>
+				<cityName>Buto</cityName>
+				<cityName>Edfu</cityName>
+				<cityName>Pithom</cityName>
+				<cityName>Busiris</cityName>
+				<cityName>Kahun</cityName>
+				<cityName>Athribis</cityName>
+				<cityName>Mendes</cityName>
+				<cityName>El-Ashmunein</cityName>
+				<cityName>Tanis</cityName>
+				<cityName>Buhen</cityName>
+				<cityName>Bubastis</cityName>
+				<cityName>This</cityName>
+				<cityName>Oryx</cityName>
+				<cityName>Sebennytus</cityName>
+				<cityName>Cairo</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>95DFA108-0341-413b-8B7A-7DAC5EABDD7D</startingTechnology>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="657FFEBD-D30B-4fe7-8195-7FE4DE876EAD" name="England" noun="English" adjective="English" leaderName="Elizabeth" commerical="true" expansionist="true" industrious="false" militaristic="false" religious="false" scientific="false" globalculture="European">
+			<cityNames>
+				<cityName>London</cityName>
+				<cityName>York</cityName>
+				<cityName>Nottingham</cityName>
+				<cityName>Hastings</cityName>
+				<cityName>Canterbury</cityName>
+				<cityName>Coventry</cityName>
+				<cityName>Warwick</cityName>
+				<cityName>Newcastle</cityName>
+				<cityName>Oxford</cityName>
+				<cityName>Liverpool</cityName>
+				<cityName>Dover</cityName>
+				<cityName>Brighton</cityName>
+				<cityName>Norwich</cityName>
+				<cityName>Leeds</cityName>
+				<cityName>Reading</cityName>
+				<cityName>Birmingham</cityName>
+				<cityName>Richmond</cityName>
+				<cityName>Exeter</cityName>
+				<cityName>Cambridge</cityName>
+				<cityName>Gloucester</cityName>
+				<cityName>Manchester</cityName>
+				<cityName>Bristol</cityName>
+				<cityName>Leicester</cityName>
+				<cityName>Carlisle</cityName>
+				<cityName>Ipswich</cityName>
+				<cityName>Portsmouth</cityName>
+				<cityName>Berwick</cityName>
+				<cityName>Bath</cityName>
+				<cityName>The Mumbles</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>4495B4CC-D041-4af4-9EB1-9447179E71DE</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="25D24431-5B28-4d8e-98AE-D0BDD7856C75" name="France" noun="French" adjective="French" leaderName="Joan d Arc" commerical="true" expansionist="false" industrious="true" militaristic="false" religious="false" scientific="false" globalculture="European">
+			<cityNames>
+				<cityName>Paris</cityName>
+				<cityName>Orleans</cityName>
+				<cityName>Lyons</cityName>
+				<cityName>Rheims</cityName>
+				<cityName>Tours</cityName>
+				<cityName>Marseilles</cityName>
+				<cityName>Chartres</cityName>
+				<cityName>Avignon</cityName>
+				<cityName>Besancon</cityName>
+				<cityName>Rouen</cityName>
+				<cityName>Grenoble</cityName>
+				<cityName>Dijon</cityName>
+				<cityName>Amiens</cityName>
+				<cityName>Cherbourg</cityName>
+				<cityName>Poitiers</cityName>
+				<cityName>Toulouse</cityName>
+				<cityName>Bayonne</cityName>
+				<cityName>Strasbourg</cityName>
+				<cityName>Brest</cityName>
+				<cityName>Bordeaux</cityName>
+				<cityName>Rennes</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>95DFA108-0341-413b-8B7A-7DAC5EABDD7D</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="32CCEBCB-417A-432a-8D16-FA610CFFF65B" name="Germany" noun="Germans" adjective="German" leaderName="Bismarck" commerical="true" expansionist="true" industrious="false" militaristic="false" religious="false" scientific="false" globalculture="European">
+			<cityNames>
+				<cityName>Berlin</cityName>
+				<cityName>Leipzig</cityName>
+				<cityName>Hamburg</cityName>
+				<cityName>Konigsberg</cityName>
+				<cityName>Frankfurt</cityName>
+				<cityName>Munich</cityName>
+				<cityName>Heidelburg</cityName>
+				<cityName>Nuremberg</cityName>
+				<cityName>Cologne</cityName>
+				<cityName>Hannover</cityName>
+				<cityName>Bremen</cityName>
+				<cityName>Stuttgart</cityName>
+				<cityName>Bonn</cityName>
+				<cityName>Salzburg</cityName>
+				<cityName>Dortmund</cityName>
+				<cityName>Brandenburg</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>4495B4CC-D041-4af4-9EB1-9447179E71DE</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="83E4E0DE-5350-4645-AA55-C5CBF787728D" name="Greece" noun="Greeks" adjective="Greek" leaderName="Alexander" commerical="true" expansionist="false" industrious="false" militaristic="false" religious="false" scientific="true" globalculture="European">
+			<cityNames>
+				<cityName>Athens</cityName>
+				<cityName>Sparta</cityName>
+				<cityName>Thermopylae</cityName>
+				<cityName>Corinth</cityName>
+				<cityName>Delphi</cityName>
+				<cityName>Pharsalos</cityName>
+				<cityName>Knossos</cityName>
+				<cityName>Argos</cityName>
+				<cityName>Mycenae</cityName>
+				<cityName>Herakleia</cityName>
+				<cityName>Ephesus</cityName>
+				<cityName>Thessalonica</cityName>
+				<cityName>Rhodes</cityName>
+				<cityName>Eretria</cityName>
+				<cityName>Troy</cityName>
+				<cityName>Marathon</cityName>
+				<cityName>Halicarnassus</cityName>
+				<cityName>Pergamon</cityName>
+				<cityName>Miletos</cityName>
+				<cityName>Artemisium</cityName>
+				<cityName>Megara</cityName>
+				<cityName>Phocaea</cityName>
+				<cityName>Sicyon</cityName>
+				<cityName>Gortyn</cityName>
+				<cityName>Mytilene</cityName>
+				<cityName>Tegea</cityName>
+				<cityName>Syracuse</cityName>
+				<cityName>Apollonia</cityName>
+				<cityName>Apolyton</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="770C6150-EF73-4ff9-9A15-193977AC41E7" name="India" noun="Indians" adjective="Indian" leaderName="Gandhi" commerical="true" expansionist="false" industrious="false" militaristic="false" religious="true" scientific="false" globalculture="Asian">
+			<cityNames>
+				<cityName>Delhi</cityName>
+				<cityName>Bombay</cityName>
+				<cityName>Madras</cityName>
+				<cityName>Bangalore</cityName>
+				<cityName>Calcutta</cityName>
+				<cityName>Lahore</cityName>
+				<cityName>Karachi</cityName>
+				<cityName>Kolhapur</cityName>
+				<cityName>Jaipur</cityName>
+				<cityName>Hyderabad</cityName>
+				<cityName>Bengal</cityName>
+				<cityName>Chittagong</cityName>
+				<cityName>Punjab</cityName>
+				<cityName>Dacca</cityName>
+				<cityName>Indus</cityName>
+				<cityName>Ganges</cityName>
+				<cityName>Pune</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="1C5502AC-CF47-450c-9D5D-E37FA37DE13A" name="Iroquois" noun="Iroquois" adjective="Iroquois" leaderName="Hiawatha" commerical="false" expansionist="true" industrious="false" militaristic="false" religious="true" scientific="false" globalculture="American">
+			<cityNames>
+				<cityName>Salamanca</cityName>
+				<cityName>Niagara Falls</cityName>
+				<cityName>Grand River</cityName>
+				<cityName>Allegheny</cityName>
+				<cityName>Cattaraugus</cityName>
+				<cityName>Oil Springs</cityName>
+				<cityName>Tonawanda</cityName>
+				<cityName>Mauch Chunk</cityName>
+				<cityName>St. Regis</cityName>
+				<cityName>Centralia</cityName>
+				<cityName>Akwesasne</cityName>
+				<cityName>Tyendenaga</cityName>
+				<cityName>Kahnawake</cityName>
+				<cityName>Caughnawaga</cityName>
+				<cityName>Oka</cityName>
+				<cityName>Chondote</cityName>
+				<cityName>Gandasetaigon</cityName>
+				<cityName>Ganogeh</cityName>
+				<cityName>Gayagaahe</cityName>
+				<cityName>Gewauga</cityName>
+				<cityName>Goigouen</cityName>
+				<cityName>Kawauka</cityName>
+				<cityName>Kente</cityName>
+				<cityName>Kiohero</cityName>
+				<cityName>Owego</cityName>
+				<cityName>Neodakheat</cityName>
+				<cityName>Oiogouen</cityName>
+				<cityName>Skannayutenate</cityName>
+				<cityName>Onnontare</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>4495B4CC-D041-4af4-9EB1-9447179E71DE</startingTechnology>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="7218C24D-55BE-4a9b-B92A-EF4A61312C03" name="Japan" noun="Japanese" adjective="Japanese" leaderName="Tokugawa" commerical="false" expansionist="false" industrious="false" militaristic="true" religious="true" scientific="false" globalculture="Asian">
+			<cityNames>
+				<cityName>Kyoto</cityName>
+				<cityName>Osaka</cityName>
+				<cityName>Tokyo</cityName>
+				<cityName>Edo</cityName>
+				<cityName>Satsuma</cityName>
+				<cityName>Kagoshima</cityName>
+				<cityName>Nara</cityName>
+				<cityName>Nagoya</cityName>
+				<cityName>Izumo</cityName>
+				<cityName>Nagasaki</cityName>
+				<cityName>Yokohama</cityName>
+				<cityName>Shimonoseki</cityName>
+				<cityName>Matsuyama</cityName>
+				<cityName>Sapporo</cityName>
+				<cityName>Hakodate</cityName>
+				<cityName>Ise</cityName>
+				<cityName>Toyama</cityName>
+				<cityName>Fukushima</cityName>
+				<cityName>Suo</cityName>
+				<cityName>Bizen</cityName>
+				<cityName>Echizen</cityName>
+				<cityName>Izumi</cityName>
+				<cityName>Omi</cityName>
+				<cityName>Echigo</cityName>
+				<cityName>Kozuke</cityName>
+				<cityName>Sado</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>E4C82D00-20B6-4578-9818-A48107DCF348</startingTechnology>
+				<startingTechnology>80B75C2A-24F0-4d23-A552-187964F5968A</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="1F1CBB31-705F-43b4-A7C3-AD53D90EA892" name="Persia" noun="Persians" adjective="Persian" leaderName="Xerxes" commerical="false" expansionist="false" industrious="true" militaristic="false" religious="false" scientific="true" globalculture="MidEast">
+			<cityNames>
+				<cityName>Persepolis</cityName>
+				<cityName>Pasargadae</cityName>
+				<cityName>Susa</cityName>
+				<cityName>Arbela</cityName>
+				<cityName>Antioch</cityName>
+				<cityName>Tarsus</cityName>
+				<cityName>Gordium</cityName>
+				<cityName>Bactra</cityName>
+				<cityName>Sidon</cityName>
+				<cityName>Tyre</cityName>
+				<cityName>Sardis</cityName>
+				<cityName>Samaria</cityName>
+				<cityName>Hamadan</cityName>
+				<cityName>Ergili</cityName>
+				<cityName>Dariush Kabir</cityName>
+				<cityName>Ghulaman</cityName>
+				<cityName>Zohak</cityName>
+				<cityName>Istakhr</cityName>
+				<cityName>Jinjan</cityName>
+				<cityName>Borazjan</cityName>	
+				<cityName>Herat</cityName>
+				<cityName>Dakyanus</cityName>
+				<cityName>Bampur</cityName>
+				<cityName>Tureng Tepe</cityName>
+				<cityName>Merv</cityName>
+				<cityName>Behistun</cityName>
+				<cityName>Kandahar</cityName>
+				<cityName>Altin Tepe</cityName>
+				<cityName>Bunyan</cityName>
+				<cityName>Charsadda</cityName>
+				<cityName>Ura Tyube</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>95DFA108-0341-413b-8B7A-7DAC5EABDD7D</startingTechnology>
+				<startingTechnology>6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="487D5E22-B481-4d27-ADC5-9661DBB08BC3" name="Rome" noun="Romans" adjective="Roman" leaderName="Caesar" commerical="true" expansionist="false" industrious="false" militaristic="true" religious="false" scientific="false" globalculture="Mediterranean">
+			<cityNames>
+				<cityName>Rome</cityName>
+				<cityName>Veii</cityName>
+				<cityName>Antium</cityName>
+				<cityName>Cumae</cityName>
+				<cityName>Neapolis</cityName>
+				<cityName>Pompeii</cityName>
+				<cityName>Pisae</cityName>
+				<cityName>Ravenna</cityName>
+				<cityName>Hispalis</cityName>
+				<cityName>Viroconium</cityName>
+				<cityName>Lugdunum</cityName>
+				<cityName>Lutetia</cityName>
+				<cityName>Byzantium</cityName>
+				<cityName>Brundisium</cityName>
+				<cityName>Syracuse</cityName>
+				<cityName>Caesaraugusta</cityName>
+				<cityName>Palmyra</cityName>
+				<cityName>Jerusalem</cityName>
+				<cityName>Caesarea</cityName>
+				<cityName>Tarentum</cityName>
+				<cityName>Nicomedia</cityName>
+				<cityName>Seleucia</cityName>
+				<cityName>Artaxata</cityName>
+				<cityName>Aurelianorum</cityName>
+				<cityName>Hippo Regius</cityName>
+				<cityName>Nicopolis</cityName>
+				<cityName>Londinium</cityName>
+				<cityName>Eburacum</cityName>
+				<cityName>Arretium</cityName>
+				<cityName>Gordion</cityName>
+				<cityName>Agrippina</cityName>
+				<cityName>Cyrene</cityName>
+				<cityName>Tyrus</cityName>
+				<cityName>Verona</cityName>
+				<cityName>Corfinium</cityName>
+				<cityName>Mediolanum</cityName>
+				<cityName>Treveri</cityName>
+				<cityName>Sirmium</cityName>
+				<cityName>Augustadorum</cityName>
+				<cityName>Trapezus</cityName>
+				<cityName>Bagacum</cityName>
+				<cityName>Lauriacum</cityName>
+				<cityName>Teurnia</cityName>
+				<cityName>Curia</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>BC10F248-56BA-4bd6-9323-C328C05AEBBE</startingTechnology>
+				<startingTechnology>E4C82D00-20B6-4578-9818-A48107DCF348</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+		<civilization id="E091D581-3FA7-49fc-8F0D-A4E77C27FE41" name="Zululand" noun="Zulu" adjective="Zulu" leaderName="Shaka" commerical="false" expansionist="true" industrious="false" militaristic="true" religious="false" scientific="false" globalculture="MidEast">
+			<cityNames>
+				<cityName>Zimbabwe</cityName>
+				<cityName>Ulundi</cityName>
+				<cityName>Bapedi</cityName>
+				<cityName>Hlobane</cityName>
+				<cityName>Isandhlwana</cityName>
+				<cityName>Intombe</cityName>
+				<cityName>Mpondo</cityName>
+				<cityName>Ngome</cityName>
+				<cityName>Swazi</cityName>
+				<cityName>Tugela</cityName>
+				<cityName>Umtata</cityName>
+				<cityName>Umfolozi</cityName>
+				<cityName>Ibabanago</cityName>
+				<cityName>Isipezi</cityName>
+				<cityName>Amatikulu</cityName>
+				<cityName>Zunguin</cityName>
+			</cityNames>
+			<startingTechnologies>
+				<startingTechnology>4495B4CC-D041-4af4-9EB1-9447179E71DE</startingTechnology>
+				<startingTechnology>E4C82D00-20B6-4578-9818-A48107DCF348</startingTechnology>
+			</startingTechnologies>
+		</civilization>
+	</civilizations>
+	<editorImages>
+		<editorImage id="E104EFF5-187F-481c-BAD6-4A83A9ADB5ED" name="Water" file="water.bmp"></editorImage>
+		<editorImage id="68D3F739-8E83-4b15-9AC4-12B004104ED5" name="Grass" file="grass.bmp"></editorImage>
+		<editorImage id="F0E4AB1E-ABD2-4f73-9B0B-066B61A06C7F" name="Desert" file="desert.bmp"></editorImage>
+		<editorImage id="DE74298F-10F5-497d-9424-82ACFF025091" name="Coastline" file="water.bmp"></editorImage>
+		<editorImage id="BA99900F-7465-48f0-A5DB-83391AE260A4" name="Settler" file="settler.bmp"></editorImage>
+		<editorImage id="EAD2BEF0-F779-4152-BCFD-43B31B876C45" name="Worker" file="worker.bmp"></editorImage>
+		<editorImage id="8F3DAFFA-27B9-4e3d-B28C-0A75979881A0" name="AxeMan" file="axeman.bmp"></editorImage>
+		<editorImage id="4DFAE838-FC64-405c-BB32-35969894EEFC" name="Grass-WaterNorthSouth Border Image 0" file="GrassWater_ns_0000.bmp"></editorImage>
+		<editorImage id="9690F428-AA8A-4fa5-927E-D24FBA36447D" name="Grass-WaterSouthNorth Border Image 0" file="GrassWater_sn_0000.bmp"></editorImage>
+		<editorImage id="BF6D2E62-2FFD-4ffb-A0A8-DB9ABAECF1D1" name="Grass-WaterEastWest Border Image 0" file="GrassWater_ew_0000.bmp"></editorImage>
+		<editorImage id="5209B812-FFFD-479c-B49C-863654F48A8B" name="Grass-WaterWestEast Border Image 0" file="GrassWater_we_0000.bmp"></editorImage>
+		<editorImage id="BD14999A-AF8B-43d1-B03D-93FC24AD2187" name="FogOfWar" file="fow.bmp"></editorImage>
+		<editorImage id="9C874F2B-F647-439b-9096-2B1196288216" name="FogOfWar-EastToWest" file="fowEW.bmp"></editorImage>
+		<editorImage id="2DEA68DE-192D-4292-B3FB-1D4ACE5391AD" name="FogOfWar-WestToEast" file="fowWE.bmp"></editorImage>
+		<editorImage id="2A90C4BA-36C1-41ba-A24C-D1ECF715DD15" name="FogOfWar-NorthToSouth" file="fowNS.bmp"></editorImage>
+		<editorImage id="6E1B23C0-D171-45eb-A613-DDBD5AEFC0A0" name="FogOfWar-SouthToNorth" file="fowSN.bmp"></editorImage>
+		<editorImage id="5FA901A5-B482-4acd-B7C7-7EFFF085BE44" name="Horses" file="horses.bmp"></editorImage>
+		<editorImage id="B1A2E509-4E55-4ce7-B7E9-B93A36B93481" name="Gold" file="gold.bmp"></editorImage>
+		<editorImage id="652C4DAF-AFC0-4dff-B473-3E67CDE637B9" name="Diamonds" file="diamonds.bmp"></editorImage>
+		<editorImage id="CFC4293B-12D7-4e8c-AF2D-56927D2BED8B" name="Coal" file="coal.bmp"></editorImage>
+		<editorImage id="245A6649-99E5-404d-AA98-8F0FD5C37B97" name="Aluminum" file="aluminum.bmp"></editorImage>
+		<editorImage id="DC6459A8-7BEB-4c58-9D43-BC3AEEAB6863" name="Silks" file="silks.bmp"></editorImage>
+		<editorImage id="015740CE-683F-461f-B8FC-558F8F6431BB" name="Ivory" file="ivory.bmp"></editorImage>
+		<editorImage id="3076A8CB-0CEE-4b53-9FEA-4C2336F37C5E" name="Incense" file="incense.bmp"></editorImage>
+		<editorImage id="24345662-57D7-4f0f-8BA8-DA3E09B8BC80" name="Cattle" file="cattle.bmp"></editorImage>
+		<editorImage id="3B2DB3E4-B48D-4de1-93DE-BDBE8ACF904D" name="Fish" file="fish.bmp"></editorImage>
+		<editorImage id="14C13CF6-716D-4971-AE16-BF2FB5C27347" name="Game" file="game.bmp"></editorImage>
+		<editorImage id="0C07BECE-7A34-488b-B10B-88E308FD48E9" name="Whales" file="whales.bmp"></editorImage>
+		<editorImage id="9B9B87DE-95D4-4254-BAAE-047ED9D4DD04" name="Wheat" file="wheat.bmp"></editorImage>
+		<editorImage id="23DA754B-3B4F-4350-9274-FBAAD1709251" name="Dyes" file="dyes.bmp"></editorImage>
+		<editorImage id="3E00B2F8-5105-4bf4-BD99-6E458529363E" name="Furs" file="furs.bmp"></editorImage>
+		<editorImage id="8EE94FE7-6770-43c7-808F-724F4B4893B6" name="Spices" file="spices.bmp"></editorImage>
+		<editorImage id="825CB8CF-7C38-4629-9B27-918C99C82E81" name="Wines" file="wines.bmp"></editorImage>
+		<editorImage id="EE286721-C184-474f-80EC-200AE3480456" name="Iron" file="iron.bmp"></editorImage>
+		<editorImage id="B526F3FE-FD56-4b4c-B107-14CB1661B346" name="Oil" file="oil.bmp"></editorImage>
+		<editorImage id="51C953F5-5C1F-400e-91F7-9F368677BB02" name="Rubber" file="rubber.bmp"></editorImage>
+		<editorImage id="67DEA745-579C-43c5-B161-094595FB758F" name="Saltpeter" file="saltpeter.bmp"></editorImage>
+		<editorImage id="D836C3EF-47EE-4241-B70F-6053B2E6479B" name="Uranium" file="uranium.bmp"></editorImage>
+		<editorImage id="987A542F-E39C-44aa-922D-50782393805A" name="Border_Top" file="Border_Top.bmp"></editorImage>
+		<editorImage id="D4621C1D-53F9-4d7f-B815-8B0746D305C0" name="Border_Bottom" file="Border_Bottom.bmp"></editorImage>
+		<editorImage id="07DBB5B3-EBF0-4b79-AB37-3BAF2CB99A14" name="Border_Right" file="Border_Right.bmp"></editorImage>
+		<editorImage id="97FC3A38-2527-404e-825F-5F8C24A9D399" name="Border_Left" file="Border_Left.bmp"></editorImage>
+		<editorImage id="7BB70DDB-C0CC-4f55-8E46-B91F229A7F0A" name="Catapult" file="Catapult.bmp"></editorImage>
+		<editorImage id="7C97B359-4A94-4c9d-AD2E-A4502C3C7C73" name="Longbowman" file="Longbowman.bmp"></editorImage>
+		<editorImage id="460A3430-0410-434a-B4EC-460AD92A5959" name="Rifleman" file="Rifleman.bmp"></editorImage>
+		<editorImage id="1F709404-4FAA-4cd7-803A-B86281CD36BD" name="RadarArtillery" file="RadarArtillery.bmp"></editorImage>
+		<editorImage id="87A202CE-70D7-4690-A535-FB92339E68CE" name="Artillery" file="Artillery.bmp"></editorImage>
+		<editorImage id="FE520C30-C8F8-4a7e-BECA-F2D234B9F294" name="Cannon" file="Cannon.bmp"></editorImage>
+		<editorImage id="EF64FD6E-98B9-4535-A2E8-5FBF515698F2" name="Calvary" file="Calvary.bmp"></editorImage>
+		<editorImage id="D99D20E9-61C4-4c1c-BD84-33619B465557" name="Chariot" file="Chariot.bmp"></editorImage>
+		<editorImage id="1B529462-AF95-4f63-A8D4-3C393376EE03" name="Paratrooper" file="paratrooper.bmp"></editorImage>
+		<editorImage id="E3728841-704D-4f03-BEA5-70381F2E889B" name="Tank" file="tank.bmp"></editorImage>
+		<editorImage id="BE61C83F-1792-4b7a-B5EE-F5EB57AB060C" name="Marine" file="marine.bmp"></editorImage>
+		<editorImage id="DFD846B7-CFEC-4aed-8AA3-8570E341F83E" name="Infantry" file="infantry.bmp"></editorImage>
+		<editorImage id="1ADD2099-A69D-4df0-AE90-9819056AB4CC" name="Archer" file="archer.bmp"></editorImage>
+		<editorImage id="76BDFE22-A32B-4328-A023-DD139725C80B" name="Explorer" file="explorer.bmp"></editorImage>
+		<editorImage id="63F7A431-F3F5-4dd1-BE99-9612CA10F3C5" name="Horseman" file="horsemen.bmp"></editorImage>
+		<editorImage id="3E8875A4-D0E5-4e7d-ABE4-E5D42416F611" name="Spearman" file="spearman.bmp"></editorImage>
+		<editorImage id="2EA87B25-D4B9-491b-8102-1328E4C0AF78" name="Swordsman" file="swordsman.bmp"></editorImage>
+		<editorImage id="62B3EA68-F749-4504-A4B8-C0331BC7A2EF" name="Pikeman" file="pikeman.bmp"></editorImage>
+		<editorImage id="01ECE4B5-8667-48a7-ABA5-31AC6225832A" name="Musketman" file="Musketman.bmp"></editorImage>
+		<editorImage id="F32F4906-A5E9-4790-A3C5-CB9818CA99BD" name="ModernArmor" file="ModernArmor.bmp"></editorImage>
+		<editorImage id="DB74F742-2D22-4697-B72A-7D870217D536" name="MechInf" file="MechInfantry.bmp"></editorImage>
+		<editorImage id="CAC985F8-0F71-44a7-9160-B5CA7B470839" name="Knight" file="Knight.bmp"></editorImage>
+	</editorImages>
+	<eras>
+		<era id="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" name="Ancient Times" nextEra="3F1EEE09-7842-489e-B089-53067C1B23DC" firstEra="true">
+			<researchers>
+				<researcher>Mystics</researcher>
+				<researcher>Sages</researcher>
+				<researcher>Prophets</researcher>
+			</researchers>
+		</era>
+		<era id="3F1EEE09-7842-489e-B089-53067C1B23DC" name="Middle Ages" nextEra="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" firstEra="false">
+			<researchers>
+				<researcher>Wise-Men</researcher>
+				<researcher>Sooth Sayers</researcher>
+				<researcher>Alchemists</researcher>
+			</researchers>
+		</era>
+		<era id="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" name="Industrial Ages" nextEra="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" firstEra="false">
+			<researchers>
+				<researcher>Scientists</researcher>
+				<researcher>Scholars</researcher>
+				<researcher>Inventors</researcher>
+			</researchers>
+		</era>
+		<era id="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" name="Modern Times" nextEra="" firstEra="false">
+			<researchers>
+				<researcher>Engineers</researcher>
+				<researcher>Committees</researcher>
+				<researcher>Think-Tanks</researcher>
+				<researcher>Researchers</researcher>
+				<researcher>Contractors</researcher>
+			</researchers>
+		</era>
+	</eras>
+	<governments>
+		<government id="8604E8CF-3B30-453e-A1D3-D2D4DCEEB86F" name="Anarchy" fallback="true" leaderTitle="Leader" workerEfficiencyFactor="0" corruptionFactor="6" primary="false">
+			<freeUnits>
+				<town>-1</town>
+				<city>-1</city>
+				<metropolis>-1</metropolis>
+			</freeUnits>
+		</government>
+		<government id="4BF86F2E-CEB8-4c7f-A19B-8B4496A6C711" name="Despotism" fallback="false" leaderTitle="Great One" workerEfficiencyFactor="0" corruptionFactor="5" primary="true">
+			<freeUnits>
+				<town>4</town>
+				<city>4</city>
+				<metropolis>4</metropolis>
+			</freeUnits>
+		</government>
+		<government id="2972B2C1-DD07-4a6f-94EF-02D0BB430E87" name="Monarchy" fallback="false" leaderTitle="Sire" workerEfficiencyFactor="0" corruptionFactor="4" primary="false">
+			<prerequisites>
+				<prerequisite type="technology">F4397005-85F5-4c1b-8C76-EC133D4980DF</prerequisite>
+			</prerequisites>
+			<freeUnits>
+				<town>2</town>
+				<city>4</city>
+				<metropolis>8</metropolis>
+			</freeUnits>
+		</government>
+		<government id="3EE82CC9-97F9-44e4-BFF2-DE4D6075EAB0" name="Republic" fallback="false" leaderTitle="Sir" workerEfficiencyFactor="0" corruptionFactor="3" primary="false">
+			<prerequisites>
+				<prerequisite type="technology">58B77690-6EE4-4da2-9830-9AE4656E8865</prerequisite>
+			</prerequisites>
+			<freeUnits>
+				<town>0</town>
+				<city>0</city>
+				<metropolis>0</metropolis>
+			</freeUnits>
+		</government>
+		<government id="AD547A47-3ED5-4e6c-9FBA-FD9649FD1145" name="Communism" fallback="false" leaderTitle="Comrade" workerEfficiencyFactor="0" corruptionFactor="2" primary="false">
+			<prerequisites>
+				<prerequisite type="technology">7292D8D5-EEEA-458d-A2A7-83FB8C3A962D</prerequisite>
+			</prerequisites>
+			<freeUnits>
+				<town>2</town>
+				<city>4</city>
+				<metropolis>8</metropolis>
+			</freeUnits>
+		</government>
+		<government id="377B2776-6074-48f9-A4BA-3B613B0055F2" name="Democracy" fallback="false" leaderTitle="President" workerEfficiencyFactor="0" corruptionFactor="1" primary="false">
+			<prerequisites>
+				<prerequisite type="technology">88245318-F97C-415b-AAD9-ECC612B88666</prerequisite>
+			</prerequisites>
+			<freeUnits>
+				<town>0</town>
+				<city>0</city>
+				<metropolis>0</metropolis>
+			</freeUnits>
+		</government>
+	</governments>
+	<gridCellImages>
+		<gridCellImage id="2F43B8F0-DB8D-4a98-AEC4-D7DC6330F8AF" name="fogOfWar" imageGuid="BD14999A-AF8B-43d1-B03D-93FC24AD2187" />
+		<gridCellImage id="C9D46088-1D36-4668-9BEE-DB2A4458293D" name="fogOfWar_NS" imageGuid="2A90C4BA-36C1-41ba-A24C-D1ECF715DD15" />
+		<gridCellImage id="D7D778CC-0EDF-4f49-A72F-E3B63AA4F585" name="fogOfWar_SN" imageGuid="6E1B23C0-D171-45eb-A613-DDBD5AEFC0A0" />
+		<gridCellImage id="DCE38B11-10D8-46f6-9EBE-E2A9A08BADA4" name="fogOfWar_EW" imageGuid="9C874F2B-F647-439b-9096-2B1196288216" />
+		<gridCellImage id="0D0F3248-60BE-41b5-813A-C16D8BFCE368" name="fogOfWar_WE" imageGuid="2DEA68DE-192D-4292-B3FB-1D4ACE5391AD" />
+		<gridCellImage id="FBF35E76-622D-4b6d-8D27-83D0DD38D564" name="Border_Top" imageGuid="987A542F-E39C-44aa-922D-50782393805A"></gridCellImage>
+		<gridCellImage id="67ED0824-76A2-4d4d-9A2A-11E67CE85CA8" name="Border_Bottom" imageGuid="D4621C1D-53F9-4d7f-B815-8B0746D305C0"></gridCellImage>
+		<gridCellImage id="148108CF-590C-44d9-A80B-476AC157DA84" name="Border_Left" imageGuid="97FC3A38-2527-404e-825F-5F8C24A9D399"></gridCellImage>
+		<gridCellImage id="EC6AF516-5C93-4b2d-877D-2E2A86D6D984" name="Border_Right" imageGuid="07DBB5B3-EBF0-4b79-AB37-3BAF2CB99A14"></gridCellImage>
+	</gridCellImages>
+	<Improvements>
+		<Improvement id="7BEFAD57-B9F6-483a-B2F6-DF2CDC12A180" name="Airport" cost="160" maint="2" culture="0" pollutionPoints="1">
+			<prerequisites>
+				<prerequisite type="technology">D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="815F742F-211C-4622-AD93-0FACF6C62EB1" name="Aqueduct" cost="100" maint="1" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="29FB17AE-FA51-4d95-AD9F-AA0874F2EAD4" name="Bank" cost="120" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+				<prerequisite type="improvement">91A33A3F-57F8-4008-87D3-1B7BF37923E0</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="0354D32E-FDCD-4608-88D9-B1003513EF42" name="Barracks" cost="40" maint="1" culture="0" pollutionPoints="0"></Improvement>
+		<Improvement id="ED059B7A-CC1B-4b71-B666-5DBA86351A85" name="Cathedral" cost="140" maint="2" culture="2" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="BCA2EE9D-2DDA-4d42-A3B8-CB2784783E05" name="Coal Plant" cost="160" maint="3" culture="0" pollutionPoints="2">
+			<prerequisites>
+				<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+				<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+				<prerequisite type="resource">5CD80ED0-5915-485c-BD9B-9AF62DE53A92</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="DAA541F2-3F7D-409a-A7DB-B97B80C91DAB" name="Coastal Fortress" cost="60" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+				<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="A28B964C-77AD-4789-8825-0769AA11E0DC" name="Colosseum" cost="120" maint="2" culture="2" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="794E1039-7258-4f8f-8765-7A850F8CC0BF" name="Courthouse" cost="80" maint="1" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">576C57BE-DEB7-462a-9CBD-8C45083C6D67</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="9AA9F00C-5E72-4b46-B7A1-0EE554669625" name="Factory" cost="200" maint="3" culture="0" pollutionPoints="2">
+			<prerequisites>
+				<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="837FFED0-CAA8-4b00-A41D-D0D95235D9D8" name="Granary" cost="60" maint="1" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">4495B4CC-D041-4af4-9EB1-9447179E71DE</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="6DD43E9C-722C-45f1-9134-59943227142F" name="Harbor" cost="80" maint="1" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">D6E54F4B-4540-4df5-BBB4-B57EB3E4BB91</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="7F9E2F94-18D4-4355-881B-26787CA5AADD" name="Hospital" cost="120" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">BF34DA4D-0AE1-426e-B016-8882C11074EC</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="3065669F-5389-4bf4-A871-5AAA2479C47D" name="Hydro Plant" cost="240" maint="3" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+				<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="77CCE872-A01B-4f54-B7FC-DA70521B926F" name="Library" cost="80" maint="1" culture="3" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">7FAD6010-3DFD-46a2-89B8-6D34D21481FA</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="84A6EF0D-EE62-469f-950E-2E157387FDBC" name="Manufacturing Plant" cost="320" maint="3" culture="0" pollutionPoints="2">
+			<prerequisites>
+				<prerequisite type="technology">F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2</prerequisite>
+				<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="91A33A3F-57F8-4008-87D3-1B7BF37923E0" name="Marketplace" cost="80" maint="1" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">11B927D7-1078-49d1-BE82-FB9C27137823</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="D46256BB-F5BC-4ff6-A431-34703097E0FC" name="Mass Transit System" cost="160" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="4119EA64-A505-47f0-9DDA-DC69955D867D" name="Nuclear Plant" cost="160" maint="3" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">C43CDD34-DC0E-4fcf-9239-AD85AA3135EC</prerequisite>
+				<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+				<prerequisite type="resource">F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="EED7BD35-F5AB-4bc3-B506-8289E4D63A3D" name="Offshore Platform" cost="160" maint="3" culture="0" pollutionPoints="2">
+			<prerequisites>
+				<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="AD6A3291-E87A-4b39-982A-1C78C857A160" name="Palace" cost="100" maint="0" culture="1" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="637A4B89-DF3C-4bb9-A88A-5638402A780C" name="Police Station" cost="80" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">7292D8D5-EEEA-458d-A2A7-83FB8C3A962D</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="C6170991-829A-4797-B2A7-EE2C3F691666" name="Recycling Center" cost="200" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">48D46C94-C356-4ec2-BB7F-965FC5D1B14F</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="D8C7B048-B7A4-4b35-83E8-E305F4D3DBBE" name="Research Lab" cost="160" maint="2" culture="2" pollutionPoints="1">
+			<prerequisites>
+				<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+				<prerequisite type="improvement">6FB83902-15DE-4ab0-A7B3-D8D5D39AE017</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="CAAC85DC-6680-4127-ACAD-5944BFAA154C" name="Sam Missile Battery" cost="80" maint="2" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="D3ECA545-3288-4e91-AD01-ACD5A5FDBBCD" name="Solar Plant" cost="320" maint="3" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+				<prerequisite type="improvement">9AA9F00C-5E72-4b46-B7A1-0EE554669625</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="CE37B347-340A-452a-9D61-8DE6C52B10E4" name="SS Cockpit" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="85EAB943-280D-4079-B21B-0E4FDE92F3E2" name="SS Docking Bay" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="411236D8-B659-4f78-B5F9-4CE45E4E1320" name="SS Engine" cost="320" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="4947F637-559D-4642-8E76-93F2B0B3D3F7" name="SS Exterior Casing" cost="320" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="8111769B-792B-4524-BA1B-15D52A9A1287" name="SS Fuel Cells" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+				<prerequisite type="resource">F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="7E79093C-9047-4df5-A9FD-E4FFCEFF040F" name="SS Life Support System" cost="320" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="EDD0D9E8-5002-409e-8C4B-FE0CB6979D43" name="SS Planetary Party Lounge" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="6A5619FF-E853-4d24-B7A5-A5C97335EB3B" name="SS Stasis Chamber" cost="320" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="EE6C7936-08C9-4917-ABE6-E6B55E5F3482" name="SS Storage/Supply" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="441ABD9D-E2C7-4406-BDE3-215AAC7C2CC1" name="SS Thrusters" cost="160" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="78FACB87-E3AF-4e2d-AF94-1299F6195131" name="Temple" cost="40" maint="1" culture="2" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">80B75C2A-24F0-4d23-A552-187964F5968A</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="6FB83902-15DE-4ab0-A7B3-D8D5D39AE017" name="University" cost="160" maint="2" culture="4" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+				<prerequisite type="improvement">77CCE872-A01B-4f54-B7FC-DA70521B926F</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="C6657A66-F35F-44cb-9B18-17612E565776" name="Walls" cost="20" maint="0" culture="0" pollutionPoints="0">
+			<prerequisites>
+				<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+			</prerequisites>
+		</Improvement>
+		<Improvement id="99ACC168-493E-4ccb-8D58-40B8786511E4" name="Wealth" cost="0" maint="0" culture="0" pollutionPoints="0"></Improvement>
+	</Improvements>
+	<resources>
+		<resource id="82E74386-CC77-497e-94FE-B1796703FE1E" name="Cattle" food="2" shields="1" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="24345662-57D7-4f0f-8BA8-DA3E09B8BC80">
+			<terrain_types>
+				<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+				<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="0852688C-58B8-475e-AE09-7D972540ADE7" name="Fish" food="2" shields="0" commerce="1" type="bonus" railroadPrerequisite="false" imageGuid="3B2DB3E4-B48D-4de1-93DE-BDBE8ACF904D">
+			<terrain_types>
+				<terrain_type name="Coast">FEFB82B2-17EA-4bb0-96F1-BFD989C84187</terrain_type>
+				<terrain_type name="Sea">CEA830AD-7466-43c6-B3D6-4BBC413F337E</terrain_type>
+				<terrain_type name="Ocean">509D1DCA-3EDF-4ae3-9410-AE134AA120BD</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="D8DD1DF0-19D1-420a-9F63-A9696ACF5F82" name="Game" food="1" shields="0" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="14C13CF6-716D-4971-AE16-BF2FB5C27347">
+			<terrain_types>
+				<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="A7124499-4744-4e61-9373-B6E06360A379" name="Gold" food="0" shields="0" commerce="4" type="bonus" railroadPrerequisite="false" imageGuid="B1A2E509-4E55-4ce7-B7E9-B93A36B93481">
+			<terrain_types>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="86B990CF-0CEC-4537-AA59-FD45DD3CDE4B" name="Whales" food="1" shields="1" commerce="2" type="bonus" railroadPrerequisite="false" imageGuid="0C07BECE-7A34-488b-B10B-88E308FD48E9">
+			<terrain_types>
+				<terrain_type name="Sea">CEA830AD-7466-43c6-B3D6-4BBC413F337E</terrain_type>
+				<terrain_type name="Ocean">509D1DCA-3EDF-4ae3-9410-AE134AA120BD</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="9DB35A67-6C4C-4347-959B-3CA2BD4B8B13" name="Wheat" food="2" shields="0" commerce="0" type="bonus" railroadPrerequisite="false" imageGuid="9B9B87DE-95D4-4254-BAAE-047ED9D4DD04">
+			<terrain_types>
+				<terrain_type name="Flood Plains">1C79F7DC-8014-4844-9231-3E1C92BF5A5E</terrain_type>
+				<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="20EB47B6-4B13-4a9d-91E0-595DD22F10E0" name="Dyes" food="0" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="23DA754B-3B4F-4350-9274-FBAAD1709251">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="00DF96C4-11A2-4deb-8CE7-BF8D830E9F49" name="Furs" food="0" shields="1" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="3E00B2F8-5105-4bf4-BD99-6E458529363E">
+			<terrain_types>
+				<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="B0292CA2-E361-48e9-A200-2325FC3BF99A" name="Gems" food="0" shields="0" commerce="4" type="luxury" railroadPrerequisite="false" imageGuid="652C4DAF-AFC0-4dff-B473-3E67CDE637B9">
+			<terrain_types>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="431ACD6F-7A94-42b2-BB29-DA33EB052412" name="Incense" food="0" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="3076A8CB-0CEE-4b53-9FEA-4C2336F37C5E">
+			<terrain_types>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="CFED2832-90FC-4c6c-A240-1CED0131B509" name="Ivory" food="0" shields="0" commerce="2" type="luxury" railroadPrerequisite="false" imageGuid="015740CE-683F-461f-B8FC-558F8F6431BB">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="7181690B-2DAC-417f-9FFD-DB33EA48C051" name="Silks" food="0" shields="0" commerce="3" type="luxury" railroadPrerequisite="false" imageGuid="DC6459A8-7BEB-4c58-9D43-BC3AEEAB6863">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="F7EDCF7F-ECF7-44d1-BB70-6C9337552D1F" name="Spices" food="0" shields="0" commerce="2" type="luxury" railroadPrerequisite="false" imageGuid="8EE94FE7-6770-43c7-808F-724F4B4893B6">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="59616BA1-EF5B-4d5c-96B1-34ED76AEA661" name="Wines" food="1" shields="0" commerce="1" type="luxury" railroadPrerequisite="false" imageGuid="825CB8CF-7C38-4629-9B27-918C99C82E81">
+			<terrain_types>
+				<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+			</terrain_types>
+		</resource>
+		<resource id="F2B2DF56-10D0-460f-A0B6-80DC756578A5" name="Aluminum" food="0" shields="2" commerce="0" type="strategic" railroadPrerequisite="false" imageGuid="245A6649-99E5-404d-AA98-8F0FD5C37B97" required_tech="Rocketry">
+			<terrain_types>
+				<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="5CD80ED0-5915-485c-BD9B-9AF62DE53A92" name="Coal" food="0" shields="2" commerce="1" type="strategic" railroadPrerequisite="true" imageGuid="CFC4293B-12D7-4e8c-AF2D-56927D2BED8B" required_tech="Steam Power">
+			<terrain_types>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="4B8F3DC8-3A35-4d5e-8660-CF7837328EC7" name="Horses" food="0" shields="0" commerce="1" type="strategic" railroadPrerequisite="false" imageGuid="5FA901A5-B482-4acd-B7C7-7EFFF085BE44" required_tech="The Wheel">
+			<terrain_types>
+				<terrain_type name="Grasslands">81CBABC4-9D26-4692-8C62-9F88CF12C5FC</terrain_type>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="4F8F14DB-BF78-40be-81D2-08C61BE0DD7F" name="Iron" food="0" shields="1" commerce="0" type="strategic" railroadPrerequisite="true" imageGuid="EE286721-C184-474f-80EC-200AE3480456" required_tech="Iron Working">
+			<terrain_types>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="BA2F45E9-2F2A-4b43-864C-5A64C15CA925" name="Oil" food="0" shields="1" commerce="2" type="strategic" railroadPrerequisite="false" imageGuid="B526F3FE-FD56-4b4c-B107-14CB1661B346" required_tech="Refining">
+			<terrain_types>
+				<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+				<terrain_type name="Plains">DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1</terrain_type>
+				<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">5CC37A22-CAB9-433e-923A-49E80252EAB6</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="BA30EA64-C812-495f-9268-2FC9B50D4B65" name="Rubber" food="0" shields="0" commerce="2" type="strategic" railroadPrerequisite="false" imageGuid="51C953F5-5C1F-400e-91F7-9F368677BB02" required_tech="Replaceable Parts">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Jungle">9CE207F4-6DFD-4ac4-8CB8-E31C90A73192</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="43549393-E897-49d3-B8F5-B451EBB4D3CE" name="Saltpeter" food="0" shields="0" commerce="1" type="strategic" railroadPrerequisite="false" imageGuid="67DEA745-579C-43c5-B161-094595FB758F" required_tech="Gunpowder">
+			<terrain_types>
+				<terrain_type name="Desert">6D43C5C7-C21B-459d-ACDB-2EBDCEE43762</terrain_type>
+				<terrain_type name="Hills">359AEEED-20B9-49c9-840A-725DAEAF860E</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+				<terrain_type name="Tundra">FDC65578-C98B-4342-A0B4-0431669D5BA2</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+			</prerequisites>
+		</resource>
+		<resource id="F47FAB24-73E3-4690-9FAA-8FEF4A3CEAF1" name="Uranium" food="0" shields="2" commerce="3" type="strategic" railroadPrerequisite="false" imageGuid="D836C3EF-47EE-4241-B70F-6053B2E6479B" required_tech="Fission">
+			<terrain_types>
+				<terrain_type name="Forest">11035B49-37AA-4f20-BE22-BCE17D437C06</terrain_type>
+				<terrain_type name="Mountains">20E46F1D-5EE1-454e-8B6B-602F76FBB017</terrain_type>
+			</terrain_types>
+			<prerequisites>
+				<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+			</prerequisites>
+		</resource>
+	</resources>
+	<technologies>
+		<technology id="6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475" name="Bronze Working" researchUnits="3" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="BC10F248-56BA-4bd6-9323-C328C05AEBBE" name="Alphabet" researchUnits="5" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="95DFA108-0341-413b-8B7A-7DAC5EABDD7D" name="Masonry" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="80B75C2A-24F0-4d23-A552-187964F5968A" name="Ceremonial Burial" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="BBC7176E-B378-4350-91B4-3ADAE06C672F" name="Writing" researchUnits="8" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BC10F248-56BA-4bd6-9323-C328C05AEBBE</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="7FAD6010-3DFD-46a2-89B8-6D34D21481FA" name="Literature" researchUnits="10" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="9B3BE3B5-DF05-40d9-B5D7-36A446BD8935" name="Mysticism" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">80B75C2A-24F0-4d23-A552-187964F5968A</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="4495B4CC-D041-4af4-9EB1-9447179E71DE" name="Pottery" researchUnits="2" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="576C57BE-DEB7-462a-9CBD-8C45083C6D67" name="Code Of Laws" researchUnits="10" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="6250F383-7F37-4a4c-8243-2BB1119D1B26" name="Philosophy" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="58B77690-6EE4-4da2-9830-9AE4656E8865" name="The Republic" researchUnits="28" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">6250F383-7F37-4a4c-8243-2BB1119D1B26</prerequisite>
+				<prerequisite type="technology">576C57BE-DEB7-462a-9CBD-8C45083C6D67</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="E6024E8A-335B-4017-B4BD-757A6377381F" name="Iron Working" researchUnits="6" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="15F5A7FE-19B0-41ce-9FC1-3CA339CA322C" name="Mathematics" researchUnits="8" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">95DFA108-0341-413b-8B7A-7DAC5EABDD7D</prerequisite>
+				<prerequisite type="technology">BC10F248-56BA-4bd6-9323-C328C05AEBBE</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="3BFC9F7F-5D9B-4915-A13D-E90C9DFE4647" name="Construction" researchUnits="20" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+				<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="11B927D7-1078-49d1-BE82-FB9C27137823" name="Currency" researchUnits="16" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="E4C82D00-20B6-4578-9818-A48107DCF348" name="The Wheel" researchUnits="4" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="3BB08397-9A10-4dab-9199-5E041BD9E79E" name="Warrior Code" researchUnits="3" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true"></technology>
+		<technology id="69DF8013-EB13-42a3-88C1-762B5E3C8B21" name="Horseback Riding" researchUnits="5" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+				<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="2654BD34-971A-491b-9028-E341E3D244CC" name="Polytheism" researchUnits="12" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">9B3BE3B5-DF05-40d9-B5D7-36A446BD8935</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="F4397005-85F5-4c1b-8C76-EC133D4980DF" name="Monarchy" researchUnits="24" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+				<prerequisite type="technology">2654BD34-971A-491b-9028-E341E3D244CC</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="D6E54F4B-4540-4df5-BBB4-B57EB3E4BB91" name="Map Making" researchUnits="12" era="C41D24B4-2272-4548-B8AE-3B57D0E9F35E" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BBC7176E-B378-4350-91B4-3ADAE06C672F</prerequisite>
+				<prerequisite type="technology">4495B4CC-D041-4af4-9EB1-9447179E71DE</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="64BA7111-3670-4d62-B557-F29721352CCB" name="Feudalism" researchUnits="28" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+		<technology id="F5A96649-9403-4745-99D4-40FFE83C2983" name="Monotheism" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+		<technology id="BB242AD6-40CB-4a2b-9EAE-ADF665FF45BB" name="Chivalry" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+				<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="6441C113-49AC-484e-8C99-FB26241BF997" name="Theology" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">F5A96649-9403-4745-99D4-40FFE83C2983</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="DD7ED4A4-FEEB-4189-B872-EABC2F941D6B" name="Engineering" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true"></technology>
+		<technology id="1C081D13-B448-4b49-A164-B7B11565E64E" name="Invention" researchUnits="42" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+				<prerequisite type="technology">DD7ED4A4-FEEB-4189-B872-EABC2F941D6B</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="B51BE6D6-A7F6-4c68-8537-F558294499F2" name="Gunpowder" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">1C081D13-B448-4b49-A164-B7B11565E64E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="7F96654C-FBA4-4815-9833-7C741BDE9B60" name="Education" researchUnits="42" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">6441C113-49AC-484e-8C99-FB26241BF997</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="C30CCE97-1318-4c78-AEDA-95EC2ADECA78" name="Astronomy" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="BA723F02-BB80-4d5e-B925-44746D081F32" name="Music Theory" researchUnits="36" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="E32C7768-AF8C-449e-AF02-1DC47FEDE1D1" name="Printing Press" researchUnits="32" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">6441C113-49AC-484e-8C99-FB26241BF997</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="88245318-F97C-415b-AAD9-ECC612B88666" name="Democracy" researchUnits="60" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">E32C7768-AF8C-449e-AF02-1DC47FEDE1D1</prerequisite>
+				<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="9A9A3E40-150D-45e2-8D32-524781E52FB4" name="Free Artistry" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">88245318-F97C-415b-AAD9-ECC612B88666</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="25A72010-119D-42fa-A76F-5C3D5A90C705" name="Banking" researchUnits="48" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">7F96654C-FBA4-4815-9833-7C741BDE9B60</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="DC44FB58-5DC1-4a67-9709-3028B5048EFA" name="Economics" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">25A72010-119D-42fa-A76F-5C3D5A90C705</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="5359CC6E-E642-4c21-ADD5-9639A8910CB7" name="Chemistry" researchUnits="56" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="EDEA623A-08B1-452c-B5AC-AD086880E52F" name="Navigation" researchUnits="52" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">C30CCE97-1318-4c78-AEDA-95EC2ADECA78</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="ECE84A41-F4DC-48c2-A06F-A51C9B492BC3" name="Physics" researchUnits="60" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">C30CCE97-1318-4c78-AEDA-95EC2ADECA78</prerequisite>
+				<prerequisite type="technology">5359CC6E-E642-4c21-ADD5-9639A8910CB7</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="B617F85A-9247-47d4-AE2C-7DCC58913BDC" name="Theory of Gravity" researchUnits="64" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">ECE84A41-F4DC-48c2-A06F-A51C9B492BC3</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="781A34F8-CA31-4c31-AB3F-7FBE58E74767" name="Metallurgy" researchUnits="56" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">5359CC6E-E642-4c21-ADD5-9639A8910CB7</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="D5F2EDC6-BCB8-432a-B8FE-464EFA214978" name="Magnetism" researchUnits="64" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">ECE84A41-F4DC-48c2-A06F-A51C9B492BC3</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="7EC1FF77-8355-4612-B573-D575C9E70CD9" name="Military Tradition" researchUnits="68" era="3F1EEE09-7842-489e-B089-53067C1B23DC" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="581B7F26-5C01-460d-84D6-24ADFBFAC1E8" name="Nationalism" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false"></technology>
+		<technology id="85459F63-6436-438f-B258-DCC45A3FC358" name="Medicine" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true"></technology>
+		<technology id="BF34DA4D-0AE1-426e-B016-8882C11074EC" name="Sanitation" researchUnits="90" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">85459F63-6436-438f-B258-DCC45A3FC358</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="607287C6-C1D8-47df-9628-4DDB70123C9E" name="Steam Power" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true"></technology>
+		<technology id="1614FC2D-B85C-4856-8B9D-965D1140DE84" name="Electricity" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="BD34E336-4AE0-4431-ACEB-D0FE2BFEFD33" name="Scientific Method" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">85459F63-6436-438f-B258-DCC45A3FC358</prerequisite>
+				<prerequisite type="technology">1614FC2D-B85C-4856-8B9D-965D1140DE84</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="7361E337-875E-4047-B406-641DEBCC05F0" name="Replaceable Parts" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">1614FC2D-B85C-4856-8B9D-965D1140DE84</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="ECAFA641-A047-4336-97B7-0D6E73B8CB7E" name="Industrialization" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">607287C6-C1D8-47df-9628-4DDB70123C9E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="0A93431A-88A1-4cdb-B2EC-ED7AF1F8394D" name="Atomic Theory" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BD34E336-4AE0-4431-ACEB-D0FE2BFEFD33</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="69207720-F940-41fb-9E33-029BB94E9ECA" name="Electronics" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">0A93431A-88A1-4cdb-B2EC-ED7AF1F8394D</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="423D4C77-9B6C-44e4-B0B2-71C53859A600" name="The Corporation" researchUnits="100" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="5CC37A22-CAB9-433e-923A-49E80252EAB6" name="Refining" researchUnits="160" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">423D4C77-9B6C-44e4-B0B2-71C53859A600</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="B045C0F1-1D5F-4c72-B76C-1F509A16A36E" name="Steel" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">423D4C77-9B6C-44e4-B0B2-71C53859A600</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="702D8B1E-B7A1-4c9a-B561-4BCB302A308A" name="Combustion" researchUnits="160" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">5CC37A22-CAB9-433e-923A-49E80252EAB6</prerequisite>
+				<prerequisite type="technology">B045C0F1-1D5F-4c72-B76C-1F509A16A36E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E" name="Flight" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">702D8B1E-B7A1-4c9a-B561-4BCB302A308A</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="15EB94E3-05E7-4a64-8922-CA44A449CFF5" name="Mass Production" researchUnits="140" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">702D8B1E-B7A1-4c9a-B561-4BCB302A308A</prerequisite>
+				<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="02DAD5B2-96C1-4f49-9605-29E40D07941A" name="Radio" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="4A2BF65E-1AE3-4d84-A359-A8F5744FDC42" name="Motorized Transportation" researchUnits="200" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">15EB94E3-05E7-4a64-8922-CA44A449CFF5</prerequisite>
+				<prerequisite type="technology">69207720-F940-41fb-9E33-029BB94E9ECA</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="C936614F-D8AD-41d0-84B2-56FC47B008BF" name="Advanced Flight" researchUnits="180" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">D5C0C087-8B4C-413f-A3DE-A63B6E6BF34E</prerequisite>
+				<prerequisite type="technology">02DAD5B2-96C1-4f49-9605-29E40D07941A</prerequisite>
+				<prerequisite type="technology">4A2BF65E-1AE3-4d84-A359-A8F5744FDC42</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="E052283D-2727-4b59-90D3-304B1D05E63E" name="Espionage" researchUnits="90" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+				<prerequisite type="technology">ECAFA641-A047-4336-97B7-0D6E73B8CB7E</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="7292D8D5-EEEA-458d-A2A7-83FB8C3A962D" name="Communism" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="EEA268F8-9A2B-4536-8E3F-CC16B29BFDFE" name="Amphibious War" researchUnits="120" era="E7FD3ACF-55F1-4380-A8AE-6D8270E52DD8" requiredForNextEra="false">
+			<prerequisites>
+				<prerequisite type="technology">15EB94E3-05E7-4a64-8922-CA44A449CFF5</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="239EE256-4C70-421b-96E6-3B94FFAA10D7" name="Computers" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+		<technology id="806F9EB6-0D41-454f-A006-556CABD17431" name="Ecology" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+		<technology id="48D46C94-C356-4ec2-BB7F-965FC5D1B14F" name="Recycling" researchUnits="240" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">806F9EB6-0D41-454f-A006-556CABD17431</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="E8BA8E03-94B1-4efa-8F2F-1E976862DD92" name="Rocketry" researchUnits="240" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+		<technology id="0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4" name="Space Flight" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">E8BA8E03-94B1-4efa-8F2F-1E976862DD92</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="A2CB9A20-12A0-41a5-B43D-115D10138BEE" name="Synthetic Fibers" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">48D46C94-C356-4ec2-BB7F-965FC5D1B14F</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="BF97716E-E9F7-4891-9D5B-47F7B4558494" name="Fission" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true"></technology>
+		<technology id="049E2AAA-AA31-4402-A770-7EAA32EFEB0F" name="Superconductor" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+				<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="442D405D-4656-4916-B1A1-5EB5CD7CCD19" name="Satellites" researchUnits="260" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">0E30ABA3-9C90-4d48-8CB9-E03CF327B2C4</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="C43CDD34-DC0E-4fcf-9239-AD85AA3135EC" name="Nuclear Power" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">BF97716E-E9F7-4891-9D5B-47F7B4558494</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="EB1DE9BA-6868-468e-A7B8-F62C287BE10F" name="The Laser" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">C43CDD34-DC0E-4fcf-9239-AD85AA3135EC</prerequisite>
+				<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="4955E931-95F5-4eec-9FA9-2F6F1F72E094" name="Miniaturization" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="949649D0-A85B-4da4-9EF4-2BD6B9355BDA" name="Genetics" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2" name="Robotics" researchUnits="320" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+				<prerequisite type="technology">4955E931-95F5-4eec-9FA9-2F6F1F72E094</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="A6737B11-8B5A-40fe-B145-6E77190D7642" name="Stealth" researchUnits="300" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="D5E4A3B6-EFEF-4d60-9879-138C8395F52A" name="Smart Weapons" researchUnits="280" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+				<prerequisite type="technology">EB1DE9BA-6868-468e-A7B8-F62C287BE10F</prerequisite>
+			</prerequisites>
+		</technology>
+		<technology id="FA9CDA03-F031-437c-82D4-58FA5BC8B313" name="Integrated Defense" researchUnits="360" era="43EFC8AB-723C-4b76-9AD1-ACDC20FF816D" requiredForNextEra="true">
+			<prerequisites>
+				<prerequisite type="technology">049E2AAA-AA31-4402-A770-7EAA32EFEB0F</prerequisite>
+				<prerequisite type="technology">442D405D-4656-4916-B1A1-5EB5CD7CCD19</prerequisite>
+				<prerequisite type="technology">D5E4A3B6-EFEF-4d60-9879-138C8395F52A</prerequisite>
+			</prerequisites>
+		</technology>
+	</technologies>
+	<terrains>
+		<terrain id="FEFB82B2-17EA-4bb0-96F1-BFD989C84187" name="Coast" food="1" shields="0" commerce="2" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+		<terrain id="6D43C5C7-C21B-459d-ACDB-2EBDCEE43762" name="Desert" food="0" shields="1" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Desert" dry="true"></terrain>
+		<terrain id="1C79F7DC-8014-4844-9231-3E1C92BF5A5E" name="Flood Plain" food="3" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="11035B49-37AA-4f20-BE22-BCE17D437C06" name="Forest" food="1" shields="2" commerce="0" movecost="2" defense="25" irrigation_bonus="0" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="81CBABC4-9D26-4692-8C62-9F88CF12C5FC" name="Grassland" food="2" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true">
+			<imageBorders>
+				<neighborTerrain guid="FEFB82B2-17EA-4bb0-96F1-BFD989C84187">
+					<orientations>
+						<orientation type="northSouth">
+							<images>
+								<image index="0" guid="4DFAE838-FC64-405c-BB32-35969894EEFC" />
+							</images>
+						</orientation>
+						<orientation type="southNorth">
+							<images>
+								<image index="0" guid="9690F428-AA8A-4fa5-927E-D24FBA36447D" />
+							</images>
+						</orientation>
+						<orientation type="eastWest">
+							<images>
+								<image index="0" guid="BF6D2E62-2FFD-4ffb-A0A8-DB9ABAECF1D1" />
+							</images>
+						</orientation>
+						<orientation type="westEast">
+							<images>
+								<image index="0" guid="5209B812-FFFD-479c-B49C-863654F48A8B" />
+							</images>
+						</orientation>
+					</orientations>
+				</neighborTerrain>
+			</imageBorders>
+		</terrain>
+		<terrain id="359AEEED-20B9-49c9-840A-725DAEAF860E" name="Hills" food="1" shields="1" commerce="0" movecost="2" defense="50" irrigation_bonus="0" mining_bonus="2" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="9CE207F4-6DFD-4ac4-8CB8-E31C90A73192" name="Jungle" food="1" shields="0" commerce="0" movecost="3" defense="25" irrigation_bonus="0" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="20E46F1D-5EE1-454e-8B6B-602F76FBB017" name="Mountains" food="0" shields="1" commerce="0" movecost="3" defense="100" irrigation_bonus="0" mining_bonus="2" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="509D1DCA-3EDF-4ae3-9410-AE134AA120BD" name="Ocean" food="1" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+		<terrain id="DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1" name="Plains" food="1" shields="1" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+		<terrain id="CEA830AD-7466-43c6-B3D6-4BBC413F337E" name="Sea" food="1" shields="0" commerce="1" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+		<terrain id="FDC65578-C98B-4342-A0B4-0431669D5BA2" name="Tundra" food="1" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	</terrains>
+	<units>
+		<unit id="8604E8CF-3B30-453e-A1D3-D2D4DCEEB86F" name="Archer" cost="20" attack="2" defense="1" movement="1" bombardment="0" brange="0" rof="2" canSettle="false" canWork="false" editorBmp="Archer" populationPoints="0" canMergeWithCity="false" upgrade="A0476B1D-3BAE-4976-8E81-50802DF23BEB">
+			<prerequisites>
+				<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="1B76F5EB-B0EF-48b3-83DF-6596B3F7603C" name="Artillery" cost="60" attack="0" defense="0" movement="1" bombardment="12" brange="2" rof="3" canSettle="false" canWork="false" editorBmp="Artillery" populationPoints="0" canMergeWithCity="false" upgrade="4CB73969-BCD6-4ef1-8B66-907978EE4F04">
+			<prerequisites>
+				<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="7EB5D940-2B13-4fe0-9201-85E675ECB41D" name="Cannon" cost="40" attack="0" defense="0" movement="1" bombardment="8" brange="1" rof="2" canSettle="false" canWork="false" editorBmp="Cannon" populationPoints="0" canMergeWithCity="false" upgrade="1B76F5EB-B0EF-48b3-83DF-6596B3F7603C">
+			<prerequisites>
+				<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+				<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="F3B67338-0015-4d4c-892D-C898721B7500" name="Catapult" cost="20" attack="0" defense="0" movement="1" bombardment="4" brange="1" rof="1" canSettle="false" canWork="false" editorBmp="Catapult" populationPoints="0" canMergeWithCity="false" upgrade="7EB5D940-2B13-4fe0-9201-85E675ECB41D">
+			<prerequisites>
+				<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="4299944A-075F-4014-9C45-C72556211652" name="Calvary" cost="80" attack="6" defense="3" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Calvary" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">7EC1FF77-8355-4612-B573-D575C9E70CD9</prerequisite>
+				<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+				<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="9CE281B8-0B17-4e7d-9C8C-490031D0748C" name="Chariot" cost="20" attack="1" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Chariot" populationPoints="0" canMergeWithCity="false" upgrade="666551F9-2164-41ab-AF7B-140C44AE3E76">
+			<prerequisites>
+				<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+				<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="F7B83C1D-55B6-40d9-A65A-71706314CF41" name="Explorer" cost="20" attack="1" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Explorer" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">EDEA623A-08B1-452c-B5AC-AD086880E52F</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="666551F9-2164-41ab-AF7B-140C44AE3E76" name="Horseman" cost="30" attack="2" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Horseman" populationPoints="0" canMergeWithCity="false" upgrade="22946722-0A80-4651-9AF6-C60E6C612B07">
+			<prerequisites>
+				<prerequisite type="technology">69DF8013-EB13-42a3-88C1-762B5E3C8B21</prerequisite>
+				<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="CBA50058-515A-425d-AF38-45F3355497B9" name="Infantry" cost="90" attack="8" defense="12" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Infantry" populationPoints="0" canMergeWithCity="false" upgrade="1B27B100-5B1D-4fca-9537-3F799D6052BF">
+			<prerequisites>
+				<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="22946722-0A80-4651-9AF6-C60E6C612B07" name="Knight" cost="70" attack="4" defense="3" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Knight" populationPoints="0" canMergeWithCity="false" upgrade="4299944A-075F-4014-9C45-C72556211652">
+			<prerequisites>
+				<prerequisite type="technology">BB242AD6-40CB-4a2b-9EAE-ADF665FF45BB</prerequisite>
+				<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="A0476B1D-3BAE-4976-8E81-50802DF23BEB" name="Longbowman" cost="40" attack="4" defense="1" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Longbowman" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">1C081D13-B448-4b49-A164-B7B11565E64E</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="7E24DEAC-A48B-4c54-8E03-249CB67416BD" name="Marine" cost="100" attack="10" defense="8" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Marine" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">EEA268F8-9A2B-4536-8E3F-CC16B29BFDFE</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="1B27B100-5B1D-4fca-9537-3F799D6052BF" name="Mech Infantry" cost="110" attack="12" defense="20" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="MechInf" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+				<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="F0027BEC-7D44-4965-9FF8-59424AB7B0F5" name="Modern Armor" cost="120" attack="24" defense="16" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="ModernArmor" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+				<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="7157CF91-A16C-4df1-B4B1-54F077EEA939" name="Musketman" cost="60" attack="2" defense="4" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Musketman" populationPoints="0" canMergeWithCity="false" upgrade="D3634C4C-58DC-41e6-B0F1-D0E679F89D39">
+			<prerequisites>
+				<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+				<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="D372A494-547A-45e6-BA9C-4B3CAE591355" name="Paratrooper" cost="100" attack="8" defense="10" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Paratrooper" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">C936614F-D8AD-41d0-84B2-56FC47B008BF</prerequisite>
+				<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="3CAD7E2F-E2A5-4028-83DB-4FB74C1F9F99" name="Pikeman" cost="30" attack="1" defense="3" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Pikeman" populationPoints="0" canMergeWithCity="false" upgrade="7157CF91-A16C-4df1-B4B1-54F077EEA939">
+			<prerequisites>
+				<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="4CB73969-BCD6-4ef1-8B66-907978EE4F04" name="Radar Artillery" cost="80" attack="0" defense="0" movement="1" bombardment="16" brange="2" rof="4" canSettle="false" canWork="false" editorBmp="RadarArtillery" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2</prerequisite>
+				<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="D3634C4C-58DC-41e6-B0F1-D0E679F89D39" name="Rifleman" cost="80" attack="4" defense="6" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Rifleman" populationPoints="0" canMergeWithCity="false" upgrade="CBA50058-515A-425d-AF38-45F3355497B9">
+			<prerequisites>
+				<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="1E858F31-BDCD-4657-82D4-69F806027D95" name="Settler" cost="30" attack="0" defense="0" movement="1" bombardment="0" brange="0" rof="0" canSettle="true" canWork="false" editorBmp="Settler" populationPoints="2" canMergeWithCity="true"></unit>
+		<unit id="D62F0D53-2923-4298-AB57-ED77F7E7A987" name="Spearman" cost="20" attack="1" defense="2" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Spearman" populationPoints="0" canMergeWithCity="false" upgrade="3CAD7E2F-E2A5-4028-83DB-4FB74C1F9F99">
+			<prerequisites>
+				<prerequisite type="technology">6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="05A89470-0323-497e-B08D-1DD0E2745249" name="Swordsman" cost="20" attack="3" defense="2" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Swordsman" populationPoints="0" canMergeWithCity="false">
+			<prerequisites>
+				<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+				<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="7C99F504-FDDB-4115-A42C-3C301C6A565D" name="Tank" cost="100" attack="16" defense="10" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Tank" populationPoints="0" canMergeWithCity="false" upgrade="F0027BEC-7D44-4965-9FF8-59424AB7B0F5">
+			<prerequisites>
+				<prerequisite type="technology">4A2BF65E-1AE3-4d84-A359-A8F5744FDC42</prerequisite>
+				<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+				<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			</prerequisites>
+		</unit>
+		<unit id="BCBD347C-24B4-47bc-AA9A-F41543E43739" name="Warrior" cost="10" attack="1" defense="1" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="AxeMan" populationPoints="0" canMergeWithCity="false" upgrade="05A89470-0323-497e-B08D-1DD0E2745249"></unit>
+		<unit id="26B4E05F-CE98-4230-BA4C-C89AC7AED2A0" name="Worker" cost="10" attack="0" defense="0" movement="1" bombardment="0" brange="0" rof="1" canSettle="false" canWork="true" editorBmp="Worker" populationPoints="1" canMergeWithCity="true"></unit>
+	</units>
+</ruleset>

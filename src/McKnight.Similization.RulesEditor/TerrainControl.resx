@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblName.Text">
+    <value xml:space="preserve">Name:</value>
+  </data>
+  <data name="lblName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name">
+    <value xml:space="preserve">lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 8</value>
+  </data>
+  <data name="txtName.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name">
+    <value xml:space="preserve">txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblFood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblFood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblFood.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFood.Text">
+    <value xml:space="preserve">Food:</value>
+  </data>
+  <data name="lblFood.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblFood.Name">
+    <value xml:space="preserve">lblFood</value>
+  </data>
+  <data name="&gt;&gt;lblFood.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFood.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;lblFood.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblShields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="lblShields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="lblShields.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblShields.Text">
+    <value xml:space="preserve">Shields:</value>
+  </data>
+  <data name="lblShields.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblShields.Name">
+    <value xml:space="preserve">lblShields</value>
+  </data>
+  <data name="&gt;&gt;lblShields.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShields.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;lblShields.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblCommerce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="lblCommerce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="lblCommerce.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblCommerce.Text">
+    <value xml:space="preserve">Commerce:</value>
+  </data>
+  <data name="lblCommerce.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCommerce.Name">
+    <value xml:space="preserve">lblCommerce</value>
+  </data>
+  <data name="&gt;&gt;lblCommerce.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCommerce.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;lblCommerce.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblMovement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblMovement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="lblMovement.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblMovement.Text">
+    <value xml:space="preserve">Movement Cost:</value>
+  </data>
+  <data name="lblMovement.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMovement.Name">
+    <value xml:space="preserve">lblMovement</value>
+  </data>
+  <data name="&gt;&gt;lblMovement.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMovement.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;lblMovement.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="lblDefense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="lblDefense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="lblDefense.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblDefense.Text">
+    <value xml:space="preserve">Defense:</value>
+  </data>
+  <data name="lblDefense.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Name">
+    <value xml:space="preserve">lblDefense</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="lblIrrigation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblIrrigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="lblIrrigation.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblIrrigation.Text">
+    <value xml:space="preserve">Irrigation Bonus:</value>
+  </data>
+  <data name="lblIrrigation.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblIrrigation.Name">
+    <value xml:space="preserve">lblIrrigation</value>
+  </data>
+  <data name="&gt;&gt;lblIrrigation.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIrrigation.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;lblIrrigation.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblMining.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="lblMining.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="lblMining.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblMining.Text">
+    <value xml:space="preserve">Mining Bonus:</value>
+  </data>
+  <data name="lblMining.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblMining.Name">
+    <value xml:space="preserve">lblMining</value>
+  </data>
+  <data name="&gt;&gt;lblMining.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMining.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;lblMining.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblRoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="lblRoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="lblRoad.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblRoad.Text">
+    <value xml:space="preserve">Road Bonus:</value>
+  </data>
+  <data name="lblRoad.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRoad.Name">
+    <value xml:space="preserve">lblRoad</value>
+  </data>
+  <data name="&gt;&gt;lblRoad.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRoad.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;lblRoad.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkDry.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="chkDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="chkDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 16</value>
+  </data>
+  <data name="chkDry.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chkDry.Text">
+    <value xml:space="preserve">Dry (Check this box if the terrain is considered land)</value>
+  </data>
+  <data name="&gt;&gt;chkDry.Name">
+    <value xml:space="preserve">chkDry</value>
+  </data>
+  <data name="&gt;&gt;chkDry.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDry.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;chkDry.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="txtFood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="txtFood.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtFood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtFood.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;txtFood.Name">
+    <value xml:space="preserve">txtFood</value>
+  </data>
+  <data name="&gt;&gt;txtFood.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFood.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;txtFood.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="txtShields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 48</value>
+  </data>
+  <data name="txtShields.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtShields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtShields.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;txtShields.Name">
+    <value xml:space="preserve">txtShields</value>
+  </data>
+  <data name="&gt;&gt;txtShields.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtShields.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;txtShields.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="txtMovementCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="txtMovementCost.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtMovementCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="txtMovementCost.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtMovementCost.Name">
+    <value xml:space="preserve">txtMovementCost</value>
+  </data>
+  <data name="&gt;&gt;txtMovementCost.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMovementCost.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;txtMovementCost.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="txtCommerce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 80</value>
+  </data>
+  <data name="txtCommerce.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtCommerce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtCommerce.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;txtCommerce.Name">
+    <value xml:space="preserve">txtCommerce</value>
+  </data>
+  <data name="&gt;&gt;txtCommerce.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCommerce.Parent">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;txtCommerce.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="txtDefense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 48</value>
+  </data>
+  <data name="txtDefense.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtDefense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="txtDefense.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Name">
+    <value xml:space="preserve">txtDefense</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="txtIrrigationBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="txtIrrigationBonus.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtIrrigationBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtIrrigationBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;txtIrrigationBonus.Name">
+    <value xml:space="preserve">txtIrrigationBonus</value>
+  </data>
+  <data name="&gt;&gt;txtIrrigationBonus.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtIrrigationBonus.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;txtIrrigationBonus.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="txtMiningBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 48</value>
+  </data>
+  <data name="txtMiningBonus.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtMiningBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtMiningBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;txtMiningBonus.Name">
+    <value xml:space="preserve">txtMiningBonus</value>
+  </data>
+  <data name="&gt;&gt;txtMiningBonus.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMiningBonus.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;txtMiningBonus.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="txtRoadBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 80</value>
+  </data>
+  <data name="txtRoadBonus.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtRoadBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtRoadBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;txtRoadBonus.Name">
+    <value xml:space="preserve">txtRoadBonus</value>
+  </data>
+  <data name="&gt;&gt;txtRoadBonus.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRoadBonus.Parent">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;txtRoadBonus.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="hdrName.Text">
+    <value xml:space="preserve">Name</value>
+  </data>
+  <data name="hdrName.Width" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="hdrFood.Text">
+    <value xml:space="preserve">Food</value>
+  </data>
+  <data name="hdrFood.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="hdrShields.Text">
+    <value xml:space="preserve">Shields</value>
+  </data>
+  <data name="hdrCommerce.Text">
+    <value xml:space="preserve">Commerce</value>
+  </data>
+  <data name="hdrCommerce.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lvwTerrain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lvwTerrain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lvwTerrain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 232</value>
+  </data>
+  <data name="lvwTerrain.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;lvwTerrain.Name">
+    <value xml:space="preserve">lvwTerrain</value>
+  </data>
+  <data name="&gt;&gt;lvwTerrain.Type">
+    <value xml:space="preserve">System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvwTerrain.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;lvwTerrain.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 232</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 3</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name">
+    <value xml:space="preserve">splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type">
+    <value xml:space="preserve">System.Windows.Forms.Splitter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="txtRainfallHigh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 176</value>
+  </data>
+  <data name="txtRainfallHigh.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtRainfallHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="txtRainfallHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallHigh.Name">
+    <value xml:space="preserve">txtRainfallHigh</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallHigh.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallHigh.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallHigh.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="lblRainfallTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 176</value>
+  </data>
+  <data name="lblRainfallTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="lblRainfallTo.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lblRainfallTo.Text">
+    <value xml:space="preserve">To</value>
+  </data>
+  <data name="&gt;&gt;lblRainfallTo.Name">
+    <value xml:space="preserve">lblRainfallTo</value>
+  </data>
+  <data name="&gt;&gt;lblRainfallTo.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRainfallTo.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblRainfallTo.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="txtRainfallLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 176</value>
+  </data>
+  <data name="txtRainfallLow.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtRainfallLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="txtRainfallLow.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallLow.Name">
+    <value xml:space="preserve">txtRainfallLow</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallLow.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallLow.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtRainfallLow.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="lblRainFall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 152</value>
+  </data>
+  <data name="lblRainFall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 23</value>
+  </data>
+  <data name="lblRainFall.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblRainFall.Text">
+    <value xml:space="preserve">The rainfall of this terrain ranges from:</value>
+  </data>
+  <data name="&gt;&gt;lblRainFall.Name">
+    <value xml:space="preserve">lblRainFall</value>
+  </data>
+  <data name="&gt;&gt;lblRainFall.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRainFall.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblRainFall.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="lblElevationTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 48</value>
+  </data>
+  <data name="lblElevationTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="lblElevationTo.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblElevationTo.Text">
+    <value xml:space="preserve">To</value>
+  </data>
+  <data name="&gt;&gt;lblElevationTo.Name">
+    <value xml:space="preserve">lblElevationTo</value>
+  </data>
+  <data name="&gt;&gt;lblElevationTo.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblElevationTo.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblElevationTo.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="lblElevation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="lblElevation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 23</value>
+  </data>
+  <data name="lblElevation.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lblElevation.Text">
+    <value xml:space="preserve">The elevation of this terrain ranges from:</value>
+  </data>
+  <data name="&gt;&gt;lblElevation.Name">
+    <value xml:space="preserve">lblElevation</value>
+  </data>
+  <data name="&gt;&gt;lblElevation.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblElevation.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblElevation.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="txtMinimumElevation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="txtMinimumElevation.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtMinimumElevation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="txtMinimumElevation.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;txtMinimumElevation.Name">
+    <value xml:space="preserve">txtMinimumElevation</value>
+  </data>
+  <data name="&gt;&gt;txtMinimumElevation.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMinimumElevation.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtMinimumElevation.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="txtMaximumElevation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 48</value>
+  </data>
+  <data name="txtMaximumElevation.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtMaximumElevation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="txtMaximumElevation.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;txtMaximumElevation.Name">
+    <value xml:space="preserve">txtMaximumElevation</value>
+  </data>
+  <data name="&gt;&gt;txtMaximumElevation.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMaximumElevation.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtMaximumElevation.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="lblTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 112</value>
+  </data>
+  <data name="lblTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 23</value>
+  </data>
+  <data name="lblTo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTo.Text">
+    <value xml:space="preserve">To</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Name">
+    <value xml:space="preserve">lblTo</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTo.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblTo.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="txtTemperatureLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 112</value>
+  </data>
+  <data name="txtTemperatureLow.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtTemperatureLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="txtTemperatureLow.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureLow.Name">
+    <value xml:space="preserve">txtTemperatureLow</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureLow.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureLow.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureLow.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <data name="txtTemperatureHigh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 112</value>
+  </data>
+  <data name="txtTemperatureHigh.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtTemperatureHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="txtTemperatureHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureHigh.Name">
+    <value xml:space="preserve">txtTemperatureHigh</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureHigh.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureHigh.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;txtTemperatureHigh.ZOrder">
+    <value xml:space="preserve">10</value>
+  </data>
+  <data name="lblRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="lblRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 16</value>
+  </data>
+  <data name="lblRange.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRange.Text">
+    <value xml:space="preserve">The temperature of this terrain ranges from:</value>
+  </data>
+  <data name="&gt;&gt;lblRange.Name">
+    <value xml:space="preserve">lblRange</value>
+  </data>
+  <data name="&gt;&gt;lblRange.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRange.Parent">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;lblRange.ZOrder">
+    <value xml:space="preserve">11</value>
+  </data>
+  <data name="grpRanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 40</value>
+  </data>
+  <data name="grpRanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 256</value>
+  </data>
+  <data name="grpRanges.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="grpRanges.Text">
+    <value xml:space="preserve">Property Ranges</value>
+  </data>
+  <data name="&gt;&gt;grpRanges.Name">
+    <value xml:space="preserve">grpRanges</value>
+  </data>
+  <data name="&gt;&gt;grpRanges.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpRanges.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpRanges.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="chkBorderRiver.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="chkBorderRiver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 104</value>
+  </data>
+  <data name="chkBorderRiver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 16</value>
+  </data>
+  <data name="chkBorderRiver.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="chkBorderRiver.Text">
+    <value xml:space="preserve">Must border river</value>
+  </data>
+  <data name="&gt;&gt;chkBorderRiver.Name">
+    <value xml:space="preserve">chkBorderRiver</value>
+  </data>
+  <data name="&gt;&gt;chkBorderRiver.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBorderRiver.Parent">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;chkBorderRiver.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="grpOther.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 160</value>
+  </data>
+  <data name="grpOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 136</value>
+  </data>
+  <data name="grpOther.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="grpOther.Text">
+    <value xml:space="preserve">Other Properties</value>
+  </data>
+  <data name="&gt;&gt;grpOther.Name">
+    <value xml:space="preserve">grpOther</value>
+  </data>
+  <data name="&gt;&gt;grpOther.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpOther.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpOther.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="grpFoodShieldsCommerce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="grpFoodShieldsCommerce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 112</value>
+  </data>
+  <data name="grpFoodShieldsCommerce.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="grpFoodShieldsCommerce.Text">
+    <value xml:space="preserve">Food/Shields/Commerce</value>
+  </data>
+  <data name="&gt;&gt;grpFoodShieldsCommerce.Name">
+    <value xml:space="preserve">grpFoodShieldsCommerce</value>
+  </data>
+  <data name="&gt;&gt;grpFoodShieldsCommerce.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFoodShieldsCommerce.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpFoodShieldsCommerce.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="grpBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 40</value>
+  </data>
+  <data name="grpBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 112</value>
+  </data>
+  <data name="grpBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="grpBonus.Text">
+    <value xml:space="preserve">Bonuses</value>
+  </data>
+  <data name="&gt;&gt;grpBonus.Name">
+    <value xml:space="preserve">grpBonus</value>
+  </data>
+  <data name="&gt;&gt;grpBonus.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBonus.Parent">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpBonus.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="pnlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 235</value>
+  </data>
+  <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 509</value>
+  </data>
+  <data name="pnlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Name">
+    <value xml:space="preserve">pnlMain</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 744</value>
+  </data>
+  <data name="&gt;&gt;hdrName.Name">
+    <value xml:space="preserve">hdrName</value>
+  </data>
+  <data name="&gt;&gt;hdrName.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrFood.Name">
+    <value xml:space="preserve">hdrFood</value>
+  </data>
+  <data name="&gt;&gt;hdrFood.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrShields.Name">
+    <value xml:space="preserve">hdrShields</value>
+  </data>
+  <data name="&gt;&gt;hdrShields.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hdrCommerce.Name">
+    <value xml:space="preserve">hdrCommerce</value>
+  </data>
+  <data name="&gt;&gt;hdrCommerce.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">TerrainControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">McKnight.SimilizationRulesEditor.EditorUserControl, SimilizationRulesEditor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

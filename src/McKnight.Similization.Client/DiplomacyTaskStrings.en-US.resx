@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="exitDiplomacy1">
+		<value>That's it. Goodbye.</value>
+	</data>
+	<data name="exitDiplomacy2">
+		<value>That's it. Goodbye, $LEADER0.</value>
+	</data>
+	<data name="exitDiplomacy3">
+		<value>I'm all done. Farewell, $LEADER0.</value>
+	</data>
+	<data name="declareWar1">
+		<value>You fool! Prepare for WAR!</value>
+	</data>
+	<data name="declareWar2">
+		<value>That's it! Prepare for WAR!</value>
+	</data>
+	<data name="declareWar3">
+		<value>We grow tired of your insolence. Prepare for WAR!</value>
+	</data>
+	<data name="autoRetreatTroops1">
+		<value>Oops... Er, bad maps. Sorry. (Your troops will move automatically)</value>
+	</data>
+	<data name="autoRetreatTroops2">
+		<value>Our mistake. (Your troops will move automatically)</value>
+	</data>
+	<data name="autoRetreatTroops3">
+		<value>My bad! (Your troops will move automatically)</value>
+	</data>
+	<data name="tradeWorldMaps1">
+		<value>Would you like to trade World Maps?</value>
+	</data>
+	<data name="tradeWorldMaps2">
+		<value>Care to trade World Maps?</value>
+	</data>
+	<data name="tradeWorldMaps3">
+		<value>Trade World Maps?</value>
+	</data>
+	<data name="proposeNegotiation1">
+		<value>Friend $LEADER0, We would like to offer you a deal...</value>
+	</data>
+	<data name="proposeNegotiation2">
+		<value>We would like to propose a deal...</value>
+	</data>
+	<data name="proposeNegotiation3">
+		<value>We wish to propose a deal...</value>
+	</data>
+	<data name="backoutFromNegotiation1">
+		<value>Sorry. Never mind...</value>
+	</data>
+	<data name="backoutFromNegotiation2">
+		<value>Never mind...</value>
+	</data>
+	<data name="backoutFromNegotiation3">
+		<value>Forget it.</value>
+	</data>
+	<data name="passiveRetreatTroops1">
+		<value>We were conducting uh... 'routine training missions.' (Yeah: that's the ticket!)</value>
+	</data>
+	<data name="passiveRetreatTroops2">
+		<value>We apologize for the mistake. We will move our troops out of your territory.</value>
+	</data>
+	<data name="passiveRetreatTroops3">
+		<value>We will move our troops immediately.</value>
+	</data>
+	<data name="refuseTribute1">
+		<value>You make us laugh! Take your threats elsewhere.</value>
+	</data>
+	<data name="refuseTribute2">
+		<value>Take your empty threats elsewhere.</value>
+	</data>
+	<data name="refuseTribute3">
+		<value>We will not surrender to blackmail.</value>
+	</data>
+	<data name="giveTribute1">
+		<value>Very well. We will give you what you want - this time.</value>
+	</data>
+	<data name="giveTribute2">
+		<value>We will give you what you want - this time.</value>
+	</data>
+	<data name="giveTribute3">
+		<value>$LEADER0, We agree to your demands. For now.</value>
+	</data>
+	<data name="threatenWarForBorderInvasion">
+		<value>Remove your forces from our territory or declare WAR!</value>
+	</data>
+	<data name="warningForBorderInvasion1">
+		<value>Your forces are within our borders! You must withdraw them.</value>
+	</data>
+	<data name="warningForBorderInvasion2">
+		<value>Your forces are within our borders! They MUST be withdrawn!</value>
+	</data>
+	<data name="warningForBorderInvasion3">
+		<value>Your forces are within our borders! Withdraw them NOW!</value>
+	</data>
+	<data name="offerRightOfPassage1">
+		<value>Shall we agree to a right of passage agreement?</value>
+	</data>
+	<data name="offerRightOfPassage2">
+		<value>We could agree to a right of passage agreement.</value>
+	</data>
+	<data name="offerRightOfPassage3">
+		<value>What about a right of passage agreement?</value>
+	</data>
+	<data name="offerPeaceTreatyDuringWar1">
+		<value>We seem to have overextended ourselves. Would you be willing to sign a peace treaty?</value>
+	</data>
+	<data name="offerPeaceTreatyDuringWar2">
+		<value>We seem to have overextended ourselves. Would you care to sign a peace treaty?</value>
+	</data>
+	<data name="offerPeaceTreatyDuringWar3">
+		<value>We seem to have overextended ourselves. Will you sign a peace treaty?</value>
+	</data>
+	<data name="offerPeaceTreatyCityInvasion1">
+		<value>Our troops are approaching $CITY0. Perhaps you would like to discuss peace terms?</value>
+	</data>
+	<data name="offerPeaceTreatyCityInvasion2">
+		<value>Our troops approach $CITY0. Do you wish to discuss peace terms?</value>
+	</data>
+	<data name="offerPeaceTreatyCityInvasion3">
+		<value>Our troops approach $CITY0. I urge you to discuss peace terms while there is time.</value>
+	</data>
+	<data name="offerPeaceTreatyGeneralInvasion1">
+		<value>Our troops are approaching your cities. Perhaps you would like to discuss peace terms?</value>
+	</data>
+	<data name="offerPeaceTreatyGeneralInvasion2">
+		<value>Our troops approach your cities. Do you wish to discuss peace terms?</value>
+	</data>
+	<data name="offerPeaceTreatyGeneralInvasion3">
+		<value>Our troops approach your cities. I urge you to discuss peace terms while there is still time.</value>
+	</data>
+	<data name="askForLoan">
+		<value>Grant us a loan of gold?</value>
+	</data>
+	<data name="userOffer1">
+		<value>Will you kindly accept this deal?</value>
+	</data>
+	<data name="userOffer2">
+		<value>Will you accept this deal, $LEADER0?</value>
+	</data>
+	<data name="userOffer3">
+		<value>Will you accept this deal?</value>
+	</data>
+	<data name="userGift1">
+		<value>Please accept this gift as a token of friendship and goodwill.</value>
+	</data>
+	<data name="userGift2">
+		<value>I offer you this gift as a token of goodwill.</value>
+	</data>
+	<data name="userGift3">
+		<value>Accept this gift as a token of goodwill.</value>
+	</data>
+	<data name="demandTribute1">
+		<value>I must demand that you accept this deal.</value>
+	</data>
+	<data name="demandTribute2">
+		<value>Accept this deal or pay the consequences!</value>
+	</data>
+	<data name="demandTribute3">
+		<value>Take this deal or suffer!</value>
+	</data>
+	<data name="askForCounterOffer1">
+		<value>Friend, what do you want for $GIVE0?</value>
+	</data>
+	<data name="askForCounterOffer2">
+		<value>What may I trade you for $GIVE0?</value>
+	</data>
+	<data name="askForCounterOffer3">
+		<value>What do you want for $GIVE0?</value>
+	</data>
+	<data name="askForExchange1">
+		<value>Perhaps you would like to offer something in exchange for $GIVE0.</value>
+	</data>
+	<data name="askForExchange2">
+		<value>Would you care to offer something in exchange for $GIVE0?</value>
+	</data>
+	<data name="askForExchange3">
+		<value>Would you consider offering something in exchange for $GIVE0?</value>
+	</data>
+</root>

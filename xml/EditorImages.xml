@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<editorImages>
+	<editorImage id="E104EFF5-187F-481c-BAD6-4A83A9ADB5ED" name="Water" file="water.bmp"></editorImage>
+	<editorImage id="68D3F739-8E83-4b15-9AC4-12B004104ED5" name="Grass" file="grass.bmp"></editorImage>
+	<editorImage id="F0E4AB1E-ABD2-4f73-9B0B-066B61A06C7F" name="Desert" file="desert.bmp"></editorImage>
+	<editorImage id="DE74298F-10F5-497d-9424-82ACFF025091" name="Coastline" file="water.bmp"></editorImage>
+	<editorImage id="BA99900F-7465-48f0-A5DB-83391AE260A4" name="Settler" file="settler.bmp"></editorImage>
+	<editorImage id="EAD2BEF0-F779-4152-BCFD-43B31B876C45" name="Worker" file="worker.bmp"></editorImage>
+	<editorImage id="8F3DAFFA-27B9-4e3d-B28C-0A75979881A0" name="AxeMan" file="axeman.bmp"></editorImage>
+	<editorImage id="4DFAE838-FC64-405c-BB32-35969894EEFC" name="Grass-WaterNorthSouth Border Image 0" file="GrassWater_ns_0000.bmp"></editorImage>
+	<editorImage id="9690F428-AA8A-4fa5-927E-D24FBA36447D" name="Grass-WaterSouthNorth Border Image 0" file="GrassWater_sn_0000.bmp"></editorImage>
+	<editorImage id="BF6D2E62-2FFD-4ffb-A0A8-DB9ABAECF1D1" name="Grass-WaterEastWest Border Image 0" file="GrassWater_ew_0000.bmp"></editorImage>
+	<editorImage id="5209B812-FFFD-479c-B49C-863654F48A8B" name="Grass-WaterWestEast Border Image 0" file="GrassWater_we_0000.bmp"></editorImage>
+	<editorImage id="BD14999A-AF8B-43d1-B03D-93FC24AD2187" name="FogOfWar" file="fow.bmp"></editorImage>
+	<editorImage id="9C874F2B-F647-439b-9096-2B1196288216" name="FogOfWar-EastToWest" file="fowEW.bmp"></editorImage>
+	<editorImage id="2DEA68DE-192D-4292-B3FB-1D4ACE5391AD" name="FogOfWar-WestToEast" file="fowWE.bmp"></editorImage>
+	<editorImage id="2A90C4BA-36C1-41ba-A24C-D1ECF715DD15" name="FogOfWar-NorthToSouth" file="fowNS.bmp"></editorImage>
+	<editorImage id="6E1B23C0-D171-45eb-A613-DDBD5AEFC0A0" name="FogOfWar-SouthToNorth" file="fowSN.bmp"></editorImage>
+	<editorImage id="5FA901A5-B482-4acd-B7C7-7EFFF085BE44" name="Horses" file="horses.bmp"></editorImage>
+	<editorImage id="B1A2E509-4E55-4ce7-B7E9-B93A36B93481" name="Gold" file="gold.bmp"></editorImage>
+	<editorImage id="652C4DAF-AFC0-4dff-B473-3E67CDE637B9" name="Diamonds" file="diamonds.bmp"></editorImage>
+	<editorImage id="CFC4293B-12D7-4e8c-AF2D-56927D2BED8B" name="Coal" file="coal.bmp"></editorImage>
+	<editorImage id="245A6649-99E5-404d-AA98-8F0FD5C37B97" name="Aluminum" file="aluminum.bmp"></editorImage>
+	<editorImage id="DC6459A8-7BEB-4c58-9D43-BC3AEEAB6863" name="Silks" file="silks.bmp"></editorImage>
+	<editorImage id="015740CE-683F-461f-B8FC-558F8F6431BB" name="Ivory" file="ivory.bmp"></editorImage>
+	<editorImage id="3076A8CB-0CEE-4b53-9FEA-4C2336F37C5E" name="Incense" file="incense.bmp"></editorImage>
+	<editorImage id="24345662-57D7-4f0f-8BA8-DA3E09B8BC80" name="Cattle" file="cattle.bmp"></editorImage>
+	<editorImage id="3B2DB3E4-B48D-4de1-93DE-BDBE8ACF904D" name="Fish" file="fish.bmp"></editorImage>
+	<editorImage id="14C13CF6-716D-4971-AE16-BF2FB5C27347" name="Game" file="game.bmp"></editorImage>
+	<editorImage id="0C07BECE-7A34-488b-B10B-88E308FD48E9" name="Whales" file="whales.bmp"></editorImage>
+	<editorImage id="9B9B87DE-95D4-4254-BAAE-047ED9D4DD04" name="Wheat" file="wheat.bmp"></editorImage>
+	<editorImage id="23DA754B-3B4F-4350-9274-FBAAD1709251" name="Dyes" file="dyes.bmp"></editorImage>
+	<editorImage id="3E00B2F8-5105-4bf4-BD99-6E458529363E" name="Furs" file="furs.bmp"></editorImage>
+	<editorImage id="8EE94FE7-6770-43c7-808F-724F4B4893B6" name="Spices" file="spices.bmp"></editorImage>
+	<editorImage id="825CB8CF-7C38-4629-9B27-918C99C82E81" name="Wines" file="wines.bmp"></editorImage>
+	<editorImage id="EE286721-C184-474f-80EC-200AE3480456" name="Iron" file="iron.bmp"></editorImage>
+	<editorImage id="B526F3FE-FD56-4b4c-B107-14CB1661B346" name="Oil" file="oil.bmp"></editorImage>
+	<editorImage id="51C953F5-5C1F-400e-91F7-9F368677BB02" name="Rubber" file="rubber.bmp"></editorImage>
+	<editorImage id="67DEA745-579C-43c5-B161-094595FB758F" name="Saltpeter" file="saltpeter.bmp"></editorImage>
+	<editorImage id="D836C3EF-47EE-4241-B70F-6053B2E6479B" name="Uranium" file="uranium.bmp"></editorImage>
+	<editorImage id="987A542F-E39C-44aa-922D-50782393805A" name="Border_Top" file="Border_Top.bmp"></editorImage>
+	<editorImage id="D4621C1D-53F9-4d7f-B815-8B0746D305C0" name="Border_Bottom" file="Border_Bottom.bmp"></editorImage>
+	<editorImage id="07DBB5B3-EBF0-4b79-AB37-3BAF2CB99A14" name="Border_Right" file="Border_Right.bmp"></editorImage>
+	<editorImage id="97FC3A38-2527-404e-825F-5F8C24A9D399" name="Border_Left" file="Border_Left.bmp"></editorImage>
+	<editorImage id="7BB70DDB-C0CC-4f55-8E46-B91F229A7F0A" name="Catapult" file="Catapult.bmp"></editorImage>
+	<editorImage id="7C97B359-4A94-4c9d-AD2E-A4502C3C7C73" name="Longbowman" file="Longbowman.bmp"></editorImage>
+	<editorImage id="460A3430-0410-434a-B4EC-460AD92A5959" name="Rifleman" file="Rifleman.bmp"></editorImage>
+	<editorImage id="1F709404-4FAA-4cd7-803A-B86281CD36BD" name="RadarArtillery" file="RadarArtillery.bmp"></editorImage>
+	<editorImage id="87A202CE-70D7-4690-A535-FB92339E68CE" name="Artillery" file="Artillery.bmp"></editorImage>
+	<editorImage id="FE520C30-C8F8-4a7e-BECA-F2D234B9F294" name="Cannon" file="Cannon.bmp"></editorImage>
+	<editorImage id="EF64FD6E-98B9-4535-A2E8-5FBF515698F2" name="Calvary" file="Calvary.bmp"></editorImage>
+	<editorImage id="D99D20E9-61C4-4c1c-BD84-33619B465557" name="Chariot" file="Chariot.bmp"></editorImage>
+	<editorImage id="1B529462-AF95-4f63-A8D4-3C393376EE03" name="Paratrooper" file="paratrooper.bmp"></editorImage>
+	<editorImage id="E3728841-704D-4f03-BEA5-70381F2E889B" name="Tank" file="tank.bmp"></editorImage>
+	<editorImage id="BE61C83F-1792-4b7a-B5EE-F5EB57AB060C" name="Marine" file="marine.bmp"></editorImage>
+	<editorImage id="DFD846B7-CFEC-4aed-8AA3-8570E341F83E" name="Infantry" file="infantry.bmp"></editorImage>
+	<editorImage id="1ADD2099-A69D-4df0-AE90-9819056AB4CC" name="Archer" file="archer.bmp"></editorImage>
+	<editorImage id="76BDFE22-A32B-4328-A023-DD139725C80B" name="Explorer" file="explorer.bmp"></editorImage>
+	<editorImage id="63F7A431-F3F5-4dd1-BE99-9612CA10F3C5" name="Horseman" file="horsemen.bmp"></editorImage>
+	<editorImage id="3E8875A4-D0E5-4e7d-ABE4-E5D42416F611" name="Spearman" file="spearman.bmp"></editorImage>
+	<editorImage id="2EA87B25-D4B9-491b-8102-1328E4C0AF78" name="Swordsman" file="swordsman.bmp"></editorImage>
+	<editorImage id="62B3EA68-F749-4504-A4B8-C0331BC7A2EF" name="Pikeman" file="pikeman.bmp"></editorImage>
+	<editorImage id="01ECE4B5-8667-48a7-ABA5-31AC6225832A" name="Musketman" file="Musketman.bmp"></editorImage>
+	<editorImage id="F32F4906-A5E9-4790-A3C5-CB9818CA99BD" name="ModernArmor" file="ModernArmor.bmp"></editorImage>
+	<editorImage id="DB74F742-2D22-4697-B72A-7D870217D536" name="MechInf" file="MechInfantry.bmp"></editorImage>
+	<editorImage id="CAC985F8-0F71-44a7-9160-B5CA7B470839" name="Knight" file="Knight.bmp"></editorImage>
+</editorImages>

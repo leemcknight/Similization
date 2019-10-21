@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileTypes xmlns="http://tempuri.org/TileTypes.xsd">
+	<TileType>
+		<TileTypeID>1</TileTypeID>
+		<TileTypeName>Unit Tiles</TileTypeName>
+		<DataTablePath>UnitTile</DataTablePath>
+		<DisplayFieldName>UnitName</DisplayFieldName>
+	</TileType>
+	<TileType>
+		<TileTypeID>2</TileTypeID>
+		<TileTypeName>Terrain Tiles</TileTypeName>
+		<DataTablePath>TerrainTile</DataTablePath>
+		<DisplayFieldName>TerrainName</DisplayFieldName>
+	</TileType>
+	<TileType>
+		<TileTypeID>3</TileTypeID>
+		<TileTypeName>Resource Tiles</TileTypeName>
+		<DataTablePath>ResourceTile</DataTablePath>
+		<DisplayFieldName>ResourceName</DisplayFieldName>
+	</TileType>
+	<TileType>
+		<TileTypeID>7</TileTypeID>
+		<TileTypeName>Cell Improvement Tiles</TileTypeName>
+		<DataTablePath>CellImprovementTile</DataTablePath>
+		<DisplayFieldName>ImageName</DisplayFieldName>
+	</TileType>
+	<TileType>
+		<TileTypeID>8</TileTypeID>
+		<TileTypeName>City Tiles</TileTypeName>
+		<DataTablePath>CityTile</DataTablePath>
+		<DisplayFieldName>CityTileName</DisplayFieldName>
+	</TileType>
+	<TileType>
+		<TileTypeID>9</TileTypeID>
+		<TileTypeName>Village Tiles</TileTypeName>
+		<DataTablePath>VillageTile</DataTablePath>
+		<DisplayFieldName>ImageName</DisplayFieldName>
+	</TileType>
+</TileTypes>

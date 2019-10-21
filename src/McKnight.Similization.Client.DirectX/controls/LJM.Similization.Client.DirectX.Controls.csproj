@@ -1,0 +1,185 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1807D769-B32A-4E9E-8594-0C2EED20D14A}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>LJM.Similization.Client.DirectX.Controls</AssemblyName>
+    <AssemblyOriginatorKeyFile>LJM.Similization.Client.DirectX.Controls.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LJM.Similization.Client.DirectX.Controls</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Button.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Checkbox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComboBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContainerControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomPainters.cs" />
+    <Compile Include="DXControlCollection.cs" />
+    <Compile Include="DXDrawItemEventArgs.cs" />
+    <Compile Include="DXImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DXKeyboardEventArgs.cs" />
+    <Compile Include="DXMouseEventArgs.cs" />
+    <Compile Include="DXPaintEventArgs.cs" />
+    <Compile Include="GradientDirection.cs" />
+    <Compile Include="IDirectXControlHost.cs" />
+    <Compile Include="Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinkLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="Panel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scrollbar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ControlResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LJM.Similization.Client.DirectX.Controls.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\util\LJM.Similization.Client.DirectX.Util.csproj">
+      <Project>{5D225A46-FCBA-47E7-A7A7-FAA50C90B7A3}</Project>
+      <Name>LJM.Similization.Client.DirectX.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

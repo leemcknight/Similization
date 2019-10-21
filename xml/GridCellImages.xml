@@ -1,0 +1,11 @@
+<gridCellImages>
+	<gridCellImage id="2F43B8F0-DB8D-4a98-AEC4-D7DC6330F8AF" name="fogOfWar" imageGuid="BD14999A-AF8B-43d1-B03D-93FC24AD2187" />
+	<gridCellImage id="C9D46088-1D36-4668-9BEE-DB2A4458293D" name="fogOfWar_NS" imageGuid="2A90C4BA-36C1-41ba-A24C-D1ECF715DD15" />
+	<gridCellImage id="D7D778CC-0EDF-4f49-A72F-E3B63AA4F585" name="fogOfWar_SN" imageGuid="6E1B23C0-D171-45eb-A613-DDBD5AEFC0A0" />
+	<gridCellImage id="DCE38B11-10D8-46f6-9EBE-E2A9A08BADA4" name="fogOfWar_EW" imageGuid="9C874F2B-F647-439b-9096-2B1196288216" />
+	<gridCellImage id="0D0F3248-60BE-41b5-813A-C16D8BFCE368" name="fogOfWar_WE" imageGuid="2DEA68DE-192D-4292-B3FB-1D4ACE5391AD" />
+	<gridCellImage id="FBF35E76-622D-4b6d-8D27-83D0DD38D564" name="Border_Top" imageGuid="987A542F-E39C-44aa-922D-50782393805A"></gridCellImage>
+	<gridCellImage id="67ED0824-76A2-4d4d-9A2A-11E67CE85CA8" name="Border_Bottom" imageGuid="D4621C1D-53F9-4d7f-B815-8B0746D305C0"></gridCellImage>
+	<gridCellImage id="148108CF-590C-44d9-A80B-476AC157DA84" name="Border_Left" imageGuid="97FC3A38-2527-404e-825F-5F8C24A9D399"></gridCellImage>
+	<gridCellImage id="EC6AF516-5C93-4b2d-877D-2E2A86D6D984" name="Border_Right" imageGuid="07DBB5B3-EBF0-4b79-AB37-3BAF2CB99A14"></gridCellImage>
+</gridCellImages>

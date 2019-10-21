@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<terrains>
+	<terrain id="FEFB82B2-17EA-4bb0-96F1-BFD989C84187" name="Coast" food="1" shields="0" commerce="2" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+	<terrain id="6D43C5C7-C21B-459d-ACDB-2EBDCEE43762" name="Desert" food="0" shields="1" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Desert" dry="true"></terrain>
+	<terrain id="1C79F7DC-8014-4844-9231-3E1C92BF5A5E" name="Flood Plain" food="3" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="11035B49-37AA-4f20-BE22-BCE17D437C06" name="Forest" food="1" shields="2" commerce="0" movecost="2" defense="25" irrigation_bonus="0" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="81CBABC4-9D26-4692-8C62-9F88CF12C5FC" name="Grassland" food="2" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true">
+		<imageBorders>
+			<neighborTerrain guid="FEFB82B2-17EA-4bb0-96F1-BFD989C84187">
+				<orientations>
+					<orientation type="northSouth">
+						<images>
+							<image index="0" guid="4DFAE838-FC64-405c-BB32-35969894EEFC" />
+						</images>
+					</orientation>
+					<orientation type="southNorth">
+						<images>
+							<image index="0" guid="9690F428-AA8A-4fa5-927E-D24FBA36447D" />
+						</images>
+					</orientation>
+					<orientation type="eastWest">
+						<images>
+							<image index="0" guid="BF6D2E62-2FFD-4ffb-A0A8-DB9ABAECF1D1" />
+						</images>
+					</orientation>
+					<orientation type="westEast">
+						<images>
+							<image index="0" guid="5209B812-FFFD-479c-B49C-863654F48A8B" />
+						</images>
+					</orientation>
+				</orientations>
+			</neighborTerrain>
+		</imageBorders>
+	</terrain>
+	<terrain id="359AEEED-20B9-49c9-840A-725DAEAF860E" name="Hills" food="1" shields="1" commerce="0" movecost="2" defense="50" irrigation_bonus="0" mining_bonus="2" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="9CE207F4-6DFD-4ac4-8CB8-E31C90A73192" name="Jungle" food="1" shields="0" commerce="0" movecost="3" defense="25" irrigation_bonus="0" mining_bonus="0" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="20E46F1D-5EE1-454e-8B6B-602F76FBB017" name="Mountains" food="0" shields="1" commerce="0" movecost="3" defense="100" irrigation_bonus="0" mining_bonus="2" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="509D1DCA-3EDF-4ae3-9410-AE134AA120BD" name="Ocean" food="1" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+	<terrain id="DB8EB0CC-7A83-4f58-B24E-0A79B51AECB1" name="Plains" food="1" shields="1" commerce="0" movecost="1" defense="10" irrigation_bonus="1" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+	<terrain id="CEA830AD-7466-43c6-B3D6-4BBC413F337E" name="Sea" food="1" shields="0" commerce="1" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="0" road_bonus="0" editorBmp="Water" dry="false"></terrain>
+	<terrain id="FDC65578-C98B-4342-A0B4-0431669D5BA2" name="Tundra" food="1" shields="0" commerce="0" movecost="1" defense="10" irrigation_bonus="0" mining_bonus="1" road_bonus="1" editorBmp="Grass" dry="true"></terrain>
+</terrains>

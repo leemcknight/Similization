@@ -1,0 +1,14 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Similization.chm
+Contents file=Table of Contents.hhc
+Default Font=Tahoma,8,0
+Default topic=StartPage.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Similization Help
+
+
+[INFOTYPES]
+

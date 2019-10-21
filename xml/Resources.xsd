@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<xs:schema id="resources" targetNamespace="http://tempuri.org/Resources.xsd" xmlns:mstns="http://tempuri.org/Resources.xsd" xmlns="http://tempuri.org/Resources.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="resources" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="resource">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="terrain_types" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="terrain_type" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" form="unqualified" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" form="unqualified" type="xs:ID" />
+						<xs:attribute name="name" form="unqualified" type="xs:string" />
+						<xs:attribute name="food" form="unqualified" type="xs:int" />
+						<xs:attribute name="shields" form="unqualified" type="xs:int" />
+						<xs:attribute name="commerce" form="unqualified" type="xs:int" />
+						<xs:attribute name="type" form="unqualified" type="xs:string" />
+						<xs:attribute name="required_tech" form="unqualified" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

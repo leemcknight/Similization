@@ -1,0 +1,187 @@
+3/1/04:
+Source code count: 15869 lines of code
+-more cleanup.  I fixed a lot of the performance/memory problems.  I had been creating many more vertex buffers in memory than needed.  I got it down to 1 vertex buffer for everything.  This was only possible if everything became textured, so it allowed me to get rid of the dreaded DXControlPaint class.
+
+-got backspace working on the textbox class.
+
+2/29/04:
+Source code count: 15803 lines of code
+-created LJMSound.dll.  This assembly contains classes for playing sound and music.
+-continued to clean up the UI.  Looks much better now.
+
+-finally added properties for Width, Height to the control class.  These had been missed.
+
+2/28/04
+Editor:
+-Added code to dynamically load the context menus for the terrain/resource items in the map editor.
+
+Game:
+-New splash screen
+-Started cleanup up UI.
+
+2/20/04 - 2/26/04:
+Source Code Count: 15638 lines of code
+
+Time for some code cleanup.  There were many utility classes for DirectX/D3D that were in multiple projects.  I pulled all of that code (a considerable amount) into a new project (DirectUtil.dll).  Much, much cleaner.  I'd like to get the DirectUtil assembly to the point where I can compile a release version, reference the dll where needed, and remove the project from my solution.  Not there yet. :)
+
+I think I'm _really_ close to being able to render a 3D terrain onto the screen.  I have some debugging to do, but I feel like there's a light at the end of the tunnel.
+
+2/19/04:
+Source Code Count: 15039 lines of code
+Data Tier:
+Started implementing the Save() for Map objects.
+
+Business:
+The Delete() function was missing from the BusinessObject abstract base class.  I put that in there and started Deletes for different objects.
+
+2/17/04:
+Source Code Count: 14716 lines of code
+Rules Editor/Business/Relational Data Objects:
+
+Started the delete functions.  Also implemented Save() for units.
+
+2/15/04:
+Source Code Count: 14392 lines of code
+Engine:
+Finished the constructor for the SkyFace object.  Also hooked the engine up to the skybox.  It still doesn't work. 
+
+Data Objects:
+I cleanup up the XmlNode constructors.  Moved all appropriate stuff into the base class constructors.  
+
+Business:
+Changed some GetDataObjects() methods to iterate through XmlNodes instead of DataSets.  It's just easier.  Microsoft has really made a mess of DataSets. :(
+
+Rules Editor:
+Finished hooking into the relational data objects.  All the requirements listboxes/combos are now populating and being set properly.
+
+
+2/14/04:
+Souce Code Count: 13921 lines of code
+
+Civ.dll has some _really_ bad code in it.  The object hierarchy is a mess, and it doesn't work well with me trying to move all the objects into the dataobject classes.  I'm ripping out the BuildableObject layer, and just building that into the dataobjects.
+
+Improvement.cs no longer exists in Civ.dll.  It is only in the data objects now.  This wreaked havoc on my code, since it inherited from BuildableObject (as does Unit).  I'll have to completely refactor this.
+
+Rules Editor:
+I added some basic error handling in the xml loaders.
+Started hooking into the relational data objects (see below)
+
+Relational Data Objects:
+I created the project to hold the relational data objects.  I've got the initial classes in there now, but they are all pretty empty.
+
+Xml:
+Added more unique guids to Technologies and Terrains.
+
+2/12/04:
+First Source code count: 13821 lines of code (non-comment, non-blank)
+
+2/8/04:
+Xml:
+Started adding unique guids as the identifiers of all the elements.
+
+DataAccess:
+-Started the initial save routines.  These may change over time, but they are started.
+
+Engine:
+-After much arguing with myself over it, I've decided to implement a skybox.  Originally, I didn't feel that it would be needed, but to make the engine truly reusable, I think it is required.  Plus, it will allow for less restricted camera angles.
+
+2/7/04:
+-I built the comment web pages for the first time.  I have discoverd that I don't comment enough! :)
+
+Install:
+-There's an install solution now.  I added the xml files to it, since they were missing.  
+
+Engine:
+-Finally implemented the Render() method.  To do this, I had to go ahead and add the parent/children relationship in the ViewableObject base class.
+
+Data Access:
+-Went ahead and created an assembly to hold the data access classes.  
+
+Business:
+-Made an assembly to hold the business objects
+
+Xml:
+-I created the first version of the xsd schemas for all of the xml files.  I'm sure they'll need to change.  There's a new directory "XmlData" holding all of the xml/xsd files.  I was getting sick of all the xml files floating all over.  This new folder should be the source for all projects going forward.
+
+2/1/04:
+DataObjects:
+-Created a new assembly to hold the base class data objects.  Moved all the classes from the editor into this assembly.  Also trimmed down the civ.dll by removing tech,civ, and terrain from there and just referencing the dataobject assembly.
+
+Rules Editor:
+-Added user controls to hold civilizations and resources.  
+
+1/31/04
+DXFormBase:
+-ListBox now highlights selected item
+-ListBox now selects items clicked on by the mouse
+-ListBox now selects items based on up/down arrow keys
+
+Rules Editor:
+-More work on unit editor
+-Started work on technology xml load
+
+Engine:
+-CreateLevelOfDetail() implementation
+
+1/28/04
+Rules Editor:
+-Added items to technology user control
+-work on Unit xml loading
+
+Main EXE:
+-started work on Load game window
+
+Engine:
+-MeshObject constructor implementation
+
+1/24/04
+DXFormBase:
+-Fixed buggy mouse code - the events were going off the wrong mouse location.  Wasn't taking into account the display rectangle of the client.
+
+-Combobox work
+
+Engine:
+-fixed bug with Status bar on engine load going backwards
+
+Main EXE:
+-Fixed splash screen
+
+1/18/04
+
+Engine:
+-changed the constructor of the Terrain object to take a grid object.
+
+DXFormBase:
+-Implemented ProgressBar control
+
+Main EXE:
+-first attempt at hooking into game engine
+-hooked the status messages from the engine and the gameroot into the 
+main game window.  Shows progress bar control with it.
+
+1/17/04
+
+Rules Editor:
+
+-Added fields to Rules Editor (Unit Screen)
+	*Attack UpDown
+	*Movement UpDown
+	*Defense UpDown
+	*Bombardment UpDown
+	*BombardmentRange Updown
+
+-Made the main form fixed dialog, fixing the resize problem
+
+-Finally added an icon for the main form
+
+-Created a manifest file for the rules editor (use comctl 6.0 controls)
+
+-Started XML reader for unit object
+
+-Started Technology user control
+
+Engine:
+
+-Implemented QuadTreeNode::Update()
+-Implemented Terrain::Render()
+-Implemented Camera::Render()

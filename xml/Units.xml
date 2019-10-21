@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<units>
+	<unit id="8604E8CF-3B30-453e-A1D3-D2D4DCEEB86F" name="Archer" cost="20" attack="2" defense="1" movement="1" bombardment="0" brange="0" rof="2" canSettle="false" canWork="false" editorBmp="Archer" populationPoints="0" canMergeWithCity="false" upgrade="A0476B1D-3BAE-4976-8E81-50802DF23BEB">
+		<prerequisites>
+			<prerequisite type="technology">3BB08397-9A10-4dab-9199-5E041BD9E79E</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="1B76F5EB-B0EF-48b3-83DF-6596B3F7603C" name="Artillery" cost="60" attack="0" defense="0" movement="1" bombardment="12" brange="2" rof="3" canSettle="false" canWork="false" editorBmp="Artillery" populationPoints="0" canMergeWithCity="false" upgrade="4CB73969-BCD6-4ef1-8B66-907978EE4F04">
+		<prerequisites>
+			<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="7EB5D940-2B13-4fe0-9201-85E675ECB41D" name="Cannon" cost="40" attack="0" defense="0" movement="1" bombardment="8" brange="1" rof="2" canSettle="false" canWork="false" editorBmp="Cannon" populationPoints="0" canMergeWithCity="false" upgrade="1B76F5EB-B0EF-48b3-83DF-6596B3F7603C">
+		<prerequisites>
+			<prerequisite type="technology">781A34F8-CA31-4c31-AB3F-7FBE58E74767</prerequisite>
+			<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="F3B67338-0015-4d4c-892D-C898721B7500" name="Catapult" cost="20" attack="0" defense="0" movement="1" bombardment="4" brange="1" rof="1" canSettle="false" canWork="false" editorBmp="Catapult" populationPoints="0" canMergeWithCity="false" upgrade="7EB5D940-2B13-4fe0-9201-85E675ECB41D">
+		<prerequisites>
+			<prerequisite type="technology">15F5A7FE-19B0-41ce-9FC1-3CA339CA322C</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="4299944A-075F-4014-9C45-C72556211652" name="Calvary" cost="80" attack="6" defense="3" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Calvary" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">7EC1FF77-8355-4612-B573-D575C9E70CD9</prerequisite>
+			<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+			<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="9CE281B8-0B17-4e7d-9C8C-490031D0748C" name="Chariot" cost="20" attack="1" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Chariot" populationPoints="0" canMergeWithCity="false" upgrade="666551F9-2164-41ab-AF7B-140C44AE3E76">
+		<prerequisites>
+			<prerequisite type="technology">E4C82D00-20B6-4578-9818-A48107DCF348</prerequisite>
+			<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="F7B83C1D-55B6-40d9-A65A-71706314CF41" name="Explorer" cost="20" attack="1" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Explorer" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">EDEA623A-08B1-452c-B5AC-AD086880E52F</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="666551F9-2164-41ab-AF7B-140C44AE3E76" name="Horseman" cost="30" attack="2" defense="1" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Horseman" populationPoints="0" canMergeWithCity="false" upgrade="22946722-0A80-4651-9AF6-C60E6C612B07">
+		<prerequisites>
+			<prerequisite type="technology">69DF8013-EB13-42a3-88C1-762B5E3C8B21</prerequisite>
+			<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="CBA50058-515A-425d-AF38-45F3355497B9" name="Infantry" cost="90" attack="8" defense="12" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Infantry" populationPoints="0" canMergeWithCity="false" upgrade="1B27B100-5B1D-4fca-9537-3F799D6052BF">
+		<prerequisites>
+			<prerequisite type="technology">7361E337-875E-4047-B406-641DEBCC05F0</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="22946722-0A80-4651-9AF6-C60E6C612B07" name="Knight" cost="70" attack="4" defense="3" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Knight" populationPoints="0" canMergeWithCity="false" upgrade="4299944A-075F-4014-9C45-C72556211652">
+		<prerequisites>
+			<prerequisite type="technology">BB242AD6-40CB-4a2b-9EAE-ADF665FF45BB</prerequisite>
+			<prerequisite type="resource">4B8F3DC8-3A35-4d5e-8660-CF7837328EC7</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="A0476B1D-3BAE-4976-8E81-50802DF23BEB" name="Longbowman" cost="40" attack="4" defense="1" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Longbowman" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">1C081D13-B448-4b49-A164-B7B11565E64E</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="7E24DEAC-A48B-4c54-8E03-249CB67416BD" name="Marine" cost="100" attack="10" defense="8" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Marine" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">EEA268F8-9A2B-4536-8E3F-CC16B29BFDFE</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="1B27B100-5B1D-4fca-9537-3F799D6052BF" name="Mech Infantry" cost="110" attack="12" defense="20" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="MechInf" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">239EE256-4C70-421b-96E6-3B94FFAA10D7</prerequisite>
+			<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="F0027BEC-7D44-4965-9FF8-59424AB7B0F5" name="Modern Armor" cost="120" attack="24" defense="16" movement="3" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="ModernArmor" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">A2CB9A20-12A0-41a5-B43D-115D10138BEE</prerequisite>
+			<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="7157CF91-A16C-4df1-B4B1-54F077EEA939" name="Musketman" cost="60" attack="2" defense="4" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Musketman" populationPoints="0" canMergeWithCity="false" upgrade="D3634C4C-58DC-41e6-B0F1-D0E679F89D39">
+		<prerequisites>
+			<prerequisite type="technology">B51BE6D6-A7F6-4c68-8537-F558294499F2</prerequisite>
+			<prerequisite type="resource">43549393-E897-49d3-B8F5-B451EBB4D3CE</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="D372A494-547A-45e6-BA9C-4B3CAE591355" name="Paratrooper" cost="100" attack="8" defense="10" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Paratrooper" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">C936614F-D8AD-41d0-84B2-56FC47B008BF</prerequisite>
+			<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="3CAD7E2F-E2A5-4028-83DB-4FB74C1F9F99" name="Pikeman" cost="30" attack="1" defense="3" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Pikeman" populationPoints="0" canMergeWithCity="false" upgrade="7157CF91-A16C-4df1-B4B1-54F077EEA939">
+		<prerequisites>
+			<prerequisite type="technology">64BA7111-3670-4d62-B557-F29721352CCB</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="4CB73969-BCD6-4ef1-8B66-907978EE4F04" name="Radar Artillery" cost="80" attack="0" defense="0" movement="1" bombardment="16" brange="2" rof="4" canSettle="false" canWork="false" editorBmp="RadarArtillery" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">F2AA4ED9-3FBF-4445-907E-E25A8EDAEEE2</prerequisite>
+			<prerequisite type="resource">F2B2DF56-10D0-460f-A0B6-80DC756578A5</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="D3634C4C-58DC-41e6-B0F1-D0E679F89D39" name="Rifleman" cost="80" attack="4" defense="6" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Rifleman" populationPoints="0" canMergeWithCity="false" upgrade="CBA50058-515A-425d-AF38-45F3355497B9">
+		<prerequisites>
+			<prerequisite type="technology">581B7F26-5C01-460d-84D6-24ADFBFAC1E8</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="1E858F31-BDCD-4657-82D4-69F806027D95" name="Settler" cost="30" attack="0" defense="0" movement="1" bombardment="0" brange="0" rof="0" canSettle="true" canWork="false" editorBmp="Settler" populationPoints="2" canMergeWithCity="true"></unit>
+	<unit id="D62F0D53-2923-4298-AB57-ED77F7E7A987" name="Spearman" cost="20" attack="1" defense="2" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Spearman" populationPoints="0" canMergeWithCity="false" upgrade="3CAD7E2F-E2A5-4028-83DB-4FB74C1F9F99">
+		<prerequisites>
+			<prerequisite type="technology">6F76B8D0-6132-47a9-BBA8-E2FC4A0EE475</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="05A89470-0323-497e-B08D-1DD0E2745249" name="Swordsman" cost="20" attack="3" defense="2" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Swordsman" populationPoints="0" canMergeWithCity="false">
+		<prerequisites>
+			<prerequisite type="technology">E6024E8A-335B-4017-B4BD-757A6377381F</prerequisite>
+			<prerequisite type="resource">4F8F14DB-BF78-40be-81D2-08C61BE0DD7F</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="7C99F504-FDDB-4115-A42C-3C301C6A565D" name="Tank" cost="100" attack="16" defense="10" movement="2" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="Tank" populationPoints="0" canMergeWithCity="false" upgrade="F0027BEC-7D44-4965-9FF8-59424AB7B0F5">
+		<prerequisites>
+			<prerequisite type="technology">4A2BF65E-1AE3-4d84-A359-A8F5744FDC42</prerequisite>
+			<prerequisite type="resource">BA2F45E9-2F2A-4b43-864C-5A64C15CA925</prerequisite>
+			<prerequisite type="resource">BA30EA64-C812-495f-9268-2FC9B50D4B65</prerequisite>
+		</prerequisites>
+	</unit>
+	<unit id="BCBD347C-24B4-47bc-AA9A-F41543E43739" name="Warrior" cost="10" attack="1" defense="1" movement="1" bombardment="0" brange="0" rof="0" canSettle="false" canWork="false" editorBmp="AxeMan" populationPoints="0" canMergeWithCity="false" upgrade="05A89470-0323-497e-B08D-1DD0E2745249"></unit>
+	<unit id="26B4E05F-CE98-4230-BA4C-C89AC7AED2A0" name="Worker" cost="10" attack="0" defense="0" movement="1" bombardment="0" brange="0" rof="1" canSettle="false" canWork="true" editorBmp="Worker" populationPoints="1" canMergeWithCity="true"></unit>
+</units>

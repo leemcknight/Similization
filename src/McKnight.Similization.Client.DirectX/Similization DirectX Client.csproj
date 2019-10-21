@@ -1,0 +1,249 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7B18A19-D460-4C82-B4E1-710D6948FABA}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>shell32.163.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Similization DirectX Client</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LJM.Similization.Client.DirectX</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="System">
+      <Name>system</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CityDetailWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClientApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Console.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DirectXClientResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DirectXClientResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EngineLoadingDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlHost.cs" />
+    <Compile Include="Icons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoadGameWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MiniMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewCityWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptionsWindow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WorldSetupControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewGameControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlayerSetupWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TerrainWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="DirectXClientResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DirectXClientResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\LJM.Similization.Core.csproj">
+      <Project>{5EE311DB-5026-45F3-970B-E66382FC65AA}</Project>
+      <Name>LJM.Similization.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\server\LJM.Similization.Server.csproj">
+      <Project>{D650183F-E672-4195-8CDD-AC7582ED3221}</Project>
+      <Name>LJM.Similization.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LJM.Similization.Client.csproj">
+      <Project>{7CD9B451-E767-49A4-B506-3CCDFDE470A7}</Project>
+      <Name>LJM.Similization.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="controls\LJM.Similization.Client.DirectX.Controls.csproj">
+      <Project>{1807D769-B32A-4E9E-8594-0C2EED20D14A}</Project>
+      <Name>LJM.Similization.Client.DirectX.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="engine\LJM.Similization.Client.DirectX.Engine.csproj">
+      <Project>{2640D862-1309-4E37-9B6B-3FB44DAFFA4E}</Project>
+      <Name>LJM.Similization.Client.DirectX.Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="sound\LJM.Similization.Client.DirectX.Sound.csproj">
+      <Project>{2ED0C422-2EED-4DAF-936D-F8D8A5C0B7D5}</Project>
+      <Name>LJM.Similization.Client.DirectX.Sound</Name>
+    </ProjectReference>
+    <ProjectReference Include="util\LJM.Similization.Client.DirectX.Util.csproj">
+      <Project>{5D225A46-FCBA-47E7-A7A7-FAA50C90B7A3}</Project>
+      <Name>LJM.Similization.Client.DirectX.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\credits.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\exit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\help.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\network.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\new.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\open.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\options.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\question.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\quick.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\save.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\startIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\title.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="shell32.163.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

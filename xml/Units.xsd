@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<xs:schema id="units" targetNamespace="http://tempuri.org/Units.xsd" xmlns:mstns="http://tempuri.org/Units.xsd" xmlns="http://tempuri.org/Units.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="units" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="unit">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="neededresources" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="resource" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" form="unqualified" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" form="unqualified" type="xs:ID" />
+						<xs:attribute name="name" form="unqualified" type="xs:string" />
+						<xs:attribute name="cost" form="unqualified" type="xs:int" />
+						<xs:attribute name="attack" form="unqualified" type="xs:int" />
+						<xs:attribute name="defense" form="unqualified" type="xs:int" />
+						<xs:attribute name="movement" form="unqualified" type="xs:int" />
+						<xs:attribute name="bombardment" form="unqualified" type="xs:int" />
+						<xs:attribute name="brange" form="unqualified" type="xs:int" />
+						<xs:attribute name="rof" form="unqualified" type="xs:int" />
+						<xs:attribute name="prereq" form="unqualified" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

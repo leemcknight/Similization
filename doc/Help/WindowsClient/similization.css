@@ -1,0 +1,50 @@
+BODY
+{
+	font-family: tahoma;
+	font-size: 12;
+	color: black;
+	background-color:white; 
+}
+P
+{
+    MARGIN-TOP: 0px;
+    FONT: 8pt/16pt tahoma;
+    TEXT-ALIGN: justify
+}
+H2
+{
+    MARGIN-BOTTOM: 0px;
+    FONT: 12pt tahoma;
+    COLOR: #7d775c;
+    LETTER-SPACING: 1px
+}
+H3
+{
+    MARGIN-BOTTOM: 0px;
+    FONT: 12pt tahoma;
+    COLOR: #7d775c;
+    LETTER-SPACING: 1px
+}
+A:link
+{
+    FONT-WEIGHT: bold;
+    COLOR: #b7a5df;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-WEIGHT: bold;
+    COLOR: #d4cddc;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #9685ba;
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    COLOR: #9685ba;
+    TEXT-DECORATION: underline
+}
+

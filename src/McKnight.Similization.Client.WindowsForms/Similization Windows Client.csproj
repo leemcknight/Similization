@@ -1,0 +1,414 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65F29D94-9128-4FF8-A4EB-AADF5D884B77}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>shell32.163.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Similization Windows Forms Client</AssemblyName>
+    <AssemblyOriginatorKeyFile>SimilizationWindowsClient.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>McKnight.Similization.Client.WindowsForms</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>
+    </TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ExcludedPermissions>
+    </ExcludedPermissions>
+    <SignAssembly>true</SignAssembly>
+    <PublishUrl>http://localhost/Similization Windows Client/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>SimilizationWindowsClient.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\McKnight.Similization.Server\McKnight.Similization.Server.csproj">
+      <Name>McKnight.Similization.Server</Name>
+      <Project>{D650183F-E672-4195-8CDD-AC7582ED3221}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\McKnight.Similization.Core\McKnight.Similization.Core.csproj">
+      <Project>{5EE311DB-5026-45F3-970B-E66382FC65AA}</Project>
+      <Name>McKnight.Similization.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\McKnight.Similization.Client\McKnight.Similization.Client.csproj">
+      <Name>McKnight.Similization.Client</Name>
+      <Project>{7CD9B451-E767-49A4-B506-3CCDFDE470A7}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CityPainter.cs" />
+    <Compile Include="CityPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CityPicker.Designer.cs">
+      <DependentUpon>CityPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CityViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClientApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Command.cs">
+    </Compile>
+    <Compile Include="DomesticAdvisorDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ForeignAdvisorDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CityDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridCellBorderPainter.cs" />
+    <Compile Include="GridCellLayerPainter.cs" />
+    <Compile Include="GridCellPainter.cs" />
+    <Compile Include="GridCellPaintOptions.cs" />
+    <Compile Include="GridPainter.cs" />
+    <Compile Include="IPainter.cs" />
+    <Compile Include="IrrigationPainter.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistographDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImprovementBuiltDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiplomaticTiePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinePainter.cs" />
+    <Compile Include="NewCityDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGameDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GoldAmountDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GovernmentSelectionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridViewBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Histograph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImprovementPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MilitaryAdvisorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MiniMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NegotiationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGovernmentControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTechnologyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Painter.cs" />
+    <Compile Include="PlayerSetupControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ResearchNeededDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourcePainter.cs" />
+    <Compile Include="RoadPainter.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerrainDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerrainPainter.cs" />
+    <Compile Include="UnitPainter.cs" />
+    <Compile Include="VillagePainter.cs" />
+    <Compile Include="WelcomeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinClientStatusView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsClientConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorldSetupControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorDialog.resx">
+      <DependentUpon>AdvisorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityPicker.resx">
+      <DependentUpon>CityPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityViewControl.resx">
+      <DependentUpon>CityViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command.resx">
+      <DependentUpon>Command.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DomesticAdvisorDialog.resx">
+      <DependentUpon>DomesticAdvisorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForeignAdvisorDialog.af.resx">
+      <DependentUpon>ForeignAdvisorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForeignAdvisorDialog.resx">
+      <DependentUpon>ForeignAdvisorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityDialog.resx">
+      <DependentUpon>CityDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistographDialog.resx">
+      <DependentUpon>HistographDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImprovementBuiltDialog.resx">
+      <DependentUpon>ImprovementBuiltDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiplomaticTiePicker.resx">
+      <DependentUpon>DiplomaticTiePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCityDialog.resx">
+      <DependentUpon>NewCityDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGameDialog.resx">
+      <DependentUpon>NewGameDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameWindow.resx">
+      <DependentUpon>GameWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldAmountDialog.resx">
+      <DependentUpon>GoldAmountDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GovernmentSelectionDialog.resx">
+      <DependentUpon>GovernmentSelectionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridViewBase.resx">
+      <DependentUpon>GridViewBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histograph.resx">
+      <DependentUpon>Histograph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImprovementPicker.resx">
+      <DependentUpon>ImprovementPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilitaryAdvisorControl.resx">
+      <DependentUpon>MilitaryAdvisorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniMap.resx">
+      <DependentUpon>MiniMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NegotiationDialog.resx">
+      <DependentUpon>NegotiationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGovernmentControl.resx">
+      <DependentUpon>NewGovernmentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTechnologyDialog.resx">
+      <DependentUpon>NewTechnologyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerSetupControl.resx">
+      <DependentUpon>PlayerSetupControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResearchNeededDialog.resx">
+      <DependentUpon>ResearchNeededDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerrainDialog.resx">
+      <DependentUpon>TerrainDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeControl.resx">
+      <DependentUpon>WelcomeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinClientStatusView.resx">
+      <DependentUpon>WinClientStatusView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsClientConsole.resx">
+      <DependentUpon>WindowsClientConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorldSetupControl.resx">
+      <DependentUpon>WorldSetupControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <Content Include="shell32.163.ico" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\bullet_square_blue.png" />
+    <None Include="Resources\woman4.png" />
+    <None Include="Resources\worker.png" />
+    <None Include="Resources\search.ico" />
+    <None Include="Resources\woman2.png" />
+    <None Include="Resources\woman1.png" />
+    <None Include="Resources\woman3.png" />
+    <None Include="Resources\del.ico" />
+    <None Include="Resources\wmploc_dll_14.ico" />
+    <None Include="SimilizationWindowsClient.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <InProject>False</InProject>
+      <ProductName>.NET Framework 2.0 Beta</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

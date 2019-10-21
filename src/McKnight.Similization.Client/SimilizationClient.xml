@@ -1,0 +1,2941 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>McKnight.Similization.Client</name>
+    </assembly>
+    <members>
+        <member name="T:McKnight.Similization.Client.AboutCommand">
+            <summary>
+            Class representing the command to show the user the about box 
+            dialog.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AboutCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.AboutCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AboutCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyAdviceStringKey">
+            <summary>
+            String Keys for Culture-Specific Advisor phrases.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.AIDiplomacyPhraseHelper">
+            <summary>
+            Helper class to manage phrases that the AI will say during 
+            diplomacy.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AIDiplomacyPhraseHelper.GetForeignLeaderGreeting(McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets the greeting that the foreign leader will say to the user.
+            </summary>
+            <param name="tie">The <see cref="T:McKnight.Similization.Server.DiplomaticTie"/> that exists between the players</param>
+            <returns>The (culture-specific) text of the greeting.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.AIDiplomacyPhraseHelper.GetFirstContactPhrase(McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets the phrase that the Ai will speak during first contact.
+            </summary>
+            <param name="tie">The newly created diplomatic tie.</param>
+            <returns>A <c>string</c> containing the spoken phrase.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.AIDiplomacyPhraseHelper.GenerateBackOutResponse">
+            <summary>
+            Gets a phrase that the AI player will say when the human player backs out from proposing 
+            a trade.
+            </summary>
+            <returns>The ai phrase.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.AIDiplomacyPhraseHelper.GetProposalResponse(McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets a phrase that the AI player will say when a trade is initially proposed to them.
+            </summary>
+            <returns>The ai phrase.</returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.BombardCommand">
+            <summary>
+            A Command to bombard a <see cref="T:McKnight.Similization.Server.GridCell"/>.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BombardCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.BombardCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BombardCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.BuildMineCommand">
+            <summary>
+            Represents a command to have the worker build a mine.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildMineCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.BuildMineCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildMineCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.BuildNewCityCommand">
+            <summary>
+            Command for building a new city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildNewCityCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.BuildNewCityCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildNewCityCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.BuildNewCityCommand.LastCityBuilt">
+            <summary>
+            Gets the last city created with this command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.BuildRoadCommand">
+            <summary>
+            Represents a command to build a road.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildRoadCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.BuildRoadCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BuildRoadCommand.Invoke">
+            <summary>
+            Invokes the <c>BuildRoadCommand</c>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.CityTile">
+            <summary>
+            An image tile used to draw cities on the screen.
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTile.#ctor(System.Data.DataRow)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.CityTile"/> class.
+            </summary>
+            <param name="tileRow"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.CityTile.Era">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.CityTile.Era"/> this tile will be drawn in.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.CityTile.Civilization">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.CityTile.Civilization"/> this tile will drawn for.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.CityTile.SizeClass">
+            <summary>
+            The <see cref="T:McKnight.Similization.Core.CitySizeClass"/> the tile will be drawn for.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.CityTile.Image">
+            <summary>
+            The image for the city.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.CityTileCollection">
+            <summary>
+            A strongly-typed collection of <see cref="T:McKnight.Similization.Client.CityTile"/> objects.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTileCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.CityTileCollection"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTileCollection.GetTile(McKnight.Similization.Core.Era,McKnight.Similization.Core.Civilization,McKnight.Similization.Core.CitySizeClass)">
+            <summary>
+            Gets the <see cref="T:McKnight.Similization.Client.CityTile"/> for the specified Era, Civilization, and City size.
+            </summary>
+            <param name="era"></param>
+            <param name="civilization"></param>
+            <param name="sizeClass"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTileCollection.Refresh(McKnight.Similization.Server.Country)">
+            <summary>
+            Refreshes the tiles for the civilization.
+            </summary>
+            <param name="country">The <see cref="T:McKnight.Similization.Server.Country"/> to refresh the tiles for.</param>
+            <remarks>This method is useful when all the tiles in a Civilization need to change, 
+            for instance when the era changes.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTileCollection.Refresh(McKnight.Similization.Core.CityBase)">
+            <summary>
+            Refreshes the tile for the city.
+            </summary>
+            <param name="city"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.CityTileCollection.GetImage(McKnight.Similization.Core.CityBase)">
+            <summary>
+            Gets the image to use for the specified city.
+            </summary>
+            <param name="city"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.NamespaceDoc">
+            <summary>
+            Contains classes and interfaces that describe and control the basic user interface 
+            functionality of the game.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ClientApplication">
+            <summary>
+            Abstract base class for a Similization client application.  This class
+            cannot be instantiated directly.  This class uses the Singleton pattern, 
+            assuring that only one instance can ever be created.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.ClientApplication"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.Finalize">
+            <summary>
+            Finalizer for the <see cref="T:McKnight.Similization.Client.ClientApplication"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.InitializeClient">
+            <summary>
+            Initializes the <see cref="T:McKnight.Similization.Client.ClientApplication"/> class instance.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ClientApplication.client">
+            <summary>
+            Represents the instance of the client application.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Instance">
+            <summary>
+            Gets an instance of the <c>ClientApplication</c>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Commands">
+            <summary>
+            Gets the commands used in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Console">
+            <summary>
+            Gets or sets the console to write messages to.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.InitializeConsole(McKnight.Similization.Client.IConsole)">
+            <summary>
+            Sets the <see cref="T:McKnight.Similization.Client.IConsole"/> to be used in the game.
+            </summary>
+            <param name="console"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.StatusView">
+            <summary>
+            Gets or sets the status view to show to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.MiniMap">
+            <summary>
+            Gets or sets the mini map to show to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.GameWindow">
+            <summary>
+            Gets the main game window for the client.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Tileset">
+            <summary>
+            The tileset that is used for the graphics in the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.LoadTileSetImageData">
+            <summary>
+            Loads the images for the <see cref="P:McKnight.Similization.Client.ClientApplication.Tileset"/> from disk into the client-specific 
+            image type.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.Start">
+            <summary>
+            Starts the client.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.ServerInstance">
+            <summary>
+            Gets an instance of the <see cref="T:McKnight.Similization.Server.GameRoot"/> on the server.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Player">
+            <summary>
+            Gets the <see cref="T:McKnight.Similization.Server.Country"/> representing the player.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ClientApplication.Options">
+            <summary>
+            Gets the game options.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.GetControl(System.Type)">
+            <summary>
+            Gets a control from the client based on the name.  The control must 
+            implement the <c>ISimilizationControl</c> interface.
+            </summary>
+            <param name="controlType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientApplication.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:McKnight.Similization.Client.ClientApplication"/> class.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.HistographView">
+            <summary>
+            Different possible views of the histograph.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.HistographView.Culture">
+            <summary>
+            Histograph by culture
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.HistographView.Power">
+            <summary>
+            Histograph by power
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.HistographView.Score">
+            <summary>
+            Histograph by score
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.Advisor">
+            <summary>
+            Different advisors in the game.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.MilitaryAdvisor">
+            <summary>
+            Military Advisor.  Gives advice concerning 
+            military strength of the players military 
+            and the opponents military.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.CulturalAdvisor">
+            <summary>
+            Cultural Advisor
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.ForeignAdvisor">
+            <summary>
+            Foreign Advisor
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.TradeAdvisor">
+            <summary>
+            Trade Advisor
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.DomesticAdvisor">
+            <summary>
+            Domestic Advisor
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.Advisor.ScienceAdvisor">
+            <summary>
+            Science Advisor
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ComparisonRating">
+            <summary>
+            Possible values for a comparison between a specific aspect of 2 countries.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ComparisonRating.Worse">
+            <summary>
+            Worse than opponent
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ComparisonRating.Equal">
+            <summary>
+            Equal to opponent
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ComparisonRating.Better">
+            <summary>
+            Better than opponent
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ClientResources">
+            <summary>
+            Class used to read resources from the Similization Client assembly.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientResources.GetString(System.String)">
+            <summary>
+            Gets the resource string corresponding to the specified key.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientResources.GetExceptionString(System.String)">
+            <summary>
+            Gets the resource string for an exception.  
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientResources.GetRankString(McKnight.Similization.Core.UnitRank)">
+            <summary>
+            Gets a string representation of the specified <see cref="T:McKnight.Similization.Core.UnitRank"/>
+            </summary>
+            <param name="rank"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.ClientResources.GetCitySizeString(McKnight.Similization.Core.CitySizeClass)">
+            <summary>
+            Gets a string representation of the size of city described by 
+            the <i>sizeClass</i> parameter.
+            </summary>
+            <param name="sizeClass"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.ControlClosedEventArgs">
+            <summary>
+            Class representing arguments detailing the result of a user closing a <see cref="T:McKnight.Similization.Client.ISimilizationControl"/>.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ControlClosedEventArgs.#ctor(McKnight.Similization.Client.ControlCloseResult)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.ControlClosedEventArgs"/> class.
+            </summary>
+            <param name="closeResult"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.ControlClosedEventArgs.CloseResult">
+            <summary>
+            The result of the dialog control closed.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ControlCloseResult">
+            <summary>
+            Possible results from closing a <see cref="T:McKnight.Similization.Client.ISimilizationControl"/>.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ControlCloseResult.Ok">
+            <summary>
+            The user chose an action
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.ControlCloseResult.Cancel">
+            <summary>
+            The user canceled out of the control without choosing an option or action.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DeclareWarCommand">
+            <summary>
+            A command to declare war on a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DeclareWarCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.DeclareWarCommand.Enemy">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.Country"/> that is being declared war upon.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ISaveGameWindow">
+            <summary>
+            Interface representing a control used to save a game in Similization.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISaveGameWindow.SavedGameFile">
+            <summary>
+            Gets the name of the file the game is to be saved to.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ILoadGameWindow">
+            <summary>
+            Interface representing a control used to load a game in Similization.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ILoadGameWindow.LoadedGameFile">
+            <summary>
+            Gets the name of the file the game is to be loaded from.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IWorldSetupControl">
+            <summary>
+            Represents the interface to be implemented to represent a world 
+            setup control in the concrete client implementations.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ISimilizationControl">
+            <summary>
+            Interface representing a basic similization control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ISimilizationControl.ShowSimilizationControl">
+            <summary>
+            Shows the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IAdvisorControl">
+            <summary>
+            Interface representing an advisor control.
+            </summary>
+            <remarks>There are advisor windows (dialogs) for each of the 
+            advisors in the game.</remarks>
+        </member>
+        <member name="P:McKnight.Similization.Client.IAdvisorControl.AdvisorText">
+            <summary>
+            The text that the advisor is currently telling the player.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IDomesticAdvisorControl">
+            <summary>
+            Interface representing the domestic advisor screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IForeignAdvisorControl">
+            <summary>
+            Interface representing the foreign advisor screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.INewCityControl">
+            <summary>
+            Interface representing a control used to gather new city information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewCityControl.CityName">
+            <summary>
+            Gets the name of the new city built by the player.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IStartingScreen">
+            <summary>
+            Interface representing the initial starting welcome screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IHistograph">
+            <summary>
+            Interface representing a control used to show histographic information to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IHelpControl">
+            <summary>
+            Interface representing a control or screen used to show help to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IImprovementBuiltControl">
+            <summary>
+            Interface representing a control used to notify the user that a new improvement has
+            been built in a city.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IImprovementBuiltControl.Message">
+            <summary>
+            Gets or sets the message to display to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IImprovementBuiltControl.City">
+            <summary>
+            Gets or sets the city that built the improvement.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IGovernmentSelectionControl">
+            <summary>
+            Interface representing a control used to ask the player to choose a new government.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGovernmentSelectionControl.Message">
+            <summary>
+            Gets or sets the message to display to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGovernmentSelectionControl.NextGovernment">
+            <summary>
+            Gets or sets the Governement to initially show to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IResearchNeededControl">
+            <summary>
+            Interface representing a control used to notify the user that they need to start
+            researching a new technology.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IResearchNeededControl.ChosenTechnology">
+            <summary>
+            Gets the technology that the user has chosen to research.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IResearchNeededControl.Message">
+            <summary>
+            Gets or sets the message to show to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ITechnologyControl">
+            <summary>
+            Interface representing a control used to notify the user that they have learned a 
+            new technology, and need to select a different technology to research.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ITechnologyControl.ChosenTechnology">
+            <summary>
+            Gets the technology that the user has chosen to research.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ITechnologyControl.Message">
+            <summary>
+            Gets or sets the message to show to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.INewGovernmentControl">
+            <summary>
+            Interface to a control asking the user if they would like to switch governments.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGovernmentControl.Government">
+            <summary>
+            Gets or sets the government that is now available.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGovernmentControl.Message">
+            <summary>
+            Gets or sets the message to display to the user.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IConsole">
+            <summary>
+            Interface to a console showing messages to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IConsole.WriteLine(System.String)">
+            <summary>
+            Writes a line to the console.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.IConsole.ShowConsole">
+            <summary>
+            Shows the console.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IConsole.HideConsole">
+            <summary>
+            Hides the console.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyAdvice">
+            <summary>
+            Class containg functions to generate advice that will be shown on the diplomatic negotiation dialog 
+            in the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyAdvice.GetAdvice(McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets an array of strings containing tips to display on the negotiation dialog.
+            </summary>
+            <param name="tie">The <c>DiplomaticTie</c> that exists between the two negotiating parties.</param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyCommand">
+            <summary>
+            A abstract command invoked during diplomacy.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyCommand.#ctor">
+            <summary>
+            Initalizes a new instance of the <see cref="T:McKnight.Similization.Client.DiplomacyCommand"/> class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.DiplomacyCommand.DiplomacyControl">
+            <summary>
+            The control that this command is displayed on.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ApplyTradeCommand">
+            <summary>
+            Class representing an action to apply the results of a trade.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ApplyTradeCommand.Invoke">
+            <summary>
+            Invokes the <see cref="T:McKnight.Similization.Client.ApplyTradeCommand"/>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ExitNegotiationsCommand">
+            <summary>
+            A command to exit the negotiations with the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ExitNegotiationsCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.AutoRetreatTroopsCommand">
+            <summary>
+            A command to have the offending troops automatically retreat to the nearest 
+            neutral cell and apologize for the intrusion.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AutoRetreatTroopsCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.PassiveRetreatTroopsCommand">
+            <summary>
+            A command to passively retreat troops that are invading on foreign ground.  
+            </summary>
+            <remarks>This command will not automatically retreat troops.  It will 
+            be up to the user to retreat the troops.  This command will basically 
+            buy time for the user.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.PassiveRetreatTroopsCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.TradeWorldMapsCommand">
+            <summary>
+            A command to have the two negotiating parties trade world maps.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.TradeWorldMapsCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.BackOutFromNegotiationCommand">
+            <summary>
+            A command to quit the current negotiations and/or trade proposals.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.BackOutFromNegotiationCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.RefuseTributeCommand">
+            <summary>
+            A command to refuse to give the requested tribute to the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.RefuseTributeCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.GiveTributeCommand">
+            <summary>
+            A command to give in to the demands of the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.GiveTributeCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ThreatenWarForBorderInvasionCommand">
+            <summary>
+            A command for threatening the foreign country with war unless they 
+            remove their troops.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ThreatenWarForBorderInvasionCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.WarningForBorderInvasionCommand">
+            <summary>
+            A command for warning the foreign country to remove their troops.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.WarningForBorderInvasionCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.OfferRightOfPassageCommand">
+            <summary>
+            A command for offering a right of passage agreement to the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.OfferRightOfPassageCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.OfferPeaceTreatyDuringWarCommand">
+            <summary>
+            A command to offer a peace treaty to the foreign country during a time of war.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.OfferPeaceTreatyDuringWarCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.RequestLoanCommand">
+            <summary>
+            A command to ask the foreign country for a loan of gold.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.RequestLoanCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.OfferEvenUpTradeCommand">
+            <summary>
+            A command to offer an even-up trade to the foreign country.
+            </summary>
+            <remarks>Even-up trades are trades where both sides give something 
+            to the other party.  It may still be a one-sided deal, but both 
+            sides are giving something up.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.OfferEvenUpTradeCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.OfferGiftCommand">
+            <summary>
+            A command to offer a gift to the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.OfferGiftCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DemandTributeCommand">
+            <summary>
+            A command to demand a tribute from the foreign leader.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DemandTributeCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.AskForCounterofferCommand">
+            <summary>
+            A command to ask the foreign leader to tell the player what they want 
+            in exchange for a certain item.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AskForCounterofferCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.AskForExchangeCommand">
+            <summary>
+            A command to asks the foreign leader if there is anything they are willing to trade
+            in exchange for a particular item the player is offering for trade.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.AskForExchangeCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyHelper">
+            <summary>
+            Contains methods to help with the diplomacy process.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetTaskString(McKnight.Similization.Client.DiplomacyTask,McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets a culture-specific string appropriate for the given diplomatic 
+            task.
+            </summary>
+            <param name="task">The <c>DiplomacyTask</c> the description is for.</param>
+            <param name="tie">The <c>DiplomaticTie</c> between the two negotiating parties.</param>
+            <returns>The description of the task.</returns>
+            <remarks>This will return a random string for the specified task.  Most 
+            tasks have several different strings approprate to the task to make the game 
+            seem less repetitive.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetProbableTradeResponseString(McKnight.Similization.Server.TradeResponse)">
+            <summary>
+            Gets the text that your advisor will tell the player when they believe the response 
+            to the trade proposal will be that which is passed in.
+            </summary>
+            <param name="response">The response to get the advisor text for.</param>
+            <returns>The text for the advisors' phrase telling you of the probable response from 
+            the foreign country to the proposed trade.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetString(System.String)">
+            <summary>
+            Gets a culture-specific string from the resource file with the specified key.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetTaskCommand(McKnight.Similization.Client.DiplomacyTask,McKnight.Similization.Client.IDiplomacyControl)">
+            <summary>
+            Gets a command object for the specified <c>DiplomacyTask</c>.
+            </summary>
+            <param name="task">The task to get the command for.</param>
+            <param name="diplomacyControl">The control containing the tasks.</param>
+            <returns>A reference to a <c>Command</c> object that can be invoked 
+            when the task is chosen.  For more information, see <see cref="T:McKnight.Similization.Core.Command"/>.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetDiplomacyTasks(McKnight.Similization.Server.DiplomaticTie,System.Collections.ObjectModel.Collection{McKnight.Similization.Core.ITradable},System.Collections.ObjectModel.Collection{McKnight.Similization.Core.ITradable})">
+            <summary>
+            Gets an array of tasks appropriate for the human player to choose from when 
+            negotiating with a particular opponent.
+            </summary>
+            <param name="tie"></param>
+            <param name="givenItems"></param>
+            <param name="takenItems"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyHelper.GetTradingTasks(McKnight.Similization.Server.DiplomaticTie)">
+            <summary>
+            Gets an array of tasks that the user can perform whilst trading with a foreign leader.
+            </summary>
+            <param name="tie">The <c>DiplomaticTie</c> that exists between the two countries.</param>
+            <returns>An array of <c>DiplomaticTask</c> enums representing tasks that can 
+            be performed by the user during the trade negotiations.</returns>
+            <remarks>These tasks will be different than those returned from <c>GetDiplomacyTasks()</c>.  
+            These tasks will be specific to the actual process of trading items with the foreign country, while 
+            the <c>GetDiplomacyTasks()</c> covered other tasks such as declaring war, offering peace 
+            treaties, etc...</remarks>
+        </member>
+        <member name="T:McKnight.Similization.Client.IDiplomacyTaskLinkFactory">
+            <summary>
+            Interface to a task link factory.  Concrete client implementations will implement this 
+            factory and create the logic for building and returning client-specific task links.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomacyTaskLinkFactory.CreateTaskLink(System.String,McKnight.Similization.Core.Command)">
+            <summary>
+            Creates a task link and returns it.
+            </summary>
+            <param name="text">The text to display to the user in the task link.</param>
+            <param name="taskCommand">The command for task.</param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyStringKey">
+            <summary>
+            Helper class for getting string keys of different diplomatic actions.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetExitDiplomacyStrings">
+            <summary>
+            String Keys for Exiting negotiations with a foreign 
+            country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetDeclareWarStrings">
+            <summary>
+            String Keys for Declaring War on a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetAutoRetreatTroopsStrings">
+            <summary>
+            String Keys for Auto-Retreat of invading troops.
+            </summary>        
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetTradeWorldMapsStrings">
+            <summary>
+            String Keys for two civilizations trading their world maps
+            with each other.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetProposeNegotiationStrings">
+            <summary>
+            String Keys for starting the trading process with a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetBackOutFromNegotiationStrings">
+            <summary>
+            String Keys for quitting the current negotation and/or trade proposals.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetPassiveRetreatTroopsStrings">
+            <summary>
+            String Keys for passively retreating your troops.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetRefuseTributeStrings">
+            <summary>
+            String Keys for refusing the give the requested tribute to 
+            the foreign government.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetGiveTributeStrings">
+            <summary>
+            String Keys for Giving in to the demands of a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetThreatenWarForBorderInvasionStrings">
+            <summary>
+            String Keys for threatening war on the foreign country unless they 
+            remove their troops.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetWarningForBorderInvasionStrings">
+            <summary>
+            String Keys for warning the foreign country that their troops must 
+            be withdrawn.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetOfferRightOfPassageStrings">
+            <summary>
+            String Keys for Offering a Right of Passage Treaty to the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetOfferPeaceTreatyDuringWarStrings">
+            <summary>
+            String Keys for offering a peace treaty while at war with a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetOfferPeaceTreatyCityInvasionStrings">
+            <summary>
+            String Keys for offering a peace treat to a foreign country while the human 
+            player is about to capture a specific foreign city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetAskForLoanStrings">
+            <summary>
+            String Keys for asking the foreign country for a loan of gold.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetUserOfferStrings">
+            <summary>
+            String Keys for offering a trade to the foreign leader.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetUserGiftStrings">
+            <summary>
+            String Keys for offering a gift to the foreign leader.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetDemandTributeStrings">
+            <summary>
+            String Keys for demanding a tribute from the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetAskForCounterofferStrings">
+            <summary>
+            String Keys for asking the foreign leader what they want in exchange 
+            for a certain item.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyStringKey.GetAskForExchangeStrings">
+            <summary>
+            String Keys for asking the foreign leader what they will exchange for 
+            a particular item the player is willing to give in trade.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IDiplomacyTaskLink">
+            <summary>
+            Inteface representing a physical link a user can click on to invoke a task.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyTaskLink.LinkText">
+            <summary>
+            The text that will be displayed to the user in the link.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyTaskLink.DiplomacyCommand">
+            <summary>
+            The <see cref="T:McKnight.Similization.Core.Command"/> object to invoke when the user clicks the link.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyTask">
+            <summary>
+            Different tasks that can be performed whilst in diplomacy.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.ExitDiplomacy">
+            <summary>
+            Quit the current round of diplomacy
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.DeclareWar">
+            <summary>
+            Declare War on the foreign country
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.AutoRetreatTroops">
+            <summary>
+            Apologize for getting too close with troops.  This task 
+            will result in the auto-withdrawl of the troops.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.PassiveRetreatTroops">
+            <summary>
+            Promise to remove your troops from the foreign territory as 
+            soon as possible.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.RefuseTribute">
+            <summary>
+            Refuse to give the tribute that was requested by the foreign 
+            country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.GiveTribute">
+            <summary>
+            Agree to give the foreign country the requested tribute.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.ThreatenWarForBorderInvasion">
+            <summary>
+            Tell the foreign country to remove their troops with the 
+            threat of war.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.WarningForBorderInvasion">
+            <summary>
+            Tell the foreign country that they have troops within your 
+            borders.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.OfferRightOfPassage">
+            <summary>
+            Offer a right of passage agreement with the foreign country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.OfferPeaceTreatyDuringWar">
+            <summary>
+            Offer a peace treaty while at war with the foreign country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.OfferPeaceTreatyCityInvasion">
+            <summary>
+            Offer a peace treaty under the threat of capturing a specific city.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.OfferPeaceTreatyGeneralInvasion">
+            <summary>
+            Offer a peace treaty under the threat of a larger invasion.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.TradeWorldMaps">
+            <summary>
+            Offer to trade world maps.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.AskForLoan">
+            <summary>
+            Ask the foreign country for a loan of gold.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.ProposeNegotiation">
+            <summary>
+            Propose a negotiation
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.BackOutFromNegotiation">
+            <summary>
+            Back out of the diplomacy.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.AcceptForeignProposal">
+            <summary>
+            Accept the proposal (trade, treaty, etc...) that was proposed 
+            by the foreign country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.RejectForeignProposal">
+            <summary>
+            Reject the proposal that was made by the foreign country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.Counterproposal">
+            <summary>
+            Offer a counter proposal to the one made by the foreign country.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.PresentEvenUpTrade">
+            <summary>
+            Present the an even-up trade to the foreign leader.  Even-up trades are 
+            trades where both sides give something up.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.PresentGiftTrade">
+            <summary>
+            Present the trade to the foreign leader in the form of a gift.  
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.DemandTribute">
+            <summary>
+            Present the trade to the foreign leader as a threat.  In these trades, 
+            the user is asking the opponent to give something up with nothing in 
+            return.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.AskForCounter">
+            <summary>
+            Ask the foreign leader to tell us what they want in exchange for an item we 
+            want from them.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.DiplomacyTask.AskForExchange">
+            <summary>
+            Ask the foreign leader if there is anything they will give us in exchange for 
+            a particular item we are willing to give up.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection">
+            <summary>
+            A Strongly typed collection containing <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> objects.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.DiplomacyTaskLinkCollection.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> at the specified index.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.Add(McKnight.Similization.Client.IDiplomacyTaskLink)">
+            <summary>
+            Adds the <c>IDiplomacyTaskLink</c> to the collection.
+            </summary>
+            <param name="taskLink">The task link to add.</param>
+            <returns>An <c>int</c> representing the index of the task link in the collection.</returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.Remove(McKnight.Similization.Client.IDiplomacyTaskLink)">
+            <summary>
+            Removes the <c>IDiplomacyTaskLink</c> from the collection.
+            </summary>
+            <param name="taskLink"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that can interate through the collection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:McKnight.Similization.Client.DiplomacyTaskLinkCollection.CollectionChanged">
+            <summary>
+            Occurs when a <c>IDiplomacyTaskLink</c> is added or removed from the collection.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.OnCollectionChanged(System.ComponentModel.CollectionChangeEventArgs)">
+            <summary>
+            Fires the <c>CollectionChanged</c> event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.OnClearComplete">
+            <summary>
+            Fires the <c>Cleared</c> event.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.CopyTo(System.Int32,McKnight.Similization.Client.IDiplomacyTaskLink[],System.Int32,System.Int32)">
+            <summary>
+            Copies a range of elements from the <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> to a
+            compatible one-dimensional array, starting at the specified index of
+            the target array.
+            </summary>
+            <param name="index"></param>
+            <param name="array"></param>
+            <param name="arrayIndex"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.CopyTo(McKnight.Similization.Client.IDiplomacyTaskLink[],System.Int32)">
+            <summary>
+            Copies the entire <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> to a compatible
+            one-dimensional array, starting at the specified index of the target
+            array.
+            </summary>
+            <param name="array"></param>
+            <param name="arrayIndex"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.CopyTo(McKnight.Similization.Client.IDiplomacyTaskLink[])">
+            <summary>
+            Copies the entire <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> to a compatible
+            one-dimensional array, starting at the beginning of the target array.
+            </summary>
+            <param name="array"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.Insert(System.Int32,McKnight.Similization.Client.IDiplomacyTaskLink)">
+            <summary>
+            Inserts an element into the <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> at the specified
+            index.
+            </summary>
+            <param name="index"></param>
+            <param name="taskLink"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.IndexOf(McKnight.Similization.Client.IDiplomacyTaskLink,System.Int32,System.Int32)">
+            <summary>
+            Searches for the specified <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> and returns the zero-based index of
+            the first occurrence within the range of elements in the
+            <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> that starts at the specified index and contains
+            the specified number of elements.
+            </summary>
+            <param name="taskLink"></param>
+            <param name="startIndex"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.IndexOf(McKnight.Similization.Client.IDiplomacyTaskLink,System.Int32)">
+            <summary>
+            Searches for the specified <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> and returns the zero-based index of
+            the first occurrence within the range of elements in the
+            <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/> that extends from the specified index to the
+            last element.
+            </summary>
+            <param name="taskLink"></param>
+            <param name="startIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.IndexOf(McKnight.Similization.Client.IDiplomacyTaskLink)">
+            <summary>
+            Searches for the specified <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> and returns the zero-based index of
+            the first occurrence within the entire <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/>.
+            </summary>
+            <param name="taskLink"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.DiplomacyTaskLinkCollection.Contains(McKnight.Similization.Client.IDiplomacyTaskLink)">
+            <summary>
+            Determines whether a <see cref="T:McKnight.Similization.Client.IDiplomacyTaskLink"/> is in the <see cref="T:McKnight.Similization.Client.DiplomacyTaskLinkCollection"/>.
+            </summary>
+            <param name="taskLink"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.DisbandCommand">
+            <summary>
+            Command for disbanding a unit.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisbandCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.DisbandCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisbandCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DisplayDomesticAdvisorCommand">
+            <summary>
+            Represents a command to show the domestic advisor screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayDomesticAdvisorCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <c>DisplayDomesticAdvisorCommand</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayDomesticAdvisorCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DisplayForeignAdvisorCommand">
+            <summary>
+            Represents a command to show the foreign advisor screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayForeignAdvisorCommand.#ctor">
+            <summary>
+            Intializes a new instance of the <see cref="T:McKnight.Similization.Client.DisplayForeignAdvisorCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayForeignAdvisorCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DisplayHistographCommand">
+            <summary>
+            Represents a command to show the histograph.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayHistographCommand.#ctor">
+            <summary>
+            Initialiazes a new instance of the <see cref="T:McKnight.Similization.Client.DisplayHistographCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayHistographCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.DisplayMilitaryAdvisorCommand">
+            <summary>
+            Represents a command to show the military advisor screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayMilitaryAdvisorCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.DisplayMilitaryAdvisorCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.DisplayMilitaryAdvisorCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.EspionageCommand">
+            <summary>
+            Class representing any particular espionage command.
+            </summary>
+            <remarks>This class is abstract and cannot be invoked directly.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.EspionageCommand.SelectCity(System.String)">
+            <summary>
+            Gets the <see cref="T:McKnight.Similization.Server.City"/>, and if necessary, 
+            the <see cref="T:McKnight.Similization.Server.DiplomaticTie"/> from the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.EspionageCommand.DiplomaticTie">
+            <summary>
+            The <see cref="P:McKnight.Similization.Client.EspionageCommand.DiplomaticTie"/> that we are using to perform 
+            the sabotage.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.EspionageCommand.City">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.City"/> to sabotage 
+            the production of.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.EstablishEmbassyCommand">
+            <summary>
+            Class representing a command to establish an embassy within the 
+            capital of another country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.EstablishEmbassyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.EstablishEmbassyCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.EstablishEmbassyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.Exceptions">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Command_Disabled">
+            <summary>
+              Looks up a localized string similar to This command is not enabled.  Set Enabled to true before calling Invoke() on this command..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.error_bombardNoUnit">
+            <summary>
+              Looks up a localized string similar to No active unit to bombard a target..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.error_invalidCitySize">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid city size..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.error_invalidCityTileName">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid city tile name..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.error_invalidCivilization">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid civilization in the current ruleset..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.error_invalidEra">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid Era in the current ruleset..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Unit_CannotMerge">
+            <summary>
+              Looks up a localized string similar to {0} units cannot merge with cities..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Unit_CannotSettle">
+            <summary>
+              Looks up a localized string similar to {0} units cannot settle cities..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Unit_CannotWork">
+            <summary>
+              Looks up a localized string similar to {0} units cannot work..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Unit_MergeNoCity">
+            <summary>
+              Looks up a localized string similar to This unit cannot perform a merge operation because it is not in a City Square..
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Exceptions.Unit_Null">
+            <summary>
+              Looks up a localized string similar to There is no active unit to perform the requested action..
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ExposeSpyCommand">
+            <summary>
+            Class representing a command to expose a spy from a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ExposeSpyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.ExposeSpyCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ExposeSpyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.FortifyCommand">
+            <summary>
+            Represents a command to have a unit fortify itself.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.FortifyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.FortifyCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.FortifyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.GameOptionsCommand">
+            <summary>
+            Represents a command to show the game options to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.GameOptionsCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.GameOptionsCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.GameOptionsCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.HelpCommand">
+            <summary>
+            Represents a command to show help to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.HelpCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.HelpCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.HelpCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.HistographDrawingData">
+            <summary>
+            Contains properties and methods that are used to represent drawing information 
+            for the Histograph in Similization.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.HistographDrawingData.#ctor(McKnight.Similization.Server.History,System.Drawing.Size)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.HistographDrawingData"/> class.
+            </summary>
+            <param name="history"></param>
+            <param name="viewSize"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.HistographDrawingData.View">
+            <summary>
+            Gets or sets the <see cref="T:McKnight.Similization.Client.HistographView"/> detailing the information 
+            being displayed to the user.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.HistographDrawingData.GetRegion(McKnight.Similization.Server.Country)">
+            <summary>
+            Gets the histograph region for the specified country.
+            </summary>
+            <param name="country"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.HistographDrawingData.GetDataValue(McKnight.Similization.Server.HistoryItem)">
+            <summary>
+            Gets the value of the data point for the history item, based on the 
+            current view of the histograph.
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.IAboutBox">
+            <summary>
+            Interface representing the <i>about</i> box, showing the 
+            user basic information about the program.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ICityControl">
+            <summary>
+            Interface representing the control used to display the details about 
+            a given <see cref="T:McKnight.Similization.Server.City"/>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ICityControl.Editable">
+            <summary>
+            Determines whether the information in the city screen should 
+            be editable.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ICityControl.City">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.City"/> currently being displayed 
+            in the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ICityPicker">
+            <summary>
+            Interface to a control asking the user to select a <see cref="T:McKnight.Similization.Server.City"/> 
+            from a list.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ICityPicker.InitializePicker(McKnight.Similization.Server.Country)">
+            <summary>
+            Initializes the <see cref="T:McKnight.Similization.Client.ICityPicker"/> with cities from the 
+            specified <see cref="T:McKnight.Similization.Server.Country"/>.
+            </summary>
+            <param name="country"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.ICityPicker.City">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.City"/> that the user has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ICityPicker.PickerTitle">
+            <summary>
+            The text to display to the user asking them to select a <see cref="T:McKnight.Similization.Server.City"/>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IDiplomacyControl">
+            <summary>
+            Interface to a control letting the user conduct diplomacy with a foreign leader.  
+            This control is used to set up trades, diplomatic agreements, and peace treaties.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.DiplomaticTie">
+            <summary>
+            The Diplomatic tie behind the two governments involved in the diplomacy.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.TaskLinks">
+            <summary>
+            The list of tasks to allow the user to choose from.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.ForeignLeaderHeaderText">
+            <summary>
+            The text that describes the foreign country and/or leader doing 
+            the negotiating.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.ForeignLeaderPhrase">
+            <summary>
+            The phrase that the foreign leader is currently saying.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.AdvisorPhrase">
+            <summary>
+            The phrase that the advisor (trade/foreign/military) is currently saying.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomacyControl.GetTaskLinkFactory">
+            <summary>
+            Gets a client-specific task link factory.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomacyControl.EndDiplomacy">
+            <summary>
+            Ends the current diplomatic relations with the foreign 
+            country and closes the control.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomacyControl.StartNegotiations">
+            <summary>
+            Starts negotiations with a blank slate.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomacyControl.EndNegotiations">
+            <summary>
+            Ends the current negotiations and returns the user to the 
+            main diplomacy choices.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.GivenItems">
+            <summary>
+            The items that are currently being offered to the foreign country.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomacyControl.TakenItems">
+            <summary>
+            The items that are currently being asked of the foreign country.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.IDiplomacyControl.AdvisorHelpRequested">
+            <summary>
+            Occurs when the user clicks the button asking for more help or tips 
+            from the foreign advisor on the screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IDiplomaticTiePicker">
+            <summary>
+            Interface to a control letting the user choose a diplomatic tie. 
+            The selected diplomatic tie can be retrieved from the 
+            <c>DiplomaticTie</c> property of the class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IDiplomaticTiePicker.InitializePicker(System.Collections.ObjectModel.Collection{McKnight.Similization.Server.DiplomaticTie})">
+            <summary>
+            Method to allow the picker to show specific <see cref="P:McKnight.Similization.Client.IDiplomaticTiePicker.DiplomaticTie"/> 
+            objects.  
+            </summary>
+            <remarks>This method is useful in situations where the control should 
+            not show all available diplomatic ties.  This method is optional, and 
+            when it is not called, all available diplomatic ties will be presented 
+            to the user to choose from.</remarks>
+            <param name="ties">A collection containing 
+            the list of diplomatic ties a user should choose from.</param>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomaticTiePicker.DiplomaticTie">
+            <summary>
+            The Diplomatic Tie that the user chose.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IDiplomaticTiePicker.PickerTitle">
+            <summary>
+            The text that will be displayed to the user prompting them to select 
+            a <see cref="T:McKnight.Similization.Server.DiplomaticTie"/>.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IGameWindow">
+            <summary>
+            Provides a set of abstract functions and properties to be implemented by
+            concrete game windows on different types of clients.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.GoToCursor">
+            <summary>
+            Gets or sets a value indicating if the game control is in "go to"
+            mode.  When in this mode, the active unit will go to the grid cell
+            selected on the map.  When moving the cursor around the screen, 
+            the map will show the path the unit will take and the number of 
+            turns it will take to reach the destination.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IGameWindow.BeginBombardProcess">
+            <summary>
+            Tells the <c>IGameWindow</c> to begin the process of bombarding a 
+            target.  This will change the screen to a mode where the user 
+            is required to select a <c>GridCell</c> to bombard.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.HotCoordinates">
+            <summary>
+            Gets the grid coordinates that is currently under the mouse cursor.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.CityNameFont">
+            <summary>
+            Gets or sets the font to use for city names.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.CityNameFontColor">
+            <summary>
+            Gets or sets the color to use for the city names drawn on the screen.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IGameWindow.ShowMessageBox(System.String,System.String)">
+            <summary>
+            Shows a message box with the desired information.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.IGameWindow.GetUserConfirmation(System.String,System.String)">
+            <summary>
+            Gets a confirmation from the user for a specified message.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.IGameWindow.ShowMessageBox(System.String,System.String,System.Drawing.Point)">
+            <summary>
+            Shows a message box with the desired information.
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="newCenter"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.CenterCoordinates">
+            <summary>
+            Gets or sets the coordinates to show in the center of the window.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IGameWindow.ActiveUnit">
+            <summary>
+            Gets or sets the active unit in the game.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IMilitaryAdvisorControl">
+            <summary>
+            Interface representing the military advisor screen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IMilitaryAdvisorControl.ForeignCountry">
+            <summary>
+            The foreign country that the user is viewing.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IMilitaryAdvisorControl.CountryHeaderText">
+            <summary>
+            The text that will be displayed as the header above 
+            the list of units in the local military.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IMilitaryAdvisorControl.ForeignCountryHeaderText">
+            <summary>
+            The text that will be displayed as the header above
+            the list of units in the selected foreign military.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.IMilitaryAdvisorControl.ForeignCountryChanged">
+            <summary>
+            Occurs when the user selects a different foreign country 
+            to show on the screen.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IMiniMap">
+            <summary>
+            Interface representing the little map showing the entire grid.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.IMiniMap.MiniMapClicked">
+            <summary>
+            Event that fires whenever the user clicks on the mini-map.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IMiniMap.CenterCell">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.GridCell"/> that is centered.  
+            </summary>
+            <remarks>
+            Changing this value will 
+            reposistion the overlay showing the area of the map that is displayed 
+            on the screen.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.IMiniMap.InitializeMap(McKnight.Similization.Server.Grid)">
+            <summary>
+            Initializes the <c>Grid</c> with the IMiniMap interface.
+            </summary>
+            <param name="grid"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.IMiniMap.VisibleBounds">
+            <summary>
+            A <c>System.Drawing.Rectangle</c> structure describing the area of the map that the user is currently viewing.
+            </summary>
+            <remarks>The <c>IMiniMap</c> interface uses this to determine where to center and 
+            how to draw the rectangle showing the user the are of the map they are viewing.</remarks>
+        </member>
+        <member name="T:McKnight.Similization.Client.MiniMapClickedEventArgs">
+            <summary>
+            Event arguments for the <i>MiniMapClicked</i> event.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.MiniMapClickedEventArgs.#ctor(System.Drawing.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.MiniMapClickedEventArgs"/> class.
+            </summary>
+            <param name="center"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.MiniMapClickedEventArgs.CenterCell">
+            <summary>
+            Gets the coordinates representing the center of the screen where they clicked on the map.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.INewGameControl">
+            <summary>
+            Interface representing a control used to help the player start a new game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.ChosenCivilization">
+            <summary>
+            Gets the civilization the the player chose to play as.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.ChosenOpponents">
+            <summary>
+            Gets a list of computer opponents to play against.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.PlayerColor">
+            <summary>
+            Gets the color the player chose for their country.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.LeaderName">
+            <summary>
+            Gets the name of the human player.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Difficulty">
+            <summary>
+            Gets the level of difficulty for the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.WorldSize">
+            <summary>
+            Gets the size of the world to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Temperature">
+            <summary>
+            The temperature of the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Age">
+            <summary>
+            The Age of the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Climate">
+            <summary>
+            The Climate of the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Landmass">
+            <summary>
+            The Size of the Land Masses on the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.WaterCoverage">
+            <summary>
+            The amount of water coverage on the world the player has chosen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.BarbarianAggressiveness">
+            <summary>
+            Indicates how aggressive barbarians will be in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.INewGameControl.Rules">
+            <summary>
+            A <see cref="P:McKnight.Similization.Client.INewGameControl.Rules"/> object representing the rules the player has chosen.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.INewGameControl.ResultChosen">
+            <summary>
+            Occurs when the player has chosen all of the game parameters.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.InvestigateCityCommand">
+            <summary>
+            Class representing a command to investigate a city from another
+            civilization.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.InvestigateCityCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.InvestigateCityCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.InvestigateCityCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IOptionsControl">
+            <summary>
+            Interface representing a control used to show options to the user.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.WaitAfterTurn">
+            <summary>
+            Gets a value indicating whether or not the user is choosing
+            to wait after each turn of the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.ShowKilledMessage">
+            <summary>
+            Gets a value indicating whether or not the user is choosing
+            to see a message indicating that one of their units has been 
+            destroyed.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.StartingRulesetPath">
+            <summary>
+            Gets the path of the ruleset to start with by default.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.CityNameFont">
+            <summary>
+            Gets the <c>System.Drawing.Font</c> to use when drawing City information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.CityNameFontColor">
+            <summary>
+            The <c>System.Drawing.Color</c> to paint the <c>CityNameFont</c> with.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.IOptionsControl.TilesetPath">
+            <summary>
+            The path of the tileset to use in the game.
+            </summary>
+        </member>
+        <member name="E:McKnight.Similization.Client.IOptionsControl.Closed">
+            <summary>
+            Occurs when the user is finished with the control.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.IrrigateCommand">
+            <summary>
+            Represents a command to irrigate the land.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IrrigateCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <c>IrrigateCommand</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.IrrigateCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ISimilizationStatusView">
+            <summary>
+            Interface representing a view of the status of the player.  This will contain strings
+            telling the player the current year, the active unit, how many moves are left, etc...
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.Year">
+            <summary>
+            Gets or sets the year to show in the status bar.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.MovesLeft">
+            <summary>
+            Gets or sets the number of moves left for the active unit.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.Technology">
+            <summary>
+            Gets or sets the technology to show to the user.  This is the technology
+            currently being researched by the player.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.Terrain">
+            <summary>
+            Gets or sets the name of the terrain the active unit is on.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.Gold">
+            <summary>
+            Gets or sets the amount of gold to show that the user has.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.ActiveUnit">
+            <summary>
+            Gets or sets a string representation for the active unit in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.Government">
+            <summary>
+            Gets or sets a string value telling the user what goverenment they are currently
+            using.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISimilizationStatusView.UnitImage">
+            <summary>
+            The <see cref="T:System.Drawing.Image"/> used to display the Unit.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.ISplashScreen">
+            <summary>
+            Interface to a splash screen used in the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ISplashScreen.CloseSplashScreen">
+            <summary>
+            Closes the screen.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.ISplashScreen.VersionNumber">
+            <summary>
+            The Version Number to display on the splash screen
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.LoadGameCommand">
+            <summary>
+            Represents a command to load a saved game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.LoadGameCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.LoadGameCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.LoadGameCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.MergeUnitCommand">
+            <summary>
+            Command for merging a unit into a city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.MergeUnitCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.MergeUnitCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.MergeUnitCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.MoveToCommand">
+            <summary>
+            Represents a command to have a unit move to a specific cell.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.MoveToCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.MoveToCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.MoveToCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.Options">
+            <summary>
+            Represents the options for the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Options.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.Options"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Options.Finalize">
+            <summary>
+            Finalizer for the <see cref="T:McKnight.Similization.Client.Options"/> class.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.ShowKilledMessage">
+            <summary>
+            Gets or sets a value indicating if the user will see a 
+            notification when a unit is killed.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.WaitAfterTurn">
+            <summary>
+            Gets or sets a value indicating whether the user has 
+            to manually end their turn before the computer players
+            take their turn.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.StartingRulesetPath">
+            <summary>
+            Gets or sets the path of the ruleset to initially default to
+            when starting new games.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.TilesetPath">
+            <summary>
+            The full path to the tileset to use in the game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.CityNameFont">
+            <summary>
+            The <c>System.Drawing.Font</c> to use to display the city information.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Options.CityNameFontColor">
+            <summary>
+            The <c>System.Drawing.Color</c> to use when displaying the city information.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Options.Serialize">
+            <summary>
+            Serializes the options to disk in Xml format.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Options.Dispose">
+            <summary>
+            Releases all resources used by the <see cref="T:McKnight.Similization.Client.Options"/> class.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.PlantDiseaseCommand">
+            <summary>
+            Class representing a command to plant a deadly disease 
+            in a foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlantDiseaseCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.PlantDiseaseCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlantDiseaseCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.PlantSpyCommand">
+            <summary>
+            Class representing a command to plant a spy in the embassy 
+            of a foreign country.
+            </summary>
+            <remarks>In order to invoke this command, an embassy must exist
+            in the capital city of the foreign country.</remarks>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlantSpyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.PlantSpyCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlantSpyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.PlantSpyCommand.DiplomaticTie">
+            <summary>
+            The <see cref="T:McKnight.Similization.Server.DiplomaticTie"/> that exists 
+            between the two countries.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.PlayerColor">
+            <summary>
+            Class the represents the different colors computer players can be.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlayerColor.GetArray">
+            <summary>
+            Gets an array of possible player colors.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:McKnight.Similization.Client.PlayerColor.FromIndex(System.Int32)">
+            <summary>
+            Gets a color for a computer player from an index.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.ProposeNegotiationCommand">
+            <summary>
+            A command to propose a trade or start negotiations with the foreign country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.ProposeNegotiationCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.RandomNumber">
+            <summary>
+            A class to help generate random numbers.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.RandomNumber.GetRandomNumber(System.Int32)">
+            <summary>
+            Gets a random number from 1 to <c>maxValue</c>
+            </summary>
+            <param name="maxValue">The maximum value the random number can be.</param>
+            <returns>The random number.</returns>
+        </member>
+        <member name="T:McKnight.Similization.Client.SabotageCommand">
+            <summary>
+            Command to sabotage the production of the currently produced improvement, unit, 
+            or wonder in the foreign city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SabotageCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.SabotageCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SabotageCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.SaveGameCommand">
+            <summary>
+            Represents a command to save the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SaveGameCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.SaveGameCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SaveGameCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.SpreadPropagandaCommand">
+            <summary>
+            Class representing the command to spread propaganda throughout an 
+            enemy city.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SpreadPropagandaCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.SpreadPropagandaCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.SpreadPropagandaCommand.Invoke">
+            <summary>
+            Invokes the Command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StartDiplomacyCommand">
+            <summary>
+            Represents a command to start diplomacy with one of the foreign countries in the game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StartDiplomacyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <c>StartDiplomacyCommand</c> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StartDiplomacyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StartNewGameCommand">
+            <summary>
+            Represents a command to start a new game.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StartNewGameCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.StartNewGameCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StartNewGameCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.PlayerColor">
+            <summary>
+            Gets the color the palyer chose for themselves.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.Civilization">
+            <summary>
+            Gets the civilization the player chose to play as.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.Opponents">
+            <summary>
+            Gets the list of civilizations the player is playing against.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.LeaderName">
+            <summary>
+            Gets the name the player chose for his leader.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.RulesetPath">
+            <summary>
+            The path to the <see cref="T:McKnight.Similization.Core.Ruleset"/> to use for this game.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.StartNewGameCommand.TilesetPath">
+            <summary>
+            The path to the <see cref="T:McKnight.Similization.Client.Tileset"/> to use for this game.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StealPlansCommand">
+            <summary>
+            Class representing the command to steal the plans of another country.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealPlansCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.StealPlansCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealPlansCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StealTechnologyCommand">
+            <summary>
+            Class representing the command to steal a technology from 
+            an opponent.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealTechnologyCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.StealTechnologyCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealTechnologyCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StealWorldMapCommand">
+            <summary>
+            Class representing the command to steal an opponents' world map.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealWorldMapCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.StealWorldMapCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.StealWorldMapCommand.Invoke">
+            <summary>
+            Invokes the command.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.StringKey">
+            <summary>
+            This class contains constants that are keys in the name/value pair of
+            resource files.  We use this class not so much to hide the string keys, 
+            but to give the programmer a nice intellisense list of possible string resources.
+            This also reduces the possibility for typos.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.GameTitle">
+            <summary>
+            The title of the game.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ServerStartup">
+            <summary>
+            Server startup
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ServerStartupComplete">
+            <summary>
+            Completed server startup
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.GameStart">
+            <summary>
+            Game Started
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.UnitKilled">
+            <summary>
+            Unit Killed
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PlayerRegistered">
+            <summary>
+            New player registered with the server.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ExpansionistAttribute">
+            <summary>
+            Expansionist
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CommercialAttribute">
+            <summary>
+            Commercial
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ReligiousAttribute">
+            <summary>
+            Religious
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.IndustriousAttribute">
+            <summary>
+            Industrious
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.MilitaristicAttribute">
+            <summary>
+            Militaristic
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ScientificAttribute">
+            <summary>
+            Scientific
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CityCaptured">
+            <summary>
+            City Captured key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CityLostToInvasion">
+            <summary>
+            City Lost to invasion
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CulturalInfluenceExpanded">
+            <summary>
+            Cultural Influence Expanded Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CityDisorder">
+            <summary>
+            City Disorder Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.OrderRestored">
+            <summary>
+            Order Restored Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CannotGrow">
+            <summary>
+            Cannot Grow Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ImprovementBuilt">
+            <summary>
+            Improvement Built Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.TechnologyAcquired">
+            <summary>
+            Technology Acquired Key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.Starved">
+            <summary>
+            Starvation key
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageUnit">
+            <summary>
+            Unit acquired from village
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageGold">
+            <summary>
+            Gold acquired from village
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageCity">
+            <summary>
+            village joins as a new city
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageDeserted">
+            <summary>
+            Village is Deserted
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageSettler">
+            <summary>
+            New settler from village
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageBarbarian">
+            <summary>
+            Attacked from a barbarian in the village
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageMap">
+            <summary>
+            Map acquired from the village
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.VillageTechnology">
+            <summary>
+            Technology acquired from the village.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.TechDirectionNeeded">
+            <summary>
+            Scientists need direction on what to research next.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PlayerDestroysCivilization">
+            <summary>
+            The human player destroys another civilization
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.ForeignCivilizationDestroyed">
+            <summary>
+            A foreign civilization destroys another foreign civilization.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PlayerDestroyed">
+            <summary>
+            The human player has been defeated.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.MilitaryVictory">
+            <summary>
+            The human player has won a military victory.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.WeLoveTheKing">
+            <summary>
+            We Love The King day celebrated in a city.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.WeLoveTheKingEnd">
+            <summary>
+            We Love the King celebration has ended in a city.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.TurnFinished">
+            <summary>
+            Message shown to the user telling them their turn is over.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.Ready">
+            <summary>
+            Message telling the user that the game is ready for user input.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.Researching">
+            <summary>
+            Message telling the user what technology they are currently researching.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.NoResearch">
+            <summary>
+            Message telling the user that they are not currently researching any new technologies.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.GoldAmount">
+            <summary>
+            Message telling the user how much gold they currently have.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.NoActiveUnit">
+            <summary>
+            Message telling the user there is not currently an active unit to play.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.NegativeYear">
+            <summary>
+            Formats the current year in the B.C. format.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PositiveYear">
+            <summary>
+            Formats the current year in the A.D. format.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.NextEra">
+            <summary>
+            Message telling the user they have entered a new Era.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.NewGovernmentAvailable">
+            <summary>
+            Message telling the user that there is a new type of government available to them 
+            in the game.  Asks if they would like to switch to this new form of government.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.Revolution">
+            <summary>
+            Message telling the user that the government is descending into anarchy from 
+            the government change.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.GovernmentSelection">
+            <summary>
+            Message telling the user to select a new government type.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PopulationGrowthNeeded">
+            <summary>
+            Message telling the user that population growth is needed in a city before
+             the unit can be finished.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.DisbandConfirmation">
+            <summary>
+            Message asking the user to confirm that they want to disband a unit.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AudienceRequest">
+            <summary>
+            Message asking the user if they will accept a request for an audience with 
+            a foreign leader.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.DiplomacyCountryHeader">
+            <summary>
+            The text describing a foreign country on the diplomacy screen.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.GraciousAttitude">
+            <summary>
+            The text for a Gracious Attitude.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AnnoyedAttitude">
+            <summary>
+            The text for an Annoyed Attitude.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.PoliteAttitude">
+            <summary>
+            The text for a Polite Attitude.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.CautiousAttitude">
+            <summary>
+            The text for a Cautious Attitude.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.FuriousAttitude">
+            <summary>
+            The text for a Furious Attitude.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AdviseOfDealAcceptance">
+            <summary>
+            The text for telling the player that the deal will probably be acceptable.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AdviseOfDealRejectionWeak">
+            <summary>
+            The text for telling the user that while the foreign leader will probably reject the deal, they are 
+            close to accepting.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AdviseOfDealRejectionNeutral">
+            <summary>
+            The text for telling the user the deal will be rejected.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AdviseOfDealRejectionStrong">
+            <summary>
+            The text for telling the user the foreign country will probably be insulted by the deal.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.AdviseOfDealRejectTotal">
+            <summary>
+            The text for telling the user there is no way the deal will be accepted.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.RankVeteran">
+            <summary>
+            The text for a Veteran Unit.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.RankElite">
+            <summary>
+            The text for an Elite Unit.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.RankRegular">
+            <summary>
+            The text for a Regular Unit.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.RankConscript">
+            <summary>
+            The text for a Conscript Unit.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.MilitaryAdvisorCountryHeader">
+            <summary>
+            The text that is displayed above the unit lists on the military advisor screen.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.YearAD">
+            <summary>
+            The text displaying an AD year.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.YearBC">
+            <summary>
+            The text displaying a BC year.
+            </summary>
+        </member>
+        <member name="F:McKnight.Similization.Client.StringKey.TurnsUntilComplete">
+            <summary>
+            Text telling the user how many more turns are required to complete the next improvement.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.TileInfo">
+            <summary>
+            Class containing information about a single tile in a <see cref="T:McKnight.Similization.Client.Tileset"/>
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.TileInfo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.TileInfo"/> class.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.TileInfo.#ctor(System.String,System.Object,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.TileInfo"/> class.
+            </summary>
+            <param name="tileImagePath"></param>
+            <param name="tileImage"></param>
+            <param name="key"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.TileInfo.TileImagePath">
+            <summary>
+            The full path to the image for this <see cref="T:McKnight.Similization.Client.TileInfo"/>.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.TileInfo.TileImage">
+            <summary>
+            The image used for this <see cref="T:McKnight.Similization.Client.TileInfo"/>
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.TileInfo.Key">
+            <summary>
+            The unique key identifying this tile.
+            </summary>
+        </member>
+        <member name="T:McKnight.Similization.Client.Tileset">
+            <summary>
+            A Tileset of images used throughout the game on entities, such 
+            as units, terrains, and resources.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.Tileset"/> class.
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.#ctor(System.Data.DataSet)">
+            <summary>
+            Initializes a new instance of the <see cref="T:McKnight.Similization.Client.Tileset"/> class.
+            </summary>
+            <param name="tilesetDataSet"></param>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.TileSize">
+            <summary>
+            The Size (in pixels) of a tile in the tileset.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.CityTiles">
+            <summary>
+            The tiles used to draw cities.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.ResourceTiles">
+            <summary>
+            The tiles used for resources.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.UnitTiles">
+            <summary>
+            The tiles used for units.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.TerrainTiles">
+            <summary>
+            The tiles used for terrains.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.VillageTiles">
+            <summary>
+            The tiles used for villages.
+            </summary>
+        </member>
+        <member name="P:McKnight.Similization.Client.Tileset.CellImprovementTiles">
+            <summary>
+            The tiles used for irrigated cells.
+            </summary>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadCityTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="P:McKnight.Similization.Client.Tileset.CityTiles"/> <c>CityTileCollection</c> with the tile information 
+            in the <c>System.Data.DataTable</c>
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadUnitTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="P:McKnight.Similization.Client.Tileset.UnitTiles"/> collection with the tile information
+            in the <see cref="T:System.Data.DataTable"/>.
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadResourceTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="T:McKnight.Similization.Client.Tileset"/> with the tile information
+            in the <see cref="T:System.Data.DataTable"/>.
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadTerrainTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="T:McKnight.Similization.Client.Tileset"/> with the tile information 
+            in the <see cref="T:System.Data.DataTable"/>.
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadVillageTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="T:McKnight.Similization.Client.Tileset"/> with tiles used to render villages 
+            on the screen.
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+        <member name="M:McKnight.Similization.Client.Tileset.LoadCellImprovementTiles(System.Data.DataTable)">
+            <summary>
+            Fills the <see cref="T:McKnight.Similization.Client.Tileset"/> with the tiles used to render 
+            cell improvements such as irrigation, mines, and roads.s
+            </summary>
+            <param name="tileTable"></param>
+        </member>
+    </members>
+</doc>
